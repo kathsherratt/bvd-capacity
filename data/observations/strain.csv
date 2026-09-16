@@ -1,0 +1,163 @@
+indicator_id,level,place_id,place_name,report_date,sitrep,version,value,unit,basis,derivation,evidence_quote,page,text_source,confidence,flags,places_included,note
+facility_incident,facility,ct-rwampara,CT Rwampara,2026-05-24,10,1,1,flag,read,"","Incendie de CT de Rwampara, Mongbwalu",,ocr_mupdf,high,"","",Fire at the Rwampara transit centre listed among security problems
+facility_incident,facility,ct-rwampara,CT Rwampara,2026-05-27,13,1,1,flag,read,"","Incendie de CT de Rwampara, Mongbwalu",,pdf_text,high,"","",Fire at the Rwampara transit centre listed among security problems
+facility_expanded,facility,cte-cme-bunia,CTE CME Bunia,2026-06-10,27,1,1,flag,read,"",Finalisation de la crèche CTE CME Rwampara,,pdf_text,high,"","",Creche at the facility being finalised
+facility_expanded,facility,cte-cme-bunia,CTE CME Bunia,2026-06-13,30,1,1,flag,read,"","Finalisation des travaux du CTE/CME-BUNIA, 8 tentes installées seront opérationnelles",,pdf_text,high,"","",Works being finalised; 8 installed tents to be operational by Monday 15 June 2026
+facility_expanded,facility,cte-bunia,CTE Bunia (HGR),2026-06-15,32,1,1,flag,read,"",construction d’un nouveau bâtiment CTE/HGR Bunia,,pdf_text,high,"","",Construction of a new building continues
+facility_expanded,facility,cte-rwampara,CTE Rwampara (HGR),2026-06-23,40,1,1,flag,read,"",Suivi des travaux d’extension du CTE Rwampara,,pdf_text,high,"","",Extension works on the facility being followed up
+facility_expanded,facility,cte-bunia,CTE Bunia (HGR),2026-06-24,41,1,1,flag,read,"",poursuite des travaux du nouveau CTE à l’HGR/Bunia,,pdf_text,high,"","",Works on the new CTE at HGR Bunia continue
+facility_expanded,facility,cte-rwampara,CTE Rwampara (HGR),2026-06-24,41,1,1,flag,read,"","Suivi des travaux d’extension des CTE, notamment Rwampara et HGR/Bunia",,pdf_text,high,"","",Extension works being followed up
+facility_expanded,facility,cte-elikya,CTE Elikya,2026-07-02,49,1,1,flag,read,"","Poursuite des travaux d’aménagement du CTE Elikya, avec 14 tentes disponibles",,pdf_text,high,"","",Fitting-out works continue with 14 tents available and a laboratory under construction
+beds_total,facility,cte-beni,CTE Beni,2026-07-04,51,1,20,beds,read,"",Ouverture officielle du CTE Beni avec une capacité de 20 lits,,pdf_text,high,"","",Official opening of the facility with 20 beds
+facility_expanded,facility,cte-elikya,CTE Elikya,2026-07-04,51,1,1,flag,read,"",aménagement du CTE Elikya,,pdf_text,high,"","",Fitting-out works at the facility continue
+facility_expanded,facility,cte-mongbwalu,CTE Mongbwalu,2026-07-04,51,1,1,flag,read,"",extension du CTE de Mongbwalu d’au moins 50 lits,,pdf_text,high,"","",Extension of the facility by at least 50 beds under way
+facility_expanded,facility,cte-elikya,CTE Elikya,2026-07-05,52,1,1,flag,read,"",aménagement du CTE Elikya/Bunia,,pdf_text,high,"","",Fitting-out works at the facility
+facility_expanded,facility,cte-rwampara,CTE Rwampara (HGR),2026-07-05,52,1,1,flag,read,"",nouveau bâtiment du CTE Rwampara opérationnel,,pdf_text,high,"","",New building of the facility is operational
+facility_incident,facility,cte-kitatumba,CTE Kitatumba,2026-07-06,53,1,1,flag,read,"",Incendie criminelle au CTE Kitatumba (dégâts réduits grâce à l’intervention de la police),,pdf_text,high,"","",Arson at the facility with damage limited by police intervention
+facility_expanded,facility,cte-bunia,CTE Bunia (HGR),2026-07-10,57,1,1,flag,read,"",Inauguration de l’extension CTE à l’HGR Bunia,,pdf_text,high,"","",Extension of the CTE at HGR Bunia inaugurated by the Minister of Public Health
+facility_saturated,facility,ct-bambu,CT Bambu,2026-07-15,62,1,1,flag,read,"",saturation persistante au CT de Bambu (316 %),,pdf_text,high,"","",Persistent saturation at 316 percent occupancy
+facility_saturated,facility,cte-cme-bunia,CTE CME Bunia,2026-07-15,62,1,1,flag,read,"",au CTE CME de Rwampara (157 %),,pdf_text,high,"","",Persistent saturation at 157 percent occupancy
+beds_total,facility,cte-rwampara,CTE Rwampara (HGR),2026-07-25,72,1,100,beds,read,"",CTE de Rwampara (100 lits opérationnels),,pdf_text,high,"","",100 operational beds at the facility
+facility_expanded,facility,ct-nia-nia,CT Nia-Nia (HGR),2026-07-30,77,1,1,flag,read,"",tentes d'élargissement au CTE de Nia-Nia,,pdf_text,high,"","",Expansion tents being put up
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-07-30,77,1,1,flag,read,"",Kigonze (113 %),,pdf_text,high,"","",Transit centre saturated for suspected cases at 113 percent
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-07-30,77,1,1,flag,read,"",HGR Kilo (100 %),,pdf_text,high,"","",Transit centre saturated for suspected cases at 100 percent
+facility_saturated,facility,ct-logo,CT Logo,2026-07-30,77,1,1,flag,read,"",Logo (125 %),,pdf_text,high,"","",Transit centre saturated for suspected cases at 125 percent
+facility_saturated,facility,ct-nizi,CT Nizi,2026-07-30,77,1,1,flag,read,"",CTE Nizi (322 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 322 percent
+facility_saturated,facility,cte-bunia,CTE Bunia (HGR),2026-07-30,77,1,1,flag,read,"",CTE Bunia (105 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 105 percent
+facility_saturated,facility,cte-cme-bunia,CTE CME Bunia,2026-07-30,77,1,1,flag,read,"",CTE CME (100 %),,pdf_text,high,"","",At capacity for confirmed cases
+facility_saturated,facility,cte-fataki,CTE Fataki,2026-07-30,77,1,1,flag,read,"",CTE Fataki (100 %),,pdf_text,high,"","",At capacity for confirmed cases
+facility_saturated,facility,cte-istm,CTE ISTM,2026-07-30,77,1,1,flag,read,"",CTE ISTM (107 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 107 percent
+facility_saturated,facility,cte-lita,CTE Lita,2026-07-30,77,1,1,flag,read,"",CTE Lita (140 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 140 percent
+facility_saturated,facility,cte-wamba,CTE Wamba,2026-07-30,77,1,1,flag,read,"",le CTE de Wamba dépassant sa capacité en confirmés (125 %),,pdf_text,high,"","",Over capacity for confirmed cases at 125 percent
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-07-31,78,1,1,flag,read,"",Kigonze (113 %),,pdf_text,high,"","",Transit centre saturated for suspected cases at 113 percent
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-07-31,78,1,1,flag,read,"",HGR Kilo (100 %),,pdf_text,high,"","",Transit centre saturated for suspected cases at 100 percent
+facility_saturated,facility,ct-logo,CT Logo,2026-07-31,78,1,1,flag,read,"",Logo (125 %),,pdf_text,high,"","",Transit centre saturated for suspected cases at 125 percent
+facility_saturated,facility,ct-nizi,CT Nizi,2026-07-31,78,1,1,flag,read,"",CTE Nizi (322 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 322 percent
+facility_saturated,facility,cte-boma-mangbetu,CTE Boma Mangbetu,2026-07-31,78,1,1,flag,read,"",(125 %) et le CTE de Boma,,pdf_text,low,"","",Facility short of staff
+facility_saturated,facility,cte-bunia,CTE Bunia (HGR),2026-07-31,78,1,1,flag,read,"",CTE Bunia (105 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 105 percent
+facility_saturated,facility,cte-cme-bunia,CTE CME Bunia,2026-07-31,78,1,1,flag,read,"",CTE CME (100 %),,pdf_text,high,"","",At capacity for confirmed cases
+facility_saturated,facility,cte-fataki,CTE Fataki,2026-07-31,78,1,1,flag,read,"",CTE Fataki (100 %),,pdf_text,high,"","",At capacity for confirmed cases
+facility_saturated,facility,cte-istm,CTE ISTM,2026-07-31,78,1,1,flag,read,"",CTE ISTM (107 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 107 percent
+facility_saturated,facility,cte-lita,CTE Lita,2026-07-31,78,1,1,flag,read,"",CTE Lita (140 %),,pdf_text,high,"","",Beyond capacity for confirmed cases at 140 percent
+facility_saturated,facility,cte-wamba,CTE Wamba,2026-07-31,78,1,1,flag,read,"",le CTE de Wamba dépassant sa capacité en confirmés (125 %),,pdf_text,high,"","",Over capacity for confirmed cases at 125 percent
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-01,79,1,1,flag,read,"",les CTE de Nizi (144 %),,pdf_text,high,"","",Over overall capacity at 144 percent
+facility_saturated,facility,cte-aru,CTE Aru (HGR),2026-08-01,79,1,1,flag,read,"",d'Aru (112 %),,pdf_text,high,"","",Over overall capacity at 112 percent
+facility_saturated,facility,cte-fataki,CTE Fataki,2026-08-01,79,1,1,flag,read,"",de Fataki (125 %),,pdf_text,high,"","",Over overall capacity at 125 percent
+facility_saturated,facility,cte-istm,CTE ISTM,2026-08-01,79,1,1,flag,read,"",le CTE ISTM à 110 %,,pdf_text,high,"","",Beyond capacity for confirmed cases at 110 percent
+facility_saturated,facility,cte-wamba,CTE Wamba,2026-08-01,79,1,1,flag,read,"",le CTE de Wamba dépassant sa capacité en confirmés (125 %),,pdf_text,high,"","",Over capacity for confirmed cases at 125 percent
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-02,80,1,1,flag,read,"",CTE de Nizi à 278 %,,pdf_text,high,"","",Beyond capacity for confirmed cases at 278 percent
+facility_saturated,facility,cte-istm,CTE ISTM,2026-08-02,80,1,1,flag,read,"",le CTE ISTM à 110 %,,pdf_text,high,"","",Beyond capacity for confirmed cases at 110 percent
+facility_saturated,facility,cte-wamba,CTE Wamba,2026-08-02,80,1,1,flag,read,"",Le CTE de Wamba dépasse,,pdf_text,high,"","",Still over capacity for confirmed cases at 125 percent
+beds_total,facility,cte-rwankole,CTE Rwankole,2026-08-04,82,1,120,beds,read,"",lancement officiel du CTE de Rwankole par le,,pdf_text,high,"","","Official launch by the provincial governor, with 120 beds"
+facility_incident,facility,cte-cme-bunia,CTE CME Bunia,2026-08-04,82,1,1,flag,read,"",manifestation des prestataires du CTE CME dans la,,pdf_text,high,"","",Strike with a protest by facility staff; admissions disrupted by hygienists demanding unpaid bonuses
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-04,82,1,1,flag,read,"",et Bambu (140 %),,pdf_text,high,"","",Saturated for confirmed cases at 140 percent
+facility_saturated,facility,ct-logo,CT Logo,2026-08-04,82,1,1,flag,read,"","(Logo, 150 %)",,pdf_text,high,"","",Saturated for suspected cases at 150 percent
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-04,82,1,1,flag,read,"","Nizi (233 %), ISTM (147 %)",,pdf_text,high,"","",Saturated for confirmed cases at 233 percent
+facility_saturated,facility,cte-isiro,CTE Isiro,2026-08-04,82,1,1,flag,read,"",Le CTE d'Isiro est,,pdf_text,low,"","","Insufficiently equipped: equipment, water and electricity"
+facility_saturated,facility,cte-istm,CTE ISTM,2026-08-04,82,1,1,flag,read,"",ISTM (147 %),,pdf_text,high,"","",Saturated for confirmed cases at 147 percent
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-07,85,1,1,flag,read,"","l'extension des CTE de Bambu, Nizi et Logo est demandée face à la saturation",,pdf_text,high,"","",Extension requested because of saturation
+facility_saturated,facility,ct-logo,CT Logo,2026-08-07,85,1,1,flag,read,"","l'extension des CTE de Bambu, Nizi et Logo est demandée",,pdf_text,high,"","",Extension requested because of saturation
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-07,85,1,1,flag,read,"","saturation des CTE de Rwampara, ISTM et Nizi",,pdf_text,high,"","",Saturated
+facility_saturated,facility,cte-istm,CTE ISTM,2026-08-07,85,1,1,flag,read,"","saturation des CTE de Rwampara, ISTM et Nizi",,pdf_text,high,"","",Saturated
+facility_saturated,facility,cte-rwampara,CTE Rwampara (HGR),2026-08-07,85,1,1,flag,read,"","saturation des CTE de Rwampara, ISTM et Nizi",,pdf_text,high,"","",Saturated
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-11,89,1,1,flag,read,"","saturation des CTE de Rwampara, Bambu et Nizi",,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-11,89,1,1,flag,read,"",Bambu et Nizi du côté des confirmés,,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,cte-rwampara,CTE Rwampara (HGR),2026-08-11,89,1,1,flag,read,"","saturation des CTE de Rwampara, Bambu et Nizi du côté des confirmés",,pdf_text,high,"","",Saturated for confirmed cases
+beds_total,facility,cte-hc-kisangani,CTE HC Kisangani,2026-08-15,93,1,12,beds,read,"",isolement au CTE HC de Kisangani (3 confirmés et 5 suspects) pour 12,,pdf_text,high,"","",Eight patients in isolation for 12 beds
+facility_expanded,facility,ct-bambu,CT Bambu,2026-08-15,93,1,1,flag,read,"","extensions des CTE de Nizi, ISTM et Bambu",,pdf_text,high,"","",Extension works to be completed
+facility_expanded,facility,ct-nizi,CT Nizi,2026-08-15,93,1,1,flag,read,"","achèvement des extensions des CTE de Nizi, ISTM et Bambu",,pdf_text,high,"","",Extension works to be completed
+facility_expanded,facility,cte-istm,CTE ISTM,2026-08-15,93,1,1,flag,read,"","achèvement des extensions des CTE de Nizi, ISTM et Bambu",,pdf_text,high,"","",Extension works to be completed
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-15,93,1,1,flag,read,"",Les CTE de Bambu (confirmés et suspects),,pdf_text,high,"","",Saturated for confirmed and suspected cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-08-15,93,1,1,flag,read,"",Logo et Kigonze (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-08-15,93,1,1,flag,read,"","ainsi que d’Aru, Kilo, Logo et Kigonze (suspects) sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-logo,CT Logo,2026-08-15,93,1,1,flag,read,"","ainsi que d’Aru, Kilo, Logo et Kigonze (suspects) sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-15,93,1,1,flag,read,"",de Fataki et de Nizi (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,cte-aru,CTE Aru (HGR),2026-08-15,93,1,1,flag,read,"","ainsi que d’Aru, Kilo, Logo et Kigonze (suspects) sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-fataki,CTE Fataki,2026-08-15,93,1,1,flag,read,"",de Fataki et de Nizi (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,cte-hc-kisangani,CTE HC Kisangani,2026-08-15,93,1,1,flag,read,"",capacité réduite du CTE HC de Kisangani (12 lits),,pdf_text,high,"","",Reduced capacity of 12 beds listed as a challenge
+facility_expanded,facility,cte-mongbwalu,CTE Mongbwalu,2026-08-17,94,1,1,flag,read,"",le nouveau bâtiment du CTE de Mongbwalu est opérationnel avec 60 lits,,pdf_text,high,"","",New building operational with 60 beds
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-17,94,1,1,flag,read,"",Les CTE de Bambu et de Nizi (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-08-17,94,1,1,flag,read,"",Nia- Nia et Kigonze (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-08-17,94,1,1,flag,read,"","de Fataki, Kilo, Logo, Nia- Nia et Kigonze (suspects) sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-logo,CT Logo,2026-08-17,94,1,1,flag,read,"","de Fataki, Kilo, Logo, Nia- Nia et Kigonze (suspects) sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nia-nia,CT Nia-Nia (HGR),2026-08-17,94,1,1,flag,read,"",Nia- Nia et Kigonze (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-17,94,1,1,flag,read,"",Les CTE de Bambu et de Nizi (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,cte-fataki,CTE Fataki,2026-08-17,94,1,1,flag,read,"","de Fataki, Kilo, Logo, Nia- Nia et Kigonze (suspects) sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+beds_total,facility,cte-hc-kisangani,CTE HC Kisangani,2026-08-19,96,1,14,beds,read,"",admission d’un suspect au CTE HC Kisangani porte à 5,,pdf_text,high,"","",Five patients isolated for 14 beds
+facility_expanded,facility,cte-isiro,CTE Isiro,2026-08-19,96,1,1,flag,read,"",52 lits des HGR de Wamba et d’Isiro ont été affectés aux CTE,,pdf_text,high,"","","Hospital beds allocated to the CTE, raising provincial capacity to 130 beds"
+facility_expanded,facility,cte-wamba,CTE Wamba,2026-08-19,96,1,1,flag,read,"",52 lits des HGR de Wamba et d’Isiro ont été affectés aux CTE,,pdf_text,high,"","","Hospital beds allocated to the CTE and a pavilion fitted out, raising provincial capacity to 130 beds"
+beds_total,facility,ct-limba,CT Limba,2026-08-20,97,1,3,beds,read,"",1 patient est en isolement au centre de transit de Limba (ZS de Viadana),,pdf_text,high,"","",One patient in isolation for 3 beds; no ambulance available
+beds_total,facility,cte-hc-kisangani,CTE HC Kisangani,2026-08-20,97,1,12,beds,read,"",au CTE HC Kisangani portent à 6,,pdf_text,high,"","",Six patients isolated for 12 beds; one confirmed death
+beds_total,facility,cte-hc-kisangani,CTE HC Kisangani,2026-08-22,99,1,14,beds,read,"",admission de cas suspect au CTE HC Kisangani,,pdf_text,high,"","",Four patients isolated for 14 beds after one admission and one recovery
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-22,99,1,1,flag,read,"",des CTE de Nizi et de Bambu (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-08-22,99,1,1,flag,read,"","et de Kilo, Logo et Kigonze (suspects)",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-08-22,99,1,1,flag,read,"","et de Kilo, Logo et Kigonze (suspects)",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-logo,CT Logo,2026-08-22,99,1,1,flag,read,"","et de Kilo, Logo et Kigonze (suspects)",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-22,99,1,1,flag,read,"",des CTE de Nizi et de Bambu (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,cte-isiro,CTE Isiro,2026-08-22,99,1,1,flag,read,"",l’occupation dépasse la capacité à Isiro (120 % confirmés),,pdf_text,high,"","",Over capacity for confirmed cases at 120 percent; insufficiently equipped
+facility_saturated,facility,cte-wamba,CTE Wamba,2026-08-22,99,1,1,flag,read,"",Wamba (140 % suspects),,pdf_text,high,"","",Over capacity for suspected cases at 140 percent; insufficiently equipped
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-24,101,1,1,flag,read,"","des CTE de Bambu (confirmés), Kilo et Kigonze (suspects)",,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-08-24,101,1,1,flag,read,"",Kilo et Kigonze (suspects),,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-08-24,101,1,1,flag,read,"","des CTE de Bambu (confirmés), Kilo et Kigonze (suspects)",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-25,102,1,1,flag,read,"",des CTE de Bambu (confirmés) et de Kilo (suspects),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-08-25,102,1,1,flag,read,"",des CTE de Bambu (confirmés) et de Kilo (suspects),,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-wamba,CTE Wamba,2026-08-25,102,1,1,flag,read,"",CTE Wamba en sursaturation chez les lits suspects,,pdf_text,high,"","",Oversaturated for suspected beds
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-26,104,1,1,flag,read,"",CTE de Bambu (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-08-26,104,1,1,flag,read,"",du CT Kigonze (suspects),,pdf_text,high,"","",Saturated for suspected cases
+facility_incident,facility,cte-pawa,CTE Pawa,2026-08-30,108,1,1,flag,read,"",un corps sans vie arraché au CTE de Pawa,,pdf_text,high,"","",A body taken from the facility was intercepted by police
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-30,108,1,1,flag,read,"",les CTE de Bambu (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-08-30,108,1,1,flag,read,"",les CT de Kigonze et de Lolwa (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-lolwa,CT Lolwa,2026-08-30,108,1,1,flag,read,"",les CT de Kigonze et de Lolwa (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-30,108,1,1,flag,read,"",et de Nizi (suspects),,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-isiro,CTE Isiro,2026-08-30,108,1,1,flag,read,"",absence de CTE aux normes à Isiro et Wamba,,pdf_text,low,"","",No facility meeting standards
+facility_saturated,facility,cte-wamba,CTE Wamba,2026-08-30,108,1,1,flag,read,"",absence de CTE aux normes à Isiro et Wamba,,pdf_text,low,"","",No facility meeting standards
+facility_saturated,facility,ct-bambu,CT Bambu,2026-08-31,109,1,1,flag,read,"",les CTE de Bambu (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-08-31,109,1,1,flag,read,"",les CT de Kigonze et de Lolwa (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-lolwa,CT Lolwa,2026-08-31,109,1,1,flag,read,"",les CT de Kigonze et de Lolwa (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-08-31,109,1,1,flag,read,"",et de Nizi (suspects),,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-bambu,CT Bambu,2026-09-01,110,1,1,flag,read,"",les CTE de Bambu (confirmés),,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,ct-kigonze,CT Kigonze (IDP site),2026-09-01,110,1,1,flag,read,"",les CT de Kigonze et Lolwa (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-lolwa,CT Lolwa,2026-09-01,110,1,1,flag,read,"",les CT de Kigonze et Lolwa (suspects) sont saturés,,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-09-01,110,1,1,flag,read,"",et de Nizi (suspects),,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-09-02,111,1,1,flag,read,"",le CTE de Nizi est saturé pour les suspects,,pdf_text,high,"","",Saturated for suspected cases
+facility_expanded,facility,ct-bambu,CT Bambu,2026-09-03,112,1,1,flag,read,"",retard d’extension des sites de Nizi et de Bambu,,pdf_text,high,"","",Extension delayed
+facility_expanded,facility,ct-nizi,CT Nizi,2026-09-03,112,1,1,flag,read,"",retard d’extension des sites de Nizi et de Bambu,,pdf_text,high,"","",Extension delayed
+facility_saturated,facility,cte-lita,CTE Lita,2026-09-03,112,1,1,flag,read,"",le CTE de Lita est saturé pour les suspects,,pdf_text,high,"","",Saturated for suspected cases
+facility_expanded,facility,ct-bambu,CT Bambu,2026-09-04,113,1,1,flag,read,"",un retard d’extension à Nizi et Bambu,,pdf_text,high,"","",Extension delayed
+facility_expanded,facility,ct-nizi,CT Nizi,2026-09-04,113,1,1,flag,read,"",un retard d’extension à Nizi et Bambu,,pdf_text,high,"","",Extension delayed
+facility_saturated,facility,ct-logo,CT Logo,2026-09-04,113,1,1,flag,read,"","les sites de Nizi, Lita, Mambasa et Logo pour les suspects",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mambasa,CT Mambasa,2026-09-04,113,1,1,flag,read,"","les sites de Nizi, Lita, Mambasa et Logo pour les suspects",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-09-04,113,1,1,flag,read,"","les sites de Nizi, Lita, Mambasa et Logo pour les suspects",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-cme-bunia,CTE CME Bunia,2026-09-04,113,1,1,flag,read,"",le CTE du CME est saturé pour les confirmés,,pdf_text,high,"","",Saturated for confirmed cases
+facility_saturated,facility,cte-lita,CTE Lita,2026-09-04,113,1,1,flag,read,"","les sites de Nizi, Lita, Mambasa et Logo pour les suspects",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-09-07,116,1,1,flag,read,"","Mambasa, Lolwa et Kilo sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-lolwa,CT Lolwa,2026-09-07,116,1,1,flag,read,"","les CTE/CT de Nizi, Mambasa, Lolwa et Kilo sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mambasa,CT Mambasa,2026-09-07,116,1,1,flag,read,"","les CTE/CT de Nizi, Mambasa, Lolwa et Kilo sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-09-07,116,1,1,flag,read,"","les CTE/CT de Nizi, Mambasa, Lolwa et Kilo sont saturés",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-isiro,CTE Isiro,2026-09-07,116,1,1,flag,read,"","celui d’Isiro d’espace, d’eau et d’électricité en permanence",,pdf_text,high,"","","Short of space, water and permanent electricity"
+facility_saturated,facility,cte-pawa,CTE Pawa,2026-09-07,116,1,1,flag,read,"",le CTE de Pawa manque d’installations hygiéniques,,pdf_text,high,"","",Lacks sanitation facilities
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-09-08,117,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-lolwa,CT Lolwa,2026-09-08,117,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mambasa,CT Mambasa,2026-09-08,117,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mandima,CT Mandima,2026-09-08,117,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mangala,CT Mangala,2026-09-08,117,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-09-08,117,1,1,flag,read,"","CTE/CT saturés du côté des suspects : Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-isiro,CTE Isiro,2026-09-08,117,1,1,flag,read,"","celui d’Isiro d’espace, d’eau et d’électricité en permanence",,pdf_text,high,"","","Short of space, water and permanent electricity"
+facility_saturated,facility,cte-pawa,CTE Pawa,2026-09-08,117,1,1,flag,read,"",le CTE de Pawa manque,,pdf_text,high,"","",Lacks sanitation facilities
+facility_expanded,facility,cte-isiro,CTE Isiro,2026-09-09,118,1,1,flag,read,"",d’un bureau au CTE d’Isiro et suivi des travaux d’installation de ce CTE,,pdf_text,high,"","",Office installed and installation works followed up
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-09-09,118,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-lolwa,CT Lolwa,2026-09-09,118,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mambasa,CT Mambasa,2026-09-09,118,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mandima,CT Mandima,2026-09-09,118,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mangala,CT Mangala,2026-09-09,118,1,1,flag,read,"","Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-09-09,118,1,1,flag,read,"","CTE/CT saturés du côté des suspects : Nizi, Mambasa Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-isiro,CTE Isiro,2026-09-09,118,1,1,flag,read,"","celui d’Isiro d’espace, d’eau et d’électricité en permanence",,pdf_text,high,"","","Short of space, water and permanent electricity"
+facility_saturated,facility,cte-pawa,CTE Pawa,2026-09-09,118,1,1,flag,read,"",le CTE de Pawa manque,,pdf_text,high,"","",Lacks sanitation facilities
+facility_saturated,facility,ct-kilo,CT Kilo (HGR),2026-09-10,119,1,1,flag,read,"","Nizi, Mambasa, Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-lolwa,CT Lolwa,2026-09-10,119,1,1,flag,read,"","Nizi, Mambasa, Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mambasa,CT Mambasa,2026-09-10,119,1,1,flag,read,"","Nizi, Mambasa, Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mandima,CT Mandima,2026-09-10,119,1,1,flag,read,"","Nizi, Mambasa, Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-mangala,CT Mangala,2026-09-10,119,1,1,flag,read,"","Nizi, Mambasa, Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,ct-nizi,CT Nizi,2026-09-10,119,1,1,flag,read,"","CTE/CT saturés du côté des suspects : Nizi, Mambasa, Lolwa, Kilo, Mangala et Mandima",,pdf_text,high,"","",Saturated for suspected cases
+facility_saturated,facility,cte-isiro,CTE Isiro,2026-09-10,119,1,1,flag,read,"","celui d’Isiro d’espace, d’eau et d’électricité en permanence",,pdf_text,high,"","","Short of space, water and permanent electricity"
+facility_saturated,facility,cte-pawa,CTE Pawa,2026-09-10,119,1,1,flag,read,"",le CTE de Pawa manque d’installations hygiéniques,,pdf_text,high,"","",Lacks sanitation facilities

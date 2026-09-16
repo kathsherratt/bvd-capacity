@@ -1,0 +1,450 @@
+#text_source: ocr_mupdf
+ÉTR rs PUBLIQUE, F4 \ isati Fr ji ñ
+4 @) Marron (W8 ) mondiale del santé au | 2er het pi
+| »
+DAS LE Centre des opérations d'urgences de sante publique | F.}
+PEN TE | « COUSP-RDC » DE
+Rapport de Situation de la 17ème épidémie de la Maladie à Virus EBOLA /RDC
+SitRep N° 008/MVB_23/2026
+Provinces touchées (3) ITURI, NORD-KIVU, SUD-KIVU
+; , ITURI : Aru, Bunia, Kilo, Mongbwalu, Nizi, Nyankunde et Rwampara
+me de Santé touchées | NORD.KIVU : Butembo, Goma et Katwa
+SUD-KIVU : Miti-Murhesa
+Date de rapportage 22 mai 2026
+Date de publication 23 mai 2026
+Cd
+r » . v e
+Fifi rh) %)e
+8 //00\)
+| DO À
+91 10 867 ND ND ND 0 16
+Cumul cas Cumul décès Cumulcas  Cumulcas Taux d'occupation Taux d'occupation
+confirmés parmi les suspects probables chezles suspects Le les confirmés Guéris Cumul cas
+confirmés confirmés CTE
+Tableau I. Répartition des cas et décès confirmés par zone de santé dans les provinces touchées
+. Zones de santé | Nouveaux Nouveaux Nouveaux | Nouveaux .
+Provinces ARE _ décès _ _s Nouveaux Guéris du
+touchées ce  e parmis contacts listés jour
+confirmés confirmés . probables | suspects
+confirmés
+_Bunia |" 6 | 1 | ND | 32 | 87 | 0
+_Rwampara | 7 | 1 | ND | 14 | 0 | 0
+Mongbwalu | 1 | 0 | ND | 10 | 0 | 0
+fur | Bambu |" 0 |" 0 | ND | 2 | 48 | 0
+Nyankunde | 2 | 0 | ND | 9 |" 207 | 0
+Ni] 2 0 | ND | 1 | ND | 0
+Ko) 1 0 | D | 1 | ND | 0 |
+7 Soustotal "| 18 | 2 | 0 | 70 | 342 | 0 |
+| Goma | 0 | 0 | np | np | np | 0 |
+Nord-kivu | Butembo |" 0 |" 0 |" ND | ND |" np | 0 |
+_Katwa | 0 |" 0} nn | nn | nn | 0 |
+| Sud Kivu__] MitiMurhesa | 1 |" 1" |" ND | ND |" Nb | 0 |
+Total] | 19 | 3 | 0 | 70 | 342 | 0 |
+Li | CR DS e * L : Re
+si
+a + ë | À | ESS dl
+"" vw: : ns ER a” | EN M À
+/ AE NE À * PA Ro ETE Len
+. = «ù 7 Fr Perd LL *
+7 Æ. SR" ER 2 ct
+"+? 4 ;
+L - # Se
+ d /
+Présentation du plan de préparation et réponse de la 17ème Visite du DG de Africa CDC à Bunia, Province de l’Ituri
+épidémie de la Maladie à Virus Ebola ce 21 mai 2026 au COUSP, (Réunion autour du gouverneur avec les autres
+autour du Directeur Général de l’Institut National de Santé partenaires)
+Publique.
+
+I. CONTEXTE
+La Province de l’Ituri est située au Nord-Est de la République Démocratique du Congo et
+partage une longue frontière avec l’Ouganda et le Soudan du Sud. Depuis plus de deux
+décennies, elle est confrontée à une crise humanitaire chronique liées aux conflits armés et
+des déplacement récurrents des populations. Elle compte une population estimée à plus de 8
+millions d'habitants parmi lesquels plus d’un million de déplacés internes.
+En septembre 2018, cette province était touchée par une épidémie de la maladie à virus Ebola
+qui sévissait dans la province voisine du Nord-Kivu.
+La zone de santé de Mongbwalu est l’une des 36 zones de santé de la province de l’Ituri.
+Considérée comme point de départ de l’épidémie elle est située dans le territoire de Djugu où
+opèrent plusieurs groupes armés. Elle est située à 70 km de Bunia, chef-lieu de la province de
+lIturi, avec des mouvements fréquents des populations vers l’Ouganda. Cette localité a
+particularité d’avoir plusieurs chantiers qui attirent les populations venant des autres
+territoires de la province et des provinces voisines.
+
+11. HISTORIQUE DE L’EPIDEMIE
+En date du 05 mai 2026, les réseaux sociaux déclarent une flambée de décès de cause
+inconnue avec près de 50 décès déjà enregistrés dans la zone de santé de Mongbwalu. Après
+la confirmation de cette alerte, le Médecin chef de la zone de santé de Mongbwalu partage le
+rapport de l’investigation préliminaire Le 09 mai 2026. Le 11 mai 2026, les autorités sanitaires
+provinciales organisent une réunion d’urgence et décident de déployer des équipes
+d’intervention rapide à Mongbwalu et à Rwampara qui avait rapporté des décès suspects de
+fièvre hémorragique virale chez des malades internés au Centre médical Evangélique de
+Rwampara, provenant de Mongbwalu.
+Les investigations menées le 12 mai 2026, simultanément dans les zones de santé de
+Mongbwalu et de Rwampara par les Equipes d’Intervention Rapide de la Division provinciale
+de la santé (DPS) de l’Ituri ont permis de relever que la plupart des patients ou décès suspects
+avaient la fièvre, les céphalées, les vomissements, une asthénie physique intense. Les décès
+survenaient 2 à 3 jours après le début de la maladie dans un tableau d’hématémèse, épistaxis
+ou de vomissement noirâtre. Au cours des investigations dans la zone de santé de Rwampara,
+20 échantillons sur les cas ou décès suspects ont été effectués. La majorité des personnes
+prélevées provenaient de la zone de santé de Mongbwalu. Les tests préliminaires effectués au
+Laboratoire de Bunia étaient tous négatifs pour Ebola zaïre, dengue, Rotavirus, Cholera,
+Paludisme, Yersinia pestis, mpox et COVID-19. Ces échantillons ont été envoyés à l’Institut
+National de Recherche Biomédicale (INRB) de Kinshasa pour des examens additionnels.
+
+En date du 14 mai 2026, 13 cas de ces 20 échantillons ont été testés et 8 se sont révélés
+positifs à la maladie à virus Ebola non-Zaïre à l’INRB Kinshasa. Le 15 mai 2026, le séquençage
+des échantillons positifs a permis d’identifier la souche BUNDIBUGYO, ce qui a permis au
+ministre de la Santé Publique, Hygiène et Prévoyance Sociale (MSHPS) de déclarer officiellement
+la 17 -ème épidémie de la maladie à virus Ebola.
+
+la maladie à virus Ebola (souche Bundibugyo), marquant ainsi la 17e épidémie de l'histoire
+du pays
+
+En date du 17 Mai 2026, en concertation avec les états membres, le Directeur général de l'OMS
+estime que l’événement qui se passe en RDC et en Ouganda répondent aux critères de la
+définition énoncés à l’article 1 du RSI, et a déclaré que cela constitue une Urgence de Santé
+Publique de Portée Internationale tout en précisant que Le risque au niveau mondial est faible
+mais élevé au niveau régional.
+
+Le 18 mai 2026, le Directeur général du CDC Afrique a officiellement déclaré une urgence de
+santé publique de sécurité continentale (USPSC) en vertu de l'article 3 de ses statuts. Cette
+déclaration faisait suite à une réunion d'urgence du groupe consultatif du CDC Afrique, qui a
+estimé que l'aggravation de l'épidémie constituait un risque aigu pour la sécurité sanitaire
+continentale. En conséquence, l'équipe continentale de soutien à la gestion des incidents a
+été activée afin d'apporter son soutien aux États membres touchés et à ceux exposés aux
+risques, en matière de réponse et de préparation.
+
+= = - = ue re M à Nord-Kivu”” =
+II. MISE A JOUR DE LA SITUTATION EPIDEMIOLOGIQUE
+e 7 Nouveaux Cas confirmés (Aru : 1, Bunia : 1, Nyakunde : 1, et Mongbwalu : 2 , Butembo :1 et
+Katua ;1)
+e Cumul de cas confirmés en Ituri au 22 Mai 2026 : 82 cas, Nord Kivu 5 cas et Sud Kivu 1cas
+e Trois provinces touchées : ITURI, NORD-KIVU et SUD-KIVU :
+e _ITURI : épicentre avec 7/36 ZS touchées (Rwampara, Bunia, Mongbwalu, Nyankunde, Nizi, Kilo et
+Aru,)
+e  NORD-KIVU : 3/35 ZS touchées (Goma, Butembo et Katwa)
+e  SUDKIVU : 1/34 ZS touchée (Miti-Murhesa)
+e Cumul des cas confirmés : 88 cas
+e ITURI: 82 cas
+e NORD-KIVU : 5 cas
+e SUD-KIVU : 1 cas
+e Nombre de nouvelles ZS touchées : 1 (ZS Aru en lturi)
+e Nombre des ZS touchées en lturi : 7/ 36 ZS
+IV. ACTIONS DE REPONSE
+COORDINATION
+e Tenue d’une réunion de coordination présidée par l'Incident Manager Adjoint, Chef de la Division
+Provinciale de la Santé du Nord-Kivu (Beni) et lturi (Bunia).
+e Tenue dela réunion de mobilisation des partenaires sur l'alignement au plan de réponse.
+e Elaboration du plan d'action provincial de l'incident de la Maladie à Virus Ebola dans la DPS Ituri
+et Nord-Kivu.
+SURVEILLANCE EPIDEMIOLOGIQUE "M
+e Transmission à la coordination de Terme de référence pour le déploiement des équipes provinciales
+multidisciplinaires dans la ZS de Mongbwalu.
+e Transmission à la coordination de TDR de formation des acteurs (ECZS, IT&ITA, les leads des agents
+communautaires et les gestionnaires de données) de cinq ZS actives
+e  Dotation de thermoflash dans les ZS de Nizi (4)
+Tableau Il. Récapitulatif de la situation des alertes à la date du 21 mai 2026
+Zones de |Report| Nouvelles] Total des |Alertes| Alertes | Alertes | Alertes non | Alertes | Alertes Cas Cas Cas Cas
+alertes| (22/05) jour prélevés| non isolés non
+1/05) (22/05) prélévés isolés
+la | as | 5 | 28 | 4 | 3 | 0 |» | 0 | 5 | » | 8 | o |
+[ul uw | mn || 6e | 5 | 7 | 4 | 8 | w | 8 | 8 | 87
+Lolo | se | 7 2 | 7 | 3 lo le | 4 | 5 | 6e | : |
+lol n lu | 7 la 7 la lo | 1 | 8 | 3 | 3 | 07
+lots la lilet 4 le lle | 0 | 1 | 07
+Uno | no | no | no | no | nn | no | no | wo | wo | w | w | w |
+[no] no | no | wo | 0 | uw | no | 0 | 0 | no | no | w | w
+lol sr la l2l0 | 2 | e [2 | e | 1 | 1 | 0 | 2 |
+Lol s ls ls let s le ls | 0e | 5 | o | 5 |» |
+Uno | no | no | no | no | no | no | no | wo | no | wo | wo | w |
+[no] no | no | wo | 0 | no | no | 0 | 0 | no | no | no | w
+[no] no | no | wo | 0 | no | no | 0 | 0 | no | no | wo | w
+Uno | no | no | no | no | nn | no | no | wo | wo | w | w | w |
+[no] no | no | no | no | no | no | 0 | 0 | no | no | wo | w
+lots ts lie 1 le lil 0e || 0e | 1 | 0 |
+[no | no | no | no | m0 | no | no | 0 | 0 | no | no | wo | w
+Dolls lle 4 le lle || 0 | 1 | 07
+Uno] no | 0 | no | no | nn | nn | no | ww | w | w | ww | w |
+[no no | 0 | wo] no | no | no | no | no | wo | w | w | w |
+Uno | no | no | no | no | no | no | no | wo | wo | wo | wo | w |
+[no | no | no | no | no | no | no | 0 | no | wo | wo | wo | w
+Lrotal | 16 | 68 | 5 | 68 | 16 | nm | 5 [75 | 9 | se | 5 | 5 |
+Tableau Ill. Récapitulatif de l'identification et suivi de contacts à La date du 22 mai 2026
+2 2 # eo |& 2
+Zones de $ & Ë 3 £ 8 5 ns _| E o 8 $ £
+santé 8S | 35% 2 A 3 8 |[38| > 2 | 6 |%% 5 2
+28/1238! 5 |2|% 83 3 | 512 |<28|) «<>
+891$ | 5 |Él|SE sIL£| El | ls") es
+32 |£ ô 8 | ? E | 5 < El É 8
+Z Ô à là
+CHEIREIRSOE - ORNE:
+Names | 540 | 25 | s65 | 24 | 0 | : [SSSR «5 lo lolo) x
+Men | 176 | 46 | 22 | 46 | 0 | 2 ESS © 0 lo l0101)1%
+m | www jww
+mm |" /"#/"wJw /w]w]
+Total 1603 142 1745 | 351 0 13 REA 99 1 0 0 0 1294 mas |
+Tableau IV. Répartition des cas, décès suspects et confirmés de maladie à virus Ebola
+dans Les zones de santé de la DPS Ituri, Nord-Kivu et Sud Kivu au 22 mai 2026*
+Nbre de
+a A Nbre de cas PE Nbre de cas Nbre de
+Provinces Zones de santé décès
+suspects + Confirmés contacts
+probable
+Mongbwalu | 339 |" 88 | 10 | 22 7
+Rwampara | 221 | 63 | 32 | 62
+7 Bunia | 227 | 42 | 23 | 200 |
+ur Nyankunde |" 45 |" 8 | 9 |  3%s |
+CS CS EE CS
+CS PE SP CS
+CS AE AS IS ES CS
+Echantillons sans fiche |" 0 |" 0 | 6 | 0 |
+Goma OS CS RE
+Nord-Kivu Katwa 13 | 0 | 3 | ND |
+Butembo | 7 | 0 | 2 | ND |
+Sud-Kivu Mit Murhesa "1" 0 À 1 À ND
+2 Total | 867 | 204 | 91 | 1674
+*Ces données sont susceptibles de changer après harmonisation des données à différents niveaux de la pyramide sanitaire avec Le système de gestion des incidents.
+** La classification sera confirmée après des investigations
+Figure 1. Evolution de cas confirmé dans la DPS Ituri à Evolution journaliere des cas suspects
+Evolution journaliere des cas confirmes et probables ë
+8 sf : 20
+8 5
+B 5 2°
+2 L-
+H È
+5 E 10
+2 2: & ;
+2 œ
+Ë 5
+2 2 5
+ÉTÉ T ES ES Tr ii rss 2 > 8 9
+A e | # É ë g ë Fi £ Ê Ê ri É Fi # # ri # # ë # # # # # # FA FA
+Date de debut de symptomes | Date de debut de symptomes |
+D Cas Corfirre DM Cas Probable {D
+Courbe épidémique cas confirmés et probable à la MVE (Province Ituri) Courbe épidémique cas suspects à la MVE (Province Ituri)
+Source : DHIS2 Tracker au 22-mai-2026 Source : DHIS2 Tracker au 22-mai-2026
+(n=48 cas suspects : 28 avec date début de symptômes) (n=311 cas suspects : 232 avec date début de symptômes)
+Cas confirmes par tranche d'age et sexe Cas confirmes par tranche d'age, sexe et zone de sante
+Dunis En Monge
+70+ ne |
+60.69 Lan J
+® 50-59 ae |
+A Fomi . Nrachanrde Reonmpers 2 vert
+. [= À
+© 20-29 cn
+10-19 ve
+Fe Nombre de cas confirmes F° See ie ee
+par date de début de symptômes (source : DHIS2 Tracker partiel)
+Surveillance aux Points d'entrées et Points de contrôle (PoE/PoC)
+e Participation de Médecin Coordonnateur Provincial PNHF lturi et de la Directrice Nationale PNHF à la
+réunion préparatoire de renforcement de la collaboration transfrontalière entre RDC et l'Ouganda dans
+la réponse à l'épidémie MVE d'Ebola
+e _Acceptation par les Associations des transporteurs au Lac Albert (ATLA) et les agences des voyages
+pour la désinfection des pirogues-cannons rapides et les véhicules
+Tableau V. Synthèse de données (PoE/PoC) du 22/05/2026
+Zone de santé PoE/PoC Tot v Tot v Total Totv Tot Tot Tot
+passées , screené lavage | sensiblis | alertes : refus refus
+S de és Lavage | screenin
+mains mains g
+[NZ PONT NIZI ND ND ND ND ND ND ND
+AEROPORT 1332 1332 1332 1332 0 0 0
+MUDZIBALA 2028 1924 1924 2028 0 104 104
+PONT ND ND ND ND ND ND ND
+SIMBILIABO
+QUZUIJUT PONT SHARI 1800 1739 1739 1800 0 61 61
+DELE 1109 1057 52 1109 0 52 52
+CHAI 243 200 200 243 0 43 43
+TCHOMIA TCHOMIA 0 0 0 0 0 0 0
+NYAMUSASI 167 148 148 167 0 19 19
+KASENYI ND ND ND ND ND ND ND
+MANDJE ND ND ND ND ND ND ND
+NYAKUNDE MARABO ND ND ND ND ND ND ND
+ENTREE NYAK. ND ND ND ND ND ND ND
+SOTA ND ND ND ND ND ND ND
+PONT TALOLO ND ND ND ND ND ND ND
+MONGBWALU Me]ne) ND ND ND ND ND ND ND
+MAHIDEDE ND ND ND ND ND ND ND
+PONT PLITO ND ND ND ND ND ND ND
+PONT KIRIKOU ND ND ND ND ND ND ND
+ARU OFOO 392 358 358 392 0 34 34
+ODHUMONI 317 289 289 317 0 28 28
+OMBAY1 175 152 152 175 0 23 23
+SANS PLAINTE 121 103 103 121 0 18 18
+VIS-A-VIS 87 71 71 87 0 16 16
+KENGEZI-BASE 51 37 37 Si 0 14 14
+LxgoRaTOIRE NN
+Total REPARTITION DES ECHANTILLONS TESTES AU LABO BUNIA PAR NATURE
+can. Nombre Natures d'échant | Positfs | Négatifs Indéterminés
+Date 7S échantil s ee lement sang Swablsanc swabl s Swab
+Cumul échantlons gg au ME ° CE
+Bunia 2 |2 00 1 0l1l0 0 0
+22/05/
+026 Nyakunde 2 | 1 0 Lo | 0 0 0 |
+Mongbwalu 5 5 2 0 1 0 2 0
+Rwampara 4 4 0 0 4 (el 0 0
+Manga 1 0 | 0 0 0 6 0 0 o
+TOTAL 18 17 1 0 4 1 9 0 2 v
+REPARTITION DES ECHANTILLONS REPRELEVES
+rovenance | Roprévaie
+pa 75 rent
+PE RE © © A © A © AT © AT © EE
+Aungba | 0 | 0 | 6 | 0 | 0 | 0 | © |
+Bunia D Do | oo | 0 | 0 | 0 | © |
+22/05/2026 [Nyakunde | 0 | oo | 0 | 0 | oo | o | 0 |
+Mongbwalu [7 0 | oo | 0 | 0 | 0 | © |
+Rwampara [| © | o | 60 | 0e | 0 | © | © |
+Mangala [0 | 6 | 6 | 0 | 0 | 0 | 0 |
+ER PT CE TT A A CE A AE ET CE
+COMMUNICATION SUR LES RISQUES ET ENGAGEMENT COMMUNAUTAIRE(CREC)a
++ plaidoyers auprès des bourgmestres des communes de SHARI, NYAKASANZA et MBUNYA pour
+obtenir leur engagement en appui aux activités de la communication à la riposte MVE plaidoyers
++ Briefing de 19 chefs de service opérant à l’aéroport de Bunia dont 15 hommes et 4 femmes sur la
+MVE et les mesures de prévention dans les aspects publics
++ Sensibilisation de 38 éleveurs et marchands de gros bétails à l’abattoir industriel de Bunia sur les
+mesures préventives à la MVE dont 16 femmes et 22 hommes.
++ Causerie éducative de 30 femmes lors d’une séance de la CPS sur les mesures préventives à la
+MVE, ZS Bunia, AS BIGO
+PREVENTION ET CONTROLE DE L'INFECTION "M
+ZS Bunia
+" 3 EDS effectués (HGR-Bunia, Rwankole, Bunia-Cite) sur 4 cas d'alerte;
+"  Briefing des prestataires de soins dans les 2 ESS (CSR Bunia-cité et Clinique Universelle) sur la
+Gestion des déchets ;
+=“ Briefing de 3 équipes (ZS Bunia et ZS Rwampara) sur l'enterrement dignes et sécurisé (EDS);
+"  Briefing de 9 prestataires par EMIR sur triage et isolement, gestion des déchets, recherche active
+dans les ESS et la sécurité des injections
+ZS Rwampara
+" _ Briefing de 20 prestataires sur le port et retrait des EPI, l'élimination des déchets , la
+décontamination et le lavage des mains (HGR-Rwampara).
+" _ Décontamination des surfaces CME Nyakunde, soins intensifs de l'HGR Rwampara et la salle
+d'isolement.
+" 3 EDS réalisés sur 4 cas d'alerte (1 corps récupéré par la famille);
+"  Décontamination dans 20 ménages au tour du cas.
+ZS Mongbwalu
+- Décontamination de l’'ambulance de l'HGR MONGBWALU.
+- Briefing à chaud de 36 hygiénistes (avec l'appui des PTF) sur le port et le retrait des EPI
+ZS NYAKUNDE
+- Décontamination d'un ménage à MARABO et internant IEM Nyakunde.
+DPS Nord Kivu
++ __ Decontamination de l'Hôpital Matanda où séjourne le cas confirmé de la ZS de Katwa;
++ Évaluation score card PCI de l'Hôpital Matanda: 70,6%;
++ Réalisation du mapping du cas;
++ État de lieu du CTE pour le dégagement des besoins en intrants PCI (Epi, approvisionnement en
+eau, gestion des déchets, circuit du malade).
+LOGISTIQUE D
+“Livraison des intrants et équiments de protection aux piliers laboratoire et PCI pour 4 ESS de
+catégorie 1 (HGR Bunia, HGR Rwampara, CH SALAMA et CH CME
+“ Livraison des intrants et équipements de protections à la ZS de LITA pour EDS
+“  Déballage des intrants et équipements reçus à la date du 21 Mai 2026
+Suivi des travaux d'installation de tentes de prise en charge à l'HGR Bunia (ALIMA et OMS) et
+d'installation du CTE à Mongbwalu par MSF
+PRISE EN CHARGE HOLISTIQUE
++ Briefing des prestataires à l'HGR Bunia et Rwampara sur le port d'EPI ;
+*__ Evaluation cliniques des patients ;
++ Acheminement de 5 matelas, 5 lits et autres matériels au CME
++ __ Finalisation de l'expression des besoins avec PAM.
+*__ Evaluation cliniques des patients ;
++ Briefing à chaud de 10 prestataires sur la PEC ;
++ Suivi de montage de deux tentes d'isolement à l'HGR Bunia dont une prête et l’autre en cours ;
+Poursuite de l'aménagement du bâtiment de CME
+e Annonce : 9 cas négatifs (parmi lesquels 3 PPL) ; 5 cas positifs ;
+e Ecoute active : 2 cas confirmés ;
+e _Counseling : 9 cas négatif attendant prélèvement ;
+e Entretien individuel : 1 orphelin ;
+e  Psychoéducation : 2 cas confirmés ;
+Tableau VI. Mouvement des malades dans les établissements de soins en date du
+22/05/2026
+Indicateurs 2S 2S 2S 2S TOTAL
+Bunia Rwampara MONGBWALU NYANKUNDE GENERAL
+Report (Nombre de 33 34 30 22 | 119
+malades présents au lit à la
+fin de journée précédente)
+Nouvelles PPL 3 1 (0) 1 5
+Admissions Autres 8 10 4 1 23
+du jour Total des 11 11 4 2 28
+nouvelles
+admissions
+du jour
+Effectif total en isolement 44 45 34 24 147
+SECURITE
++ La situation sécurité dans la ville de Bunia (ZS de Bunia et Rwampara) est relativement calme
++ Briefing sécuritaire aux équipes déployées.
+V. DEFIS
+e Absence des CT et CTE normés
+e  Manques des matériels PCI (EPI, DLM, chlore) au Nord Kivu
+e Faible remontée des alertes par les zones ;
+e Retard de prélèvent des échantillons ;
+e Absence de l'appui nutritionnel ;
+e Absence des interventions psycho-sociales à Mongbwalu ;
+e _ Retard d'aménagement des sites d'isolement.
+VI. Recommandation
+e Rendre opérationnel les CT et CTE de Beni, Butembo et Goma (réhabilitation et révision du circuit)
+e Renforcer la surveillance en vue de la remontée des alertes et la recherche des contacts jamais vus et
+perdus de vue ;
+e Mobiliser les ressources pour soutenir les différents piliers de la riposte ;
+e Formation des prestataires sur la surveillance en MVE et en SBC dans les ZS touchées et à haut
+risque ;
+e Formation des Agents communautaires sur la surveillance en MVE et en SBC dans les ZS touchées
+et à haut risque.
+PHOTO an ue
+\ (EL Es 7 dr
+ni pers _—— 4 ps} EF Ÿ AÀ ne »
+ee 0. 81) F à nŸ =
+— ® M Na ï w #1"1 se hits) < .
+ï 5 —- — {| han £ f fr
+— a | + ! FHMES) 4
+ne LME L 34:
+, Fr À =: CA 7 LS 0 À «
+«> Pr * à SR ie
+cg F < À CRCSUE a 2?
+\ NS Æ .- = ER FE AY, anal
+À DR NT nm 7E L 2 A 15 que
+\ € a 1 Tu — 22. | n \%
+\ se | 11 PA = : L
+se, 47 Le 7 “AN
+r> — & } de ré 2 L |
+= pa 40 5 - \V
+- y. = Van T° 44 ». >
+=, — #7 4 nn + , LA
+47 7 à
+_—.
+S -
+> si
+; à RS. À _— ne E
+u "( | > à
+o | 181 à D)
+II MA BE
+l Fa #2 | = sarereeseté et PE) AE 5 -
+L 1e 7 i 24 RS Sr en & à.
+/ ec: * = s 2% PL Dé = 3 ses
+Pour l’Institut National de la Santé Publique (INSP) de La RDC
+Le Directeur Général de l’INSP
+Dr MWAMBA KAZADI Dieudonné
+E-mail : dieudonne.mwamba@insp.cd
+Tel. : +243 816 040 145
+POUR TOUTE Le Coordonnateur COU-SP
+INFORMATION Prof NGANDU Christian
+SUPPLEMENTAIRE, E-mail : Christian.ngandu@insp.cd
+VEUILLEZ CONTACTER Tél. : +243998091915
+L’Incident Manager
+Prof Pierre AKILIMALI
+E-mail : pierre.akilimali@insp.cd
+Tél. : +243815800288
+Pour l'Organisation Mondiale de la Santé (OMS/RDC)
+Le Représentant ai de l'OMS en RDC
+Dr Anne Marie ANCIA
+E-mail : anciaa @who.int
+Le Team Lead Cluster EPR de l’OMS en RDC
+Dr FOTSING Richard
+E-mail: fotsingri@who.int
+Pour l’Africa CDC
+Justus Nsio Mbeta
+E-mail : JustusNs@africacdc.org
+ns
+4 OCDE QIOM un FE BIRTI MARNE (
+“LEE v
+“ D onu GRR CPMNS CEE 1110 mme STROES EpiC moso) BE
+@= au (24 nl ETES ERSRREMEES ‘:: | Æ. "— 1 #
+Institut National de t m d . 18"
+Publi re ER International +  b L
+s - _ FAR e LA A  RSOLE Mi Corps APNÇPS Lt vi a ê&
+

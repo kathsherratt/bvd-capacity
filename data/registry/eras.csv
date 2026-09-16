@@ -1,0 +1,5 @@
+era_id,sitrep_from,sitrep_to,route,description
+narrative,1,18,none,"Daily narrative with no capacity table. Beds and occupancy are not reported at province level; isolation sites are named in prose only."
+table,19,80,table,"TABLEAU ""Indicateur"" by province: beds, patients at bed (J-1), admissions and exits in 24 h, patients in isolation with a confirmed/suspect split, and from SitRep 060 an occupancy rate row. Columns gain and lose provinces through the era."
+dashboard,81,82,none,"Two-column dashboard layout. The figures are present in prose but the two columns interleave when the PDF text is extracted, so a parsed quote would not be the sentence the report printed. Not parsed; left for a reading pass."
+prose,83,122,prose,"One bullet per province under ""Prise en charge holistique"" / ""Continuite des soins"": admissions, exits, patients hospitalised, beds and an occupancy rate, written as sentences."

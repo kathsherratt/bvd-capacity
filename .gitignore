@@ -47,3 +47,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Working output; nothing here is an input to anything committed
+outputs/
