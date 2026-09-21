@@ -308,9 +308,17 @@ registry[reviewed == FALSE, `:=`(
 registry <- unique(registry, by = "facility_raw")
 fwrite(registry[order(facility_id, facility_raw)], out_registry())
 
-ev <- merge(ev, registry[, .(facility_raw, facility_id)],
-    by = "facility_raw", all.x = TRUE)
+ev <- merge(ev, registry[, .(facility_raw, facility_id,
+    reg_kind = site_kind)], by = "facility_raw", all.x = TRUE)
 ev[is.na(facility_id) | resolvable == FALSE, facility_id := ""]
+
+#' `facility_id` starts with the kind of site, so the registry's kind is the
+#' one the id asserts and the event's own has to agree with it. Letting the
+#' event keep a kind the id contradicts puts `transit_centre` rows under a
+#' `cte-` id, and then every count by kind depends on which table is read.
+ev[nzchar(facility_id) & !is.na(reg_kind) & nzchar(reg_kind),
+    site_kind := reg_kind]
+ev[, reg_kind := NULL]
 
 # ------------------------------------------------------------------- flags
 
@@ -334,6 +342,18 @@ if (nrow(long) > 1L) {
         if (length(near) > 1L) add_flag(long$facility_id[near], "possible_spelling_variant")
     }
 }
+#' `HGR Bunia` and `Bunia HGR` are one hospital and their keys are as far
+#' apart as edit distance can put them, so word order is checked separately.
+sorted_key <- vapply(strsplit(fac$name_key, " ", fixed = TRUE),
+    function(w) paste(sort(w), collapse = " "), character(1))
+reordered <- fac[, .(ids = uniqueN(facility_id)), by = .(sorted_key, site_kind)]
+hits <- reordered[ids > 1L]
+if (nrow(hits)) {
+    idx <- which(paste(sorted_key, fac$site_kind) %in%
+        paste(hits$sorted_key, hits$site_kind))
+    add_flag(fac$facility_id[idx], "possible_word_order")
+}
+
 flag_dt <- if (length(flags)) {
     rbindlist(flags)[, .(flags = paste(sort(unique(flag)), collapse = ";")),
         by = facility_id]
@@ -355,6 +375,12 @@ event_cols <- c("sitrep", "report_date", "facility_id", "facility_raw",
     "name_status", "site_kind", "place_key", "place_raw", "event", "event_date",
     "beds_int", "health_zone", "province", "status_note", "evidence_quote",
     "confidence", "model")
+#' The model's `beds` is a string and `beds_int` is the number read out of
+#' it. Renaming without dropping the string leaves two columns called `beds`,
+#' and everything downstream silently reads the first: `!is.na()` is true of
+#' every empty string, so the latest bed count became whatever the last row
+#' held, which was usually nothing.
+ev[, beds := NULL]
 setnames(ev, "beds_int", "beds")
 event_cols[event_cols == "beds_int"] <- "beds"
 setorder(ev, report_date, facility_id, event)

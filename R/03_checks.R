@@ -1,0 +1,238 @@
+#!/usr/bin/env Rscript
+# ai-written
+#'
+#' Refuse to let a broken build pass for a finished one.
+#'
+#' Every check here is about internal consistency, not about whether the model
+#' read the report well. That question is settled upstream, by the quote gate
+#' in R/02_resolve.R, and cannot be reopened here. What this script asks is
+#' narrower and answerable: does every event name a facility the registry
+#' knows, does every facility's summary follow from its own events, is every
+#' date one the corpus could have produced.
+#'
+#' The facilities table is recomputed from the events table by a second,
+#' independent implementation and compared column by column. Two
+#' implementations agreeing is weak evidence and one disagreeing is strong
+#' evidence, which is the useful direction: a silent change to the derivation
+#' shows up as a mismatch rather than as a number nobody checks.
+#'
+#' Exit 1 on any failure, 0 otherwise. Counts print either way.
+#'
+#' Usage:
+#'     Rscript R/03_checks.R
+
+suppressMessages({
+    library(data.table)
+})
+source(here::here("R", "lib", "paths.R"))
+source(here::here("R", "lib", "corpus.R"))
+
+EVENTS <- c("planned", "under_construction", "opened", "operating", "expanded",
+    "strained", "incident", "closed", "mention_only")
+IN_SERVICE <- c("operating", "expanded", "strained", "incident")
+
+failures <- character()
+fail <- function(...) failures <<- c(failures, paste0(...))
+
+#' Prints the first few offending rows so a failure names what to look at
+#' rather than only how many there are.
+show <- function(dt, n = 6L) {
+    if (!nrow(dt)) return(invisible(NULL))
+    print(head(dt, n))
+    if (nrow(dt) > n) message("  ... and ", nrow(dt) - n, " more")
+}
+
+events <- fread(events_path())
+facilities <- fread(facilities_path())
+registry <- fread(registry_path())
+
+# ------------------------------------------------------------- rejections
+
+#' A reject is a quote that is not a span of the report, or one that does not
+#' name what it evidences. Either way the event is out of the data and the
+#' build is not clean. Fix it by rerunning that report with a better prompt.
+#' Do not add an exemption.
+if (file.exists(rejected_path())) {
+    rej <- fread(rejected_path())
+    if (nrow(rej)) {
+        fail(nrow(rej), " rejected events in ", rejected_path())
+        print(rej[, .N, by = reason])
+    }
+}
+
+# ----------------------------------------------------------------- events
+
+bad_event <- events[!event %in% EVENTS]
+if (nrow(bad_event)) {
+    fail(nrow(bad_event), " events outside the closed vocabulary")
+    show(bad_event[, .(sitrep, facility_raw, event)])
+}
+
+#' A named facility that resolved to nothing is a keying failure, not a
+#' property of the report. Unnamed and ambiguous entries are meant to have no
+#' facility_id.
+orphan_named <- events[name_status == "named" & !nzchar(facility_id)]
+if (nrow(orphan_named)) {
+    fail(nrow(orphan_named), " named events with no facility_id")
+    show(orphan_named[, .(sitrep, facility_raw, site_kind, event)])
+}
+
+unnamed_with_id <- events[name_status != "named" & nzchar(facility_id)]
+if (nrow(unnamed_with_id)) {
+    fail(nrow(unnamed_with_id), " unnamed or ambiguous events carrying a facility_id")
+    show(unnamed_with_id[, .(sitrep, facility_raw, name_status, facility_id)])
+}
+
+# --------------------------------------------------------------- registry
+
+unknown_id <- setdiff(events[nzchar(facility_id), unique(facility_id)],
+    registry$facility_id)
+if (length(unknown_id)) {
+    fail(length(unknown_id), " facility_ids in the events not in the registry")
+    message("  ", paste(head(unknown_id, 6), collapse = ", "))
+}
+
+#' One id, one kind of site. An id claimed by two kinds means the prefix and
+#' the column disagree, and every count by site_kind is then wrong.
+split_kind <- registry[, .(kinds = uniqueN(site_kind)), by = facility_id][kinds > 1]
+if (nrow(split_kind)) {
+    fail(nrow(split_kind), " registry facility_ids claimed by two site_kinds")
+    show(registry[facility_id %in% split_kind$facility_id,
+        .(facility_id, facility_raw, site_kind)])
+}
+
+dup_alias <- registry[, .N, by = .(facility_raw, site_kind)][N > 1]
+if (nrow(dup_alias)) {
+    fail(nrow(dup_alias), " spellings listed twice in the registry")
+    show(dup_alias)
+}
+
+# ------------------------------------------------------------------ dates
+
+#' The report date comes from the corpus, so any date outside its range is a
+#' merge that went wrong rather than a report that is late.
+meta <- rbindlist(lapply(corpus_ids(), function(id) {
+    m <- read_report(id)$meta
+    data.table(sitrep = id, report_date = as.Date(m$report_date))
+}))
+span <- range(meta$report_date, na.rm = TRUE)
+
+out_of_range <- events[is.na(report_date) | report_date < span[1] | report_date > span[2]]
+if (nrow(out_of_range)) {
+    fail(nrow(out_of_range), " events with a report_date outside the corpus (",
+        span[1], " to ", span[2], ")")
+    show(out_of_range[, .(sitrep, facility_raw, report_date)])
+}
+
+wrong_date <- merge(events[, .(sitrep, report_date)], meta,
+    by = "sitrep", suffixes = c("", "_corpus"))[report_date != report_date_corpus]
+if (nrow(wrong_date)) {
+    fail(nrow(unique(wrong_date)), " events whose report_date is not the corpus's")
+    show(unique(wrong_date))
+}
+
+#' An event dated after the report that carries it is a model reading a
+#' forecast as a fact, or a year parsed wrongly.
+future_event <- events[!is.na(event_date) & event_date > report_date + 1L]
+if (nrow(future_event)) {
+    fail(nrow(future_event), " events dated after the report that carries them")
+    show(future_event[, .(sitrep, facility_raw, event, event_date, report_date)])
+}
+
+# ----------------------------------------------- facilities, recomputed
+
+#' as.Date throughout: fread returns IDate, which is integer, and a group
+#' with no matching date would otherwise return a double NA and break the
+#' column type partway down the table.
+#' Dates come back as character. fread returns IDate, whose storage is
+#' integer, while an empty group's NA is a double, and data.table refuses a
+#' column whose type changes partway down the table. The comparison below is
+#' on character anyway.
+first_of <- function(dates, keep) {
+    d <- dates[keep & !is.na(dates)]
+    if (!length(d)) NA_character_ else as.character(min(d))
+}
+published <- sort(unique(as.integer(sub("_v.*", "", corpus_ids()))))
+
+res <- events[nzchar(facility_id)]
+setorder(res, report_date, facility_id, event)
+check <- res[, {
+    real <- which(event != "mention_only")
+    opened <- which(event == "opened")
+    bedded <- which(!is.na(beds))
+    last_real <- if (length(real)) real[which.max(report_date[real])] else NA_integer_
+    .(
+        site_kind_r = site_kind[which.max(tabulate(match(site_kind, unique(site_kind))))],
+        date_first_mentioned_r = as.character(min(report_date)),
+        first_mention_after_gap_r =
+            !(min(as.integer(sub("_v.*", "", sitrep))) - 1L) %in% published &&
+            min(as.integer(sub("_v.*", "", sitrep))) > 1L,
+        date_first_planned_r = first_of(report_date,
+            event %in% c("planned", "under_construction")),
+        date_opening_announced_r = first_of(report_date, event == "opened"),
+        date_opening_stated_r = first_of(event_date, seq_along(event) %in% opened),
+        date_first_in_service_r = first_of(report_date, event %in% IN_SERVICE),
+        status_latest_r = if (is.na(last_real)) "mention_only" else event[last_real],
+        beds_latest_r = if (length(bedded))
+            as.integer(beds[bedded[which.max(report_date[bedded])]]) else NA_integer_,
+        date_last_mentioned_r = as.character(max(report_date)),
+        n_sitreps_r = uniqueN(sitrep),
+        n_events_r = .N
+    )
+}, by = facility_id]
+
+missing_rows <- setdiff(check$facility_id, facilities$facility_id)
+extra_rows <- setdiff(facilities$facility_id, check$facility_id)
+if (length(missing_rows)) {
+    fail(length(missing_rows), " facilities with events but no row")
+    message("  ", paste(head(missing_rows, 6), collapse = ", "))
+}
+if (length(extra_rows)) {
+    fail(length(extra_rows), " facilities rows with no events")
+    message("  ", paste(head(extra_rows, 6), collapse = ", "))
+}
+
+cmp <- merge(facilities, check, by = "facility_id")
+pairs <- sub("_r$", "", grep("_r$", names(check), value = TRUE))
+for (col in pairs) {
+    a <- cmp[[col]]
+    b <- cmp[[paste0(col, "_r")]]
+    #' Dates read back from CSV as IDate, so compare as character and treat
+    #' NA as its own value rather than as a mismatch with itself.
+    differs <- which(!(is.na(a) & is.na(b)) &
+        (is.na(a) | is.na(b) | as.character(a) != as.character(b)))
+    if (length(differs)) {
+        fail(length(differs), " facilities rows where ", col,
+            " does not follow from the events")
+        show(cmp[differs, c("facility_id", col, paste0(col, "_r")), with = FALSE])
+    }
+}
+
+# ----------------------------------------------------------------- counts
+
+message("\nEvents ", nrow(events), " over ", uniqueN(events$sitrep),
+    " reports, ", span[1], " to ", span[2], ".")
+print(events[, .N, by = event][order(-N)])
+
+message("\nFacilities ", nrow(facilities), ".")
+print(dcast(facilities, site_kind ~ ifelse(nzchar(province), province, "(none)"),
+    fun.aggregate = length, value.var = "facility_id"))
+
+message("\nIn more than two reports, by kind:")
+print(facilities[n_sitreps >= 3L, .N, by = site_kind][order(-N)])
+
+message("\nRegistry ", nrow(registry), " spellings, ",
+    sum(!registry$reviewed), " unreviewed.")
+message("Flagged facilities ", sum(nzchar(facilities$flags)), ":")
+print(facilities[nzchar(flags), .N, by = flags][order(-N)])
+message("Events with no facility_id ", events[!nzchar(facility_id), .N],
+    " (", events[!nzchar(facility_id), uniqueN(place_key)], " places).")
+
+# ----------------------------------------------------------------- verdict
+
+if (length(failures)) {
+    message("\nFAILED ", length(failures), ":")
+    for (f in failures) message("  - ", f)
+    quit(status = 1L)
+}
+message("\nAll checks passed.")
