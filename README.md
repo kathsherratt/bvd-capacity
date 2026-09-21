@@ -33,7 +33,8 @@ count.
 mapping it to a `facility_id`. It is the only file meant to be edited by hand.
 
 Supporting: `data/facility_flags.csv` says which facilities each flag grouped
-together. `data/indicators.csv` and `data/indicator_appearances.csv` are a
+together. `data/reference/grid3_places.csv` is the canonical place vocabulary,
+described below. `data/indicators.csv` and `data/indicator_appearances.csv` are a
 separate survey of every label the situation report tables use, built without
 a model call.
 
@@ -57,6 +58,37 @@ Of 1,885 events, 1,595 resolve to a named facility. The remaining 290 are
 places the report described without naming, kept with their place and their
 quote so a person can attach them later, and absent from `facilities.csv`.
 
+## The canonical place vocabulary
+
+`data/reference/grid3_places.csv` holds GRID3 COD Health Facilities v8.0 for
+the six provinces the outbreak reaches: 8,667 facilities with province, health
+zone, health area, locality, name and type. Rebuild it with
+`tools/grid3-lexicon.R`, which needs a BDBV2026-Data checkout and `sf`;
+nothing else in the pipeline needs either.
+
+It does three things.
+
+It respells `province` to one of six canonical values, which removes the
+`Bas Uele` and `Nord-kivu` variants the reports contain.
+
+It fills a health zone or province the report left out, 901 zones and 332
+provinces, and only where the place names exactly one zone inside the province
+the report already gave. Where the report gave a province or zone, GRID3 never
+overrides it. That direction is not cosmetic: names like Amani and Gloria
+belong to facilities in several provinces, so an unconstrained lookup silently
+moves facilities between them.
+
+It says which health zone's reference hospital carries which name. A zone has
+one, so `CTE de l'HGR Bunia` and `CTE de Bunia` are the same centre while
+`CTE de l'HGR Rwampara` and `CTE du CME Rwampara` are not. It also finds
+merges no comparison of strings could: the reference hospital of Butembo is
+named Kitatumba, and Katana's is named FOMULAC.
+
+Citation: Center for Integrated Earth System Information (CIESIN), Columbia
+University; Ministere de la Sante Publique, Hygiene et Prevention, Democratic
+Republic of the Congo; GRID3 (2025). GRID3 COD Health Facilities v8.0.
+https://doi.org/10.7916/f1ft-y872. CC BY 4.0.
+
 ## Method
 
 1. `R/lib/corpus.R` renders a report to one deterministic text, body and
@@ -71,7 +103,8 @@ quote so a person can attach them later, and absent from `facilities.csv`.
 4. `R/03_checks.R` rebuilds the register from the events by a second
    implementation and fails if the two disagree.
 5. `R/04_review.R` orders the open naming judgements by how many events
-   depend on each.
+   depend on each, and `R/05_places.R` checks the register's places against
+   GRID3.
 
 The quote gate in step 3 has no exemption route. A quote that is not a span of
 the report is dropped, whatever it says, because a model that paraphrases once
@@ -86,6 +119,7 @@ Rscript R/01_facilities.R          # model calls; --only=, --force, --cache=
 Rscript R/02_resolve.R             # no model calls
 Rscript R/03_checks.R              # exit 1 on any failure
 Rscript R/04_review.R              # worksheet for the naming decisions
+Rscript R/05_places.R              # what GRID3 does and does not recognise
 ```
 
 `R/01_facilities.R` expects a bvd-sitreps checkout beside this one, or

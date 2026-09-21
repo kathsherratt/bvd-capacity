@@ -119,9 +119,28 @@ together, so `R/04_review.R` can reconstruct the clusters.
 | `possible_spelling_variant` | two names within an edit distance of two, same kind of site: Mongbwalu, Mungbwalu, Mongwalu |
 | `possible_host_variant` | one name carries a host hospital and another does not: `CTE de l'HGR Bunia` against `CTE de Bunia` |
 | `possible_word_order` | the same words in a different order: `hosp-hgr-bunia` against `hosp-bunia-hgr` |
+| `possible_same_host` | GRID3 says these name the same health zone's reference hospital, whether by the zone (`cte-butembo`) or by the hospital's own name (`cte-kitatumba`) |
 
 Nothing flagged is ever merged automatically. A flag says a person should
 look, and `R/04_review.R` says in what order.
+
+## data/reference/grid3_places.csv
+
+GRID3 COD Health Facilities v8.0, trimmed to the six outbreak provinces and to
+the columns a name lookup needs. 8,667 rows: `province`, `health_zone`,
+`health_area`, `locality`, `facility_type`, `facility_name`, `grid3id`. Built
+by `tools/grid3-lexicon.R`, committed, and read only by `R/lib/places.R`.
+
+## outputs/place-check.csv
+
+One row a facility, written by `R/05_places.R` and not committed.
+`confirmed_in_zone` is TRUE where GRID3 lists that name inside that health
+zone, which is the strong form; `name_known` allows a match anywhere in the
+six provinces; `place_known` says only that the locality exists. `grid3_type`
+is what GRID3 calls it. A facility unknown to GRID3 is not necessarily wrong,
+since the response built structures no national register lists, but the list
+is mostly misspellings: `cte-elykia` is unknown where `cte-elikya` is
+confirmed.
 
 ## data/indicators.csv and data/indicator_appearances.csv
 

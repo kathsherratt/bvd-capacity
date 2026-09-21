@@ -125,6 +125,51 @@ site-clinique-sofepadi,possible_host_variant,possible_host_variant:sofepadi othe
 site-centre-hospitalier-unibu,possible_host_variant,possible_host_variant:unibu other
 site-ch-unibu,possible_host_variant,possible_host_variant:unibu other
 site-clinique-unibu,possible_host_variant,possible_host_variant:unibu other
+cte-aru,possible_same_host,possible_same_host:Aru
+cte-hgr-aru,possible_same_host,possible_same_host:Aru
+ct-beni,possible_same_host,possible_same_host:Beni
+ct-hgr-beni,possible_same_host,possible_same_host:Beni
+cte-beni,possible_same_host,possible_same_host:Beni
+cte-hgr-beni,possible_same_host,possible_same_host:Beni
+ct-bunia,possible_same_host,possible_same_host:Bunia
+ct-hgr-bunia,possible_same_host,possible_same_host:Bunia
+cte-bunia,possible_same_host,possible_same_host:Bunia
+cte-hgr-bunia,possible_same_host,possible_same_host:Bunia
+hosp-bunia-hgr,possible_same_host,possible_same_host:Bunia
+hosp-hgr-bunia,possible_same_host,possible_same_host:Bunia
+cte-butembo,possible_same_host,possible_same_host:Butembo
+cte-kitatumba,possible_same_host,possible_same_host:Butembo
+cte-hgr-isiro,possible_same_host,possible_same_host:Isiro
+cte-isiro,possible_same_host,possible_same_host:Isiro
+hosp-fomulac,possible_same_host,possible_same_host:Katana
+hosp-hgr-katana,possible_same_host,possible_same_host:Katana
+hosp-katana,possible_same_host,possible_same_host:Katana
+cte-hgr-katwa,possible_same_host,possible_same_host:Katwa
+cte-katwa,possible_same_host,possible_same_host:Katwa
+site-hgr-logo,possible_same_host,possible_same_host:Logo
+site-hopital-general-logo,possible_same_host,possible_same_host:Logo
+site-hgr-makiso,possible_same_host,possible_same_host:Makiso Kisangani
+site-hgr-makiso-kisangani,possible_same_host,possible_same_host:Makiso Kisangani
+cte-hgr-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
+cte-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
+hosp-hgr-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
+hosp-hopital-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
+ct-hgr-musienene,possible_same_host,possible_same_host:Musienene
+ct-musienene,possible_same_host,possible_same_host:Musienene
+ct-hgr-nia-nia,possible_same_host,possible_same_host:Nia Nia
+ct-nia-nia,possible_same_host,possible_same_host:Nia Nia
+cte-hgr-nizi,possible_same_host,possible_same_host:Nizi
+cte-nizi,possible_same_host,possible_same_host:Nizi
+cte-hgr-nyankunde,possible_same_host,possible_same_host:Nyankunde
+cte-nyankunde,possible_same_host,possible_same_host:Nyankunde
+ct-hgr-oicha,possible_same_host,possible_same_host:Oicha
+ct-oicha,possible_same_host,possible_same_host:Oicha
+ci-hgr-rwampara,possible_same_host,possible_same_host:Rwampara
+ci-rwampara,possible_same_host,possible_same_host:Rwampara
+cte-hgr-rwampara,possible_same_host,possible_same_host:Rwampara
+cte-rwampara,possible_same_host,possible_same_host:Rwampara
+hosp-hgr-rwampara,possible_same_host,possible_same_host:Rwampara
+hosp-rwampara-hgr,possible_same_host,possible_same_host:Rwampara
 ct-bambu,possible_same_site,possible_same_site:bambu
 cte-bambu,possible_same_site,possible_same_site:bambu
 ct-beni,possible_same_site,possible_same_site:beni

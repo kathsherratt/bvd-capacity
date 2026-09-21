@@ -59,10 +59,19 @@ q <- merge(facilities[, .(facility_id, facility_name, site_kind, place_key,
     province, n_sitreps, n_events, date_first_in_service, status_latest,
     beds_latest, flags, aliases)], comp, by = "facility_id")
 
+#' Where GRID3 says several members name one health zone's reference
+#' hospital, that part of the decision is already answered and the count is
+#' worth seeing next to the question rather than buried in a flag column.
+host <- flag_long[flag == "possible_same_host",
+    .(facility_id, host_zone = sub("^possible_same_host:", "", group))]
+q <- merge(q, host, by = "facility_id", all.x = TRUE)
+
 decisions <- q[, .(
     members = uniqueN(facility_id),
     kinds = uniqueN(site_kind),
     events = sum(n_events),
+    same_host = uniqueN(facility_id[!is.na(host_zone)]),
+    host_zone = paste(sort(unique(na.omit(host_zone))), collapse = "; "),
     max_sitreps = max(n_sitreps),
     in_service = sum(!is.na(date_first_in_service)),
     ids = paste(facility_id, collapse = " | "),
@@ -94,7 +103,7 @@ message("The first 10 decisions cover ", round(100 * cum[min(10, length(cum))]),
     round(100 * cum[min(25, length(cum))]), "%.\n")
 
 print(decisions[seq_len(min(top, .N)),
-    .(rank, events, members, kinds, reasons, ids)])
+    .(rank, events, members, same_host, host_zone, ids)])
 
 message("\nWritten: ", out)
 message("Decide by setting reviewed = TRUE in ", registry_path(), ",")

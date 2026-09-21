@@ -38,6 +38,11 @@ rejected_path <- function() here::here("outputs", "rejected_events.csv")
 #' not who it is a judgement against.
 flags_path <- function() here::here("data", "facility_flags.csv")
 
+#' GRID3's health zones, areas, localities and facility names for the six
+#' provinces the outbreak reaches. Committed, and rebuilt by
+#' tools/grid3-lexicon.R when the GRID3 release changes.
+grid3_path <- function() here::here("data", "reference", "grid3_places.csv")
+
 #' A survey of what the corpus measures, not a step of the facility pipeline.
 #' Rebuilt from the tables alone, with no model call, so it costs nothing to
 #' regenerate when the corpus changes.

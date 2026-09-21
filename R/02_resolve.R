@@ -28,6 +28,7 @@ suppressMessages({
 })
 source(here::here("R", "lib", "paths.R"))
 source(here::here("R", "lib", "corpus.R"))
+source(here::here("R", "lib", "places.R"))
 
 args <- commandArgs(trailingOnly = TRUE)
 arg_value <- function(flag) {
@@ -242,6 +243,33 @@ ev[, beds_int := suppressWarnings(as.integer(gsub("[^0-9]", "", beds)))]
 ev[, event_date := suppressWarnings(as.Date(event_date))]
 ev[!site_kind %in% names(ID_PREFIX), site_kind := "other"]
 
+# ------------------------------------------------------------- geography
+
+#' GRID3 constrains, it does not overrule. The province a report gives is
+#' kept and only respelt to GRID3's spelling, which absorbs `Bas Uele` against
+#' `Bas-Uele` and `Nord-kivu` against `Nord-Kivu`. A province GRID3 does not
+#' recognise stays exactly as the report wrote it, because the report is the
+#' evidence and the lexicon is a reference.
+ev[, province_grid3 := canonical_province(province, base_key)]
+ev[nzchar(province_grid3), province := province_grid3]
+ev[, province_grid3 := NULL]
+
+#' The health zone is filled only where the place names exactly one zone
+#' inside the province the report gave, and only where the report gave no
+#' zone of its own.
+ev[, zone_grid3 := resolve_zone(place_key, province, base_key)]
+filled_zone <- ev[!nzchar(health_zone) & nzchar(zone_grid3), .N]
+ev[!nzchar(health_zone) & nzchar(zone_grid3), health_zone := zone_grid3]
+filled_prov <- ev[!nzchar(province) & nzchar(zone_grid3) &
+    nzchar(zone_province(zone_grid3, base_key)), .N]
+ev[!nzchar(province) & nzchar(zone_grid3),
+    province := zone_province(zone_grid3, base_key)]
+ev[, zone_grid3 := NULL]
+if (filled_zone || filled_prov) {
+    message("GRID3 filled ", filled_zone, " missing health zones and ",
+        filled_prov, " missing provinces.")
+}
+
 #' Only a named facility can be resolved. An unnamed or ambiguous entry keeps
 #' its place and its quote and stays in the events table, where a person can
 #' attach it later; it never reaches facilities.csv.
@@ -385,6 +413,39 @@ for (i in seq_len(nrow(host_hits))) {
     add_flag(host[bare_key == host_hits$bare_key[i] &
         kind == host_hits$kind[i], facility_id], "possible_host_variant",
         paste(host_hits$bare_key[i], host_hits$kind[i]))
+}
+
+#' A health zone has one reference hospital, and the reports name a centre
+#' sometimes by the zone and sometimes by the hospital. GRID3 says Butembo's
+#' reference hospital is called Kitatumba, so `cte-butembo` and
+#' `cte-kitatumba` are one centre and no comparison of those two strings
+#' could ever say so.
+fac_zone <- ev[nzchar(facility_id) & nzchar(health_zone),
+    .N, by = .(facility_id, health_zone)][order(-N)]
+fac_zone <- unique(fac_zone, by = "facility_id")[, .(facility_id, health_zone)]
+hosts <- zone_host_names(base_key)
+alias <- merge(data.table(facility_id = fac$facility_id, bare_key,
+    kind = fac$site_kind), fac_zone, by = "facility_id")
+alias <- merge(alias, hosts, by = "health_zone", all.x = TRUE)
+#' Only a name that carries no host, or carries the reference hospital, can
+#' be the zone's own centre. `CTE du CME Rwampara` reduces to the same bare
+#' key as `CTE de l'HGR Rwampara` and is a different host, which GRID3 lists
+#' separately, so it is excluded here rather than flagged as the same site.
+REF_WORDS <- "\\bhgrs?\\b|hopital general de reference|\\bhopital\\b|\\bhg\\b"
+alias[, hostless := !grepl(HOSPITAL_WORDS, fac$name_key[
+    match(facility_id, fac$facility_id)], perl = TRUE)]
+alias[, ref_host := grepl(REF_WORDS, fac$name_key[
+    match(facility_id, fac$facility_id)], perl = TRUE)]
+alias[, names_the_zone := (hostless | ref_host) &
+    (bare_key == base_key(health_zone) |
+     (!is.na(host_key) & bare_key == host_key))]
+host_alias <- alias[names_the_zone == TRUE,
+    .(n = uniqueN(facility_id)), by = .(health_zone, kind)][n > 1L]
+for (i in seq_len(nrow(host_alias))) {
+    add_flag(alias[names_the_zone == TRUE &
+        health_zone == host_alias$health_zone[i] &
+        kind == host_alias$kind[i], facility_id],
+        "possible_same_host", host_alias$health_zone[i])
 }
 
 #' `HGR Bunia` and `Bunia HGR` are one hospital and their keys are as far
