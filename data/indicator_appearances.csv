@@ -433,8 +433,8 @@ sitrep,sitrep_num,report_date,table_n,caption,label_raw,kind,label_key,role
 007,7,2026-05-21,9,RESULTATS DU JOUR : 21/05/2026,Négatifs Swab,column,négatifs swab,indicator
 007,7,2026-05-21,9,RESULTATS DU JOUR : 21/05/2026,Indéterminés Sang,column,indéterminés sang,indicator
 007,7,2026-05-21,9,RESULTATS DU JOUR : 21/05/2026,Indéterminés Swab,column,indéterminés swab,indicator
-007,7,2026-05-21,10,Tableau VI. Mouvement des malades dans les établissements de soins en date du 21 mai 2026,Indicateurs 1,column,indicateurs 1,indicator
-007,7,2026-05-21,10,Tableau VI. Mouvement des malades dans les établissements de soins en date du 21 mai 2026,Indicateurs 2,column,indicateurs 2,indicator
+007,7,2026-05-21,10,Tableau VI. Mouvement des malades dans les établissements de soins en date du 21 mai 2026,Indicateurs 1,column,indicateurs 1,dimension
+007,7,2026-05-21,10,Tableau VI. Mouvement des malades dans les établissements de soins en date du 21 mai 2026,Indicateurs 2,column,indicateurs 2,dimension
 007,7,2026-05-21,10,Tableau VI. Mouvement des malades dans les établissements de soins en date du 21 mai 2026,HGR Bunia,column,hgr bunia,indicator
 007,7,2026-05-21,10,Tableau VI. Mouvement des malades dans les établissements de soins en date du 21 mai 2026,RWAMPARA,column,rwampara,indicator
 007,7,2026-05-21,10,Tableau VI. Mouvement des malades dans les établissements de soins en date du 21 mai 2026,RWAMPARA,column,rwampara,indicator
@@ -2574,7 +2574,7 @@ sitrep,sitrep_num,report_date,table_n,caption,label_raw,kind,label_key,role
 041,41,2026-06-24,5,"Tableau 5. Suivi des indicateurs au Points d’entrées et Points de contrôle (PoE/PoC), en date du 24 juin 2026",Nombre de résultat positif des cas suspects référés,row_label,nombre de résultat positif des cas suspects référés,indicator
 041,41,2026-06-24,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 24 juin 2026,Indicateur,column,indicateur,dimension
 041,41,2026-06-24,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 24 juin 2026,Ituri,column,ituri,dimension
-041,41,2026-06-24,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 24 juin 2026,Nord-Kivu*,column,nord-kivu*,indicator
+041,41,2026-06-24,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 24 juin 2026,Nord-Kivu*,column,nord-kivu*,dimension
 041,41,2026-06-24,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 24 juin 2026,Sud-Kivu,column,sud-kivu,dimension
 041,41,2026-06-24,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 24 juin 2026,Ensemble,column,ensemble,dimension
 041,41,2026-06-24,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 24 juin 2026,Patients au lit (J-1),row_label,patients au lit (j-1),indicator
@@ -2734,7 +2734,7 @@ sitrep,sitrep_num,report_date,table_n,caption,label_raw,kind,label_key,role
 044,44,2026-06-27,5,"Tableau 5. Suivi des indicateurs au Points d’entrées et Points de contrôle (PoE/PoC), en date du 27 juin 2026",Nombre de résultat positif des cas suspects référés,row_label,nombre de résultat positif des cas suspects référés,indicator
 044,44,2026-06-27,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 27 juin 2026,Indicateur,column,indicateur,dimension
 044,44,2026-06-27,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 27 juin 2026,Ituri,column,ituri,dimension
-044,44,2026-06-27,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 27 juin 2026,Nord-Kivu*,column,nord-kivu*,indicator
+044,44,2026-06-27,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 27 juin 2026,Nord-Kivu*,column,nord-kivu*,dimension
 044,44,2026-06-27,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 27 juin 2026,Sud-Kivu,column,sud-kivu,dimension
 044,44,2026-06-27,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 27 juin 2026,Ensemble,column,ensemble,dimension
 044,44,2026-06-27,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 27 juin 2026,Patients au lit (J-1),row_label,patients au lit (j-1),indicator
@@ -2813,7 +2813,7 @@ sitrep,sitrep_num,report_date,table_n,caption,label_raw,kind,label_key,role
 046,46,2026-06-29,5,"Tableau 5, Suivi des indicateurs au Points d’entrées et Points de contrôle (PoE/PoC), en date du 29 juin 2026",% des corps sans vie swabés,row_label,% des corps sans vie swabés,indicator
 046,46,2026-06-29,5,"Tableau 5, Suivi des indicateurs au Points d’entrées et Points de contrôle (PoE/PoC), en date du 29 juin 2026",Nombre de résultat positif des cas suspects référés,row_label,nombre de résultat positif des cas suspects référés,indicator
 046,46,2026-06-29,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 29 juin 2026,Indicateur,column,indicateur,dimension
-046,46,2026-06-29,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 29 juin 2026,Ituri1,column,ituri1,indicator
+046,46,2026-06-29,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 29 juin 2026,Ituri1,column,ituri1,dimension
 046,46,2026-06-29,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 29 juin 2026,Nord-Kivu,column,nord-kivu,dimension
 046,46,2026-06-29,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 29 juin 2026,Sud-Kivu,column,sud-kivu,dimension
 046,46,2026-06-29,6,Tableau 6. Mouvement des patients dans les établissements de soins (CTE/CT/CI) au 29 juin 2026,Ensemble,column,ensemble,dimension

@@ -134,10 +134,15 @@ app <- rbindlist(rows)
 app <- app[nzchar(trimws(label_raw))]
 app[, label_key := norm_label(label_raw)]
 app <- app[nzchar(label_key)]
+#' A footnote marker rides on the column heading: the INSP writes `Ituri1`
+#' and `Nord-Kivu*` where the table has a note. Strip it before asking what
+#' the label is, or the province becomes an indicator of its own.
+app[, role_key := trimws(gsub("[0-9*]+$", "", label_key))]
 app[, role := fcase(
-    grepl(DIMENSIONS, label_key, perl = TRUE), "dimension",
-    grepl(NARRATIVE, label_key, perl = TRUE), "narrative",
+    grepl(DIMENSIONS, role_key, perl = TRUE), "dimension",
+    grepl(NARRATIVE, role_key, perl = TRUE), "narrative",
     default = "indicator")]
+app[, role_key := NULL]
 
 setorder(app, sitrep_num, table_n)
 fwrite(app, indicator_appearances_path())
