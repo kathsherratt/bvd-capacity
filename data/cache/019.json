@@ -1,0 +1,68 @@
+{
+  "id": "019",
+  "report_date": "2026-06-02",
+  "extract_key": "97caf666675a2d527714610062fda91e:c95d366fc47db0685de85290691c3ec5:2b47b40403025e32e12927f461c2f1e4:gemini-3.1-pro-preview:61b88cc976a163869c2296dc5b38d412:8988765d5a2c38ff6d2406acf9b75cfe:agy:gemini-3.1-pro-low",
+  "model": "agy:gemini-3.1-pro-low",
+  "events": [
+    {
+      "facility_raw": "HGR Bunia",
+      "facility_type_raw": "HGR",
+      "site_kind": "other",
+      "name_status": "named",
+      "place_raw": "Bunia",
+      "health_zone": "Bunia",
+      "province": "Ituri",
+      "event": "mention_only",
+      "event_date": "",
+      "beds": "",
+      "status_note": "The facility underwent decontamination.",
+      "evidence_quote": "décontaminations à l'HGR Bunia",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "HGR Virunga",
+      "facility_type_raw": "HGR",
+      "site_kind": "other",
+      "name_status": "named",
+      "place_raw": "",
+      "health_zone": "",
+      "province": "Nord-Kivu",
+      "event": "mention_only",
+      "event_date": "",
+      "beds": "",
+      "status_note": "Forty healthcare workers received training at the facility.",
+      "evidence_quote": "Formation de 40 prestataires à l'HGR Virunga",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "Heal Africa",
+      "facility_type_raw": "",
+      "site_kind": "other",
+      "name_status": "named",
+      "place_raw": "",
+      "health_zone": "",
+      "province": "Nord-Kivu",
+      "event": "mention_only",
+      "event_date": "",
+      "beds": "",
+      "status_note": "A briefing was held for 126 staff members at the facility.",
+      "evidence_quote": "briefing de 126 membres du personnel à Heal Africa.",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "Rwampara",
+      "facility_type_raw": "",
+      "site_kind": "treatment_centre",
+      "name_status": "named",
+      "place_raw": "Rwampara",
+      "health_zone": "Rwampara",
+      "province": "Ituri",
+      "event": "opened",
+      "event_date": "",
+      "beds": "",
+      "status_note": "A treatment centre has opened, but capacity remains insufficient.",
+      "evidence_quote": "| 2 | Capacité insuffisante en CTE normés malgré l'ouverture de Rwampara |",
+      "confidence": "high"
+    }
+  ]
+}

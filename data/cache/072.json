@@ -1,0 +1,83 @@
+{
+  "id": "072",
+  "report_date": "2026-07-25",
+  "extract_key": "041d4bf3e21ac1968e18076b9cef2ab0:c95d366fc47db0685de85290691c3ec5:2b47b40403025e32e12927f461c2f1e4:gemini-3.1-pro-preview:61b88cc976a163869c2296dc5b38d412:8988765d5a2c38ff6d2406acf9b75cfe:agy:gemini-3.1-pro-low",
+  "model": "agy:gemini-3.1-pro-low",
+  "events": [
+    {
+      "facility_raw": "CTE",
+      "facility_type_raw": "CTE",
+      "site_kind": "treatment_centre",
+      "name_status": "unnamed",
+      "place_raw": "",
+      "health_zone": "",
+      "province": "Haut-Uélé",
+      "event": "operating",
+      "event_date": "",
+      "beds": "",
+      "status_note": "One death was reported at an unnamed treatment centre in Haut-Uélé.",
+      "evidence_quote": "Haut-Uélé : 3 nouveaux cas confirmés (1 cas à Boma Mangbetu, 1 cas à Isiro et 1 cas à Wamba) et 1 décès au CTE ont été rapportés.",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "CT/CTE",
+      "facility_type_raw": "CT/CTE",
+      "site_kind": "treatment_centre",
+      "name_status": "unnamed",
+      "place_raw": "",
+      "health_zone": "",
+      "province": "Ituri",
+      "event": "operating",
+      "event_date": "",
+      "beds": "",
+      "status_note": "Six validated live alerts at points of entry were referred to an unnamed transit or treatment centre.",
+      "evidence_quote": "Parmi les 7 alertes vivantes, 6 ont été validées et toutes référées au CT/CTE",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "CTE de Rwampara",
+      "facility_type_raw": "CTE",
+      "site_kind": "treatment_centre",
+      "name_status": "named",
+      "place_raw": "Rwampara",
+      "health_zone": "",
+      "province": "Ituri",
+      "event": "operating",
+      "event_date": "",
+      "beds": "100",
+      "status_note": "The facility is operational with a capacity of 100 beds and received logistical support.",
+      "evidence_quote": "déploiement de kits Starlink et appui au CTE de Rwampara (100 lits opérationnels).",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "CTE RWAMPARA",
+      "facility_type_raw": "CTE",
+      "site_kind": "treatment_centre",
+      "name_status": "named",
+      "place_raw": "RWAMPARA",
+      "health_zone": "",
+      "province": "Ituri",
+      "event": "mention_only",
+      "event_date": "",
+      "beds": "",
+      "status_note": "A guided visit was organized for religious leaders at the facility.",
+      "evidence_quote": "Clotûre de la formation de 40 leaders religieux de l’AS RWAMPARA sur la MVE et visite guidée au CTE RWAMPARA.",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "CS FEDI",
+      "facility_type_raw": "CS",
+      "site_kind": "hospital_isolation",
+      "name_status": "named",
+      "place_raw": "Mangobo",
+      "health_zone": "",
+      "province": "Tshopo",
+      "event": "operating",
+      "event_date": "",
+      "beds": "",
+      "status_note": "Two contacts are receiving experimental treatment on day 8 at the facility.",
+      "evidence_quote": "Poursuite du traitement expérimental de 2 contacts (J8) au CS FEDI de Mangobo.",
+      "confidence": "high"
+    }
+  ]
+}

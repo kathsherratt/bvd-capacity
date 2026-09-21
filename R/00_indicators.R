@@ -44,7 +44,9 @@ norm_label <- function(x) {
 }
 
 fold <- function(x) {
-    x <- iconv(x, "UTF-8", "ASCII//TRANSLIT")
+    # sub matters: without it iconv returns NA for the whole label as soon as
+    # one character has no transliteration, and a label folds to nothing.
+    x <- iconv(x, "UTF-8", "ASCII//TRANSLIT", sub = " ")
     x <- gsub("[`'^~\"]", "", x, perl = TRUE)
     gsub("[^a-z0-9 ]", " ", tolower(x), perl = TRUE) |> trimws()
 }

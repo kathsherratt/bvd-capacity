@@ -1,0 +1,796 @@
+facility_raw,name_key,place_key,site_kind,facility_id,reviewed,note
+CS Boikene,cs boikene,boikene,isolation_centre,ci-cs-boikene,FALSE,added automatically 2026-09-21
+CS Lengabo,cs lengabo,lengabo,isolation_centre,ci-cs-lengabo,FALSE,added automatically 2026-09-21
+CS Makabo,cs makabo,makabo,isolation_centre,ci-cs-makabo,FALSE,added automatically 2026-09-21
+CS SHARI,cs shari,shari,isolation_centre,ci-cs-shari,FALSE,added automatically 2026-09-21
+CS Shari,cs shari,shari,isolation_centre,ci-cs-shari,FALSE,added automatically 2026-09-21
+bâtiment d'isolement de l’HGR-Bunia,hgr bunia,bunia,isolation_centre,ci-hgr-bunia,FALSE,added automatically 2026-09-21
+centre d’isolement de l’HGR d’Isiro,hgr isiro,isiro,isolation_centre,ci-hgr-isiro,FALSE,added automatically 2026-09-21
+centre d'isolement à l'HGR de Musienene,hgr musienene,musienene,isolation_centre,ci-hgr-musienene,FALSE,added automatically 2026-09-21
+salle d'isolement à l'HGR/Rwampara,hgr rwampara,rwampara,isolation_centre,ci-hgr-rwampara,FALSE,added automatically 2026-09-21
+isolement de l'HGR Vuhovi,isolement hgr vuhovi,vuhovi,isolation_centre,ci-isolement-hgr-vuhovi,FALSE,added automatically 2026-09-21
+isolement de Madula,isolement madula,madula,isolation_centre,ci-isolement-madula,FALSE,added automatically 2026-09-21
+isolement de Musienene,isolement musienene,musienene,isolation_centre,ci-isolement-musienene,FALSE,added automatically 2026-09-21
+isolement de la ZS de Katana,isolement zs katana,katana,isolation_centre,ci-isolement-zs-katana,FALSE,added automatically 2026-09-21
+isolement de la ZS de Katana (FOMULAC),isolement zs katana fomulac,katana,isolation_centre,ci-isolement-zs-katana-fomulac,FALSE,added automatically 2026-09-21
+l’isolement de la ZS de Katana (FOMULAC),isolement zs katana fomulac,katana,isolation_centre,ci-isolement-zs-katana-fomulac,FALSE,added automatically 2026-09-21
+isolements de l'HGR de Beni,isolements hgr beni,beni,isolation_centre,ci-isolements-hgr-beni,FALSE,added automatically 2026-09-21
+isolements (KONGA KONGA),isolements konga konga,konga konga,isolation_centre,ci-isolements-konga-konga,FALSE,added automatically 2026-09-21
+isolements de Madula,isolements madula,madula,isolation_centre,ci-isolements-madula,FALSE,added automatically 2026-09-21
+Kabondo,kabondo,kabondo,isolation_centre,ci-kabondo,FALSE,added automatically 2026-09-21
+chantier d’isolement de Kabondo,kabondo,kabondo,isolation_centre,ci-kabondo,FALSE,added automatically 2026-09-21
+unités d’isolement de Kabondo,kabondo,kabondo,isolation_centre,ci-kabondo,FALSE,added automatically 2026-09-21
+Konga-Konga,konga konga,konga konga,isolation_centre,ci-konga-konga,FALSE,added automatically 2026-09-21
+sites d’isolement de Kongakonga,kongakonga,kongakonga,isolation_centre,ci-kongakonga,FALSE,added automatically 2026-09-21
+Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
+chantier d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
+site d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
+sites d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
+unités d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
+bloc d'isolement de Nyankunde,nyankunde,nyankunde,isolation_centre,ci-nyankunde,FALSE,added automatically 2026-09-21
+bloc d'isolement de Rwampara,rwampara,rwampara,isolation_centre,ci-rwampara,FALSE,added automatically 2026-09-21
+sites de Lita,sites lita,lita,isolation_centre,ci-sites-lita,FALSE,added automatically 2026-09-21
+sites de Logo,sites logo,logo,isolation_centre,ci-sites-logo,FALSE,added automatically 2026-09-21
+sites de Mambasa,sites mambasa,mambasa,isolation_centre,ci-sites-mambasa,FALSE,added automatically 2026-09-21
+sites de Nizi,sites nizi,nizi,isolation_centre,ci-sites-nizi,FALSE,added automatically 2026-09-21
+centre d’isolement transitoire de Wamba,transitoire wamba,wamba,isolation_centre,ci-transitoire-wamba,FALSE,added automatically 2026-09-21
+1CT SOTA,1ct sota,sota,transit_centre,ct-1ct-sota,FALSE,added automatically 2026-09-21
+CT BAMBU,bambu,bambu,transit_centre,ct-bambu,FALSE,added automatically 2026-09-21
+CT Bambu,bambu,bambu,transit_centre,ct-bambu,FALSE,added automatically 2026-09-21
+CT de Bambu,bambu,bambu,transit_centre,ct-bambu,FALSE,added automatically 2026-09-21
+Beni,beni,beni,transit_centre,ct-beni,FALSE,added automatically 2026-09-21
+CT de Beni,beni,beni,transit_centre,ct-beni,FALSE,added automatically 2026-09-21
+CT Bunia,bunia,bunia,transit_centre,ct-bunia,FALSE,added automatically 2026-09-21
+CT du camp de déplacés de Kingoze,camp deplaces kingoze,kingoze,transit_centre,ct-camp-deplaces-kingoze,FALSE,added automatically 2026-09-21
+CT du camp de Kingozi,camp kingozi,camp kingozi,transit_centre,ct-camp-kingozi,FALSE,added automatically 2026-09-21
+CTEM,ctem,ctem,transit_centre,ct-ctem,FALSE,added automatically 2026-09-21
+CUB,cub,cub,transit_centre,ct-cub,FALSE,added automatically 2026-09-21
+CT Elikia,elikia,elikia,transit_centre,ct-elikia,FALSE,added automatically 2026-09-21
+CT Fataki,fataki,fataki,transit_centre,ct-fataki,FALSE,added automatically 2026-09-21
+FOMULAC,fomulac,fomulac,transit_centre,ct-fomulac,FALSE,added automatically 2026-09-21
+CT de l'HC Kisangani,hc kisangani,kisangani,transit_centre,ct-hc-kisangani,FALSE,added automatically 2026-09-21
+CT HEAL AFRICA,heal africa,heal africa,transit_centre,ct-heal-africa,FALSE,added automatically 2026-09-21
+Heal Africa,heal africa,heal africa,transit_centre,ct-heal-africa,FALSE,added automatically 2026-09-21
+CT de l’HGR de Beni,hgr beni,beni,transit_centre,ct-hgr-beni,FALSE,added automatically 2026-09-21
+CT HGR Bunia,hgr bunia,bunia,transit_centre,ct-hgr-bunia,FALSE,added automatically 2026-09-21
+HGR de Buta,hgr buta,buta,transit_centre,ct-hgr-buta,FALSE,added automatically 2026-09-21
+centre de transit à l’HGR de Buta,hgr buta,buta,transit_centre,ct-hgr-buta,FALSE,added automatically 2026-09-21
+HGR Kilo,hgr kilo,kilo,transit_centre,ct-hgr-kilo,FALSE,added automatically 2026-09-21
+CT de l’HGR Makiso-Kisangani,hgr makiso kisangani,makiso kisangani,transit_centre,ct-hgr-makiso-kisangani,FALSE,added automatically 2026-09-21
+centre de transit de l'HGR Makiso-Kisangani,hgr makiso kisangani,makiso kisangani,transit_centre,ct-hgr-makiso-kisangani,FALSE,added automatically 2026-09-21
+CT de l'HGR Musienene,hgr musienene,musienene,transit_centre,ct-hgr-musienene,FALSE,added automatically 2026-09-21
+CT de l’HGR de Musienene,hgr musienene,musienene,transit_centre,ct-hgr-musienene,FALSE,added automatically 2026-09-21
+CT HGR Nia-Nia,hgr nia nia,nia nia,transit_centre,ct-hgr-nia-nia,FALSE,added automatically 2026-09-21
+CT de l’HGR Oicha,hgr oicha,oicha,transit_centre,ct-hgr-oicha,FALSE,added automatically 2026-09-21
+CT Kanzuli,kanzuli,kanzuli,transit_centre,ct-kanzuli,FALSE,added automatically 2026-09-21
+CT Kigonze,kigonze,kigonze,transit_centre,ct-kigonze,FALSE,added automatically 2026-09-21
+CT de Kigonze,kigonze,kigonze,transit_centre,ct-kigonze,FALSE,added automatically 2026-09-21
+centre de transit de Limba,limba,limba,transit_centre,ct-limba,FALSE,added automatically 2026-09-21
+CT Logo,logo,logo,transit_centre,ct-logo,FALSE,added automatically 2026-09-21
+CT de Lolwa,lolwa,lolwa,transit_centre,ct-lolwa,FALSE,added automatically 2026-09-21
+CT de Lwiro,lwiro,lwiro,transit_centre,ct-lwiro,FALSE,added automatically 2026-09-21
+CT de Mangala,mangala,mangala,transit_centre,ct-mangala,FALSE,added automatically 2026-09-21
+CT de Matanda,matanda,matanda,transit_centre,ct-matanda,FALSE,added automatically 2026-09-21
+CT de Mayogo,mayogo,mayogo,transit_centre,ct-mayogo,FALSE,added automatically 2026-09-21
+CT Mpox,mpox,mpox,transit_centre,ct-mpox,FALSE,added automatically 2026-09-21
+CT Musienene,musienene,musienene,transit_centre,ct-musienene,FALSE,added automatically 2026-09-21
+CT de Musienene,musienene,musienene,transit_centre,ct-musienene,FALSE,added automatically 2026-09-21
+CT de Nia-Nia,nia nia,nia nia,transit_centre,ct-nia-nia,FALSE,added automatically 2026-09-21
+CT Nizi,nizi,nizi,transit_centre,ct-nizi,FALSE,added automatically 2026-09-21
+Nyangezi,nyangezi,nyangezi,transit_centre,ct-nyangezi,FALSE,added automatically 2026-09-21
+CT OICHA,oicha,oicha,transit_centre,ct-oicha,FALSE,added automatically 2026-09-21
+CT d’Oicha,oicha,oicha,transit_centre,ct-oicha,FALSE,added automatically 2026-09-21
+CT de Rwampara,rwampara,rwampara,transit_centre,ct-rwampara,FALSE,added automatically 2026-09-21
+CT SOTA,sota,sota,transit_centre,ct-sota,FALSE,added automatically 2026-09-21
+CT Sota,sota,sota,transit_centre,ct-sota,FALSE,added automatically 2026-09-21
+centre de transit de l'UOB,uob,uob,transit_centre,ct-uob,FALSE,added automatically 2026-09-21
+CT de Vuhovi,vuhovi,vuhovi,transit_centre,ct-vuhovi,FALSE,added automatically 2026-09-21
+Aru,aru,aru,treatment_centre,cte-aru,FALSE,added automatically 2026-09-21
+CTE Aru,aru,aru,treatment_centre,cte-aru,FALSE,added automatically 2026-09-21
+CTE d'Aru,aru,aru,treatment_centre,cte-aru,FALSE,added automatically 2026-09-21
+d’Aru,aru,aru,treatment_centre,cte-aru,FALSE,added automatically 2026-09-21
+Bafwasende,bafwasende,bafwasende,treatment_centre,cte-bafwasende,FALSE,added automatically 2026-09-21
+CTE de Bafwasende,bafwasende,bafwasende,treatment_centre,cte-bafwasende,FALSE,added automatically 2026-09-21
+Bambu,bambu,bambu,treatment_centre,cte-bambu,FALSE,added automatically 2026-09-21
+CTE de Bambu,bambu,bambu,treatment_centre,cte-bambu,FALSE,added automatically 2026-09-21
+CTE Beni,beni,beni,treatment_centre,cte-beni,FALSE,added automatically 2026-09-21
+CTE de Beni,beni,beni,treatment_centre,cte-beni,FALSE,added automatically 2026-09-21
+CTE-Beni,beni,beni,treatment_centre,cte-beni,FALSE,added automatically 2026-09-21
+CTE de Boma Mangbetu,boma mangbetu,boma mangbetu,treatment_centre,cte-boma-mangbetu,FALSE,added automatically 2026-09-21
+Bunia,bunia,bunia,treatment_centre,cte-bunia,FALSE,added automatically 2026-09-21
+CTE Bunia,bunia,bunia,treatment_centre,cte-bunia,FALSE,added automatically 2026-09-21
+CTE de Bunia,bunia,bunia,treatment_centre,cte-bunia,FALSE,added automatically 2026-09-21
+CTE de Buta,buta,buta,treatment_centre,cte-buta,FALSE,added automatically 2026-09-21
+CTE provisoire de Buta,buta,buta,treatment_centre,cte-buta,FALSE,added automatically 2026-09-21
+CTE Butembo,butembo,butembo,treatment_centre,cte-butembo,FALSE,added automatically 2026-09-21
+CTE/CT de Butembo,butembo,butembo,treatment_centre,cte-butembo,FALSE,added automatically 2026-09-21
+celui d’Isiro,celui isiro,isiro,treatment_centre,cte-celui-isiro,FALSE,added automatically 2026-09-21
+CTE Cinquantenaire,cinquantenaire,cinquantenaire,treatment_centre,cte-cinquantenaire,FALSE,added automatically 2026-09-21
+CTE du Cinquantenaire,cinquantenaire,cinquantenaire,treatment_centre,cte-cinquantenaire,FALSE,added automatically 2026-09-21
+CME,cme,"",treatment_centre,cte-cme,FALSE,added automatically 2026-09-21
+CTC CME,cme,"",treatment_centre,cte-cme,FALSE,added automatically 2026-09-21
+CTE CME,cme,rwampara,treatment_centre,cte-cme,FALSE,added automatically 2026-09-21
+CTE du CME,cme,"",treatment_centre,cte-cme,FALSE,added automatically 2026-09-21
+CME BUNIA,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CME Bunia,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CTE CME Bunia,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CTE CME de Bunia,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CTE CME/Bunia,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CTE au CME Bunia,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CTE/CME-BUNIA,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CTE/CME-Bunia,cme bunia,bunia,treatment_centre,cte-cme-bunia,FALSE,added automatically 2026-09-21
+CTE CME Nyankunde,cme nyankunde,nyankunde,treatment_centre,cte-cme-nyankunde,FALSE,added automatically 2026-09-21
+CTE/CME Nyankunde,cme nyankunde,nyankunde,treatment_centre,cte-cme-nyankunde,FALSE,added automatically 2026-09-21
+CTE CME de Rwampara,cme rwampara,rwampara,treatment_centre,cte-cme-rwampara,FALSE,added automatically 2026-09-21
+CTE normé CME Rwampara,cme rwampara,rwampara,treatment_centre,cte-cme-rwampara,FALSE,added automatically 2026-09-21
+Centre de Traitement Ebola (CTE) normé de CME Rwampara,cme rwampara,rwampara,treatment_centre,cte-cme-rwampara,FALSE,added automatically 2026-09-21
+CTH d’Isiro,cth isiro,isiro,treatment_centre,cte-cth-isiro,FALSE,added automatically 2026-09-21
+CTM,ctm,ctm,treatment_centre,cte-ctm,FALSE,added automatically 2026-09-21
+CTMI,ctmi,ctmi,treatment_centre,cte-ctmi,FALSE,added automatically 2026-09-21
+CTE ELIKYA,elikya,elikya,treatment_centre,cte-elikya,FALSE,added automatically 2026-09-21
+CTE Elikya,elikya,elikya,treatment_centre,cte-elikya,FALSE,added automatically 2026-09-21
+centre de traitement Elikya,elikya,elikya,treatment_centre,cte-elikya,FALSE,added automatically 2026-09-21
+CTE Elikya/Bunia,elikya bunia,bunia,treatment_centre,cte-elikya-bunia,FALSE,added automatically 2026-09-21
+CTE Elikya/ZS Bunia,elikya zs bunia,bunia,treatment_centre,cte-elikya-zs-bunia,FALSE,added automatically 2026-09-21
+CTE Elykia,elykia,bunia,treatment_centre,cte-elykia,FALSE,added automatically 2026-09-21
+Elykia,elykia,elykia,treatment_centre,cte-elykia,FALSE,added automatically 2026-09-21
+CTE Fataki,fataki,fataki,treatment_centre,cte-fataki,FALSE,added automatically 2026-09-21
+CTE de Fataki,fataki,fataki,treatment_centre,cte-fataki,FALSE,added automatically 2026-09-21
+Fataki,fataki,fataki,treatment_centre,cte-fataki,FALSE,added automatically 2026-09-21
+CTE de Foner Mambasa,foner mambasa,foner mambasa,treatment_centre,cte-foner-mambasa,FALSE,added automatically 2026-09-21
+Gombari,gombari,gombari,treatment_centre,cte-gombari,FALSE,added automatically 2026-09-21
+CTE HC Kisangani,hc kisangani,kisangani,treatment_centre,cte-hc-kisangani,FALSE,added automatically 2026-09-21
+CTE HC de Kisangani,hc kisangani,kisangani,treatment_centre,cte-hc-kisangani,FALSE,added automatically 2026-09-21
+CTE de l'HC Kisangani,hc kisangani,kisangani,treatment_centre,cte-hc-kisangani,FALSE,added automatically 2026-09-21
+CTE HCKIS,hckis,hckis,treatment_centre,cte-hckis,FALSE,added automatically 2026-09-21
+CTE HCKis,hckis,hckis,treatment_centre,cte-hckis,FALSE,added automatically 2026-09-21
+CTE HGR/Aru,hgr aru,aru,treatment_centre,cte-hgr-aru,FALSE,added automatically 2026-09-21
+CTE de l'HGR Beni,hgr beni,beni,treatment_centre,cte-hgr-beni,FALSE,added automatically 2026-09-21
+CTE de l'HGR de Beni,hgr beni,beni,treatment_centre,cte-hgr-beni,FALSE,added automatically 2026-09-21
+CTE de l’HGR de Beni,hgr beni,beni,treatment_centre,cte-hgr-beni,FALSE,added automatically 2026-09-21
+CTE HGR Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE HGR/Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE au HGR Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE de l'HGR de Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE de l’HGR Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE de l’HGR de Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE à l’HGR BUNIA,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE à l’HGR Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE à l’HGR/Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+"CTE, l’HGR Bunia",hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE/HGR Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+HGR/Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+l’HGR Bunia,hgr bunia,bunia,treatment_centre,cte-hgr-bunia,FALSE,added automatically 2026-09-21
+CTE de l’HGR d’Isiro,hgr isiro,isiro,treatment_centre,cte-hgr-isiro,FALSE,added automatically 2026-09-21
+CTE à l’HGR Katwa,hgr katwa,katwa,treatment_centre,cte-hgr-katwa,FALSE,added automatically 2026-09-21
+HGR Katwa,hgr katwa,katwa,treatment_centre,cte-hgr-katwa,FALSE,added automatically 2026-09-21
+HGR de Katwa,hgr katwa,katwa,treatment_centre,cte-hgr-katwa,FALSE,added automatically 2026-09-21
+CTE de l’HGR Mongbwalu,hgr mongbwalu,mongbwalu,treatment_centre,cte-hgr-mongbwalu,FALSE,added automatically 2026-09-21
+CTE HGR de Nizi,hgr nizi,nizi,treatment_centre,cte-hgr-nizi,FALSE,added automatically 2026-09-21
+HGR NIZI,hgr nizi,nizi,treatment_centre,cte-hgr-nizi,FALSE,added automatically 2026-09-21
+HGR Nizi,hgr nizi,nizi,treatment_centre,cte-hgr-nizi,FALSE,added automatically 2026-09-21
+CTE HGR Nyankunde,hgr nyankunde,nyankunde,treatment_centre,cte-hgr-nyankunde,FALSE,added automatically 2026-09-21
+CTE HGR/Nyankunde,hgr nyankunde,nyankunde,treatment_centre,cte-hgr-nyankunde,FALSE,added automatically 2026-09-21
+CTE HGR/Rwampara,hgr rwampara,rwampara,treatment_centre,cte-hgr-rwampara,FALSE,added automatically 2026-09-21
+CTE au HGR Rwampara,hgr rwampara,rwampara,treatment_centre,cte-hgr-rwampara,FALSE,added automatically 2026-09-21
+HGR Rwampara (CTE),hgr rwampara,rwampara,treatment_centre,cte-hgr-rwampara,FALSE,added automatically 2026-09-21
+CTE de l’hôpital Matanda,hopital matanda,matanda,treatment_centre,cte-hopital-matanda,FALSE,added automatically 2026-09-21
+CT/CTE d'Isiro,isiro,isiro,treatment_centre,cte-isiro,FALSE,added automatically 2026-09-21
+CTE d'Isiro,isiro,isiro,treatment_centre,cte-isiro,FALSE,added automatically 2026-09-21
+CTE d’Isiro,isiro,isiro,treatment_centre,cte-isiro,FALSE,added automatically 2026-09-21
+Isiro,isiro,isiro,treatment_centre,cte-isiro,FALSE,added automatically 2026-09-21
+CTE IST Nyankunde,ist nyankunde,nyankunde,treatment_centre,cte-ist-nyankunde,FALSE,added automatically 2026-09-21
+CTE ISTE,iste,iste,treatment_centre,cte-iste,FALSE,added automatically 2026-09-21
+CTE ISTM,istm,"",treatment_centre,cte-istm,FALSE,added automatically 2026-09-21
+CTE de ISTM,istm,"",treatment_centre,cte-istm,FALSE,added automatically 2026-09-21
+ISTM,istm,"",treatment_centre,cte-istm,FALSE,added automatically 2026-09-21
+ISTM/Nyakunde,istm nyakunde,nyakunde,treatment_centre,cte-istm-nyakunde,FALSE,added automatically 2026-09-21
+CTE ISTM Nyankunde,istm nyankunde,nyankunde,treatment_centre,cte-istm-nyankunde,FALSE,added automatically 2026-09-21
+CTE ISTM/Nyankunde,istm nyankunde,nyankunde,treatment_centre,cte-istm-nyankunde,FALSE,added automatically 2026-09-21
+ISTM Nyankunde,istm nyankunde,nyankunde,treatment_centre,cte-istm-nyankunde,FALSE,added automatically 2026-09-21
+ISTM/Nyankunde,istm nyankunde,nyankunde,treatment_centre,cte-istm-nyankunde,FALSE,added automatically 2026-09-21
+CTE de L'ISTM NYANKUNDE A BUNIA,istm nyankunde bunia,bunia,treatment_centre,cte-istm-nyankunde-bunia,FALSE,added automatically 2026-09-21
+CTE ISTM/ZS Rwampara,istm zs rwampara,rwampara,treatment_centre,cte-istm-zs-rwampara,FALSE,added automatically 2026-09-21
+CTE de l'ITAV,itav,itav,treatment_centre,cte-itav,FALSE,added automatically 2026-09-21
+CTE à l’ITAV,itav,itav,treatment_centre,cte-itav,FALSE,added automatically 2026-09-21
+CTE de Juhudi,juhudi,juhudi,treatment_centre,cte-juhudi,FALSE,added automatically 2026-09-21
+CTE Kalunguta,kalunguta,kalunguta,treatment_centre,cte-kalunguta,FALSE,added automatically 2026-09-21
+CTE de Kasenyi,kasenyi,kasenyi,treatment_centre,cte-kasenyi,FALSE,added automatically 2026-09-21
+CTE Katwa,katwa,katwa,treatment_centre,cte-katwa,FALSE,added automatically 2026-09-21
+CTE de Katwa,katwa,katwa,treatment_centre,cte-katwa,FALSE,added automatically 2026-09-21
+CTE en construction à Katwa,katwa,katwa,treatment_centre,cte-katwa,FALSE,added automatically 2026-09-21
+CTE à Katwa,katwa,katwa,treatment_centre,cte-katwa,FALSE,added automatically 2026-09-21
+Katwa,katwa,katwa,treatment_centre,cte-katwa,FALSE,added automatically 2026-09-21
+CTE de Kigonze,kigonze,kigonze,treatment_centre,cte-kigonze,FALSE,added automatically 2026-09-21
+Kigonze,kigonze,kigonze,treatment_centre,cte-kigonze,FALSE,added automatically 2026-09-21
+CTE de Kilo,kilo,kilo,treatment_centre,cte-kilo,FALSE,added automatically 2026-09-21
+Kilo,kilo,kilo,treatment_centre,cte-kilo,FALSE,added automatically 2026-09-21
+CTE Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,FALSE,added automatically 2026-09-21
+CTE de Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,FALSE,added automatically 2026-09-21
+CTE Komanda,komanda,komanda,treatment_centre,cte-komanda,FALSE,added automatically 2026-09-21
+CTE de Komanda,komanda,komanda,treatment_centre,cte-komanda,FALSE,added automatically 2026-09-21
+Komanda,komanda,komanda,treatment_centre,cte-komanda,FALSE,added automatically 2026-09-21
+CTE Lita,lita,lita,treatment_centre,cte-lita,FALSE,added automatically 2026-09-21
+CTE de Lita,lita,lita,treatment_centre,cte-lita,FALSE,added automatically 2026-09-21
+LITA,lita,lita,treatment_centre,cte-lita,FALSE,added automatically 2026-09-21
+Lita,lita,lita,treatment_centre,cte-lita,FALSE,added automatically 2026-09-21
+CTE de Logo,logo,logo,treatment_centre,cte-logo,FALSE,added automatically 2026-09-21
+Logo,logo,logo,treatment_centre,cte-logo,FALSE,added automatically 2026-09-21
+Lolwa,lolwa,lolwa,treatment_centre,cte-lolwa,FALSE,added automatically 2026-09-21
+CTE LWIRO,lwiro,lwiro,treatment_centre,cte-lwiro,FALSE,added automatically 2026-09-21
+CTE Lwiro,lwiro,lwiro,treatment_centre,cte-lwiro,FALSE,added automatically 2026-09-21
+CTE de Lwiro,lwiro,lwiro,treatment_centre,cte-lwiro,FALSE,added automatically 2026-09-21
+CTE/CT de Mambasa,mambasa,mambasa,treatment_centre,cte-mambasa,FALSE,added automatically 2026-09-21
+Mambasa,mambasa,mambasa,treatment_centre,cte-mambasa,FALSE,added automatically 2026-09-21
+Mambasa Lolwa,mambasa lolwa,mambasa lolwa,treatment_centre,cte-mambasa-lolwa,FALSE,added automatically 2026-09-21
+CTE/CT de Mandima,mandima,mandima,treatment_centre,cte-mandima,FALSE,added automatically 2026-09-21
+Mandima,mandima,mandima,treatment_centre,cte-mandima,FALSE,added automatically 2026-09-21
+CTE de Mangala,mangala,mangala,treatment_centre,cte-mangala,FALSE,added automatically 2026-09-21
+Mangala,mangala,mangala,treatment_centre,cte-mangala,FALSE,added automatically 2026-09-21
+CTE MATANDA,matanda,matanda,treatment_centre,cte-matanda,FALSE,added automatically 2026-09-21
+CTE de Matanda,matanda,matanda,treatment_centre,cte-matanda,FALSE,added automatically 2026-09-21
+CTE Météo,meteo,meteo,treatment_centre,cte-meteo,FALSE,added automatically 2026-09-21
+CTE de Météo,meteo,meteo,treatment_centre,cte-meteo,FALSE,added automatically 2026-09-21
+CTE Mongbwalu,mongbwalu,mongbwalu,treatment_centre,cte-mongbwalu,FALSE,added automatically 2026-09-21
+CTE de Mongbwalu,mongbwalu,mongbwalu,treatment_centre,cte-mongbwalu,FALSE,added automatically 2026-09-21
+CTE à Mongbwalu,mongbwalu,mongbwalu,treatment_centre,cte-mongbwalu,FALSE,added automatically 2026-09-21
+Mongbwalu,mongbwalu,mongbwalu,treatment_centre,cte-mongbwalu,FALSE,added automatically 2026-09-21
+CTE Mongwalu,mongwalu,mongwalu,treatment_centre,cte-mongwalu,FALSE,added automatically 2026-09-21
+CTE Munigi,munigi,munigi,treatment_centre,cte-munigi,FALSE,added automatically 2026-09-21
+CTE de Musienene,musienene,musienene,treatment_centre,cte-musienene,FALSE,added automatically 2026-09-21
+futur centre de traitement de Musienene,musienene,musienene,treatment_centre,cte-musienene,FALSE,added automatically 2026-09-21
+CTE de Nia Nia,nia nia,nia nia,treatment_centre,cte-nia-nia,FALSE,added automatically 2026-09-21
+CTE de Nia-Nia,nia nia,nia nia,treatment_centre,cte-nia-nia,FALSE,added automatically 2026-09-21
+Nia-Nia,nia nia,nia nia,treatment_centre,cte-nia-nia,FALSE,added automatically 2026-09-21
+CTE Nizi,nizi,nizi,treatment_centre,cte-nizi,FALSE,added automatically 2026-09-21
+CTE de Nizi,nizi,nizi,treatment_centre,cte-nizi,FALSE,added automatically 2026-09-21
+CTE/CT de Nizi,nizi,nizi,treatment_centre,cte-nizi,FALSE,added automatically 2026-09-21
+Nizi,nizi,nizi,treatment_centre,cte-nizi,FALSE,added automatically 2026-09-21
+CTE Nyakunde,nyakunde,nyakunde,treatment_centre,cte-nyakunde,FALSE,added automatically 2026-09-21
+CTE Nyankunde,nyankunde,nyankunde,treatment_centre,cte-nyankunde,FALSE,added automatically 2026-09-21
+CTE de Nyankunde,nyankunde,nyankunde,treatment_centre,cte-nyankunde,FALSE,added automatically 2026-09-21
+Nyankunde,nyankunde,nyankunde,treatment_centre,cte-nyankunde,FALSE,added automatically 2026-09-21
+CTE d'Oicha,oicha,oicha,treatment_centre,cte-oicha,FALSE,added automatically 2026-09-21
+CTE de Pawa,pawa,pawa,treatment_centre,cte-pawa,FALSE,added automatically 2026-09-21
+Rungu,rungu,rungu,treatment_centre,cte-rungu,FALSE,added automatically 2026-09-21
+CTE RWAMPARA,rwampara,rwampara,treatment_centre,cte-rwampara,FALSE,added automatically 2026-09-21
+CTE Rwampara,rwampara,rwampara,treatment_centre,cte-rwampara,FALSE,added automatically 2026-09-21
+CTE de Rwampara,rwampara,rwampara,treatment_centre,cte-rwampara,FALSE,added automatically 2026-09-21
+Centre de Traitement Ebola (CTE) de la zone de santé de Rwampara,rwampara,rwampara,treatment_centre,cte-rwampara,FALSE,added automatically 2026-09-21
+Rwampara,rwampara,rwampara,treatment_centre,cte-rwampara,FALSE,added automatically 2026-09-21
+CTE Rwankole,rwankole,rwankole,treatment_centre,cte-rwankole,FALSE,added automatically 2026-09-21
+CTE de Rwankole,rwankole,rwankole,treatment_centre,cte-rwankole,FALSE,added automatically 2026-09-21
+Rwankole,rwankole,rwankole,treatment_centre,cte-rwankole,FALSE,added automatically 2026-09-21
+CTE normé de Simisimi,simisimi,simisimi,treatment_centre,cte-simisimi,FALSE,added automatically 2026-09-21
+CTE Sota,sota,sota,treatment_centre,cte-sota,FALSE,added automatically 2026-09-21
+CTE de Sota,sota,sota,treatment_centre,cte-sota,FALSE,added automatically 2026-09-21
+CTE Tuluba,tuluba,tuluba,treatment_centre,cte-tuluba,FALSE,added automatically 2026-09-21
+CTE Wamba,wamba,wamba,treatment_centre,cte-wamba,FALSE,added automatically 2026-09-21
+CTE de Wamba,wamba,wamba,treatment_centre,cte-wamba,FALSE,added automatically 2026-09-21
+Wamba,wamba,wamba,treatment_centre,cte-wamba,FALSE,added automatically 2026-09-21
+Watsa,watsa,watsa,treatment_centre,cte-watsa,FALSE,added automatically 2026-09-21
+Bundji (IMC),bundji imc,bundji,hospital_isolation,hosp-bundji-imc,FALSE,added automatically 2026-09-21
+BUNIA CH ELIKYA,bunia ch elikya,bunia,hospital_isolation,hosp-bunia-ch-elikya,FALSE,added automatically 2026-09-21
+BUNIA Clibnique Bénedicte,bunia clibnique benedicte,bunia,hospital_isolation,hosp-bunia-clibnique-benedicte,FALSE,added automatically 2026-09-21
+BUNIA HGR,bunia hgr,bunia,hospital_isolation,hosp-bunia-hgr,FALSE,added automatically 2026-09-21
+BUNIA RWAOLE,bunia rwaole,bunia,hospital_isolation,hosp-bunia-rwaole,FALSE,added automatically 2026-09-21
+BUNIA SOFEPADI,bunia sofepadi,bunia,hospital_isolation,hosp-bunia-sofepadi,FALSE,added automatically 2026-09-21
+C.H Vukaka,c h vukaka,vukaka,hospital_isolation,hosp-c-h-vukaka,FALSE,added automatically 2026-09-21
+centre hospitalier de la PNC,centre hospitalier pnc,pnc,hospital_isolation,hosp-centre-hospitalier-pnc,FALSE,added automatically 2026-09-21
+centre hospitalier de Tinge,centre hospitalier tinge,tinge,hospital_isolation,hosp-centre-hospitalier-tinge,FALSE,added automatically 2026-09-21
+Centre Médical Évangélique de Bunia,centre medical evangelique bunia,bunia,hospital_isolation,hosp-centre-medical-evangelique-bunia,FALSE,added automatically 2026-09-21
+Centre médical Evangélique de Rwampara,centre medical evangelique rwampara,rwampara,hospital_isolation,hosp-centre-medical-evangelique-rwampara,FALSE,added automatically 2026-09-21
+centre de santé de Kyambogho,centre sante kyambogho,kyambogho,hospital_isolation,hosp-centre-sante-kyambogho,FALSE,added automatically 2026-09-21
+CH CME,ch cme,"",hospital_isolation,hosp-ch-cme,FALSE,added automatically 2026-09-21
+CH ELIKYA,ch elikya,bunia,hospital_isolation,hosp-ch-elikya,FALSE,added automatically 2026-09-21
+CH Elikya,ch elikya,bunia,hospital_isolation,hosp-ch-elikya,FALSE,added automatically 2026-09-21
+CH Félicité,ch felicite,felicite,hospital_isolation,hosp-ch-felicite,FALSE,added automatically 2026-09-21
+CH La Joie,ch joie,joie,hospital_isolation,hosp-ch-joie,FALSE,added automatically 2026-09-21
+CH MUTIRI,ch mutiri,mutiri,hospital_isolation,hosp-ch-mutiri,FALSE,added automatically 2026-09-21
+CH Mutiri,ch mutiri,mutiri,hospital_isolation,hosp-ch-mutiri,FALSE,added automatically 2026-09-21
+CH LA PROVIDENCE,ch providence,bunia,hospital_isolation,hosp-ch-providence,FALSE,added automatically 2026-09-21
+CH SAINTE RITA,ch sainte rita,sainte rita,hospital_isolation,hosp-ch-sainte-rita,FALSE,added automatically 2026-09-21
+CH SALAMA,ch salama,salama,hospital_isolation,hosp-ch-salama,FALSE,added automatically 2026-09-21
+CH Salama,ch salama,salama,hospital_isolation,hosp-ch-salama,FALSE,added automatically 2026-09-21
+CH LA VERITE,ch verite,verite,hospital_isolation,hosp-ch-verite,FALSE,added automatically 2026-09-21
+CH La Vérité,ch verite,verite,hospital_isolation,hosp-ch-verite,FALSE,added automatically 2026-09-21
+CH La vérité,ch verite,verite,hospital_isolation,hosp-ch-verite,FALSE,added automatically 2026-09-21
+CH la VERITE,ch verite,verite,hospital_isolation,hosp-ch-verite,FALSE,added automatically 2026-09-21
+CITADELE,citadele,bunia,hospital_isolation,hosp-citadele,FALSE,added automatically 2026-09-21
+Clinique Bénedicte,clinique benedicte,bunia,hospital_isolation,hosp-clinique-benedicte,FALSE,added automatically 2026-09-21
+Clinique CITADELLE,clinique citadelle,bunia,hospital_isolation,hosp-clinique-citadelle,FALSE,added automatically 2026-09-21
+Clinique de l'Est,clinique est,est,hospital_isolation,hosp-clinique-est,FALSE,added automatically 2026-09-21
+Cliniques universitaires de Bukavu,cliniques universitaires bukavu,bukavu,hospital_isolation,hosp-cliniques-universitaires-bukavu,FALSE,added automatically 2026-09-21
+cliniques universitaires de l'Uélé,cliniques universitaires uele,s universitaires uele,hospital_isolation,hosp-cliniques-universitaires-uele,FALSE,added automatically 2026-09-21
+CM MATHYSEN,cm mathysen,bunia,hospital_isolation,hosp-cm-mathysen,FALSE,added automatically 2026-09-21
+CM LES MERITES,cm merites,bunia,hospital_isolation,hosp-cm-merites,FALSE,added automatically 2026-09-21
+CME de Bunia,cme bunia,bunia,hospital_isolation,hosp-cme-bunia,FALSE,added automatically 2026-09-21
+CME/BUNIA,cme bunia,bunia,hospital_isolation,hosp-cme-bunia,FALSE,added automatically 2026-09-21
+CME Nyankunde,cme nyankunde,nyankunde,hospital_isolation,hosp-cme-nyankunde,FALSE,added automatically 2026-09-21
+CME/Zs Rwampara,cme zs rwampara,rwampara,hospital_isolation,hosp-cme-zs-rwampara,FALSE,added automatically 2026-09-21
+CS Bundji,cs bundji,bundji,hospital_isolation,hosp-cs-bundji,FALSE,added automatically 2026-09-21
+CS Bunji,cs bunji,bunji,hospital_isolation,hosp-cs-bunji,FALSE,added automatically 2026-09-21
+CS FEDI,cs fedi,fedi,hospital_isolation,hosp-cs-fedi,FALSE,added automatically 2026-09-21
+CS Fedi,cs fedi,fedi,hospital_isolation,hosp-cs-fedi,FALSE,added automatically 2026-09-21
+CS FEDI de Mangobo,cs fedi mangobo,mangobo,hospital_isolation,hosp-cs-fedi-mangobo,FALSE,added automatically 2026-09-21
+CS Hoho,cs hoho,hoho,hospital_isolation,hosp-cs-hoho,FALSE,added automatically 2026-09-21
+CS hoho,cs hoho,hoho,hospital_isolation,hosp-cs-hoho,FALSE,added automatically 2026-09-21
+CS Kasindi,cs kasindi,kasindi,hospital_isolation,hosp-cs-kasindi,FALSE,added automatically 2026-09-21
+CS Makerere,cs makerere,makerere,hospital_isolation,hosp-cs-makerere,FALSE,added automatically 2026-09-21
+CSR Kyavonyonge,csr kyavonyonge,kyavonyonge,hospital_isolation,hosp-csr-kyavonyonge,FALSE,added automatically 2026-09-21
+CUG de Butembo,cug butembo,butembo,hospital_isolation,hosp-cug-butembo,FALSE,added automatically 2026-09-21
+dispensaire Maman Régine,dispensaire maman regine,lubunga,hospital_isolation,hosp-dispensaire-maman-regine,FALSE,added automatically 2026-09-21
+Elikya,elikya,elikya,hospital_isolation,hosp-elikya,FALSE,added automatically 2026-09-21
+Fomulac,fomulac,fomulac,hospital_isolation,hosp-fomulac,FALSE,added automatically 2026-09-21
+HCKis,hckis,kis,hospital_isolation,hosp-hckis,FALSE,added automatically 2026-09-21
+HGR ARU,hgr aru,aru,hospital_isolation,hosp-hgr-aru,FALSE,added automatically 2026-09-21
+HGR Aru,hgr aru,aru,hospital_isolation,hosp-hgr-aru,FALSE,added automatically 2026-09-21
+HGR BAMBU,hgr bambu,bambu,hospital_isolation,hosp-hgr-bambu,FALSE,added automatically 2026-09-21
+HGR Bambu,hgr bambu,bambu,hospital_isolation,hosp-hgr-bambu,FALSE,added automatically 2026-09-21
+HGR BUNIA,hgr bunia,bunia,hospital_isolation,hosp-hgr-bunia,FALSE,added automatically 2026-09-21
+HGR Bunia,hgr bunia,bunia,hospital_isolation,hosp-hgr-bunia,FALSE,added automatically 2026-09-21
+HGR de Bunia,hgr bunia,bunia,hospital_isolation,hosp-hgr-bunia,FALSE,added automatically 2026-09-21
+l’HGR de Bunia,hgr bunia,bunia,hospital_isolation,hosp-hgr-bunia,FALSE,added automatically 2026-09-21
+HGR FOMULAC KATANA,hgr fomulac katana,katana,hospital_isolation,hosp-hgr-fomulac-katana,FALSE,added automatically 2026-09-21
+HGR FOMULAC Katana,hgr fomulac katana,katana,hospital_isolation,hosp-hgr-fomulac-katana,FALSE,added automatically 2026-09-21
+HGR Ganga,hgr ganga,ganga,hospital_isolation,hosp-hgr-ganga,FALSE,added automatically 2026-09-21
+HGR de Ganga,hgr ganga,ganga,hospital_isolation,hosp-hgr-ganga,FALSE,added automatically 2026-09-21
+HGR KATANA,hgr katana,katana,hospital_isolation,hosp-hgr-katana,FALSE,added automatically 2026-09-21
+HGR Katana,hgr katana,katana,hospital_isolation,hosp-hgr-katana,FALSE,added automatically 2026-09-21
+HGR KITATUMBA,hgr kitatumba,kitatumba,hospital_isolation,hosp-hgr-kitatumba,FALSE,added automatically 2026-09-21
+HGR Kitatumba,hgr kitatumba,kitatumba,hospital_isolation,hosp-hgr-kitatumba,FALSE,added automatically 2026-09-21
+HGR Mabalako,hgr mabalako,mabalako,hospital_isolation,hosp-hgr-mabalako,FALSE,added automatically 2026-09-21
+HGR Mambasa,hgr mambasa,mambasa,hospital_isolation,hosp-hgr-mambasa,FALSE,added automatically 2026-09-21
+HGR MONGBWALU,hgr mongbwalu,mongbwalu,hospital_isolation,hosp-hgr-mongbwalu,FALSE,added automatically 2026-09-21
+HGR Mongbwalu,hgr mongbwalu,mongbwalu,hospital_isolation,hosp-hgr-mongbwalu,FALSE,added automatically 2026-09-21
+HGR MUNGBWALU,hgr mungbwalu,mongbwalu,hospital_isolation,hosp-hgr-mungbwalu,FALSE,added automatically 2026-09-21
+HGR Mungbwalu,hgr mungbwalu,mungbwalu,hospital_isolation,hosp-hgr-mungbwalu,FALSE,added automatically 2026-09-21
+HGR MUSIENENE,hgr musienene,musienene,hospital_isolation,hosp-hgr-musienene,FALSE,added automatically 2026-09-21
+HGR de Nia-Nia,hgr nia nia,nia nia,hospital_isolation,hosp-hgr-nia-nia,FALSE,added automatically 2026-09-21
+HGR NYAKUNDE,hgr nyakunde,nyakunde,hospital_isolation,hosp-hgr-nyakunde,FALSE,added automatically 2026-09-21
+HGR Nyakunde,hgr nyakunde,nyakunde,hospital_isolation,hosp-hgr-nyakunde,FALSE,added automatically 2026-09-21
+HGR NYANKUNDE,hgr nyankunde,nyankunde,hospital_isolation,hosp-hgr-nyankunde,FALSE,added automatically 2026-09-21
+HGR Nyankunde,hgr nyankunde,nyankunde,hospital_isolation,hosp-hgr-nyankunde,FALSE,added automatically 2026-09-21
+HGR Oicha,hgr oicha,oicha,hospital_isolation,hosp-hgr-oicha,FALSE,added automatically 2026-09-21
+HGR de Pawa,hgr pawa,pawa,hospital_isolation,hosp-hgr-pawa,FALSE,added automatically 2026-09-21
+HGR RWAMPARA,hgr rwampara,rwampara,hospital_isolation,hosp-hgr-rwampara,FALSE,added automatically 2026-09-21
+HGR Rwampara,hgr rwampara,rwampara,hospital_isolation,hosp-hgr-rwampara,FALSE,added automatically 2026-09-21
+HGR zone de santé de Rwampara,hgr rwampara,rwampara,hospital_isolation,hosp-hgr-rwampara,FALSE,added automatically 2026-09-21
+l’HGR Rwampara,hgr rwampara,rwampara,hospital_isolation,hosp-hgr-rwampara,FALSE,added automatically 2026-09-21
+HGR de Tchomia,hgr tchomia,tchomia,hospital_isolation,hosp-hgr-tchomia,FALSE,added automatically 2026-09-21
+HGR Vuhovi,hgr vuhovi,vuhovi,hospital_isolation,hosp-hgr-vuhovi,FALSE,added automatically 2026-09-21
+HGR de Vuhovi,hgr vuhovi,vuhovi,hospital_isolation,hosp-hgr-vuhovi,FALSE,added automatically 2026-09-21
+HGR de Wamba,hgr wamba,wamba,hospital_isolation,hosp-hgr-wamba,FALSE,added automatically 2026-09-21
+HGR de la ZS de Nyankunde,hgr zs nyankunde,nyankunde,hospital_isolation,hosp-hgr-zs-nyankunde,FALSE,added automatically 2026-09-21
+hopital Heal Africa,hopital heal africa,heal africa,hospital_isolation,hosp-hopital-heal-africa,FALSE,added automatically 2026-09-21
+Hôpital de Mambangu,hopital mambangu,mambangu,hospital_isolation,hosp-hopital-mambangu,FALSE,added automatically 2026-09-21
+Hôpital Matanda,hopital matanda,matanda,hospital_isolation,hosp-hopital-matanda,FALSE,added automatically 2026-09-21
+hôpital militaire de Makiso-Kisangani,hopital militaire makiso kisangani,makiso kisangani,hospital_isolation,hosp-hopital-militaire-makiso-kisangani,FALSE,added automatically 2026-09-21
+hôpital Mongbwalu,hopital mongbwalu,mongbwalu,hospital_isolation,hosp-hopital-mongbwalu,FALSE,added automatically 2026-09-21
+Katana,katana,katana,hospital_isolation,hosp-katana,FALSE,added automatically 2026-09-21
+Lwiro,lwiro,lwiro,hospital_isolation,hosp-lwiro,FALSE,added automatically 2026-09-21
+Malepe (MSF H),malepe msf h,malepe,hospital_isolation,hosp-malepe-msf-h,FALSE,added automatically 2026-09-21
+PS Divine,ps divine,divine,hospital_isolation,hosp-ps-divine,FALSE,added automatically 2026-09-21
+RWAKOLE,rwakole,bunia,hospital_isolation,hosp-rwakole,FALSE,added automatically 2026-09-21
+RWAMPARA CH SALAMA,rwampara ch salama,rwampara,hospital_isolation,hosp-rwampara-ch-salama,FALSE,added automatically 2026-09-21
+RWAMPARA CME,rwampara cme,rwampara,hospital_isolation,hosp-rwampara-cme,FALSE,added automatically 2026-09-21
+RWAMPARA CS HOHO,rwampara cs hoho,rwampara,hospital_isolation,hosp-rwampara-cs-hoho,FALSE,added automatically 2026-09-21
+RWAMPARA HGR,rwampara hgr,rwampara,hospital_isolation,hosp-rwampara-hgr,FALSE,added automatically 2026-09-21
+SOFEPADI,sofepadi,bunia,hospital_isolation,hosp-sofepadi,FALSE,added automatically 2026-09-21
+UNIBU,unibu,bunia,hospital_isolation,hosp-unibu,FALSE,added automatically 2026-09-21
+Abelkozo,abelkozo,abelkozo,other,site-abelkozo,FALSE,added automatically 2026-09-21
+Aéro,aero,bunia,other,site-aero,FALSE,added automatically 2026-09-21
+AS Birinyama,as birinyama,birinyama,other,site-as-birinyama,FALSE,added automatically 2026-09-21
+Bcz/Bunia,bcz bunia,bunia,other,site-bcz-bunia,FALSE,added automatically 2026-09-21
+Bethsaïda,bethsaida,bethsaida,other,site-bethsaida,FALSE,added automatically 2026-09-21
+BUNDJI,bundji,beni,other,site-bundji,FALSE,added automatically 2026-09-21
+Bunia-Cite,bunia cite,bunia,other,site-bunia-cite,FALSE,added automatically 2026-09-21
+C.M Banalisasa,c m banalisasa,c m banalisasa,other,site-c-m-banalisasa,FALSE,added automatically 2026-09-21
+C.M Emmanuel,c m emmanuel,c m emmanuel,other,site-c-m-emmanuel,FALSE,added automatically 2026-09-21
+C.M Furaha,c m furaha,c m furaha,other,site-c-m-furaha,FALSE,added automatically 2026-09-21
+Carl Becker,carl becker,beni,other,site-carl-becker,FALSE,added automatically 2026-09-21
+CECCA-20,cecca 20,cecca 20,other,site-cecca-20,FALSE,added automatically 2026-09-21
+CEM Nyankunde,cem nyankunde,nyankunde,other,site-cem-nyankunde,FALSE,added automatically 2026-09-21
+Centre hospitalier Bugarula,centre hospitalier bugarula,bugarula,other,site-centre-hospitalier-bugarula,FALSE,added automatically 2026-09-21
+Centre hospitalier La Famille,centre hospitalier famille,6 transversale,other,site-centre-hospitalier-famille,FALSE,added automatically 2026-09-21
+Centre Hospitalier Kavale,centre hospitalier kavale,kavale,other,site-centre-hospitalier-kavale,FALSE,added automatically 2026-09-21
+Centre Hospitalier Sainte Rita,centre hospitalier sainte rita,sainte rita,other,site-centre-hospitalier-sainte-rita,FALSE,added automatically 2026-09-21
+centre hospitalier TOKOBIKA,centre hospitalier tokobika,tokobika,other,site-centre-hospitalier-tokobika,FALSE,added automatically 2026-09-21
+Centre Hospitalier UNIBU,centre hospitalier unibu,lumumba,other,site-centre-hospitalier-unibu,FALSE,added automatically 2026-09-21
+centre médical Dalson,centre medical dalson,dalson,other,site-centre-medical-dalson,FALSE,added automatically 2026-09-21
+Centre Médical Evangélique Nyakunde (CME) de Bunia,centre medical evangelique nyakunde cme bunia,bunia,other,site-centre-medical-evangelique-nyakunde-cme-bunia,FALSE,added automatically 2026-09-21
+centre médical La Joie,centre medical joie,beni,other,site-centre-medical-joie,FALSE,added automatically 2026-09-21
+Centre médical privé Sodeseka,centre medical prive sodeseka,prive sodeseka,other,site-centre-medical-prive-sodeseka,FALSE,added automatically 2026-09-21
+Centre médical Tradimoderne,centre medical tradimoderne,tradimoderne,other,site-centre-medical-tradimoderne,FALSE,added automatically 2026-09-21
+centre de santé Naissance Désirable,centre sante naissance desirable,butsili,other,site-centre-sante-naissance-desirable,FALSE,added automatically 2026-09-21
+Centre Tradi Yahwe RAPHA,centre tradi yahwe rapha,katwa,other,site-centre-tradi-yahwe-rapha,FALSE,added automatically 2026-09-21
+centres de santé de Butsili,centres sante butsili,butsili,other,site-centres-sante-butsili,FALSE,added automatically 2026-09-21
+centres de santé de Ngongolio,centres sante ngongolio,ngongolio,other,site-centres-sante-ngongolio,FALSE,added automatically 2026-09-21
+CH AFIA BORA,ch afia bora,afia bora,other,site-ch-afia-bora,FALSE,added automatically 2026-09-21
+CH Amani,ch amani,amani,other,site-ch-amani,FALSE,added automatically 2026-09-21
+CH Antabuse,ch antabuse,antabuse,other,site-ch-antabuse,FALSE,added automatically 2026-09-21
+CH Aru,ch aru,aru,other,site-ch-aru,FALSE,added automatically 2026-09-21
+CH beni,ch beni,beni,other,site-ch-beni,FALSE,added automatically 2026-09-21
+CH Bunia cité,ch bunia cite,bunia,other,site-ch-bunia-cite,FALSE,added automatically 2026-09-21
+CH CARLE BECKER,ch carle becker,beni,other,site-ch-carle-becker,FALSE,added automatically 2026-09-21
+CH CBCA,ch cbca,cbca,other,site-ch-cbca,FALSE,added automatically 2026-09-21
+CH CEBECE,ch cebece,kasanga,other,site-ch-cebece,FALSE,added automatically 2026-09-21
+CH DON DIVIN,ch don divin,don divin,other,site-ch-don-divin,FALSE,added automatically 2026-09-21
+CH Don Divin,ch don divin,don divin,other,site-ch-don-divin,FALSE,added automatically 2026-09-21
+CH EERA,ch eera,eera,other,site-ch-eera,FALSE,added automatically 2026-09-21
+CH Emmanuel d’Alzon,ch emmanuel alzon,emmanuel alzon,other,site-ch-emmanuel-alzon,FALSE,added automatically 2026-09-21
+CH FEPSI,ch fepsi,fepsi,other,site-ch-fepsi,FALSE,added automatically 2026-09-21
+CH Fepsi,ch fepsi,fepsi,other,site-ch-fepsi,FALSE,added automatically 2026-09-21
+CH Gracia,ch gracia,beni,other,site-ch-gracia,FALSE,added automatically 2026-09-21
+CH JERUSALEM,ch jerusalem,jerusalem,other,site-ch-jerusalem,FALSE,added automatically 2026-09-21
+CH Jérusalem,ch jerusalem,jerusalem,other,site-ch-jerusalem,FALSE,added automatically 2026-09-21
+CH Kachucha,ch kachucha,kachucha,other,site-ch-kachucha,FALSE,added automatically 2026-09-21
+CH Kavumu,ch kavumu,kavumu,other,site-ch-kavumu,FALSE,added automatically 2026-09-21
+CH Koso,ch koso,koso,other,site-ch-koso,FALSE,added automatically 2026-09-21
+CH KYAGHALA,ch kyaghala,kyaghala,other,site-ch-kyaghala,FALSE,added automatically 2026-09-21
+CH Lwiro,ch lwiro,lwiro,other,site-ch-lwiro,FALSE,added automatically 2026-09-21
+CH Lwiro Centre,ch lwiro centre,lwiro,other,site-ch-lwiro-centre,FALSE,added automatically 2026-09-21
+CH Maghombi,ch maghombi,oicha,other,site-ch-maghombi,FALSE,added automatically 2026-09-21
+CH MALENDE,ch malende,butembo,other,site-ch-malende,FALSE,added automatically 2026-09-21
+CH MATTYSEN,ch mattysen,mattysen,other,site-ch-mattysen,FALSE,added automatically 2026-09-21
+CH Mayogo,ch mayogo,isiro,other,site-ch-mayogo,FALSE,added automatically 2026-09-21
+CH Mshimbakye,ch mshimbakye,mshimbakye,other,site-ch-mshimbakye,FALSE,added automatically 2026-09-21
+CH Mudzi,ch mudzi,mudzi,other,site-ch-mudzi,FALSE,added automatically 2026-09-21
+CH Mudzi Maria,ch mudzi maria,mudzi maria,other,site-ch-mudzi-maria,FALSE,added automatically 2026-09-21
+CH Mukuna,ch mukuna,mukuna,other,site-ch-mukuna,FALSE,added automatically 2026-09-21
+CH Muzimaria,ch muzimaria,muzimaria,other,site-ch-muzimaria,FALSE,added automatically 2026-09-21
+CH Nyakaingwa,ch nyakaingwa,nyakaingwa,other,site-ch-nyakaingwa,FALSE,added automatically 2026-09-21
+CH Paida,ch paida,paida,other,site-ch-paida,FALSE,added automatically 2026-09-21
+CH Peregrin,ch peregrin,peregrin,other,site-ch-peregrin,FALSE,added automatically 2026-09-21
+CH Pimpester,ch pimpester,pimpester,other,site-ch-pimpester,FALSE,added automatically 2026-09-21
+CH La Renaissance,ch renaissance,musienene,other,site-ch-renaissance,FALSE,added automatically 2026-09-21
+CH Roi Salomon,ch roi salomon,katwa,other,site-ch-roi-salomon,FALSE,added automatically 2026-09-21
+CH Ruwenzori,ch ruwenzori,beni,other,site-ch-ruwenzori,FALSE,added automatically 2026-09-21
+CH Rwankole,ch rwankole,rwankole,other,site-ch-rwankole,FALSE,added automatically 2026-09-21
+CH Saint Joseph,ch saint joseph,rughenda,other,site-ch-saint-joseph,FALSE,added automatically 2026-09-21
+CH Shalom,ch shalom,shalom,other,site-ch-shalom,FALSE,added automatically 2026-09-21
+CH SHANGILIENI,ch shangilieni,shangilieni,other,site-ch-shangilieni,FALSE,added automatically 2026-09-21
+CH Shukrani,ch shukrani,shukrani,other,site-ch-shukrani,FALSE,added automatically 2026-09-21
+CH Sifa,ch sifa,beni,other,site-ch-sifa,FALSE,added automatically 2026-09-21
+CH SOFEPADI,ch sofepadi,bunia,other,site-ch-sofepadi,FALSE,added automatically 2026-09-21
+CH St Charles,ch st charles,beni,other,site-ch-st-charles,FALSE,added automatically 2026-09-21
+CH st Joseph,ch st joseph,st joseph,other,site-ch-st-joseph,FALSE,added automatically 2026-09-21
+CH UNIBU,ch unibu,bunia,other,site-ch-unibu,FALSE,added automatically 2026-09-21
+CH Unibu,ch unibu,unibu,other,site-ch-unibu,FALSE,added automatically 2026-09-21
+CH-UNIBU,ch unibu,unibu,other,site-ch-unibu,FALSE,added automatically 2026-09-21
+CH de l’Unité,ch unite,mihake,other,site-ch-unite,FALSE,added automatically 2026-09-21
+CH Wanamahika,ch wanamahika,wanamahika,other,site-ch-wanamahika,FALSE,added automatically 2026-09-21
+Chahoboka,chahoboka,chahoboka,other,site-chahoboka,FALSE,added automatically 2026-09-21
+Chaoboka,chaoboka,chaoboka,other,site-chaoboka,FALSE,added automatically 2026-09-21
+CHE Beni,che beni,beni,other,site-che-beni,FALSE,added automatically 2026-09-21
+CHP Heshima Letu,chp heshima letu,chp heshima letu,other,site-chp-heshima-letu,FALSE,added automatically 2026-09-21
+CHR Maboya,chr maboya,maboya,other,site-chr-maboya,FALSE,added automatically 2026-09-21
+CHU cinquantenaire,chu cinquantenaire,kinshasa,other,site-chu-cinquantenaire,FALSE,added automatically 2026-09-21
+CITADELLE,citadelle,citadelle,other,site-citadelle,FALSE,added automatically 2026-09-21
+Cl Abedi Djaka,cl abedi djaka,cl abedi djaka,other,site-cl-abedi-djaka,FALSE,added automatically 2026-09-21
+Clin. Bon Berger,clin bon berger,bon berger,other,site-clin-bon-berger,FALSE,added automatically 2026-09-21
+Clin Espoir,clin espoir,clin espoir,other,site-clin-espoir,FALSE,added automatically 2026-09-21
+Clinique ART,clinique art,art,other,site-clinique-art,FALSE,added automatically 2026-09-21
+clinique Dieu Guéri,clinique dieu gueri,dieu gueri,other,site-clinique-dieu-gueri,FALSE,added automatically 2026-09-21
+Clinique Gloria,clinique gloria,gloria,other,site-clinique-gloria,FALSE,added automatically 2026-09-21
+Clinique la GRACE DIVINE,clinique grace divine,grace divine,other,site-clinique-grace-divine,FALSE,added automatically 2026-09-21
+clinique des Guéris de la MVE-17,clinique gueris mve 17,gueris mve 17,other,site-clinique-gueris-mve-17,FALSE,added automatically 2026-09-21
+Clinique KARIBUNI,clinique karibuni,karibuni,other,site-clinique-karibuni,FALSE,added automatically 2026-09-21
+clinique Libiki d’Isiro,clinique libiki isiro,isiro,other,site-clinique-libiki-isiro,FALSE,added automatically 2026-09-21
+clinique Mama Kayenga,clinique mama kayenga,wamba,other,site-clinique-mama-kayenga,FALSE,added automatically 2026-09-21
+Clinique Marie Claire,clinique marie claire,bunia,other,site-clinique-marie-claire,FALSE,added automatically 2026-09-21
+Clinique les Mérites,clinique merites,bunia,other,site-clinique-merites,FALSE,added automatically 2026-09-21
+clinique Pinpester,clinique pinpester,isiro,other,site-clinique-pinpester,FALSE,added automatically 2026-09-21
+Clinique la RECONNAISSANCE,clinique reconnaissance,reconnaissance,other,site-clinique-reconnaissance,FALSE,added automatically 2026-09-21
+clinique Saint-Vincent,clinique saint vincent,saint vincent,other,site-clinique-saint-vincent,FALSE,added automatically 2026-09-21
+Clinique Salama,clinique salama,salama,other,site-clinique-salama,FALSE,added automatically 2026-09-21
+Clinique SOFEPADI,clinique sofepadi,bunia,other,site-clinique-sofepadi,FALSE,added automatically 2026-09-21
+Clinique Tumaini,clinique tumaini,tumaini,other,site-clinique-tumaini,FALSE,added automatically 2026-09-21
+clinique Unibu,clinique unibu,bunia,other,site-clinique-unibu,FALSE,added automatically 2026-09-21
+Clinique Universelle,clinique universelle,universelle,other,site-clinique-universelle,FALSE,added automatically 2026-09-21
+Clinique universitaire,clinique universitaire,"",other,site-clinique-universitaire,FALSE,added automatically 2026-09-21
+clinique universitaire,clinique universitaire,isiro,other,site-clinique-universitaire,FALSE,added automatically 2026-09-21
+Clinique universitaire d’Isiro,clinique universitaire isiro,isiro,other,site-clinique-universitaire-isiro,FALSE,added automatically 2026-09-21
+Clinique La vie des Hommes,clinique vie hommes,vie hommes,other,site-clinique-vie-hommes,FALSE,added automatically 2026-09-21
+Clinique William,clinique william,tshopo,other,site-clinique-william,FALSE,added automatically 2026-09-21
+Clinique Williams,clinique williams,williams,other,site-clinique-williams,FALSE,added automatically 2026-09-21
+cliniques de la MONUSCO,cliniques monusco,goma,other,site-cliniques-monusco,FALSE,added automatically 2026-09-21
+Cliniques Universitaires,cliniques universitaires,s universitaires,other,site-cliniques-universitaires,FALSE,added automatically 2026-09-21
+Cliniques universitaires,cliniques universitaires,s universitaires,other,site-cliniques-universitaires,FALSE,added automatically 2026-09-21
+cliniques universitaires Horizon,cliniques universitaires horizon,s universitaires horizon,other,site-cliniques-universitaires-horizon,FALSE,added automatically 2026-09-21
+Clique Marie Claire,clique marie claire,babenda,other,site-clique-marie-claire,FALSE,added automatically 2026-09-21
+CM Amani,cm amani,amani,other,site-cm-amani,FALSE,added automatically 2026-09-21
+CM Anuarite,cm anuarite,bunia,other,site-cm-anuarite,FALSE,added automatically 2026-09-21
+CM Ave maria,cm ave maria,ave maria,other,site-cm-ave-maria,FALSE,added automatically 2026-09-21
+CM Bethel,cm bethel,bethel,other,site-cm-bethel,FALSE,added automatically 2026-09-21
+CM bethel,cm bethel,bethel,other,site-cm-bethel,FALSE,added automatically 2026-09-21
+CM Chirurgical Croix Verte,cm chirurgical croix verte,chirurgical croix verte,other,site-cm-chirurgical-croix-verte,FALSE,added automatically 2026-09-21
+CM Divine,cm divine,divine,other,site-cm-divine,FALSE,added automatically 2026-09-21
+CM la Divinité,cm divinite,divinite,other,site-cm-divinite,FALSE,added automatically 2026-09-21
+CM La Gazelle,cm gazelle,beni,other,site-cm-gazelle,FALSE,added automatically 2026-09-21
+CM GLORIA,cm gloria,gloria,other,site-cm-gloria,FALSE,added automatically 2026-09-21
+CM La Grâce,cm grace,grace,other,site-cm-grace,FALSE,added automatically 2026-09-21
+CM GRACIA,cm gracia,beni,other,site-cm-gracia,FALSE,added automatically 2026-09-21
+CM Gracia,cm gracia,beni,other,site-cm-gracia,FALSE,added automatically 2026-09-21
+CM Gracia Katsina,cm gracia katsina,gracia katsina,other,site-cm-gracia-katsina,FALSE,added automatically 2026-09-21
+CM JADES,cm jades,beni,other,site-cm-jades,FALSE,added automatically 2026-09-21
+CM La Joie,cm joie,joie,other,site-cm-joie,FALSE,added automatically 2026-09-21
+CM Joponika,cm joponika,joponika,other,site-cm-joponika,FALSE,added automatically 2026-09-21
+CM Karibuni,cm karibuni,karibuni,other,site-cm-karibuni,FALSE,added automatically 2026-09-21
+CM Kithimba,cm kithimba,kithimba,other,site-cm-kithimba,FALSE,added automatically 2026-09-21
+CM Lobiko,cm lobiko,lobiko,other,site-cm-lobiko,FALSE,added automatically 2026-09-21
+CM Mbanasuvya,cm mbanasuvya,mbanasuvya,other,site-cm-mbanasuvya,FALSE,added automatically 2026-09-21
+CM Mbanivuka,cm mbanivuka,mbanivuka,other,site-cm-mbanivuka,FALSE,added automatically 2026-09-21
+CM Ndirira,cm ndirira,ndirira,other,site-cm-ndirira,FALSE,added automatically 2026-09-21
+CM Peniel,cm peniel,peniel,other,site-cm-peniel,FALSE,added automatically 2026-09-21
+CM Renouveau 2,cm renouveau 2,renouveau 2,other,site-cm-renouveau-2,FALSE,added automatically 2026-09-21
+CM sauvetage,cm sauvetage,sauvetage,other,site-cm-sauvetage,FALSE,added automatically 2026-09-21
+CM le Sauveur,cm sauveur,sauveur,other,site-cm-sauveur,FALSE,added automatically 2026-09-21
+CM Shukrani,cm shukrani,shukrani,other,site-cm-shukrani,FALSE,added automatically 2026-09-21
+CM St Gabriel,cm st gabriel,st gabriel,other,site-cm-st-gabriel,FALSE,added automatically 2026-09-21
+CM St pierre,cm st pierre,st pierre,other,site-cm-st-pierre,FALSE,added automatically 2026-09-21
+CM St Raphael,cm st raphael,st raphael,other,site-cm-st-raphael,FALSE,added automatically 2026-09-21
+CMC Kiharo,cmc kiharo,kiharo,other,site-cmc-kiharo,FALSE,added automatically 2026-09-21
+CME/Bunia,cme bunia,bunia,other,site-cme-bunia,FALSE,added automatically 2026-09-21
+CME Nyakunde,cme nyakunde,nyakunde,other,site-cme-nyakunde,FALSE,added automatically 2026-09-21
+CME Nyakunde Bunia,cme nyakunde bunia,bunia,other,site-cme-nyakunde-bunia,FALSE,added automatically 2026-09-21
+CME/Nyankunde,cme nyankunde,nyankunde,other,site-cme-nyankunde,FALSE,added automatically 2026-09-21
+CS Abelkozo,cs abelkozo,abelkozo,other,site-cs-abelkozo,FALSE,added automatically 2026-09-21
+CS Abiangama,cs abiangama,abiangama,other,site-cs-abiangama,FALSE,added automatically 2026-09-21
+CS Adventiste,cs adventiste,adventiste,other,site-cs-adventiste,FALSE,added automatically 2026-09-21
+CS Aero,cs aero,aero,other,site-cs-aero,FALSE,added automatically 2026-09-21
+CS Agri Uélé,cs agri uele,agri uele,other,site-cs-agri-uele,FALSE,added automatically 2026-09-21
+CS Amani,cs amani,amani,other,site-cs-amani,FALSE,added automatically 2026-09-21
+CS Anoalité,cs anoalite,anoalite,other,site-cs-anoalite,FALSE,added automatically 2026-09-21
+CS de Bafwandambo,cs bafwandambo,bafwandambo,other,site-cs-bafwandambo,FALSE,added automatically 2026-09-21
+CS de Bahwere,cs bahwere,bahwere,other,site-cs-bahwere,FALSE,added automatically 2026-09-21
+CS Bale,cs bale,bale,other,site-cs-bale,FALSE,added automatically 2026-09-21
+CS Bankoko,cs bankoko,bunia,other,site-cs-bankoko,FALSE,added automatically 2026-09-21
+CS Baruti,cs baruti,baruti,other,site-cs-baruti,FALSE,added automatically 2026-09-21
+CS Betshaïda,cs betshaida,betshaida,other,site-cs-betshaida,FALSE,added automatically 2026-09-21
+CS Bigo,cs bigo,bigo,other,site-cs-bigo,FALSE,added automatically 2026-09-21
+CS BINASE,cs binase,binase,other,site-cs-binase,FALSE,added automatically 2026-09-21
+CS BOIKENE,cs boikene,beni,other,site-cs-boikene,FALSE,added automatically 2026-09-21
+CS Bora Uzima,cs bora uzima,bora uzima,other,site-cs-bora-uzima,FALSE,added automatically 2026-09-21
+CS Boyoma,cs boyoma,boyoma,other,site-cs-boyoma,FALSE,added automatically 2026-09-21
+CS Bunia Cité,cs bunia cite,bunia,other,site-cs-bunia-cite,FALSE,added automatically 2026-09-21
+CS Butanuka,cs butanuka,beni,other,site-cs-butanuka,FALSE,added automatically 2026-09-21
+CS BUTSILI,cs butsili,beni,other,site-cs-butsili,FALSE,added automatically 2026-09-21
+CS CNCA,cs cnca,cnca,other,site-cs-cnca,FALSE,added automatically 2026-09-21
+CS du Congo,cs congo,congo,other,site-cs-congo,FALSE,added automatically 2026-09-21
+CS Dokotolo,cs dokotolo,dokotolo,other,site-cs-dokotolo,FALSE,added automatically 2026-09-21
+CS Eringeti,cs eringeti,eringeti,other,site-cs-eringeti,FALSE,added automatically 2026-09-21
+CS La Famille,cs famille,famille,other,site-cs-famille,FALSE,added automatically 2026-09-21
+CS Irangya,cs irangya,katwa,other,site-cs-irangya,FALSE,added automatically 2026-09-21
+CS Jades,cs jades,jades,other,site-cs-jades,FALSE,added automatically 2026-09-21
+CS Jamaa,cs jamaa,jamaa,other,site-cs-jamaa,FALSE,added automatically 2026-09-21
+CS Kabushwa,cs kabushwa,kabushwa,other,site-cs-kabushwa,FALSE,added automatically 2026-09-21
+CS Kahungu,cs kahungu,kahungu,other,site-cs-kahungu,FALSE,added automatically 2026-09-21
+CS Kasabinyale,cs kasabinyale,beni,other,site-cs-kasabinyale,FALSE,added automatically 2026-09-21
+CS Kasisi,cs kasisi,kasisi,other,site-cs-kasisi,FALSE,added automatically 2026-09-21
+CS Katiri,cs katiri,katiri,other,site-cs-katiri,FALSE,added automatically 2026-09-21
+CS Kavumu,cs kavumu,kavumu,other,site-cs-kavumu,FALSE,added automatically 2026-09-21
+CS Kisiza,cs kisiza,kisiza,other,site-cs-kisiza,FALSE,added automatically 2026-09-21
+CS Komanda,cs komanda,komanda,other,site-cs-komanda,FALSE,added automatically 2026-09-21
+CS Konga-Konga,cs konga konga,konga konga,other,site-cs-konga-konga,FALSE,added automatically 2026-09-21
+CS Kutumba,cs kutumba,kutumba,other,site-cs-kutumba,FALSE,added automatically 2026-09-21
+CS Kwetu,cs kwetu,kwetu,other,site-cs-kwetu,FALSE,added automatically 2026-09-21
+CS Kyaghala,cs kyaghala,kyaghala,other,site-cs-kyaghala,FALSE,added automatically 2026-09-21
+CS Kyangike,cs kyangike,kyangike,other,site-cs-kyangike,FALSE,added automatically 2026-09-21
+CS Lembabo,cs lembabo,lembabo,other,site-cs-lembabo,FALSE,added automatically 2026-09-21
+CS MABAKANGA,cs mabakanga,beni,other,site-cs-mabakanga,FALSE,added automatically 2026-09-21
+CS Mabakanga,cs mabakanga,beni,other,site-cs-mabakanga,FALSE,added automatically 2026-09-21
+CS Madula,cs madula,madula,other,site-cs-madula,FALSE,added automatically 2026-09-21
+CS de Madula,cs madula,madula,other,site-cs-madula,FALSE,added automatically 2026-09-21
+CS Malkia,cs malkia,malkia,other,site-cs-malkia,FALSE,added automatically 2026-09-21
+CS Maranatha,cs maranatha,maranatha,other,site-cs-maranatha,FALSE,added automatically 2026-09-21
+CS Masuli,cs masuli,masuli,other,site-cs-masuli,FALSE,added automatically 2026-09-21
+CS Matete,cs matete,matete,other,site-cs-matete,FALSE,added automatically 2026-09-21
+CS Mbana,cs mbana,mbana,other,site-cs-mbana,FALSE,added automatically 2026-09-21
+CS. Les merites,cs merites,merites,other,site-cs-merites,FALSE,added automatically 2026-09-21
+CS Mitoya,cs mitoya,mitoya,other,site-cs-mitoya,FALSE,added automatically 2026-09-21
+CS Mobenge,cs mobenge,mobenge,other,site-cs-mobenge,FALSE,added automatically 2026-09-21
+CS Mudzi maria,cs mudzi maria,bunia,other,site-cs-mudzi-maria,FALSE,added automatically 2026-09-21
+CS Mukuna,cs mukuna,mukuna,other,site-cs-mukuna,FALSE,added automatically 2026-09-21
+CS Naissance Désirable,cs naissance desirable,naissance desirable,other,site-cs-naissance-desirable,FALSE,added automatically 2026-09-21
+CS de Ndindi,cs ndindi,ndindi,other,site-cs-ndindi,FALSE,added automatically 2026-09-21
+CS Ngalika,cs ngalika,ngalika,other,site-cs-ngalika,FALSE,added automatically 2026-09-21
+CS Ngamau,cs ngamau,ngamau,other,site-cs-ngamau,FALSE,added automatically 2026-09-21
+CS Ngona,cs ngona,ngona,other,site-cs-ngona,FALSE,added automatically 2026-09-21
+CS Nyakasanza,cs nyakasanza,nyakasanza,other,site-cs-nyakasanza,FALSE,added automatically 2026-09-21
+CS Nyakero,cs nyakero,nyakero,other,site-cs-nyakero,FALSE,added automatically 2026-09-21
+CS Nyakunde,cs nyakunde,nyakunde,other,site-cs-nyakunde,FALSE,added automatically 2026-09-21
+CS Papa Freddy,cs papa freddy,tshopo,other,site-cs-papa-freddy,FALSE,added automatically 2026-09-21
+CS plutôt,cs plutot,plutot,other,site-cs-plutot,FALSE,added automatically 2026-09-21
+CS Poli de frontiere,cs poli frontiere,poli frontiere,other,site-cs-poli-frontiere,FALSE,added automatically 2026-09-21
+CS de référence de Rubi Lisanga,cs reference rubi lisanga,rubi lisanga,other,site-cs-reference-rubi-lisanga,FALSE,added automatically 2026-09-21
+CS Rubi-Lisanga,cs rubi lisanga,rubi lisanga,other,site-cs-rubi-lisanga,FALSE,added automatically 2026-09-21
+CS Ruwenzori,cs ruwenzori,beni,other,site-cs-ruwenzori,FALSE,added automatically 2026-09-21
+CS Rwamapara,cs rwamapara,rwampara,other,site-cs-rwamapara,FALSE,added automatically 2026-09-21
+CS Rwambuzi,cs rwambuzi,rwambuzi,other,site-cs-rwambuzi,FALSE,added automatically 2026-09-21
+CS Rwampara,cs rwampara,rwampara,other,site-cs-rwampara,FALSE,added automatically 2026-09-21
+CS Rwankole,cs rwankole,rwankole,other,site-cs-rwankole,FALSE,added automatically 2026-09-21
+CS Saint-Luc,cs saint luc,saint luc,other,site-cs-saint-luc,FALSE,added automatically 2026-09-21
+CS Saint-Pierre,cs saint pierre,saint pierre,other,site-cs-saint-pierre,FALSE,added automatically 2026-09-21
+CS SALAMA,cs salama,salama,other,site-cs-salama,FALSE,added automatically 2026-09-21
+CS Segama,cs segama,segama,other,site-cs-segama,FALSE,added automatically 2026-09-21
+CS Shamamba,cs shamamba,shamamba,other,site-cs-shamamba,FALSE,added automatically 2026-09-21
+CS SNCC,cs sncc,sncc,other,site-cs-sncc,FALSE,added automatically 2026-09-21
+CS le Sommet,cs sommet,sommet,other,site-cs-sommet,FALSE,added automatically 2026-09-21
+CS Tchudja,cs tchudja,tchudja,other,site-cs-tchudja,FALSE,added automatically 2026-09-21
+CS Tchunga,cs tchunga,tchunga,other,site-cs-tchunga,FALSE,added automatically 2026-09-21
+CS Tely,cs tely,tely,other,site-cs-tely,FALSE,added automatically 2026-09-21
+CS Tsili,cs tsili,tsili,other,site-cs-tsili,FALSE,added automatically 2026-09-21
+CS Tuluba,cs tuluba,tuluba,other,site-cs-tuluba,FALSE,added automatically 2026-09-21
+CS TUUNGANE,cs tuungane,beni,other,site-cs-tuungane,FALSE,added automatically 2026-09-21
+CS Uponyaji,cs uponyaji,uponyaji,other,site-cs-uponyaji,FALSE,added automatically 2026-09-21
+CS Vighole,cs vighole,katwa,other,site-cs-vighole,FALSE,added automatically 2026-09-21
+CS Vuhika,cs vuhika,vuhika,other,site-cs-vuhika,FALSE,added automatically 2026-09-21
+CS Vungba,cs vungba,vungba,other,site-cs-vungba,FALSE,added automatically 2026-09-21
+CS Vutike,cs vutike,butembo,other,site-cs-vutike,FALSE,added automatically 2026-09-21
+CS Yedi,cs yedi,yedi,other,site-cs-yedi,FALSE,added automatically 2026-09-21
+CSR Akwa,csr akwa,akwa,other,site-csr-akwa,FALSE,added automatically 2026-09-21
+CSR Amadi,csr amadi,amadi,other,site-csr-amadi,FALSE,added automatically 2026-09-21
+CSR Bunia-cité,csr bunia cite,bunia,other,site-csr-bunia-cite,FALSE,added automatically 2026-09-21
+CSR CARL BEKER,csr carl beker,csr carl beker,other,site-csr-carl-beker,FALSE,added automatically 2026-09-21
+CSR Foyer,csr foyer,csr foyer,other,site-csr-foyer,FALSE,added automatically 2026-09-21
+CSR Kalivuli,csr kalivuli,kalivuli,other,site-csr-kalivuli,FALSE,added automatically 2026-09-21
+CSR Kembisa,csr kembisa,kembisa,other,site-csr-kembisa,FALSE,added automatically 2026-09-21
+CSR LEMBABO,csr lembabo,lembabo,other,site-csr-lembabo,FALSE,added automatically 2026-09-21
+CSR Lembabo,csr lembabo,lembabo,other,site-csr-lembabo,FALSE,added automatically 2026-09-21
+CSR Limba,csr limba,limba,other,site-csr-limba,FALSE,added automatically 2026-09-21
+CSR Lombale,csr lombale,lombale,other,site-csr-lombale,FALSE,added automatically 2026-09-21
+CSR Matete,csr matete,matete,other,site-csr-matete,FALSE,added automatically 2026-09-21
+CSR Nyangaray,csr nyangaray,nyangaray,other,site-csr-nyangaray,FALSE,added automatically 2026-09-21
+CSR Rubi Lisanga,csr rubi lisanga,rubi lisanga,other,site-csr-rubi-lisanga,FALSE,added automatically 2026-09-21
+CSR Rvd Mokili,csr rvd mokili,csr rvd mokili,other,site-csr-rvd-mokili,FALSE,added automatically 2026-09-21
+CSR Shari,csr shari,shari,other,site-csr-shari,FALSE,added automatically 2026-09-21
+CSR SOTA,csr sota,sota,other,site-csr-sota,FALSE,added automatically 2026-09-21
+CSR Sota,csr sota,sota,other,site-csr-sota,FALSE,added automatically 2026-09-21
+CSR de SOTA,csr sota,sota,other,site-csr-sota,FALSE,added automatically 2026-09-21
+CSR St Joseph,csr st joseph,st joseph,other,site-csr-st-joseph,FALSE,added automatically 2026-09-21
+CSR Zengo,csr zengo,zengo,other,site-csr-zengo,FALSE,added automatically 2026-09-21
+CUG,cug,cug,other,site-cug,FALSE,added automatically 2026-09-21
+DELE,dele,dele,other,site-dele,FALSE,added automatically 2026-09-21
+Disp Nya Kalunga Makuha,disp nya kalunga makuha,disp nya kalunga makuha,other,site-disp-nya-kalunga-makuha,FALSE,added automatically 2026-09-21
+"Dispensaire, Afia Bora",dispensaire afia bora,dispensaire afia bora,other,site-dispensaire-afia-bora,FALSE,added automatically 2026-09-21
+Dispensaire Bora Uzima,dispensaire bora uzima,dispensaire bora uzima,other,site-dispensaire-bora-uzima,FALSE,added automatically 2026-09-21
+Dispensaire la Charité,dispensaire charite,dispensaire charite,other,site-dispensaire-charite,FALSE,added automatically 2026-09-21
+Dispensaire de l’Espoir,dispensaire espoir,dispensaire espoir,other,site-dispensaire-espoir,FALSE,added automatically 2026-09-21
+dispensaire Félicité,dispensaire felicite,dispensaire felicite,other,site-dispensaire-felicite,FALSE,added automatically 2026-09-21
+dispensaire FONAREV,dispensaire fonarev,dispensaire fonarev,other,site-dispensaire-fonarev,FALSE,added automatically 2026-09-21
+Dispensaire Imani Bora,dispensaire imani bora,dispensaire imani bora,other,site-dispensaire-imani-bora,FALSE,added automatically 2026-09-21
+Dispensaire Katoka,dispensaire katoka,katoka,other,site-dispensaire-katoka,FALSE,added automatically 2026-09-21
+Dispensaire Mavondo,dispensaire mavondo,katwa,other,site-dispensaire-mavondo,FALSE,added automatically 2026-09-21
+dispensaire Mumole,dispensaire mumole,mumole,other,site-dispensaire-mumole,FALSE,added automatically 2026-09-21
+dispensaire PIDS,dispensaire pids,mangote,other,site-dispensaire-pids,FALSE,added automatically 2026-09-21
+dispensaire Sagesse Divine,dispensaire sagesse divine,dispensaire sagesse divine,other,site-dispensaire-sagesse-divine,FALSE,added automatically 2026-09-21
+dispensaire Sifa,dispensaire sifa,sifa,other,site-dispensaire-sifa,FALSE,added automatically 2026-09-21
+Dispensaire de soins traditionnels Kiheri,dispensaire soins traditionnels kiheri,dispensaire soins traditionnels kiheri,other,site-dispensaire-soins-traditionnels-kiheri,FALSE,added automatically 2026-09-21
+Dispensaire Tuha,dispensaire tuha,tuha,other,site-dispensaire-tuha,FALSE,added automatically 2026-09-21
+dispensaire Virunga,dispensaire virunga,virunga,other,site-dispensaire-virunga,FALSE,added automatically 2026-09-21
+dispensaires Guérison Divine,dispensaires guerison divine,dispensaires guerison divine,other,site-dispensaires-guerison-divine,FALSE,added automatically 2026-09-21
+dispensaires Lukogho,dispensaires lukogho,dispensaires lukogho,other,site-dispensaires-lukogho,FALSE,added automatically 2026-09-21
+ESS Kalagane,ess kalagane,kalagane,other,site-ess-kalagane,FALSE,added automatically 2026-09-21
+la Grâce de Dieu,grace dieu,grace dieu,other,site-grace-dieu,FALSE,added automatically 2026-09-21
+HC Kisangani,hc kisangani,kisangani,other,site-hc-kisangani,FALSE,added automatically 2026-09-21
+HC de Kisangani,hc kisangani,kisangani,other,site-hc-kisangani,FALSE,added automatically 2026-09-21
+HGR,hgr,pawa,other,site-hgr,FALSE,added automatically 2026-09-21
+HGR/Aru,hgr aru,aru,other,site-hgr-aru,FALSE,added automatically 2026-09-21
+HGR Bafwasende,hgr bafwasende,bafwasende,other,site-hgr-bafwasende,FALSE,added automatically 2026-09-21
+HGR Beni,hgr beni,beni,other,site-hgr-beni,FALSE,added automatically 2026-09-21
+HGR de Beni,hgr beni,beni,other,site-hgr-beni,FALSE,added automatically 2026-09-21
+HGR-Bunia,hgr bunia,bunia,other,site-hgr-bunia,FALSE,added automatically 2026-09-21
+HGR Cinquantenaire,hgr cinquantenaire,cinquantenaire,other,site-hgr-cinquantenaire,FALSE,added automatically 2026-09-21
+HGR Damas,hgr damas,damas,other,site-hgr-damas,FALSE,added automatically 2026-09-21
+HGR Drodro,hgr drodro,drodro,other,site-hgr-drodro,FALSE,added automatically 2026-09-21
+HGR Isiro,hgr isiro,isiro,other,site-hgr-isiro,FALSE,added automatically 2026-09-21
+HGR d’Isiro,hgr isiro,isiro,other,site-hgr-isiro,FALSE,added automatically 2026-09-21
+HGR Jiba,hgr jiba,jiba,other,site-hgr-jiba,FALSE,added automatically 2026-09-21
+HGR Kabondo,hgr kabondo,kabondo,other,site-hgr-kabondo,FALSE,added automatically 2026-09-21
+HGR de Kyondo,hgr kyondo,kyondo,other,site-hgr-kyondo,FALSE,added automatically 2026-09-21
+HGR de Likati,hgr likati,likati,other,site-hgr-likati,FALSE,added automatically 2026-09-21
+HGR Linga,hgr linga,linga,other,site-hgr-linga,FALSE,added automatically 2026-09-21
+HGR Lita,hgr lita,lita,other,site-hgr-lita,FALSE,added automatically 2026-09-21
+HGR de Lita,hgr lita,lita,other,site-hgr-lita,FALSE,added automatically 2026-09-21
+HGR de la Zone de Santé de Logo,hgr logo,logo,other,site-hgr-logo,FALSE,added automatically 2026-09-21
+HGR LOLWA,hgr lolwa,lolwa,other,site-hgr-lolwa,FALSE,added automatically 2026-09-21
+HGR Makiso,hgr makiso,makiso,other,site-hgr-makiso,FALSE,added automatically 2026-09-21
+HGR Makiso-Kisangani,hgr makiso kisangani,makiso kisangani,other,site-hgr-makiso-kisangani,FALSE,added automatically 2026-09-21
+HGR Mangala,hgr mangala,mangala,other,site-hgr-mangala,FALSE,added automatically 2026-09-21
+HGR Mangobo,hgr mangobo,mangobo,other,site-hgr-mangobo,FALSE,added automatically 2026-09-21
+HGR Matanda,hgr matanda,matanda,other,site-hgr-matanda,FALSE,added automatically 2026-09-21
+HGR Mogbwalu,hgr mogbwalu,mongbwalu,other,site-hgr-mogbwalu,FALSE,added automatically 2026-09-21
+HGR de Mongbwalu,hgr mongbwalu,mongbwalu,other,site-hgr-mongbwalu,FALSE,added automatically 2026-09-21
+HGR Mongwalu,hgr mongwalu,mongwalu,other,site-hgr-mongwalu,FALSE,added automatically 2026-09-21
+HGR-Mongwalu,hgr mongwalu,mongbwalu,other,site-hgr-mongwalu,FALSE,added automatically 2026-09-21
+HGR Nundu,hgr nundu,nundu,other,site-hgr-nundu,FALSE,added automatically 2026-09-21
+HGR/Nyankunde,hgr nyankunde,nyankunde,other,site-hgr-nyankunde,FALSE,added automatically 2026-09-21
+HGR-Rwampara,hgr rwampara,rwampara,other,site-hgr-rwampara,FALSE,added automatically 2026-09-21
+HGR/Rwampara,hgr rwampara,rwampara,other,site-hgr-rwampara,FALSE,added automatically 2026-09-21
+HGR Tshopo,hgr tshopo,tshopo,other,site-hgr-tshopo,FALSE,added automatically 2026-09-21
+HGR Viadana,hgr viadana,viadana,other,site-hgr-viadana,FALSE,added automatically 2026-09-21
+HGR de Viadana,hgr viadana,viadana,other,site-hgr-viadana,FALSE,added automatically 2026-09-21
+HGR Virunga,hgr virunga,virunga,other,site-hgr-virunga,FALSE,added automatically 2026-09-21
+HGR de la ZS de Ganga,hgr zs ganga,ganga,other,site-hgr-zs-ganga,FALSE,added automatically 2026-09-21
+HGR de la ZS de Nizi,hgr zs nizi,nizi,other,site-hgr-zs-nizi,FALSE,added automatically 2026-09-21
+HGR de la ZS d’Oicha,hgr zs oicha,zs oicha,other,site-hgr-zs-oicha,FALSE,added automatically 2026-09-21
+HGRO,hgro,tenambo,other,site-hgro,FALSE,added automatically 2026-09-21
+hôpital du Cinquantenaire,hopital cinquantenaire,kinshasa,other,site-hopital-cinquantenaire,FALSE,added automatically 2026-09-21
+hôpital du cinquantenaire,hopital cinquantenaire,kinshasa,other,site-hopital-cinquantenaire,FALSE,added automatically 2026-09-21
+Hôpital général de Logo,hopital general logo,logo,other,site-hopital-general-logo,FALSE,added automatically 2026-09-21
+hôpital général de référence de Buta,hopital general reference buta,buta,other,site-hopital-general-reference-buta,FALSE,added automatically 2026-09-21
+hôpital général de référence de la province de Bas Uele,hopital general reference province bas uele,province bas uele,other,site-hopital-general-reference-province-bas-uele,FALSE,added automatically 2026-09-21
+hôpital général de référence de la province de Bas-Uélé,hopital general reference province bas uele,province bas uele,other,site-hopital-general-reference-province-bas-uele,FALSE,added automatically 2026-09-21
+hôpital de LENGABO,hopital lengabo,lengabo,other,site-hopital-lengabo,FALSE,added automatically 2026-09-21
+hôpital Libiki,hopital libiki,libiki,other,site-hopital-libiki,FALSE,added automatically 2026-09-21
+hôpital Matanda,hopital matanda,matanda,other,site-hopital-matanda,FALSE,added automatically 2026-09-21
+Hôpital militaire de Mambangu,hopital militaire mambangu,mambangu,other,site-hopital-militaire-mambangu,FALSE,added automatically 2026-09-21
+Hopital Militaire de Muhumba,hopital militaire muhumba,muhumba,other,site-hopital-militaire-muhumba,FALSE,added automatically 2026-09-21
+HSR Matanda,hsr matanda,matanda,other,site-hsr-matanda,FALSE,added automatically 2026-09-21
+IEM Nyakunde,iem nyakunde,nyakunde,other,site-iem-nyakunde,FALSE,added automatically 2026-09-21
+JESUS EST SAUVEUR CBCA,jesus est sauveur cbca,jesus est sauveur cbca,other,site-jesus-est-sauveur-cbca,FALSE,added automatically 2026-09-21
+Kalagane,kalagane,kalagane,other,site-kalagane,FALSE,added automatically 2026-09-21
+KAMI,kami,kami,other,site-kami,FALSE,added automatically 2026-09-21
+Matanda,matanda,matanda,other,site-matanda,FALSE,added automatically 2026-09-21
+Maternité de Clinique Elikya Mère-enfant,maternite clinique elikya mere enfant,rwampara,other,site-maternite-clinique-elikya-mere-enfant,FALSE,added automatically 2026-09-21
+Morgue BALIDJA,morgue balidja,morgue balidja,other,site-morgue-balidja,FALSE,added automatically 2026-09-21
+morgue de Ngalika,morgue ngalika,ngalika,other,site-morgue-ngalika,FALSE,added automatically 2026-09-21
+morgue REKAPI,morgue rekapi,kisangani,other,site-morgue-rekapi,FALSE,added automatically 2026-09-21
+MTA OURAGAN,mta ouragan,kihinga,other,site-mta-ouragan,FALSE,added automatically 2026-09-21
+orphelinat Saint-Nicolas,orphelinat saint nicolas,bankoko,other,site-orphelinat-saint-nicolas,FALSE,added automatically 2026-09-21
+Pavillon militaire,pavillon militaire,pavillon militaire,other,site-pavillon-militaire,FALSE,added automatically 2026-09-21
+pavillon militaire,pavillon militaire,tshopo,other,site-pavillon-militaire,FALSE,added automatically 2026-09-21
+pavillon militaire de l’HGR Makiso-Kisangani,pavillon militaire hgr makiso kisangani,makiso kisangani,other,site-pavillon-militaire-hgr-makiso-kisangani,FALSE,added automatically 2026-09-21
+PEKIS,pekis,pekis,other,site-pekis,FALSE,added automatically 2026-09-21
+PNC,pnc,bunia,other,site-pnc,FALSE,added automatically 2026-09-21
+Polyclinique ART,polyclinique art,poly art,other,site-polyclinique-art,FALSE,added automatically 2026-09-21
+polyclinique ART,polyclinique art,poly art,other,site-polyclinique-art,FALSE,added automatically 2026-09-21
+Polyclinique Limbi Angaika,polyclinique limbi angaika,limbi angaika,other,site-polyclinique-limbi-angaika,FALSE,added automatically 2026-09-21
+Polyclinique Millénaire,polyclinique millenaire,poly millenaire,other,site-polyclinique-millenaire,FALSE,added automatically 2026-09-21
+Polyclinique Rekapi,polyclinique rekapi,poly rekapi,other,site-polyclinique-rekapi,FALSE,added automatically 2026-09-21
+polyclinique REKAPI,polyclinique rekapi,rekapi,other,site-polyclinique-rekapi,FALSE,added automatically 2026-09-21
+poste de santé de la 3e Zone de Défense,poste sante 3e zone defense,makiso kis,other,site-poste-sante-3e-zone-defense,FALSE,added automatically 2026-09-21
+Poste de santé Amani,poste sante amani,amani,other,site-poste-sante-amani,FALSE,added automatically 2026-09-21
+Poste de Santé Nzinzi,poste sante nzinzi,nzinzi,other,site-poste-sante-nzinzi,FALSE,added automatically 2026-09-21
+Poste de Santé la Victoire,poste sante victoire,victoire,other,site-poste-sante-victoire,FALSE,added automatically 2026-09-21
+Prison centrale,prison centrale,prison centrale,other,site-prison-centrale,FALSE,added automatically 2026-09-21
+PS Arche de Noé,ps arche noe,ps arche noe,other,site-ps-arche-noe,FALSE,added automatically 2026-09-21
+PS Baraka,ps baraka,ps baraka,other,site-ps-baraka,FALSE,added automatically 2026-09-21
+PS Benedicte,ps benedicte,ps benedicte,other,site-ps-benedicte,FALSE,added automatically 2026-09-21
+PS Benjamine,ps benjamine,benjamine,other,site-ps-benjamine,FALSE,added automatically 2026-09-21
+PS Bora Uzima,ps bora uzima,ps bora uzima,other,site-ps-bora-uzima,FALSE,added automatically 2026-09-21
+PS CBCA,ps cbca,ps cbca,other,site-ps-cbca,FALSE,added automatically 2026-09-21
+PS Espoir,ps espoir,rwampara,other,site-ps-espoir,FALSE,added automatically 2026-09-21
+PS Guerison,ps guerison,guerison,other,site-ps-guerison,FALSE,added automatically 2026-09-21
+PS JULES,ps jules,ps jules,other,site-ps-jules,FALSE,added automatically 2026-09-21
+PS Katoto,ps katoto,katoto,other,site-ps-katoto,FALSE,added automatically 2026-09-21
+PS Maman mwilu,ps maman mwilu,maman mwilu,other,site-ps-maman-mwilu,FALSE,added automatically 2026-09-21
+PS Maranatha,ps maranatha,ps maranatha,other,site-ps-maranatha,FALSE,added automatically 2026-09-21
+PS rapha,ps rapha,rapha,other,site-ps-rapha,FALSE,added automatically 2026-09-21
+PS la sagesse,ps sagesse,sagesse,other,site-ps-sagesse,FALSE,added automatically 2026-09-21
+PS sante d’abord,ps sante abord,ps sante abord,other,site-ps-sante-abord,FALSE,added automatically 2026-09-21
+PS seule la fois sauve,ps seule fois sauve,ps seule fois sauve,other,site-ps-seule-fois-sauve,FALSE,added automatically 2026-09-21
+PS Siloe,ps siloe,ps siloe,other,site-ps-siloe,FALSE,added automatically 2026-09-21
+PS la Solution,ps solution,rwampara,other,site-ps-solution,FALSE,added automatically 2026-09-21
+PS Tuluza,ps tuluza,tuluza,other,site-ps-tuluza,FALSE,added automatically 2026-09-21
+PS Tumaini,ps tumaini,rwampara,other,site-ps-tumaini,FALSE,added automatically 2026-09-21
+PS Uhuru,ps uhuru,ps uhuru,other,site-ps-uhuru,FALSE,added automatically 2026-09-21
+PS Umoja,ps umoja,lembabo,other,site-ps-umoja,FALSE,added automatically 2026-09-21
+PS Uponyadji,ps uponyadji,rwampara,other,site-ps-uponyadji,FALSE,added automatically 2026-09-21
+PS Ushindi,ps ushindi,ps ushindi,other,site-ps-ushindi,FALSE,added automatically 2026-09-21
+PS Yesu ni Jibu,ps yesu ni jibu,ps yesu ni jibu,other,site-ps-yesu-ni-jibu,FALSE,added automatically 2026-09-21
+PSA Tout est grace,psa tout est grace,psa tout est grace,other,site-psa-tout-est-grace,FALSE,added automatically 2026-09-21
+Rwambuzi,rwambuzi,bunia,other,site-rwambuzi,FALSE,added automatically 2026-09-21
+Simbiliabo,simbiliabo,simbiliabo,other,site-simbiliabo,FALSE,added automatically 2026-09-21
+Simbiliambo,simbiliambo,bunia,other,site-simbiliambo,FALSE,added automatically 2026-09-21
+site de transit des réfugiés,site transit refugies,site transit refugies,other,site-site-transit-refugies,FALSE,added automatically 2026-09-21
+Solferino,solferino,solferino,other,site-solferino,FALSE,added automatically 2026-09-21
+Source de Vie,source vie,katwa,other,site-source-vie,FALSE,added automatically 2026-09-21
+tente de l’HGR Nizi,tente hgr nizi,nizi,other,site-tente-hgr-nizi,FALSE,added automatically 2026-09-21
+Thwamahavuka,thwamahavuka,thwamahavuka,other,site-thwamahavuka,FALSE,added automatically 2026-09-21
+TM green World Hospi,tm green world hospi,tm green world hospi,other,site-tm-green-world-hospi,FALSE,added automatically 2026-09-21
+Top Santé,top sante,top sante,other,site-top-sante,FALSE,added automatically 2026-09-21
+UCBC,ucbc,beni,other,site-ucbc,FALSE,added automatically 2026-09-21
+unité de triage de l’HGR Vuhovi,unite triage hgr vuhovi,vuhovi,other,site-unite-triage-hgr-vuhovi,FALSE,added automatically 2026-09-21
+unité de triage à l’HGR de Vuhovi,unite triage hgr vuhovi,vuhovi,other,site-unite-triage-hgr-vuhovi,FALSE,added automatically 2026-09-21

@@ -62,8 +62,14 @@ ID_PREFIX <- c(treatment_centre = "cte", transit_centre = "ct",
 #' iconv on this platform turns `é` into `'e` rather than `e`, so the stray
 #' quote has to come out or every accented name keys differently from its
 #' unaccented spelling.
+#'
+#' `sub` is not optional. Without it iconv returns NA for the whole string as
+#' soon as one character has no transliteration, and the situation reports are
+#' full of them: the bullets the INSP lists activities with, the em dash, the
+#' superscript in `6ᵉ transversale`. A quote carrying any of those folded to
+#' the empty string and matched nothing.
 fold_accents <- function(x) {
-    x <- iconv(x, "UTF-8", "ASCII//TRANSLIT")
+    x <- iconv(x, "UTF-8", "ASCII//TRANSLIT", sub = " ")
     x[is.na(x)] <- ""
     gsub("[`'^~\"]", "", x, perl = TRUE)
 }
@@ -71,9 +77,14 @@ fold_accents <- function(x) {
 #' Prefixes naming a kind of Ebola facility, in both their short and long
 #' forms. Removed from `name_key` because `CTE de Nizi` and `CTE Nizi` are one
 #' facility, and from `place_key` along with the hospital prefixes below.
+#' `chantier d'isolement` is here because it names the same facility as
+#' `unite d'isolement` at an earlier stage, and keeping them apart would give
+#' Kabondo two records, one of which never opens.
 TYPE_WORDS <- paste0(
-    "centres? de traitement( ebola)?|centres? de transit|centre d ?isolement|",
-    "unite d ?isolement|\\bctes?\\b|\\bctcs?\\b|\\bctrs?\\b|\\bcts?\\b|\\bcis?\\b")
+    "centres? de traitement( ebola)?|centres? de transit|centres? d ?isolement|",
+    "(unites?|chantiers?|blocs?|batiments?|pavillons?|tentes?|sites?|salles?)",
+    " d ?isolement|",
+    "\\bctes?\\b|\\bctcs?\\b|\\bctrs?\\b|\\bcts?\\b|\\bcis?\\b")
 
 #' Prefixes naming a kind of health structure. These stay in `name_key`,
 #' because HGR Bunia and CTE de l'HGR Bunia are two facilities, and come out of
@@ -83,6 +94,16 @@ HOSPITAL_WORDS <- paste0(
     "clinique|centre medical evangelique|centre medical|centre de sante|",
     "centre hospitalier|poste de sante|\\bhgrs?\\b|\\bchs?\\b|\\bcmes?\\b|",
     "\\bcms?\\b|\\bcss?\\b|\\bhcs?\\b|\\bistm\\b|\\bess\\b|\\bhg\\b")
+
+#' Words that describe the state of a structure rather than name it. `CTE
+#' norme CME Rwampara`, `CTE en construction a Katwa` and `futur centre de
+#' traitement de Musienene` are the same three facilities as their plain
+#' spellings, and keeping the qualifier gives each one a second record that
+#' opens once and is never heard of again. `zone de sante` goes with them: it
+#' places a facility, it does not name it.
+QUALIFIERS <- paste0(
+    "zones? de sante|\\ben construction\\b|\\bconstruction\\b|\\bfuture?\\b|",
+    "\\bnormee?s?\\b|\\bprovisoires?\\b|\\btemporaires?\\b")
 
 #' Words that only join a name to its place.
 JOINERS <- "\\b(de la|de|du|des|d|le|la|les|l|a|au|aux|en|the)\\b"
@@ -102,6 +123,7 @@ base_key <- function(x) {
 #' stays on.
 name_key_of <- function(x) {
     k <- base_key(x)
+    k <- gsub(QUALIFIERS, " ", k, perl = TRUE)
     k <- gsub(TYPE_WORDS, " ", k, perl = TRUE)
     k <- gsub(JOINERS, " ", k, perl = TRUE)
     trimws(gsub("\\s+", " ", k, perl = TRUE))
@@ -111,6 +133,7 @@ name_key_of <- function(x) {
 place_key_of <- function(place_raw, facility_raw) {
     x <- ifelse(nzchar(trimws(place_raw)), place_raw, facility_raw)
     k <- base_key(x)
+    k <- gsub(QUALIFIERS, " ", k, perl = TRUE)
     k <- gsub(TYPE_WORDS, " ", k, perl = TRUE)
     k <- gsub(HOSPITAL_WORDS, " ", k, perl = TRUE)
     k <- gsub(JOINERS, " ", k, perl = TRUE)
@@ -174,11 +197,35 @@ reject(ev[quote_ok == FALSE], "quote is not a span of the report")
 ev <- ev[quote_ok == TRUE]
 
 #' The quote has to carry the facility, or it evidences the sentence and not
-#' the row. Unnamed entries are exempt: there is no name to find.
-ev[, names_ok := name_status != "named" | mapply(function(f, q) {
-    nzchar(f) && grepl(normalise_for_match(f), normalise_for_match(q), fixed = TRUE)
-}, facility_raw, evidence_quote)]
-reject(ev[names_ok == FALSE], "quote does not contain the facility name")
+#' the row. The test is on the distinguishing words of the name rather than on
+#' the name as written, because French elides the head noun across a list:
+#' `les CTE de Bambu, Nizi et Logo sont satures` names three centres and
+#' contains the written form of only the first. Requiring the whole string
+#' would reject the second and third for being correctly read. The type prefix
+#' is dropped for the same reason, the list carries it once; what remains has
+#' to appear in the quote, word for word. Unnamed entries are exempt: there is
+#' no name to find.
+#'
+#' This is not the quote gate. The gate above still demands the quote be a
+#' verbatim span of the report and has no exemption. This second test asks a
+#' weaker question, whether the span evidences this row rather than its
+#' sentence, and has to be able to say yes to a list.
+ev[, name_key := name_key_of(facility_raw)]
+quote_names <- function(key, quote) {
+    words <- strsplit(key, " ", fixed = TRUE)[[1]]
+    words <- words[nchar(words) >= 3]
+    hay <- base_key(quote)
+    if (!length(words)) return(nzchar(key) && grepl(key, hay, fixed = TRUE))
+    # A trailing s is optional on both sides. French pluralises the head noun
+    # over a list the same way it elides it: `aux cliniques Pinpester et
+    # Libiki` names two clinics and writes `clinique` neither time.
+    stems <- sub("s$", "", words)
+    all(vapply(stems, function(w) grepl(paste0("\\b", w, "s?\\b"), hay,
+        perl = TRUE), logical(1)))
+}
+ev[, names_ok := name_status != "named" |
+    mapply(quote_names, name_key, evidence_quote)]
+reject(ev[names_ok == FALSE], "quote does not name the facility")
 ev <- ev[names_ok == TRUE]
 
 reject(ev[!event %in% EVENTS], "event outside the vocabulary")
@@ -189,7 +236,6 @@ message("Verified ", nrow(ev), " events, rejected ",
 
 # -------------------------------------------------------------------- keys
 
-ev[, name_key := name_key_of(facility_raw)]
 ev[, place_key := place_key_of(place_raw, facility_raw)]
 ev[, beds_int := suppressWarnings(as.integer(gsub("[^0-9]", "", beds)))]
 ev[, event_date := suppressWarnings(as.Date(event_date))]
