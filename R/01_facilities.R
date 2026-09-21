@@ -10,7 +10,24 @@
 #' facility is called or whether two names are one site, because that is a
 #' judgement across reports and this script sees one report at a time.
 #'
-#' Model: unpinned until the comparison in step 3 of PLAN-etc-dates.md is run.
+#' Model: `gemini-3.1-pro` at low thinking, on the Antigravity route.
+#'
+#' Chosen by running SitReps 005, 006, 040 and 082 through pro-low, pro-high
+#' and flash-low and comparing what came back. Three checks separated nothing:
+#' all three read SitRep 006's bed table completely, none mistook a TOTAL
+#' column for a facility, and the quote gate rejected almost nothing.
+#'
+#' What separated them was recall and invention. flash-low missed 8 of 41
+#' treatment-type sites that both pro runs found, including named centres at
+#' Rwampara, Nia-Nia, Bunia, Mongbwalu and Nyankunde, so it is out whatever
+#' its speed. pro-high returned one fabricated quote and found fewer
+#' facilities than pro-low while taking longer. pro-low found the most (88
+#' events over 75 facilities), invented nothing, and runs the corpus in about
+#' four hours.
+#'
+#' Thinking stayed near 9k tokens a call on pro-low against 14k on pro-high,
+#' well short of the 50k that means a model is looping rather than reasoning.
+#'
 #' `GEMINI_MODEL_EXTRACT` and `AGY_MODEL` both override, and `--cache` sends a
 #' comparison run somewhere other than the committed cache.
 #'
