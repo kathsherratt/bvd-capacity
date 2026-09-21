@@ -108,7 +108,7 @@ access.
 The register counts spellings, not buildings. `CTE de l'HGR Bunia` and `CTE de
 Bunia` are probably one centre and are two rows until someone says otherwise;
 `CTE de l'HGR Rwampara` and `CTE du CME Rwampara` are two centres in one town
-and must stay apart. 79 such decisions are open, and the first ten carry 63%
+and must stay apart. 65 such decisions are open, and the first ten carry 66%
 of the events involved. Until they are made, treat the facility counts above
 as an upper bound and the event table as the reliable layer.
 

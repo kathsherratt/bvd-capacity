@@ -347,11 +347,22 @@ for (k in same_name$name_key) {
 
 #' INSP writes Mongbwalu, Mungbwalu and Mongwalu. Near neighbours are put
 #' side by side for a person to judge; nothing is merged automatically.
+#'
+#' One edit is a typo. Two edits is only a typo if the letters are the same
+#' ones in a different order, as in Elikya and Elykia. Allowing any two edits
+#' puts Beni and Bunia together, which are two towns 300km apart, and a
+#' review queue that groups by transitive closure then drags the whole of
+#' both into one question.
+anagram <- function(a, b) {
+    identical(sort(strsplit(a, "")[[1]]), sort(strsplit(b, "")[[1]]))
+}
 long <- unique(fac[nchar(name_key) >= 6L, .(facility_id, name_key, site_kind)])
 if (nrow(long) > 1L) {
     d <- adist(long$name_key, long$name_key)
     for (i in seq_len(nrow(long))) {
-        near <- which(d[i, ] <= 2L & long$site_kind == long$site_kind[i])
+        same_kind <- long$site_kind == long$site_kind[i]
+        near <- which(same_kind & (d[i, ] <= 1L | (d[i, ] == 2L &
+            vapply(long$name_key, anagram, logical(1), long$name_key[i]))))
         add_flag(long$facility_id[near], "possible_spelling_variant",
             long$name_key[i])
     }

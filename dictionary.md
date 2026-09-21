@@ -110,7 +110,7 @@ never recomputed. To merge two facilities, set both rows to the same
 
 ## data/facility_flags.csv
 
-One row a facility a flag. 484 rows. `group` names the set a flag put
+One row a facility a flag. 369 rows. `group` names the set a flag put
 together, so `R/04_review.R` can reconstruct the clusters.
 
 | flag | what it means |
