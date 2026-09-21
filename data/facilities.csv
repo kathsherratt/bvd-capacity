@@ -2,17 +2,17 @@ facility_id,facility_name,site_kind,place_key,health_zone,province,date_first_me
 hosp-bundji-imc,Bundji (IMC),hospital_isolation,bundji,"",Nord-Kivu,2026-07-02,049,FALSE,,,,,2026-07-02,operating,2026-07-02,,,2026-07-02,1,1,Bundji (IMC),""
 hosp-bunia-ch-elikya,BUNIA CH ELIKYA,hospital_isolation,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,6,2026-05-20,2026-05-20,2,2,BUNIA CH ELIKYA,""
 hosp-bunia-clibnique-benedicte,BUNIA Clibnique Bénedicte,hospital_isolation,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,0,2026-05-20,2026-05-20,2,2,BUNIA Clibnique Bénedicte,""
-hosp-bunia-hgr,BUNIA HGR,hospital_isolation,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,6,2026-05-20,2026-05-20,2,2,BUNIA HGR,possible_word_order
+hosp-bunia-hgr,BUNIA HGR,hospital_isolation,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,6,2026-05-20,2026-05-20,2,2,BUNIA HGR,possible_host_variant;possible_word_order
 hosp-bunia-rwaole,BUNIA RWAOLE,hospital_isolation,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,12,2026-05-20,2026-05-20,2,2,BUNIA RWAOLE,""
 hosp-bunia-sofepadi,BUNIA SOFEPADI,hospital_isolation,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,4,2026-05-20,2026-05-20,2,2,BUNIA SOFEPADI,""
 hosp-c-h-vukaka,C.H Vukaka,hospital_isolation,vukaka,"",Nord-Kivu,2026-08-23,101,FALSE,,,,,2026-08-23,operating,2026-08-23,,,2026-08-23,1,1,C.H Vukaka,""
 hosp-centre-hospitalier-pnc,centre hospitalier de la PNC,hospital_isolation,pnc,"","",2026-07-30,077,TRUE,,,,,2026-07-30,operating,2026-07-30,,,2026-07-30,1,1,centre hospitalier de la PNC,""
 hosp-centre-hospitalier-tinge,centre hospitalier de Tinge,hospital_isolation,tinge,Kalunguta,Nord-Kivu,2026-09-11,120,FALSE,,,,,2026-09-11,operating,2026-09-11,,,2026-09-11,1,1,centre hospitalier de Tinge,""
-hosp-centre-medical-evangelique-bunia,Centre Médical Évangélique de Bunia,hospital_isolation,bunia,"","",2026-05-31,017,FALSE,,,,,2026-05-31,operating,2026-05-31,,,2026-05-31,1,1,Centre Médical Évangélique de Bunia,""
-hosp-centre-medical-evangelique-rwampara,Centre médical Evangélique de Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-19,004,TRUE,,,,,2026-05-19,operating,2026-05-26,,,2026-05-26,9,9,Centre médical Evangélique de Rwampara,""
+hosp-centre-medical-evangelique-bunia,Centre Médical Évangélique de Bunia,hospital_isolation,bunia,"","",2026-05-31,017,FALSE,,,,,2026-05-31,operating,2026-05-31,,,2026-05-31,1,1,Centre Médical Évangélique de Bunia,possible_host_variant
+hosp-centre-medical-evangelique-rwampara,Centre médical Evangélique de Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-19,004,TRUE,,,,,2026-05-19,operating,2026-05-26,,,2026-05-26,9,9,Centre médical Evangélique de Rwampara,possible_host_variant
 hosp-centre-sante-kyambogho,centre de santé de Kyambogho,hospital_isolation,kyambogho,Musienene,Nord-Kivu,2026-09-10,119,FALSE,,,,,2026-09-10,operating,2026-09-10,,,2026-09-10,1,1,centre de santé de Kyambogho,""
 hosp-ch-cme,CH CME,hospital_isolation,"","","",2026-05-22,008,FALSE,,,,,2026-05-23,operating,2026-05-23,,,2026-05-23,2,2,CH CME,""
-hosp-ch-elikya,CH Elikya,hospital_isolation,bunia,Bunia,Ituri,2026-05-24,010,FALSE,,,,,2026-05-24,operating,2026-05-24,,,2026-06-10,2,2,CH Elikya; CH ELIKYA,""
+hosp-ch-elikya,CH Elikya,hospital_isolation,bunia,Bunia,Ituri,2026-05-24,010,FALSE,,,,,2026-05-24,operating,2026-05-24,,,2026-06-10,2,2,CH Elikya; CH ELIKYA,possible_host_variant
 hosp-ch-felicite,CH Félicité,hospital_isolation,felicite,"",Nord-Kivu,2026-06-16,033,FALSE,,,,,2026-06-16,operating,2026-06-16,,,2026-06-16,1,1,CH Félicité,""
 hosp-ch-joie,CH La Joie,hospital_isolation,joie,"","",2026-08-03,081,FALSE,,,,,2026-08-03,operating,2026-08-03,,,2026-08-03,1,1,CH La Joie,""
 hosp-ch-mutiri,CH MUTIRI,hospital_isolation,mutiri,Katwa,Nord-Kivu,2026-06-21,038,FALSE,,,,,2026-07-01,operating,2026-07-01,,,2026-07-01,3,3,CH Mutiri; CH MUTIRI,""
@@ -28,8 +28,8 @@ hosp-cliniques-universitaires-bukavu,Cliniques universitaires de Bukavu,hospital
 hosp-cliniques-universitaires-uele,cliniques universitaires de l'Uélé,hospital_isolation,s universitaires uele,"",Haut-Uélé,2026-08-05,083,FALSE,,,,,2026-08-05,operating,2026-08-05,,,2026-08-05,1,1,cliniques universitaires de l'Uélé,""
 hosp-cm-mathysen,CM MATHYSEN,hospital_isolation,bunia,Bunia,"",2026-05-24,010,FALSE,,,,,2026-05-24,operating,2026-05-24,,,2026-05-24,1,1,CM MATHYSEN,""
 hosp-cm-merites,CM LES MERITES,hospital_isolation,bunia,Bunia,"",2026-05-24,010,FALSE,,,,,2026-05-24,operating,2026-05-24,,,2026-05-24,1,1,CM LES MERITES,""
-hosp-cme-bunia,CME/BUNIA,hospital_isolation,bunia,Bunia,"",2026-05-27,013,FALSE,2026-05-27,,,,2026-06-18,operating,2026-06-18,,,2026-06-18,3,3,CME de Bunia; CME/BUNIA,possible_same_site
-hosp-cme-nyankunde,CME Nyankunde,hospital_isolation,nyankunde,Rwampara,Ituri,2026-05-19,004,TRUE,,,,,2026-05-19,operating,2026-06-07,,,2026-06-07,3,3,CME Nyankunde,possible_same_site
+hosp-cme-bunia,CME/BUNIA,hospital_isolation,bunia,Bunia,"",2026-05-27,013,FALSE,2026-05-27,,,,2026-06-18,operating,2026-06-18,,,2026-06-18,3,3,CME de Bunia; CME/BUNIA,possible_host_variant;possible_same_site
+hosp-cme-nyankunde,CME Nyankunde,hospital_isolation,nyankunde,Rwampara,Ituri,2026-05-19,004,TRUE,,,,,2026-05-19,operating,2026-06-07,,,2026-06-07,3,3,CME Nyankunde,possible_host_variant;possible_same_site
 hosp-cme-zs-rwampara,CME/Zs Rwampara,hospital_isolation,rwampara,Rwampara,"",2026-05-31,017,FALSE,,,,,2026-05-31,operating,2026-05-31,,,2026-05-31,1,1,CME/Zs Rwampara,""
 hosp-cs-bundji,CS Bundji,hospital_isolation,bundji,"",Nord-Kivu,2026-07-11,058,FALSE,,,,,2026-07-11,operating,2026-07-11,,,2026-07-31,3,3,CS Bundji,possible_spelling_variant
 hosp-cs-bunji,CS Bunji,hospital_isolation,bunji,"",Nord-Kivu,2026-06-27,044,TRUE,,,,,2026-06-27,operating,2026-06-27,,,2026-06-27,1,1,CS Bunji,possible_spelling_variant
@@ -41,27 +41,27 @@ hosp-cs-makerere,CS Makerere,hospital_isolation,makerere,"","",2026-06-19,036,FA
 hosp-csr-kyavonyonge,CSR Kyavonyonge,hospital_isolation,kyavonyonge,Kyondo,Nord-Kivu,2026-06-21,038,FALSE,,,,,2026-06-21,operating,2026-06-21,,,2026-06-21,1,1,CSR Kyavonyonge,""
 hosp-cug-butembo,CUG de Butembo,hospital_isolation,butembo,"","",2026-07-10,057,FALSE,,,,,2026-07-10,operating,2026-07-10,,,2026-07-10,1,1,CUG de Butembo,""
 hosp-dispensaire-maman-regine,dispensaire Maman Régine,hospital_isolation,dispensaire maman regine,"",Tshopo,2026-08-03,081,FALSE,,,,,2026-08-03,operating,2026-08-03,,,2026-08-05,2,2,dispensaire Maman Régine,""
-hosp-elikya,Elikya,hospital_isolation,elikya,"",Ituri,2026-06-08,025,FALSE,,,,,2026-06-08,operating,2026-08-26,,,2026-08-26,2,2,Elikya,possible_same_site
+hosp-elikya,Elikya,hospital_isolation,elikya,"",Ituri,2026-06-08,025,FALSE,,,,,2026-06-08,operating,2026-08-26,,,2026-08-26,2,2,Elikya,possible_host_variant;possible_same_site
 hosp-fomulac,Fomulac,hospital_isolation,fomulac,"",Sud-Kivu,2026-07-12,059,FALSE,,,,,2026-07-12,operating,2026-07-12,,,2026-07-12,1,1,Fomulac,possible_same_site
 hosp-hckis,HCKis,hospital_isolation,kis,"",Tshopo,2026-07-18,065,FALSE,,,,,2026-07-18,operating,2026-07-18,,,2026-07-18,1,1,HCKis,possible_same_site
 hosp-hgr-aru,HGR Aru,hospital_isolation,aru,Aru,"",2026-05-24,010,FALSE,,,,,2026-05-24,operating,2026-05-31,,,2026-05-31,4,4,HGR Aru; HGR ARU,possible_same_site
 hosp-hgr-bambu,HGR Bambu,hospital_isolation,bambu,Bambu,Ituri,2026-05-23,009,FALSE,,,,,2026-05-24,operating,2026-05-31,,,2026-06-20,7,7,HGR Bambu; HGR BAMBU,possible_spelling_variant
-hosp-hgr-bunia,HGR Bunia,hospital_isolation,bunia,Bunia,Ituri,2026-05-19,004,TRUE,2026-05-20,2026-06-07,024,,2026-05-20,operating,2026-09-05,60,2026-07-04,2026-09-05,32,35,HGR Bunia; HGR BUNIA; HGR de Bunia; l’HGR de Bunia,possible_same_site;possible_word_order
+hosp-hgr-bunia,HGR Bunia,hospital_isolation,bunia,Bunia,Ituri,2026-05-19,004,TRUE,2026-05-20,2026-06-07,024,,2026-05-20,operating,2026-09-05,60,2026-07-04,2026-09-05,32,35,HGR Bunia; HGR BUNIA; HGR de Bunia; l’HGR de Bunia,possible_host_variant;possible_same_site;possible_word_order
 hosp-hgr-fomulac-katana,HGR FOMULAC Katana,hospital_isolation,katana,Katana,Sud-Kivu,2026-06-03,020,FALSE,,,,,2026-06-03,operating,2026-06-07,,,2026-06-07,2,2,HGR FOMULAC Katana; HGR FOMULAC KATANA,""
 hosp-hgr-ganga,HGR de Ganga,hospital_isolation,ganga,Ganga,Bas-Uélé,2026-08-24,102,FALSE,,,,,2026-08-24,operating,2026-09-13,,,2026-09-13,8,8,HGR de Ganga; HGR Ganga,""
-hosp-hgr-katana,HGR Katana,hospital_isolation,katana,Katana,Sud-Kivu,2026-06-04,021,FALSE,,,,,2026-06-04,operating,2026-06-04,,,2026-06-08,3,3,HGR Katana; HGR KATANA,""
+hosp-hgr-katana,HGR Katana,hospital_isolation,katana,Katana,Sud-Kivu,2026-06-04,021,FALSE,,,,,2026-06-04,operating,2026-06-04,,,2026-06-08,3,3,HGR Katana; HGR KATANA,possible_host_variant
 hosp-hgr-kitatumba,HGR Kitatumba,hospital_isolation,kitatumba,Butembo,Nord-Kivu,2026-06-15,032,FALSE,,,,,2026-06-17,operating,2026-06-17,,,2026-07-24,4,4,HGR Kitatumba; HGR KITATUMBA,""
 hosp-hgr-mabalako,HGR Mabalako,hospital_isolation,mabalako,"",Nord-Kivu,2026-07-08,055,FALSE,,,,,2026-07-08,operating,2026-07-08,,,2026-07-08,1,1,HGR Mabalako,""
 hosp-hgr-mambasa,HGR Mambasa,hospital_isolation,mambasa,Mambasa,Ituri,2026-07-02,049,FALSE,,,,,2026-07-02,operating,2026-08-28,,,2026-08-28,2,2,HGR Mambasa,""
-hosp-hgr-mongbwalu,HGR Mongbwalu,hospital_isolation,mongbwalu,Mongbwalu,Ituri,2026-05-14,001,FALSE,2026-05-14,,,,2026-05-14,under_construction,2026-06-30,12,2026-05-20,2026-06-30,15,17,HGR Mongbwalu; HGR MONGBWALU,possible_same_site;possible_spelling_variant
+hosp-hgr-mongbwalu,HGR Mongbwalu,hospital_isolation,mongbwalu,Mongbwalu,Ituri,2026-05-14,001,FALSE,2026-05-14,,,,2026-05-14,under_construction,2026-06-30,12,2026-05-20,2026-06-30,15,17,HGR Mongbwalu; HGR MONGBWALU,possible_host_variant;possible_same_site;possible_spelling_variant
 hosp-hgr-mungbwalu,HGR MUNGBWALU,hospital_isolation,mungbwalu,Mongbwalu,"",2026-05-26,012,FALSE,,,,,2026-05-27,operating,2026-05-28,40,2026-05-28,2026-05-28,3,3,HGR Mungbwalu; HGR MUNGBWALU,possible_spelling_variant
 hosp-hgr-musienene,HGR MUSIENENE,hospital_isolation,musienene,"",Nord-Kivu,2026-07-05,052,FALSE,,,,,2026-07-05,operating,2026-07-05,,,2026-07-05,1,1,HGR MUSIENENE,possible_same_site
 hosp-hgr-nia-nia,HGR de Nia-Nia,hospital_isolation,nia nia,Nia-Nia,Ituri,2026-07-10,057,FALSE,,,,,2026-07-10,operating,2026-07-10,,,2026-07-10,1,1,HGR de Nia-Nia,possible_same_site
 hosp-hgr-nyakunde,HGR NYAKUNDE,hospital_isolation,nyakunde,Nyankunde,"",2026-05-26,012,FALSE,,,,,2026-05-27,operating,2026-05-28,,,2026-05-28,3,3,HGR Nyakunde; HGR NYAKUNDE,possible_spelling_variant
-hosp-hgr-nyankunde,HGR Nyankunde,hospital_isolation,nyankunde,Nyankunde,Ituri,2026-05-20,006,FALSE,2026-06-13,,,,2026-05-20,operating,2026-08-30,11,2026-05-20,2026-08-30,9,9,HGR Nyankunde; HGR NYANKUNDE,possible_same_site;possible_spelling_variant
+hosp-hgr-nyankunde,HGR Nyankunde,hospital_isolation,nyankunde,Nyankunde,Ituri,2026-05-20,006,FALSE,2026-06-13,,,,2026-05-20,operating,2026-08-30,11,2026-05-20,2026-08-30,9,9,HGR Nyankunde; HGR NYANKUNDE,possible_host_variant;possible_same_site;possible_spelling_variant
 hosp-hgr-oicha,HGR Oicha,hospital_isolation,oicha,"",Nord-Kivu,2026-07-08,055,FALSE,,,,,2026-07-08,operating,2026-07-08,,,2026-07-08,1,1,HGR Oicha,possible_same_site
 hosp-hgr-pawa,HGR de Pawa,hospital_isolation,pawa,"","",2026-08-03,081,FALSE,,,,,2026-08-03,operating,2026-08-03,,,2026-08-03,1,1,HGR de Pawa,""
-hosp-hgr-rwampara,HGR Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-24,010,FALSE,2026-05-24,2026-06-07,024,,2026-05-24,under_construction,2026-06-30,18,2026-05-28,2026-07-03,16,20,HGR Rwampara; HGR RWAMPARA; HGR zone de santé de Rwampara; l’HGR Rwampara,possible_same_site;possible_word_order
+hosp-hgr-rwampara,HGR Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-24,010,FALSE,2026-05-24,2026-06-07,024,,2026-05-24,under_construction,2026-06-30,18,2026-05-28,2026-07-03,16,20,HGR Rwampara; HGR RWAMPARA; HGR zone de santé de Rwampara; l’HGR Rwampara,possible_host_variant;possible_same_site;possible_word_order
 hosp-hgr-tchomia,HGR de Tchomia,hospital_isolation,tchomia,Tchomia,Ituri,2026-08-13,091,FALSE,,,,,2026-08-13,operating,2026-08-13,,,2026-08-13,1,1,HGR de Tchomia,""
 hosp-hgr-vuhovi,HGR de Vuhovi,hospital_isolation,vuhovi,Vuhovi,Nord-Kivu,2026-08-08,086,FALSE,2026-08-08,,,,,under_construction,2026-08-20,,,2026-08-21,10,10,HGR de Vuhovi; HGR Vuhovi,""
 hosp-hgr-wamba,HGR de Wamba,hospital_isolation,wamba,"",Haut-Uélé,2026-08-18,096,FALSE,2026-08-18,,,,2026-08-18,under_construction,2026-08-19,,,2026-08-19,2,4,HGR de Wamba,possible_spelling_variant
@@ -70,16 +70,16 @@ hosp-hopital-heal-africa,hopital Heal Africa,hospital_isolation,heal africa,Goma
 hosp-hopital-mambangu,Hôpital de Mambangu,hospital_isolation,mambangu,"","",2026-07-11,058,FALSE,,,,,2026-07-11,operating,2026-07-11,,,2026-07-11,1,1,Hôpital de Mambangu,""
 hosp-hopital-matanda,Hôpital Matanda,hospital_isolation,matanda,Katwa,Nord-Kivu,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-23,,,2026-05-23,5,5,Hôpital Matanda,possible_same_site
 hosp-hopital-militaire-makiso-kisangani,hôpital militaire de Makiso-Kisangani,hospital_isolation,makiso kisangani,"",Tshopo,2026-08-12,090,FALSE,,,,,2026-08-12,operating,2026-08-12,,,2026-08-12,1,1,hôpital militaire de Makiso-Kisangani,""
-hosp-hopital-mongbwalu,hôpital Mongbwalu,hospital_isolation,mongbwalu,Mongbwalu,Ituri,2026-05-14,001,FALSE,,,,,,mention_only,,,,2026-05-14,1,1,hôpital Mongbwalu,""
-hosp-katana,Katana,hospital_isolation,katana,"",Sud-Kivu,2026-08-02,080,FALSE,,,,,2026-08-02,operating,2026-08-02,,,2026-08-02,1,1,Katana,""
+hosp-hopital-mongbwalu,hôpital Mongbwalu,hospital_isolation,mongbwalu,Mongbwalu,Ituri,2026-05-14,001,FALSE,,,,,,mention_only,,,,2026-05-14,1,1,hôpital Mongbwalu,possible_host_variant
+hosp-katana,Katana,hospital_isolation,katana,"",Sud-Kivu,2026-08-02,080,FALSE,,,,,2026-08-02,operating,2026-08-02,,,2026-08-02,1,1,Katana,possible_host_variant
 hosp-lwiro,Lwiro,hospital_isolation,lwiro,"",Sud-Kivu,2026-07-12,059,FALSE,,,,,2026-07-12,operating,2026-08-02,,,2026-08-02,2,2,Lwiro,possible_same_site
 hosp-malepe-msf-h,Malepe (MSF H),hospital_isolation,malepe,"",Nord-Kivu,2026-07-02,049,FALSE,,,,,2026-07-02,operating,2026-07-02,,,2026-07-02,1,1,Malepe (MSF H),""
 hosp-ps-divine,PS Divine,hospital_isolation,divine,"","",2026-07-01,048,FALSE,,,,,2026-07-01,operating,2026-07-01,,,2026-07-01,1,1,PS Divine,""
 hosp-rwakole,RWAKOLE,hospital_isolation,bunia,Bunia,"",2026-05-24,010,FALSE,,,,,2026-05-24,operating,2026-05-24,,,2026-05-24,1,1,RWAKOLE,""
 hosp-rwampara-ch-salama,RWAMPARA CH SALAMA,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,10,2026-05-20,2026-05-20,2,2,RWAMPARA CH SALAMA,""
-hosp-rwampara-cme,RWAMPARA CME,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,100,2026-05-20,2026-05-20,2,2,RWAMPARA CME,""
+hosp-rwampara-cme,RWAMPARA CME,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,100,2026-05-20,2026-05-20,2,2,RWAMPARA CME,possible_host_variant
 hosp-rwampara-cs-hoho,RWAMPARA CS HOHO,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,0,2026-05-20,2026-05-20,2,2,RWAMPARA CS HOHO,""
-hosp-rwampara-hgr,RWAMPARA HGR,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,16,2026-05-20,2026-05-20,2,2,RWAMPARA HGR,possible_word_order
+hosp-rwampara-hgr,RWAMPARA HGR,hospital_isolation,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,2026-05-20,operating,2026-05-20,16,2026-05-20,2026-05-20,2,2,RWAMPARA HGR,possible_host_variant;possible_word_order
 hosp-sofepadi,SOFEPADI,hospital_isolation,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,2026-05-23,operating,2026-05-24,,,2026-05-24,2,2,SOFEPADI,""
 hosp-unibu,UNIBU,hospital_isolation,bunia,Bunia,"",2026-05-24,010,FALSE,,,,,2026-05-24,operating,2026-05-24,,,2026-05-24,1,1,UNIBU,""
 ci-cs-boikene,CS Boikene,isolation_centre,boikene,"",Nord-Kivu,2026-07-30,077,TRUE,,,,,,mention_only,,,,2026-07-31,2,2,CS Boikene,possible_same_site
@@ -89,7 +89,7 @@ ci-cs-shari,CS Shari,isolation_centre,shari,Rwampara,Ituri,2026-05-19,005,FALSE,
 ci-hgr-bunia,bâtiment d'isolement de l’HGR-Bunia,isolation_centre,bunia,Bunia,Ituri,2026-05-21,007,FALSE,,,,,,mention_only,,,,2026-05-21,1,1,bâtiment d'isolement de l’HGR-Bunia,possible_same_site
 ci-hgr-isiro,centre d’isolement de l’HGR d’Isiro,isolation_centre,isiro,"","",2026-08-12,090,FALSE,,,,,,mention_only,,,,2026-08-12,1,1,centre d’isolement de l’HGR d’Isiro,possible_same_site
 ci-hgr-musienene,centre d'isolement à l'HGR de Musienene,isolation_centre,musienene,"","",2026-08-03,081,FALSE,2026-08-03,,,,,under_construction,2026-08-03,,,2026-08-03,1,1,centre d'isolement à l'HGR de Musienene,possible_same_site
-ci-hgr-rwampara,salle d'isolement à l'HGR/Rwampara,isolation_centre,rwampara,Rwampara,Ituri,2026-05-21,007,FALSE,,,,,,mention_only,,,,2026-05-21,1,1,salle d'isolement à l'HGR/Rwampara,possible_same_site
+ci-hgr-rwampara,salle d'isolement à l'HGR/Rwampara,isolation_centre,rwampara,Rwampara,Ituri,2026-05-21,007,FALSE,,,,,,mention_only,,,,2026-05-21,1,1,salle d'isolement à l'HGR/Rwampara,possible_host_variant;possible_same_site
 ci-isolement-hgr-vuhovi,isolement de l'HGR Vuhovi,isolation_centre,vuhovi,"","",2026-08-07,085,FALSE,2026-08-07,,,,,under_construction,2026-08-07,,,2026-08-07,1,1,isolement de l'HGR Vuhovi,""
 ci-isolement-madula,isolement de Madula,isolation_centre,madula,"",Tshopo,2026-08-15,093,FALSE,2026-09-11,,,,,under_construction,2026-09-12,,,2026-09-12,3,3,isolement de Madula,possible_spelling_variant
 ci-isolement-musienene,isolement de Musienene,isolation_centre,musienene,"",Nord-Kivu,2026-08-17,095,FALSE,,,,,2026-08-17,strained,2026-08-17,,,2026-08-17,1,1,isolement de Musienene,""
@@ -103,19 +103,19 @@ ci-konga-konga,Konga-Konga,isolation_centre,konga konga,"",Tshopo,2026-08-29,107
 ci-kongakonga,sites d’isolement de Kongakonga,isolation_centre,kongakonga,"",Tshopo,2026-09-04,113,FALSE,2026-09-04,,,,,under_construction,2026-09-04,,,2026-09-04,1,1,sites d’isolement de Kongakonga,possible_spelling_variant
 ci-madula,unités d’isolement de Madula,isolation_centre,madula,"",Tshopo,2026-08-12,090,FALSE,2026-08-12,,,,,under_construction,2026-09-04,,,2026-09-04,12,12,chantier d’isolement de Madula; Madula; site d’isolement de Madula; sites d’isolement de Madula; unités d’isolement de Madula,""
 ci-nyankunde,bloc d'isolement de Nyankunde,isolation_centre,nyankunde,"","",2026-05-29,015,FALSE,,,,,2026-05-29,strained,2026-05-29,,,2026-05-29,1,1,bloc d'isolement de Nyankunde,possible_same_site
-ci-rwampara,bloc d'isolement de Rwampara,isolation_centre,rwampara,Rwampara,"",2026-05-27,013,FALSE,,,,,2026-05-27,strained,2026-05-30,,,2026-05-30,4,4,bloc d'isolement de Rwampara,possible_same_site
+ci-rwampara,bloc d'isolement de Rwampara,isolation_centre,rwampara,Rwampara,"",2026-05-27,013,FALSE,,,,,2026-05-27,strained,2026-05-30,,,2026-05-30,4,4,bloc d'isolement de Rwampara,possible_host_variant;possible_same_site
 ci-sites-lita,sites de Lita,isolation_centre,lita,"",Ituri,2026-09-04,113,FALSE,,,,,2026-09-04,strained,2026-09-04,,,2026-09-04,1,1,sites de Lita,""
 ci-sites-logo,sites de Logo,isolation_centre,logo,"",Ituri,2026-09-04,113,FALSE,,,,,2026-09-04,strained,2026-09-04,,,2026-09-04,1,1,sites de Logo,""
 ci-sites-mambasa,sites de Mambasa,isolation_centre,mambasa,"",Ituri,2026-09-04,113,FALSE,,,,,2026-09-04,strained,2026-09-04,,,2026-09-04,1,1,sites de Mambasa,""
 ci-sites-nizi,sites de Nizi,isolation_centre,nizi,"",Ituri,2026-09-04,113,FALSE,,,,,2026-09-04,strained,2026-09-04,,,2026-09-04,1,1,sites de Nizi,""
 ci-transitoire-wamba,centre d’isolement transitoire de Wamba,isolation_centre,wamba,"",Haut-Uélé,2026-08-12,090,FALSE,,,,,2026-08-12,strained,2026-08-14,,,2026-08-14,3,3,centre d’isolement transitoire de Wamba,""
-site-abelkozo,Abelkozo,other,abelkozo,"","",2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,Abelkozo,""
-site-aero,Aéro,other,bunia,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,Aéro,""
+site-abelkozo,Abelkozo,other,abelkozo,"","",2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,Abelkozo,possible_host_variant
+site-aero,Aéro,other,bunia,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,Aéro,possible_host_variant
 site-as-birinyama,AS Birinyama,other,birinyama,Nyankunde,Ituri,2026-06-01,018,FALSE,,,,,,mention_only,,,,2026-06-01,1,1,AS Birinyama,""
 site-bcz-bunia,Bcz/Bunia,other,bunia,"","",2026-05-25,011,FALSE,,,,,,mention_only,,,,2026-05-25,1,1,Bcz/Bunia,""
 site-bethsaida,Bethsaïda,other,bethsaida,Beni,Nord-Kivu,2026-09-05,114,FALSE,,,,,,mention_only,,,,2026-09-05,1,1,Bethsaïda,""
 site-bundji,BUNDJI,other,beni,"",Nord-Kivu,2026-07-07,054,FALSE,,,,,,mention_only,,,,2026-07-07,1,1,BUNDJI,""
-site-bunia-cite,Bunia-Cite,other,bunia,Bunia,Ituri,2026-05-22,008,FALSE,,,,,,mention_only,,,,2026-05-22,1,1,Bunia-Cite,""
+site-bunia-cite,Bunia-Cite,other,bunia,Bunia,Ituri,2026-05-22,008,FALSE,,,,,,mention_only,,,,2026-05-22,1,1,Bunia-Cite,possible_host_variant
 site-c-m-banalisasa,C.M Banalisasa,other,c m banalisasa,"",Nord-Kivu,2026-09-09,118,FALSE,,,,,,mention_only,,,,2026-09-09,1,1,C.M Banalisasa,""
 site-c-m-emmanuel,C.M Emmanuel,other,c m emmanuel,"",Nord-Kivu,2026-09-09,118,FALSE,,,,,,mention_only,,,,2026-09-09,1,1,C.M Emmanuel,""
 site-c-m-furaha,C.M Furaha,other,c m furaha,"",Nord-Kivu,2026-09-09,118,FALSE,,,,,,mention_only,,,,2026-09-09,1,1,C.M Furaha,""
@@ -123,14 +123,14 @@ site-carl-becker,Carl Becker,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,
 site-cecca-20,CECCA-20,other,cecca 20,"","",2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,CECCA-20,""
 site-cem-nyankunde,CEM Nyankunde,other,nyankunde,Bunia,Ituri,2026-05-19,004,TRUE,,,,,,mention_only,,,,2026-05-19,1,1,CEM Nyankunde,possible_spelling_variant
 site-centre-hospitalier-bugarula,Centre hospitalier Bugarula,other,bugarula,Idjwi,Sud-Kivu,2026-06-18,035,FALSE,,,,,,mention_only,,,,2026-06-18,1,1,Centre hospitalier Bugarula,""
-site-centre-hospitalier-famille,Centre hospitalier La Famille,other,6 transversale,Kabondo,Tshopo,2026-08-20,098,FALSE,,,,,,mention_only,,,,2026-08-20,1,1,Centre hospitalier La Famille,""
+site-centre-hospitalier-famille,Centre hospitalier La Famille,other,6 transversale,Kabondo,Tshopo,2026-08-20,098,FALSE,,,,,,mention_only,,,,2026-08-20,1,1,Centre hospitalier La Famille,possible_host_variant
 site-centre-hospitalier-kavale,Centre Hospitalier Kavale,other,kavale,Musienene,"",2026-07-10,057,FALSE,,,,,,mention_only,,,,2026-07-10,1,1,Centre Hospitalier Kavale,""
 site-centre-hospitalier-sainte-rita,Centre Hospitalier Sainte Rita,other,sainte rita,Musienene,"",2026-07-10,057,FALSE,,,,,,mention_only,,,,2026-07-10,1,1,Centre Hospitalier Sainte Rita,""
 site-centre-hospitalier-tokobika,centre hospitalier TOKOBIKA,other,tokobika,"","",2026-06-20,037,FALSE,,,,,,mention_only,,,,2026-06-20,1,1,centre hospitalier TOKOBIKA,""
-site-centre-hospitalier-unibu,Centre Hospitalier UNIBU,other,lumumba,Bunia,"",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,Centre Hospitalier UNIBU,""
+site-centre-hospitalier-unibu,Centre Hospitalier UNIBU,other,lumumba,Bunia,"",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,Centre Hospitalier UNIBU,possible_host_variant
 site-centre-medical-dalson,centre médical Dalson,other,dalson,"","",2026-08-03,081,FALSE,,,,,,mention_only,,,,2026-08-03,1,1,centre médical Dalson,""
-site-centre-medical-evangelique-nyakunde-cme-bunia,Centre Médical Evangélique Nyakunde (CME) de Bunia,other,bunia,"","",2026-05-26,012,FALSE,,,,,2026-05-26,incident,2026-05-26,,,2026-05-26,1,1,Centre Médical Evangélique Nyakunde (CME) de Bunia,""
-site-centre-medical-joie,centre médical La Joie,other,beni,"",Nord-Kivu,2026-08-01,079,FALSE,,,,,2026-08-01,incident,2026-08-01,,,2026-08-01,1,1,centre médical La Joie,""
+site-centre-medical-evangelique-nyakunde-cme-bunia,Centre Médical Evangélique Nyakunde (CME) de Bunia,other,bunia,"","",2026-05-26,012,FALSE,,,,,2026-05-26,incident,2026-05-26,,,2026-05-26,1,1,Centre Médical Evangélique Nyakunde (CME) de Bunia,possible_host_variant
+site-centre-medical-joie,centre médical La Joie,other,beni,"",Nord-Kivu,2026-08-01,079,FALSE,,,,,2026-08-01,incident,2026-08-01,,,2026-08-01,1,1,centre médical La Joie,possible_host_variant
 site-centre-medical-prive-sodeseka,Centre médical privé Sodeseka,other,prive sodeseka,Katana,Sud-Kivu,2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,Centre médical privé Sodeseka,""
 site-centre-medical-tradimoderne,Centre médical Tradimoderne,other,tradimoderne,"",Tshopo,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,Centre médical Tradimoderne,""
 site-centre-sante-naissance-desirable,centre de santé Naissance Désirable,other,butsili,"",Nord-Kivu,2026-08-09,087,FALSE,,,,,2026-08-09,incident,2026-08-09,,,2026-08-09,1,1,centre de santé Naissance Désirable,""
@@ -138,11 +138,11 @@ site-centre-tradi-yahwe-rapha,Centre Tradi Yahwe RAPHA,other,katwa,"","",2026-06
 site-centres-sante-butsili,centres de santé de Butsili,other,butsili,"",Nord-Kivu,2026-06-05,022,FALSE,,,,,,mention_only,,,,2026-06-05,1,1,centres de santé de Butsili,""
 site-centres-sante-ngongolio,centres de santé de Ngongolio,other,ngongolio,"",Nord-Kivu,2026-06-05,022,FALSE,,,,,,mention_only,,,,2026-06-05,1,1,centres de santé de Ngongolio,""
 site-ch-afia-bora,CH AFIA BORA,other,afia bora,Butembo,Nord-Kivu,2026-07-24,071,FALSE,,,,,,mention_only,,,,2026-07-24,1,1,CH AFIA BORA,""
-site-ch-amani,CH Amani,other,amani,"",Ituri,2026-07-18,065,FALSE,,,,,,mention_only,,,,2026-07-18,1,1,CH Amani,possible_spelling_variant
+site-ch-amani,CH Amani,other,amani,"",Ituri,2026-07-18,065,FALSE,,,,,,mention_only,,,,2026-07-18,1,1,CH Amani,possible_host_variant;possible_spelling_variant
 site-ch-antabuse,CH Antabuse,other,antabuse,Katwa,Nord-Kivu,2026-06-14,031,FALSE,,,,,,mention_only,,,,2026-06-14,1,1,CH Antabuse,""
-site-ch-aru,CH Aru,other,aru,Aru,"",2026-05-30,016,FALSE,,,,,,mention_only,,,,2026-05-30,1,1,CH Aru,""
-site-ch-beni,CH beni,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,,,2026-06-13,1,1,CH beni,possible_spelling_variant
-site-ch-bunia-cite,CH Bunia cité,other,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-05-23,1,1,CH Bunia cité,possible_spelling_variant
+site-ch-aru,CH Aru,other,aru,Aru,"",2026-05-30,016,FALSE,,,,,,mention_only,,,,2026-05-30,1,1,CH Aru,possible_host_variant
+site-ch-beni,CH beni,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,,,2026-06-13,1,1,CH beni,possible_host_variant;possible_spelling_variant
+site-ch-bunia-cite,CH Bunia cité,other,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-05-23,1,1,CH Bunia cité,possible_host_variant;possible_spelling_variant
 site-ch-carle-becker,CH CARLE BECKER,other,beni,"",Nord-Kivu,2026-07-07,054,FALSE,,,,,,mention_only,,,,2026-07-07,1,1,CH CARLE BECKER,""
 site-ch-cbca,CH CBCA,other,cbca,Beni,Nord-Kivu,2026-06-18,035,FALSE,,,,,,mention_only,,,,2026-06-18,1,1,CH CBCA,possible_spelling_variant
 site-ch-cebece,CH CEBECE,other,kasanga,"",Nord-Kivu,2026-09-06,115,FALSE,,,,,,mention_only,,,,2026-09-06,1,1,CH CEBECE,""
@@ -150,12 +150,12 @@ site-ch-don-divin,CH Don Divin,other,don divin,Katwa,Nord-Kivu,2026-06-16,033,FA
 site-ch-eera,CH EERA,other,eera,Katwa,Nord-Kivu,2026-06-21,038,FALSE,,,,,,mention_only,,,,2026-06-21,1,1,CH EERA,""
 site-ch-emmanuel-alzon,CH Emmanuel d’Alzon,other,emmanuel alzon,Butembo,Nord-Kivu,2026-06-14,031,FALSE,,,,,,mention_only,,,,2026-06-14,1,1,CH Emmanuel d’Alzon,""
 site-ch-fepsi,CH Fepsi,other,fepsi,"",Nord-Kivu,2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-13,2,2,CH Fepsi; CH FEPSI,""
-site-ch-gracia,CH Gracia,other,beni,Beni,Nord-Kivu,2026-06-22,039,FALSE,,,,,,mention_only,,,,2026-06-22,1,1,CH Gracia,possible_spelling_variant
+site-ch-gracia,CH Gracia,other,beni,Beni,Nord-Kivu,2026-06-22,039,FALSE,,,,,,mention_only,,,,2026-06-22,1,1,CH Gracia,possible_host_variant;possible_spelling_variant
 site-ch-jerusalem,CH JERUSALEM,other,jerusalem,Katwa,Nord-Kivu,2026-06-21,038,FALSE,,,,,,mention_only,,,,2026-06-23,3,3,CH JERUSALEM; CH Jérusalem,""
 site-ch-kachucha,CH Kachucha,other,kachucha,Miti Muhesa,Sud-Kivu,2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,CH Kachucha,""
-site-ch-kavumu,CH Kavumu,other,kavumu,Miti Muhesa,Sud-Kivu,2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,CH Kavumu,possible_spelling_variant
+site-ch-kavumu,CH Kavumu,other,kavumu,Miti Muhesa,Sud-Kivu,2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,CH Kavumu,possible_host_variant;possible_spelling_variant
 site-ch-koso,CH Koso,other,koso,"",Tshopo,2026-07-17,064,TRUE,,,,,,mention_only,,,,2026-07-17,1,1,CH Koso,""
-site-ch-kyaghala,CH KYAGHALA,other,kyaghala,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,CH KYAGHALA,possible_spelling_variant
+site-ch-kyaghala,CH KYAGHALA,other,kyaghala,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,CH KYAGHALA,possible_host_variant;possible_spelling_variant
 site-ch-lwiro,CH Lwiro,other,lwiro,Miti- Murhesa,Sud-Kivu,2026-06-05,022,FALSE,,,,,,mention_only,,,,2026-06-05,1,1,CH Lwiro,""
 site-ch-lwiro-centre,CH Lwiro Centre,other,lwiro,Miti-Murhesa,Sud-Kivu,2026-06-06,023,FALSE,,,,,,mention_only,,,,2026-06-06,1,1,CH Lwiro Centre,""
 site-ch-maghombi,CH Maghombi,other,oicha,"",Nord-Kivu,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CH Maghombi,""
@@ -164,8 +164,8 @@ site-ch-mattysen,CH MATTYSEN,other,mattysen,"","",2026-06-10,027,FALSE,,,,,,ment
 site-ch-mayogo,CH Mayogo,other,isiro,Isiro,Haut-Uélé,2026-08-15,093,FALSE,,,,,,mention_only,,,,2026-09-08,2,2,CH Mayogo,""
 site-ch-mshimbakye,CH Mshimbakye,other,mshimbakye,Fizi,"",2026-06-23,040,FALSE,,,,,,mention_only,,,,2026-06-23,1,1,CH Mshimbakye,""
 site-ch-mudzi,CH Mudzi,other,mudzi,Bunia,Ituri,2026-06-07,024,FALSE,,,,,,mention_only,,,,2026-06-07,1,1,CH Mudzi,""
-site-ch-mudzi-maria,CH Mudzi Maria,other,mudzi maria,Bunia,"",2026-06-19,036,FALSE,,,,,,mention_only,,,,2026-06-19,1,1,CH Mudzi Maria,possible_spelling_variant
-site-ch-mukuna,CH Mukuna,other,mukuna,Katwa,"",2026-06-23,040,FALSE,,,,,,mention_only,,,,2026-06-23,1,1,CH Mukuna,possible_spelling_variant
+site-ch-mudzi-maria,CH Mudzi Maria,other,mudzi maria,Bunia,"",2026-06-19,036,FALSE,,,,,,mention_only,,,,2026-06-19,1,1,CH Mudzi Maria,possible_host_variant;possible_spelling_variant
+site-ch-mukuna,CH Mukuna,other,mukuna,Katwa,"",2026-06-23,040,FALSE,,,,,,mention_only,,,,2026-06-23,1,1,CH Mukuna,possible_host_variant;possible_spelling_variant
 site-ch-muzimaria,CH Muzimaria,other,muzimaria,"","",2026-06-18,035,FALSE,,,,,,mention_only,,,,2026-06-18,1,1,CH Muzimaria,possible_spelling_variant
 site-ch-nyakaingwa,CH Nyakaingwa,other,nyakaingwa,Idjwi,"",2026-06-23,040,FALSE,,,,,,mention_only,,,,2026-06-23,1,1,CH Nyakaingwa,""
 site-ch-paida,CH Paida,other,paida,"",Nord-Kivu,2026-09-07,116,FALSE,,,,,,mention_only,,,,2026-09-07,1,1,CH Paida,""
@@ -173,17 +173,17 @@ site-ch-peregrin,CH Peregrin,other,peregrin,"",Nord-Kivu,2026-08-26,104,FALSE,,,
 site-ch-pimpester,CH Pimpester,other,pimpester,"",Haut-Uélé,2026-08-17,095,FALSE,,,,,2026-08-17,incident,2026-08-17,,,2026-08-17,1,1,CH Pimpester,""
 site-ch-renaissance,CH La Renaissance,other,musienene,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,CH La Renaissance,""
 site-ch-roi-salomon,CH Roi Salomon,other,katwa,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,CH Roi Salomon,""
-site-ch-ruwenzori,CH Ruwenzori,other,beni,Beni,Nord-Kivu,2026-06-22,039,FALSE,,,,,,mention_only,,,,2026-06-22,1,1,CH Ruwenzori,possible_spelling_variant
-site-ch-rwankole,CH Rwankole,other,rwankole,"",Ituri,2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-06-11,4,4,CH Rwankole,possible_spelling_variant
+site-ch-ruwenzori,CH Ruwenzori,other,beni,Beni,Nord-Kivu,2026-06-22,039,FALSE,,,,,,mention_only,,,,2026-06-22,1,1,CH Ruwenzori,possible_host_variant;possible_spelling_variant
+site-ch-rwankole,CH Rwankole,other,rwankole,"",Ituri,2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-06-11,4,4,CH Rwankole,possible_host_variant;possible_spelling_variant
 site-ch-saint-joseph,CH Saint Joseph,other,rughenda,"",Nord-Kivu,2026-06-06,023,FALSE,,,,,,mention_only,,,,2026-06-15,2,2,CH Saint Joseph,""
 site-ch-shalom,CH Shalom,other,shalom,"",Ituri,2026-07-18,065,FALSE,,,,,,mention_only,,,,2026-07-18,1,1,CH Shalom,""
 site-ch-shangilieni,CH SHANGILIENI,other,shangilieni,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,CH SHANGILIENI,""
-site-ch-shukrani,CH Shukrani,other,shukrani,"",Tshopo,2026-09-08,117,FALSE,,,,,,mention_only,,,,2026-09-08,1,1,CH Shukrani,possible_spelling_variant
+site-ch-shukrani,CH Shukrani,other,shukrani,"",Tshopo,2026-09-08,117,FALSE,,,,,,mention_only,,,,2026-09-08,1,1,CH Shukrani,possible_host_variant;possible_spelling_variant
 site-ch-sifa,CH Sifa,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,,,2026-06-13,1,1,CH Sifa,""
-site-ch-sofepadi,CH SOFEPADI,other,bunia,Bunia,Ituri,2026-06-01,018,FALSE,,,,,,mention_only,,,,2026-06-01,1,1,CH SOFEPADI,""
+site-ch-sofepadi,CH SOFEPADI,other,bunia,Bunia,Ituri,2026-06-01,018,FALSE,,,,,,mention_only,,,,2026-06-01,1,1,CH SOFEPADI,possible_host_variant
 site-ch-st-charles,CH St Charles,other,beni,"","",2026-06-17,034,FALSE,,,,,,mention_only,,,,2026-06-17,1,1,CH St Charles,""
 site-ch-st-joseph,CH st Joseph,other,st joseph,Katwa,Nord-Kivu,2026-06-14,031,FALSE,,,,,,mention_only,,,,2026-06-14,1,1,CH st Joseph,possible_spelling_variant
-site-ch-unibu,CH Unibu,other,unibu,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-06-30,5,5,CH Unibu; CH UNIBU; CH-UNIBU,possible_spelling_variant
+site-ch-unibu,CH Unibu,other,unibu,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-06-30,5,5,CH Unibu; CH UNIBU; CH-UNIBU,possible_host_variant;possible_spelling_variant
 site-ch-unite,CH de l’Unité,other,mihake,"",Nord-Kivu,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CH de l’Unité,possible_spelling_variant
 site-ch-wanamahika,CH Wanamahika,other,wanamahika,Katwa,Nord-Kivu,2026-06-16,033,FALSE,,,,,,mention_only,,,,2026-06-16,1,1,CH Wanamahika,""
 site-chahoboka,Chahoboka,other,chahoboka,"",Sud-Kivu,2026-06-10,027,FALSE,,,,,,mention_only,,,,2026-06-10,1,1,Chahoboka,possible_spelling_variant
@@ -198,24 +198,24 @@ site-clin-bon-berger,Clin. Bon Berger,other,bon berger,"","",2026-07-01,048,FALS
 site-clin-espoir,Clin Espoir,other,clin espoir,"",Ituri,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,Clin Espoir,""
 site-clinique-art,Clinique ART,other,art,"",Tshopo,2026-08-16,094,FALSE,,,,,,mention_only,,,,2026-08-16,1,1,Clinique ART,""
 site-clinique-dieu-gueri,clinique Dieu Guéri,other,dieu gueri,Rwampara,Ituri,2026-05-19,004,TRUE,,,,,,mention_only,,,,2026-05-19,1,1,clinique Dieu Guéri,""
-site-clinique-gloria,Clinique Gloria,other,gloria,"","",2026-07-11,058,FALSE,,,,,,mention_only,,,,2026-07-11,1,1,Clinique Gloria,""
+site-clinique-gloria,Clinique Gloria,other,gloria,"","",2026-07-11,058,FALSE,,,,,,mention_only,,,,2026-07-11,1,1,Clinique Gloria,possible_host_variant
 site-clinique-grace-divine,Clinique la GRACE DIVINE,other,grace divine,Rwampara,Ituri,2026-05-19,005,FALSE,,,,,,mention_only,,,,2026-05-19,1,1,Clinique la GRACE DIVINE,""
 site-clinique-gueris-mve-17,clinique des Guéris de la MVE-17,other,gueris mve 17,"","",2026-07-13,060,FALSE,2026-07-13,,,,,planned,2026-07-13,,,2026-07-13,1,1,clinique des Guéris de la MVE-17,""
-site-clinique-karibuni,Clinique KARIBUNI,other,karibuni,"","",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,Clinique KARIBUNI,""
+site-clinique-karibuni,Clinique KARIBUNI,other,karibuni,"","",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,Clinique KARIBUNI,possible_host_variant
 site-clinique-libiki-isiro,clinique Libiki d’Isiro,other,isiro,"","",2026-08-12,090,FALSE,,,,,,mention_only,,,,2026-08-12,1,1,clinique Libiki d’Isiro,""
 site-clinique-mama-kayenga,clinique Mama Kayenga,other,wamba,Wamba,Haut-Uélé,2026-08-15,093,FALSE,,,,,,mention_only,,,,2026-08-15,1,1,clinique Mama Kayenga,""
 site-clinique-marie-claire,Clinique Marie Claire,other,bunia,Bunia,"",2026-05-31,017,FALSE,,,,,,mention_only,,,,2026-05-31,1,1,Clinique Marie Claire,possible_spelling_variant
-site-clinique-merites,Clinique les Mérites,other,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-05-23,1,1,Clinique les Mérites,""
+site-clinique-merites,Clinique les Mérites,other,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-05-23,1,1,Clinique les Mérites,possible_host_variant
 site-clinique-pinpester,clinique Pinpester,other,isiro,"","",2026-08-12,090,FALSE,,,,,,mention_only,,,,2026-08-12,1,1,clinique Pinpester,""
 site-clinique-reconnaissance,Clinique la RECONNAISSANCE,other,reconnaissance,"","",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,Clinique la RECONNAISSANCE,""
 site-clinique-saint-vincent,clinique Saint-Vincent,other,saint vincent,"","",2026-08-03,081,FALSE,,,,,,mention_only,,,,2026-08-03,1,1,clinique Saint-Vincent,""
-site-clinique-salama,Clinique Salama,other,salama,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,Clinique Salama,""
-site-clinique-sofepadi,Clinique SOFEPADI,other,bunia,Bunia,"",2026-05-30,016,FALSE,,,,,,mention_only,,,,2026-05-30,1,1,Clinique SOFEPADI,""
+site-clinique-salama,Clinique Salama,other,salama,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,Clinique Salama,possible_host_variant
+site-clinique-sofepadi,Clinique SOFEPADI,other,bunia,Bunia,"",2026-05-30,016,FALSE,,,,,,mention_only,,,,2026-05-30,1,1,Clinique SOFEPADI,possible_host_variant
 site-clinique-tumaini,Clinique Tumaini,other,tumaini,Rwampara,Ituri,2026-05-19,004,TRUE,,,,,,mention_only,,,,2026-05-19,1,1,Clinique Tumaini,""
-site-clinique-unibu,clinique Unibu,other,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-05-23,1,1,clinique Unibu,""
+site-clinique-unibu,clinique Unibu,other,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-05-23,1,1,clinique Unibu,possible_host_variant
 site-clinique-universelle,Clinique Universelle,other,universelle,Bunia,Ituri,2026-05-22,008,FALSE,,,,,,mention_only,,,,2026-05-22,1,1,Clinique Universelle,""
 site-clinique-universitaire,clinique universitaire,other,isiro,"",Haut-Uélé,2026-07-14,061,FALSE,,,,,,mention_only,,,,2026-08-14,2,2,clinique universitaire; Clinique universitaire,possible_spelling_variant
-site-clinique-universitaire-isiro,Clinique universitaire d’Isiro,other,isiro,"",Haut-Uélé,2026-08-11,089,FALSE,,,,,,mention_only,,,,2026-08-11,1,1,Clinique universitaire d’Isiro,""
+site-clinique-universitaire-isiro,Clinique universitaire d’Isiro,other,isiro,"",Haut-Uélé,2026-08-11,089,FALSE,,,,,,mention_only,,,,2026-08-11,1,1,Clinique universitaire d’Isiro,possible_host_variant
 site-clinique-vie-hommes,Clinique La vie des Hommes,other,vie hommes,"",Nord-Kivu,2026-06-06,023,FALSE,,,,,,mention_only,,,,2026-06-06,1,1,Clinique La vie des Hommes,""
 site-clinique-william,Clinique William,other,william,"",Tshopo,2026-08-15,093,FALSE,,,,,,mention_only,,,,2026-08-19,3,3,Clinique William,possible_spelling_variant
 site-clinique-williams,Clinique Williams,other,williams,"",Tshopo,2026-09-09,118,FALSE,,,,,,mention_only,,,,2026-09-09,1,1,Clinique Williams,possible_spelling_variant
@@ -223,7 +223,7 @@ site-cliniques-monusco,cliniques de la MONUSCO,other,goma,"",Nord-Kivu,2026-06-1
 site-cliniques-universitaires,Cliniques universitaires,other,s universitaires,Isiro,Haut-Uélé,2026-05-31,017,FALSE,,,,,2026-05-31,incident,2026-05-31,,,2026-08-12,5,5,Cliniques universitaires; Cliniques Universitaires,possible_spelling_variant
 site-cliniques-universitaires-horizon,cliniques universitaires Horizon,other,horizon,Goma,Nord-Kivu,2026-06-06,023,FALSE,,,,,,mention_only,,,,2026-06-07,2,2,cliniques universitaires Horizon,""
 site-clique-marie-claire,Clique Marie Claire,other,babenda,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,Clique Marie Claire,possible_spelling_variant
-site-cm-amani,CM Amani,other,amani,"",Ituri,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CM Amani,possible_spelling_variant
+site-cm-amani,CM Amani,other,amani,"",Ituri,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CM Amani,possible_host_variant;possible_spelling_variant
 site-cm-anuarite,CM Anuarite,other,bunia,Bunia,Ituri,2026-06-10,027,FALSE,,,,,,mention_only,,,,2026-06-10,1,1,CM Anuarite,""
 site-cm-ave-maria,CM Ave maria,other,ave maria,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CM Ave maria,""
 site-cm-bethel,CM bethel,other,bethel,"",Ituri,2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-03,2,2,CM bethel; CM Bethel,""
@@ -231,14 +231,14 @@ site-cm-chirurgical-croix-verte,CM Chirurgical Croix Verte,other,chirurgical cro
 site-cm-divine,CM Divine,other,divine,Rwampara,"",2026-05-30,016,FALSE,,,,,,mention_only,,,,2026-05-30,1,1,CM Divine,possible_spelling_variant
 site-cm-divinite,CM la Divinité,other,divinite,"",Ituri,2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,CM la Divinité,possible_spelling_variant
 site-cm-gazelle,CM La Gazelle,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,,,2026-06-13,1,1,CM La Gazelle,""
-site-cm-gloria,CM GLORIA,other,gloria,Rwampara,Ituri,2026-05-19,005,FALSE,,,,,,mention_only,,,,2026-05-19,1,1,CM GLORIA,""
+site-cm-gloria,CM GLORIA,other,gloria,Rwampara,Ituri,2026-05-19,005,FALSE,,,,,,mention_only,,,,2026-05-19,1,1,CM GLORIA,possible_host_variant
 site-cm-grace,CM La Grâce,other,grace,"",Nord-Kivu,2026-06-03,020,FALSE,,,,,,mention_only,,,,2026-06-03,1,1,CM La Grâce,possible_spelling_variant
-site-cm-gracia,CM Gracia,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,,,2026-07-07,2,2,CM Gracia; CM GRACIA,possible_spelling_variant
+site-cm-gracia,CM Gracia,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,,,2026-07-07,2,2,CM Gracia; CM GRACIA,possible_host_variant;possible_spelling_variant
 site-cm-gracia-katsina,CM Gracia Katsina,other,gracia katsina,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CM Gracia Katsina,""
-site-cm-jades,CM JADES,other,beni,"",Nord-Kivu,2026-07-07,054,FALSE,,,,,,mention_only,,,,2026-07-07,1,1,CM JADES,possible_spelling_variant
-site-cm-joie,CM La Joie,other,joie,Beni,Nord-Kivu,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CM La Joie,""
+site-cm-jades,CM JADES,other,beni,"",Nord-Kivu,2026-07-07,054,FALSE,,,,,,mention_only,,,,2026-07-07,1,1,CM JADES,possible_host_variant;possible_spelling_variant
+site-cm-joie,CM La Joie,other,joie,Beni,Nord-Kivu,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CM La Joie,possible_host_variant
 site-cm-joponika,CM Joponika,other,joponika,"",Sud-Kivu,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,CM Joponika,""
-site-cm-karibuni,CM Karibuni,other,karibuni,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CM Karibuni,""
+site-cm-karibuni,CM Karibuni,other,karibuni,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CM Karibuni,possible_host_variant
 site-cm-kithimba,CM Kithimba,other,kithimba,Beni,Nord-Kivu,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CM Kithimba,""
 site-cm-lobiko,CM Lobiko,other,lobiko,"",Ituri,2026-06-27,044,TRUE,,,,,,mention_only,,,,2026-07-03,2,2,CM Lobiko,""
 site-cm-mbanasuvya,CM Mbanasuvya,other,mbanasuvya,Beni,Nord-Kivu,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CM Mbanasuvya,""
@@ -248,21 +248,21 @@ site-cm-peniel,CM Peniel,other,peniel,"",Ituri,2026-07-03,050,FALSE,,,,,,mention
 site-cm-renouveau-2,CM Renouveau 2,other,renouveau 2,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,CM Renouveau 2,""
 site-cm-sauvetage,CM sauvetage,other,sauvetage,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CM sauvetage,""
 site-cm-sauveur,CM le Sauveur,other,sauveur,"","",2026-06-30,047,FALSE,,,,,,mention_only,,,,2026-06-30,1,1,CM le Sauveur,""
-site-cm-shukrani,CM Shukrani,other,shukrani,Kabondo,Tshopo,2026-09-08,117,FALSE,,,,,,mention_only,,,,2026-09-08,1,1,CM Shukrani,possible_spelling_variant
+site-cm-shukrani,CM Shukrani,other,shukrani,Kabondo,Tshopo,2026-09-08,117,FALSE,,,,,,mention_only,,,,2026-09-08,1,1,CM Shukrani,possible_host_variant;possible_spelling_variant
 site-cm-st-gabriel,CM St Gabriel,other,st gabriel,"",Ituri,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CM St Gabriel,""
 site-cm-st-pierre,CM St pierre,other,st pierre,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CM St pierre,""
 site-cm-st-raphael,CM St Raphael,other,st raphael,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CM St Raphael,""
 site-cmc-kiharo,CMC Kiharo,other,kiharo,"",Nord Kivu,2026-07-04,051,FALSE,,,,,,mention_only,,,,2026-07-04,1,1,CMC Kiharo,""
-site-cme-bunia,CME/Bunia,other,bunia,"",Ituri,2026-05-26,012,FALSE,,2026-06-24,041,,,opened,2026-06-24,,,2026-06-27,3,3,CME/Bunia,possible_same_site
-site-cme-nyakunde,CME Nyakunde,other,nyakunde,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,,mention_only,,,,2026-05-30,5,5,CME Nyakunde,possible_spelling_variant
-site-cme-nyakunde-bunia,CME Nyakunde Bunia,other,bunia,"",Ituri,2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,CME Nyakunde Bunia,""
-site-cme-nyankunde,CME/Nyankunde,other,nyankunde,Rwampara,"",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,CME/Nyankunde,possible_same_site;possible_spelling_variant
-site-cs-abelkozo,CS Abelkozo,other,abelkozo,"",Ituri,2026-05-14,001,FALSE,,,,,,mention_only,,,,2026-05-17,2,2,CS Abelkozo,""
+site-cme-bunia,CME/Bunia,other,bunia,"",Ituri,2026-05-26,012,FALSE,,2026-06-24,041,,,opened,2026-06-24,,,2026-06-27,3,3,CME/Bunia,possible_host_variant;possible_same_site
+site-cme-nyakunde,CME Nyakunde,other,nyakunde,Rwampara,Ituri,2026-05-20,006,FALSE,,,,,,mention_only,,,,2026-05-30,5,5,CME Nyakunde,possible_host_variant;possible_spelling_variant
+site-cme-nyakunde-bunia,CME Nyakunde Bunia,other,bunia,"",Ituri,2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,CME Nyakunde Bunia,possible_host_variant
+site-cme-nyankunde,CME/Nyankunde,other,nyankunde,Rwampara,"",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,CME/Nyankunde,possible_host_variant;possible_same_site;possible_spelling_variant
+site-cs-abelkozo,CS Abelkozo,other,abelkozo,"",Ituri,2026-05-14,001,FALSE,,,,,,mention_only,,,,2026-05-17,2,2,CS Abelkozo,possible_host_variant
 site-cs-abiangama,CS Abiangama,other,abiangama,Pawa,Haut-Uélé,2026-08-13,091,FALSE,,,,,,mention_only,,,,2026-08-13,1,1,CS Abiangama,""
 site-cs-adventiste,CS Adventiste,other,adventiste,"","",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,CS Adventiste,""
-site-cs-aero,CS Aero,other,aero,Bunia,Ituri,2026-05-27,013,FALSE,,,,,,mention_only,,,,2026-06-05,3,3,CS Aero,""
+site-cs-aero,CS Aero,other,aero,Bunia,Ituri,2026-05-27,013,FALSE,,,,,,mention_only,,,,2026-06-05,3,3,CS Aero,possible_host_variant
 site-cs-agri-uele,CS Agri Uélé,other,agri uele,"",Bas-Uélé,2026-09-04,113,FALSE,,,,,,mention_only,,,,2026-09-04,1,1,CS Agri Uélé,""
-site-cs-amani,CS Amani,other,amani,"",Nord-Kivu,2026-09-07,116,FALSE,,,,,,mention_only,,,,2026-09-08,2,2,CS Amani,possible_spelling_variant
+site-cs-amani,CS Amani,other,amani,"",Nord-Kivu,2026-09-07,116,FALSE,,,,,,mention_only,,,,2026-09-08,2,2,CS Amani,possible_host_variant;possible_spelling_variant
 site-cs-anoalite,CS Anoalité,other,anoalite,"",Tshopo,2026-08-05,083,FALSE,,,,,,mention_only,,,,2026-08-05,1,1,CS Anoalité,""
 site-cs-bafwandambo,CS de Bafwandambo,other,bafwandambo,Bafwasende,Tshopo,2026-09-10,119,FALSE,,,,,,mention_only,,,,2026-09-10,1,1,CS de Bafwandambo,""
 site-cs-bahwere,CS de Bahwere,other,bahwere,"",Ituri,2026-07-20,067,FALSE,2026-07-20,,,,,under_construction,2026-07-20,,,2026-07-20,1,1,CS de Bahwere,""
@@ -275,29 +275,29 @@ site-cs-binase,CS BINASE,other,binase,"",Ituri,2026-07-18,065,FALSE,,,,,,mention
 site-cs-boikene,CS BOIKENE,other,beni,"",Nord-Kivu,2026-07-07,054,FALSE,,,,,,mention_only,,,,2026-07-07,1,1,CS BOIKENE,possible_same_site
 site-cs-bora-uzima,CS Bora Uzima,other,bora uzima,Bunia,Ituri,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-09,2,2,CS Bora Uzima,possible_spelling_variant
 site-cs-boyoma,CS Boyoma,other,boyoma,"",Tshopo,2026-07-21,068,FALSE,,,,,,mention_only,,,,2026-08-03,3,3,CS Boyoma,""
-site-cs-bunia-cite,CS Bunia Cité,other,bunia,Bunia,Ituri,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,CS Bunia Cité,possible_spelling_variant
+site-cs-bunia-cite,CS Bunia Cité,other,bunia,Bunia,Ituri,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,CS Bunia Cité,possible_host_variant;possible_spelling_variant
 site-cs-butanuka,CS Butanuka,other,beni,"","",2026-06-17,034,FALSE,,,,,,mention_only,,,,2026-06-17,1,1,CS Butanuka,""
 site-cs-butsili,CS BUTSILI,other,beni,"",Nord-Kivu,2026-07-07,054,FALSE,,,,,,mention_only,,,,2026-07-07,1,1,CS BUTSILI,possible_spelling_variant
 site-cs-cnca,CS CNCA,other,cnca,"",Ituri,2026-07-30,077,TRUE,,,,,,mention_only,,,,2026-07-31,2,2,CS CNCA,possible_spelling_variant
 site-cs-congo,CS du Congo,other,congo,Buta,Bas-Uélé,2026-09-04,113,FALSE,,,,,,mention_only,,,,2026-09-05,2,2,CS du Congo,""
 site-cs-dokotolo,CS Dokotolo,other,dokotolo,"",Nord-Kivu,2026-08-24,102,FALSE,,,,,,mention_only,,,,2026-08-24,1,1,CS Dokotolo,""
 site-cs-eringeti,CS Eringeti,other,eringeti,"",Nord-Kivu,2026-07-06,053,FALSE,,,,,,mention_only,,,,2026-07-06,1,1,CS Eringeti,""
-site-cs-famille,CS La Famille,other,famille,"",Tshopo,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CS La Famille,""
+site-cs-famille,CS La Famille,other,famille,"",Tshopo,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CS La Famille,possible_host_variant
 site-cs-irangya,CS Irangya,other,katwa,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,CS Irangya,""
-site-cs-jades,CS Jades,other,jades,"",Nord-Kivu,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CS Jades,possible_spelling_variant
+site-cs-jades,CS Jades,other,jades,"",Nord-Kivu,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CS Jades,possible_host_variant;possible_spelling_variant
 site-cs-jamaa,CS Jamaa,other,jamaa,"",Tshopo,2026-07-23,070,FALSE,,,,,,mention_only,,,,2026-08-21,3,3,CS Jamaa,""
 site-cs-kabushwa,CS Kabushwa,other,kabushwa,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,CS Kabushwa,""
 site-cs-kahungu,CS Kahungu,other,kahungu,Miti- Murhesa,Sud-Kivu,2026-06-05,022,FALSE,,,,,,mention_only,,,,2026-06-13,4,4,CS Kahungu,""
 site-cs-kasabinyale,CS Kasabinyale,other,beni,"","",2026-06-17,034,FALSE,,,,,,mention_only,,,,2026-06-17,1,1,CS Kasabinyale,""
 site-cs-kasisi,CS Kasisi,other,kasisi,"",Nord-Kivu,2026-06-09,026,FALSE,,,,,,mention_only,,,,2026-06-09,1,1,CS Kasisi,possible_spelling_variant
 site-cs-katiri,CS Katiri,other,katiri,Kyondo,Nord-Kivu,2026-06-09,026,FALSE,,,,,,mention_only,,,,2026-06-09,1,1,CS Katiri,possible_spelling_variant
-site-cs-kavumu,CS Kavumu,other,kavumu,"",Sud-Kivu,2026-06-16,033,FALSE,,,,,,mention_only,,,,2026-06-16,1,1,CS Kavumu,possible_spelling_variant
+site-cs-kavumu,CS Kavumu,other,kavumu,"",Sud-Kivu,2026-06-16,033,FALSE,,,,,,mention_only,,,,2026-06-16,1,1,CS Kavumu,possible_host_variant;possible_spelling_variant
 site-cs-kisiza,CS Kisiza,other,kisiza,Idjwi,"",2026-06-23,040,FALSE,,,,,,mention_only,,,,2026-06-23,1,1,CS Kisiza,""
 site-cs-komanda,CS Komanda,other,komanda,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-30,3,3,CS Komanda,""
 site-cs-konga-konga,CS Konga-Konga,other,konga konga,"",Tshopo,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CS Konga-Konga,""
 site-cs-kutumba,CS Kutumba,other,kutumba,"",Ituri,2026-07-03,050,FALSE,,,,,,mention_only,,,,2026-07-03,1,1,CS Kutumba,""
 site-cs-kwetu,CS Kwetu,other,kwetu,"",Tshopo,2026-07-23,070,FALSE,,,,,,mention_only,,,,2026-07-24,2,2,CS Kwetu,""
-site-cs-kyaghala,CS Kyaghala,other,kyaghala,Katwa,Nord-Kivu,2026-06-07,024,FALSE,,,,,,mention_only,,,,2026-06-07,1,1,CS Kyaghala,possible_spelling_variant
+site-cs-kyaghala,CS Kyaghala,other,kyaghala,Katwa,Nord-Kivu,2026-06-07,024,FALSE,,,,,,mention_only,,,,2026-06-07,1,1,CS Kyaghala,possible_host_variant;possible_spelling_variant
 site-cs-kyangike,CS Kyangike,other,kyangike,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CS Kyangike,""
 site-cs-lembabo,CS Lembabo,other,lembabo,Bunia,Ituri,2026-06-01,018,FALSE,,,,,,mention_only,,,,2026-06-01,1,1,CS Lembabo,possible_spelling_variant
 site-cs-mabakanga,CS Mabakanga,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,,,2026-07-07,2,2,CS Mabakanga; CS MABAKANGA,""
@@ -307,11 +307,11 @@ site-cs-maranatha,CS Maranatha,other,maranatha,Beni,Nord-Kivu,2026-09-05,114,FAL
 site-cs-masuli,CS Masuli,other,masuli,"",Nord-Kivu,2026-06-06,023,FALSE,,,,,,mention_only,,,,2026-06-06,1,1,CS Masuli,possible_spelling_variant
 site-cs-matete,CS Matete,other,matete,Mangobo,Tshopo,2026-09-06,115,FALSE,,,,,,mention_only,,,,2026-09-06,1,1,CS Matete,possible_spelling_variant
 site-cs-mbana,CS Mbana,other,mbana,Viadana,Bas-Uélé,2026-09-03,112,FALSE,,,,,,mention_only,,,,2026-09-03,1,1,CS Mbana,""
-site-cs-merites,CS. Les merites,other,merites,Bunia,Ituri,2026-05-19,004,TRUE,,,,,,mention_only,,,,2026-05-19,1,1,CS. Les merites,""
+site-cs-merites,CS. Les merites,other,merites,Bunia,Ituri,2026-05-19,004,TRUE,,,,,,mention_only,,,,2026-05-19,1,1,CS. Les merites,possible_host_variant
 site-cs-mitoya,CS Mitoya,other,mitoya,Katwa,Nord-Kivu,2026-06-07,024,FALSE,,,,,,mention_only,,,,2026-06-07,1,1,CS Mitoya,""
 site-cs-mobenge,CS Mobenge,other,mobenge,"",Bas-Uélé,2026-09-04,113,FALSE,,,,,,mention_only,,,,2026-09-04,1,1,CS Mobenge,""
-site-cs-mudzi-maria,CS Mudzi maria,other,bunia,Bunia,Ituri,2026-06-10,027,FALSE,,,,,,mention_only,,,,2026-06-10,1,1,CS Mudzi maria,possible_spelling_variant
-site-cs-mukuna,CS Mukuna,other,mukuna,Katwa,Nord-Kivu,2026-06-07,024,FALSE,,,,,,mention_only,,,,2026-06-07,1,1,CS Mukuna,possible_spelling_variant
+site-cs-mudzi-maria,CS Mudzi maria,other,bunia,Bunia,Ituri,2026-06-10,027,FALSE,,,,,,mention_only,,,,2026-06-10,1,1,CS Mudzi maria,possible_host_variant;possible_spelling_variant
+site-cs-mukuna,CS Mukuna,other,mukuna,Katwa,Nord-Kivu,2026-06-07,024,FALSE,,,,,,mention_only,,,,2026-06-07,1,1,CS Mukuna,possible_host_variant;possible_spelling_variant
 site-cs-naissance-desirable,CS Naissance Désirable,other,naissance desirable,"",Nord-Kivu,2026-08-14,092,FALSE,,,,,,mention_only,,,,2026-08-14,1,1,CS Naissance Désirable,""
 site-cs-ndindi,CS de Ndindi,other,ndindi,"",Nord-Kivu,2026-08-19,097,FALSE,,,,,2026-08-19,incident,2026-08-19,,,2026-08-19,1,1,CS de Ndindi,""
 site-cs-ngalika,CS Ngalika,other,ngalika,"",Nord-Kivu,2026-08-24,102,FALSE,,,,,,mention_only,,,,2026-08-24,1,1,CS Ngalika,""
@@ -319,20 +319,20 @@ site-cs-ngamau,CS Ngamau,other,ngamau,Mongbwalu,"",2026-05-30,016,FALSE,,,,,,men
 site-cs-ngona,CS Ngona,other,ngona,Rwampara,"",2026-05-31,017,FALSE,,,,,,mention_only,,,,2026-05-31,1,1,CS Ngona,""
 site-cs-nyakasanza,CS Nyakasanza,other,nyakasanza,Bunia,Ituri,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,CS Nyakasanza,""
 site-cs-nyakero,CS Nyakero,other,nyakero,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CS Nyakero,""
-site-cs-nyakunde,CS Nyakunde,other,nyakunde,"",Nord-Kivu,2026-08-26,104,FALSE,,,,,,mention_only,,,,2026-08-29,4,4,CS Nyakunde,possible_spelling_variant
+site-cs-nyakunde,CS Nyakunde,other,nyakunde,"",Nord-Kivu,2026-08-26,104,FALSE,,,,,,mention_only,,,,2026-08-29,4,4,CS Nyakunde,possible_host_variant;possible_spelling_variant
 site-cs-papa-freddy,CS Papa Freddy,other,papa freddy,"",Tshopo,2026-08-15,093,FALSE,,,,,,mention_only,,,,2026-08-19,3,3,CS Papa Freddy,""
 site-cs-plutot,CS plutôt,other,plutot,"","",2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,CS plutôt,""
 site-cs-poli-frontiere,CS Poli de frontiere,other,poli frontiere,"","",2026-07-01,048,FALSE,,,,,,mention_only,,,,2026-07-01,1,1,CS Poli de frontiere,""
 site-cs-reference-rubi-lisanga,CS de référence de Rubi Lisanga,other,rubi lisanga,Buta,Bas-Uélé,2026-09-10,119,FALSE,,,,,,closed,2026-09-10,,,2026-09-10,1,1,CS de référence de Rubi Lisanga,""
 site-cs-rubi-lisanga,CS Rubi-Lisanga,other,rubi lisanga,"",Bas-Uélé,2026-08-18,096,FALSE,,,,,,mention_only,,,,2026-08-18,1,1,CS Rubi-Lisanga,possible_spelling_variant
-site-cs-ruwenzori,CS Ruwenzori,other,beni,"",Nord-Kivu,2026-06-17,034,FALSE,,,,,,mention_only,,,,2026-08-21,2,2,CS Ruwenzori,possible_spelling_variant
+site-cs-ruwenzori,CS Ruwenzori,other,beni,"",Nord-Kivu,2026-06-17,034,FALSE,,,,,,mention_only,,,,2026-08-21,2,2,CS Ruwenzori,possible_host_variant;possible_spelling_variant
 site-cs-rwamapara,CS Rwamapara,other,rwamapara,Rwamapara,"",2026-05-27,013,FALSE,,,,,,mention_only,,,,2026-05-28,2,2,CS Rwamapara,possible_spelling_variant
-site-cs-rwambuzi,CS Rwambuzi,other,rwambuzi,"",Ituri,2026-06-05,022,FALSE,,,,,,mention_only,,,,2026-06-05,1,1,CS Rwambuzi,""
-site-cs-rwampara,CS Rwampara,other,rwampara,Mongbwalu,Ituri,2026-05-20,006,FALSE,,,,,,mention_only,,,,2026-05-21,3,3,CS Rwampara,possible_spelling_variant
-site-cs-rwankole,CS Rwankole,other,rwankole,"","",2026-07-30,077,TRUE,,,,,,mention_only,,,,2026-07-30,1,1,CS Rwankole,possible_spelling_variant
+site-cs-rwambuzi,CS Rwambuzi,other,rwambuzi,"",Ituri,2026-06-05,022,FALSE,,,,,,mention_only,,,,2026-06-05,1,1,CS Rwambuzi,possible_host_variant
+site-cs-rwampara,CS Rwampara,other,rwampara,Mongbwalu,Ituri,2026-05-20,006,FALSE,,,,,,mention_only,,,,2026-05-21,3,3,CS Rwampara,possible_host_variant;possible_spelling_variant
+site-cs-rwankole,CS Rwankole,other,rwankole,"","",2026-07-30,077,TRUE,,,,,,mention_only,,,,2026-07-30,1,1,CS Rwankole,possible_host_variant;possible_spelling_variant
 site-cs-saint-luc,CS Saint-Luc,other,saint luc,"","",2026-08-03,081,FALSE,,,,,,mention_only,,,,2026-08-03,1,1,CS Saint-Luc,""
 site-cs-saint-pierre,CS Saint-Pierre,other,saint pierre,"",Tshopo,2026-09-10,119,FALSE,,,,,,mention_only,,,,2026-09-10,1,1,CS Saint-Pierre,""
-site-cs-salama,CS SALAMA,other,salama,"",Ituri,2026-07-18,065,FALSE,,,,,,mention_only,,,,2026-07-18,1,1,CS SALAMA,possible_spelling_variant
+site-cs-salama,CS SALAMA,other,salama,"",Ituri,2026-07-18,065,FALSE,,,,,,mention_only,,,,2026-07-18,1,1,CS SALAMA,possible_host_variant;possible_spelling_variant
 site-cs-segama,CS Segama,other,segama,"",Tshopo,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-08-21,1,1,CS Segama,possible_spelling_variant
 site-cs-shamamba,CS Shamamba,other,shamamba,"",Nord-Kivu,2026-09-07,116,FALSE,,,,,,mention_only,,,,2026-09-07,1,1,CS Shamamba,""
 site-cs-sncc,CS SNCC,other,sncc,"",Tshopo,2026-08-05,083,FALSE,,,,,,mention_only,,,,2026-08-05,1,1,CS SNCC,possible_spelling_variant
@@ -388,37 +388,37 @@ site-dispensaire-tuha,Dispensaire Tuha,other,tuha,Beni,Nord-Kivu,2026-07-03,050,
 site-dispensaire-virunga,dispensaire Virunga,other,virunga,"",Nord-Kivu,2026-09-08,117,FALSE,,,,,,mention_only,,,,2026-09-08,1,1,dispensaire Virunga,""
 site-dispensaires-guerison-divine,dispensaires Guérison Divine,other,dispensaires guerison divine,Beni,Nord-Kivu,2026-09-05,114,FALSE,,,,,,mention_only,,,,2026-09-05,1,1,dispensaires Guérison Divine,""
 site-dispensaires-lukogho,dispensaires Lukogho,other,dispensaires lukogho,"",Nord-Kivu,2026-09-09,118,FALSE,,,,,,mention_only,,,,2026-09-09,1,1,dispensaires Lukogho,""
-site-ess-kalagane,ESS Kalagane,other,kalagane,"",Sud-Kivu,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,ESS Kalagane,""
+site-ess-kalagane,ESS Kalagane,other,kalagane,"",Sud-Kivu,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,ESS Kalagane,possible_host_variant
 site-grace-dieu,la Grâce de Dieu,other,grace dieu,"",Ituri,2026-06-08,025,FALSE,,,,,,mention_only,,,,2026-06-08,1,1,la Grâce de Dieu,""
 site-hc-kisangani,HC de Kisangani,other,kisangani,"",Tshopo,2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-11,3,3,HC de Kisangani; HC Kisangani,possible_same_site
 site-hgr,HGR,other,pawa,Pawa,Haut-Uélé,2026-08-15,093,FALSE,,,,,,mention_only,,,,2026-08-15,1,1,HGR,""
-site-hgr-aru,HGR/Aru,other,aru,"",Ituri,2026-06-27,044,TRUE,,,,,,mention_only,,,,2026-06-27,1,1,HGR/Aru,possible_same_site
+site-hgr-aru,HGR/Aru,other,aru,"",Ituri,2026-06-27,044,TRUE,,,,,,mention_only,,,,2026-06-27,1,1,HGR/Aru,possible_host_variant;possible_same_site
 site-hgr-bafwasende,HGR Bafwasende,other,bafwasende,"",Tshopo,2026-08-30,108,FALSE,,,,,,mention_only,,,,2026-09-02,3,3,HGR Bafwasende,""
-site-hgr-beni,HGR de Beni,other,beni,Beni,Nord-Kivu,2026-07-02,049,FALSE,,,,,2026-07-02,operating,2026-07-02,,,2026-08-31,10,10,HGR Beni; HGR de Beni,possible_same_site;possible_spelling_variant
-site-hgr-bunia,HGR-Bunia,other,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,,mention_only,,,,2026-06-04,7,7,HGR-Bunia,possible_same_site;possible_spelling_variant
-site-hgr-cinquantenaire,HGR Cinquantenaire,other,cinquantenaire,"",Tshopo,2026-08-16,094,FALSE,,,,,,mention_only,,,,2026-08-16,1,1,HGR Cinquantenaire,""
+site-hgr-beni,HGR de Beni,other,beni,Beni,Nord-Kivu,2026-07-02,049,FALSE,,,,,2026-07-02,operating,2026-07-02,,,2026-08-31,10,10,HGR Beni; HGR de Beni,possible_host_variant;possible_same_site;possible_spelling_variant
+site-hgr-bunia,HGR-Bunia,other,bunia,Bunia,Ituri,2026-05-20,006,FALSE,,,,,,mention_only,,,,2026-06-04,7,7,HGR-Bunia,possible_host_variant;possible_same_site;possible_spelling_variant
+site-hgr-cinquantenaire,HGR Cinquantenaire,other,cinquantenaire,"",Tshopo,2026-08-16,094,FALSE,,,,,,mention_only,,,,2026-08-16,1,1,HGR Cinquantenaire,possible_host_variant
 site-hgr-damas,HGR Damas,other,damas,"","",2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,HGR Damas,""
 site-hgr-drodro,HGR Drodro,other,drodro,"","",2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,HGR Drodro,""
-site-hgr-isiro,HGR d’Isiro,other,isiro,Isiro,Haut-Uélé,2026-07-13,060,FALSE,2026-07-13,,,,2026-08-18,operating,2026-08-18,,,2026-09-09,6,6,HGR d’Isiro; HGR Isiro,possible_same_site
+site-hgr-isiro,HGR d’Isiro,other,isiro,Isiro,Haut-Uélé,2026-07-13,060,FALSE,2026-07-13,,,,2026-08-18,operating,2026-08-18,,,2026-09-09,6,6,HGR d’Isiro; HGR Isiro,possible_host_variant;possible_same_site
 site-hgr-jiba,HGR Jiba,other,jiba,"","",2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,HGR Jiba,possible_spelling_variant
 site-hgr-kabondo,HGR Kabondo,other,kabondo,Kabondo,Tshopo,2026-09-03,112,FALSE,,,,,,mention_only,,,,2026-09-03,1,1,HGR Kabondo,possible_spelling_variant
 site-hgr-kyondo,HGR de Kyondo,other,kyondo,Kyondo,Nord-Kivu,2026-06-27,044,TRUE,,,,,,mention_only,,,,2026-08-14,2,2,HGR de Kyondo,possible_spelling_variant
 site-hgr-likati,HGR de Likati,other,likati,"",Bas-Uélé,2026-08-19,097,FALSE,,,,,,mention_only,,,,2026-08-19,1,1,HGR de Likati,""
 site-hgr-linga,HGR Linga,other,linga,"","",2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,HGR Linga,possible_spelling_variant
 site-hgr-lita,HGR Lita,other,lita,Lita,Ituri,2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-08-15,3,3,HGR de Lita; HGR Lita,possible_spelling_variant
-site-hgr-logo,HGR de la Zone de Santé de Logo,other,logo,Logo,Ituri,2026-07-17,064,TRUE,,,,,,mention_only,,,,2026-07-17,1,1,HGR de la Zone de Santé de Logo,""
+site-hgr-logo,HGR de la Zone de Santé de Logo,other,logo,Logo,Ituri,2026-07-17,064,TRUE,,,,,,mention_only,,,,2026-07-17,1,1,HGR de la Zone de Santé de Logo,possible_host_variant
 site-hgr-lolwa,HGR LOLWA,other,lolwa,"",Ituri,2026-05-23,009,FALSE,,,,,,mention_only,,,,2026-05-23,1,1,HGR LOLWA,""
 site-hgr-makiso,HGR Makiso,other,makiso,"",Tshopo,2026-07-23,070,FALSE,,,,,,mention_only,,,,2026-08-24,3,3,HGR Makiso,""
 site-hgr-makiso-kisangani,HGR Makiso-Kisangani,other,makiso kisangani,Makiso-Kisangani,Tshopo,2026-08-03,081,FALSE,,,,,2026-09-12,operating,2026-09-12,,,2026-09-12,16,16,HGR Makiso-Kisangani,possible_same_site
 site-hgr-mangala,HGR Mangala,other,mangala,"","",2026-06-04,021,FALSE,,,,,,mention_only,,,,2026-06-04,1,1,HGR Mangala,""
 site-hgr-mangobo,HGR Mangobo,other,mangobo,"",Tshopo,2026-08-21,099,FALSE,,,,,,mention_only,,,,2026-09-09,2,2,HGR Mangobo,""
-site-hgr-matanda,HGR Matanda,other,matanda,"","",2026-06-15,032,FALSE,,,,,,mention_only,,,,2026-06-15,1,1,HGR Matanda,possible_spelling_variant
+site-hgr-matanda,HGR Matanda,other,matanda,"","",2026-06-15,032,FALSE,,,,,,mention_only,,,,2026-06-15,1,1,HGR Matanda,possible_host_variant;possible_spelling_variant
 site-hgr-mogbwalu,HGR Mogbwalu,other,mongbwalu,Mongbwalu,"",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,HGR Mogbwalu,possible_spelling_variant
 site-hgr-mongbwalu,HGR de Mongbwalu,other,mongbwalu,"","",2026-05-17,002,FALSE,,,,,,mention_only,,,,2026-05-17,1,1,HGR de Mongbwalu,possible_same_site;possible_spelling_variant
 site-hgr-mongwalu,HGR-Mongwalu,other,mongwalu,Mongbwalu,Ituri,2026-05-19,005,FALSE,,,,,,mention_only,,,,2026-05-28,3,3,HGR Mongwalu; HGR-Mongwalu,possible_spelling_variant
 site-hgr-nundu,HGR Nundu,other,nundu,Nundu,"",2026-06-23,040,FALSE,,,,,,mention_only,,,,2026-06-23,1,1,HGR Nundu,""
-site-hgr-nyankunde,HGR/Nyankunde,other,nyankunde,"",Ituri,2026-06-27,044,TRUE,,,,,,mention_only,,,,2026-06-27,1,1,HGR/Nyankunde,possible_same_site
-site-hgr-rwampara,HGR/Rwampara,other,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,2026-06-27,,,,,under_construction,2026-06-27,,,2026-06-27,3,3,HGR-Rwampara; HGR/Rwampara,possible_same_site
+site-hgr-nyankunde,HGR/Nyankunde,other,nyankunde,"",Ituri,2026-06-27,044,TRUE,,,,,,mention_only,,,,2026-06-27,1,1,HGR/Nyankunde,possible_host_variant;possible_same_site
+site-hgr-rwampara,HGR/Rwampara,other,rwampara,Rwampara,Ituri,2026-05-20,006,FALSE,2026-06-27,,,,,under_construction,2026-06-27,,,2026-06-27,3,3,HGR-Rwampara; HGR/Rwampara,possible_host_variant;possible_same_site
 site-hgr-tshopo,HGR Tshopo,other,tshopo,"",Tshopo,2026-07-23,070,FALSE,,,,,,mention_only,,,,2026-09-09,3,3,HGR Tshopo,""
 site-hgr-viadana,HGR de Viadana,other,viadana,Viadana,Bas-Uélé,2026-09-03,112,FALSE,,,,,,mention_only,,,,2026-09-05,3,3,HGR de Viadana; HGR Viadana,""
 site-hgr-virunga,HGR Virunga,other,virunga,"",Nord-Kivu,2026-06-02,019,FALSE,,,,,,mention_only,,,,2026-06-13,11,11,HGR Virunga,""
@@ -426,21 +426,21 @@ site-hgr-zs-ganga,HGR de la ZS de Ganga,other,ganga,Ganga,Bas-Uélé,2026-09-02,
 site-hgr-zs-nizi,HGR de la ZS de Nizi,other,nizi,Nizi,Ituri,2026-06-07,024,FALSE,,,,,,mention_only,,,,2026-06-07,1,1,HGR de la ZS de Nizi,""
 site-hgr-zs-oicha,HGR de la ZS d’Oicha,other,zs oicha,Oicha,"",2026-06-23,040,FALSE,,,,,,mention_only,,,,2026-06-23,1,1,HGR de la ZS d’Oicha,""
 site-hgro,HGRO,other,tenambo,Oïcha,Nord-Kivu,2026-07-06,053,FALSE,,,,,,mention_only,,,,2026-07-06,1,1,HGRO,""
-site-hopital-cinquantenaire,hôpital du cinquantenaire,other,kinshasa,"","",2026-06-09,026,FALSE,,,,,,mention_only,,,,2026-06-11,2,2,hôpital du cinquantenaire; hôpital du Cinquantenaire,""
-site-hopital-general-logo,Hôpital général de Logo,other,logo,Logo,Ituri,2026-07-17,064,TRUE,,,,,,mention_only,,,,2026-07-17,1,1,Hôpital général de Logo,""
+site-hopital-cinquantenaire,hôpital du cinquantenaire,other,kinshasa,"","",2026-06-09,026,FALSE,,,,,,mention_only,,,,2026-06-11,2,2,hôpital du cinquantenaire; hôpital du Cinquantenaire,possible_host_variant
+site-hopital-general-logo,Hôpital général de Logo,other,logo,Logo,Ituri,2026-07-17,064,TRUE,,,,,,mention_only,,,,2026-07-17,1,1,Hôpital général de Logo,possible_host_variant
 site-hopital-general-reference-buta,hôpital général de référence de Buta,other,buta,"",Bas Uele,2026-07-26,073,FALSE,,,,,,mention_only,,,,2026-07-26,1,1,hôpital général de référence de Buta,""
 site-hopital-general-reference-province-bas-uele,hôpital général de référence de la province de Bas Uele,other,province bas uele,"",Bas Uele,2026-07-26,073,FALSE,,,,,,mention_only,,,,2026-07-26,1,2,hôpital général de référence de la province de Bas Uele; hôpital général de référence de la province de Bas-Uélé,""
 site-hopital-lengabo,hôpital de LENGABO,other,lengabo,Rwampara,Ituri,2026-06-01,018,FALSE,,,,,,mention_only,,,,2026-06-01,1,1,hôpital de LENGABO,""
 site-hopital-libiki,hôpital Libiki,other,libiki,"",Haut-Uélé,2026-07-30,077,TRUE,,,,,,mention_only,,,,2026-07-31,2,2,hôpital Libiki,""
-site-hopital-matanda,hôpital Matanda,other,matanda,"","",2026-08-03,081,FALSE,,,,,,mention_only,,,,2026-08-03,1,1,hôpital Matanda,possible_same_site
+site-hopital-matanda,hôpital Matanda,other,matanda,"","",2026-08-03,081,FALSE,,,,,,mention_only,,,,2026-08-03,1,1,hôpital Matanda,possible_host_variant;possible_same_site
 site-hopital-militaire-mambangu,Hôpital militaire de Mambangu,other,mambangu,"",Nord-Kivu,2026-07-12,059,FALSE,,,,,,mention_only,,,,2026-07-12,1,1,Hôpital militaire de Mambangu,""
 site-hopital-militaire-muhumba,Hopital Militaire de Muhumba,other,muhumba,"",Sud-Kivu,2026-06-10,027,FALSE,,,,,,mention_only,,,,2026-06-10,1,1,Hopital Militaire de Muhumba,""
 site-hsr-matanda,HSR Matanda,other,matanda,Butembo,Nord-Kivu,2026-06-14,031,FALSE,,,,,,mention_only,,,,2026-06-14,1,1,HSR Matanda,possible_spelling_variant
 site-iem-nyakunde,IEM Nyakunde,other,nyakunde,Nyakunde,Ituri,2026-05-22,008,FALSE,,,,,,mention_only,,,,2026-05-23,2,2,IEM Nyakunde,possible_spelling_variant
 site-jesus-est-sauveur-cbca,JESUS EST SAUVEUR CBCA,other,jesus est sauveur cbca,"","",2026-05-24,010,FALSE,,,,,,mention_only,,,,2026-05-24,1,1,JESUS EST SAUVEUR CBCA,""
-site-kalagane,Kalagane,other,kalagane,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,Kalagane,""
+site-kalagane,Kalagane,other,kalagane,"","",2026-06-11,028,FALSE,,,,,,mention_only,,,,2026-06-11,1,1,Kalagane,possible_host_variant
 site-kami,KAMI,other,kami,"",Nord-Kivu,2026-06-21,038,FALSE,,,,,2026-06-21,operating,2026-06-21,,,2026-06-21,1,1,KAMI,""
-site-matanda,Matanda,other,matanda,"",Nord-Kivu,2026-08-04,082,FALSE,,,,,2026-09-02,operating,2026-09-02,,,2026-09-02,2,2,Matanda,possible_same_site
+site-matanda,Matanda,other,matanda,"",Nord-Kivu,2026-08-04,082,FALSE,,,,,2026-09-02,operating,2026-09-02,,,2026-09-02,2,2,Matanda,possible_host_variant;possible_same_site
 site-maternite-clinique-elikya-mere-enfant,Maternité de Clinique Elikya Mère-enfant,other,rwampara,Rwampara,Ituri,2026-06-01,018,FALSE,,,,,,mention_only,,,,2026-06-01,1,1,Maternité de Clinique Elikya Mère-enfant,""
 site-morgue-balidja,Morgue BALIDJA,other,morgue balidja,Rwampara,Ituri,2026-05-20,006_v2,FALSE,,,,,,mention_only,,,,2026-05-20,1,1,Morgue BALIDJA,""
 site-morgue-ngalika,morgue de Ngalika,other,ngalika,"",Nord-Kivu,2026-08-24,102,FALSE,,,,,2026-08-24,incident,2026-08-24,,,2026-08-24,1,1,morgue de Ngalika,""
@@ -486,7 +486,7 @@ site-ps-uponyadji,PS Uponyadji,other,rwampara,Rwampara,Ituri,2026-06-01,018,FALS
 site-ps-ushindi,PS Ushindi,other,ps ushindi,"","",2026-06-29,046,TRUE,,,,,,mention_only,,,,2026-06-30,2,2,PS Ushindi,""
 site-ps-yesu-ni-jibu,PS Yesu ni Jibu,other,ps yesu ni jibu,"","",2026-06-30,047,FALSE,,,,,,mention_only,,,,2026-06-30,1,1,PS Yesu ni Jibu,""
 site-psa-tout-est-grace,PSA Tout est grace,other,psa tout est grace,"","",2026-06-30,047,FALSE,,,,,,mention_only,,,,2026-06-30,1,1,PSA Tout est grace,""
-site-rwambuzi,Rwambuzi,other,bunia,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,Rwambuzi,""
+site-rwambuzi,Rwambuzi,other,bunia,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,Rwambuzi,possible_host_variant
 site-simbiliabo,Simbiliabo,other,simbiliabo,"",Ituri,2026-07-18,065,FALSE,,,,,,mention_only,,,,2026-07-18,1,1,Simbiliabo,possible_spelling_variant
 site-simbiliambo,Simbiliambo,other,bunia,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,Simbiliambo,possible_spelling_variant
 site-site-transit-refugies,site de transit des réfugiés,other,site transit refugies,"","",2026-06-15,032,FALSE,,,,,,mention_only,,,,2026-06-15,1,1,site de transit des réfugiés,""
@@ -500,8 +500,8 @@ site-ucbc,UCBC,other,beni,Beni,Nord-Kivu,2026-06-13,030,TRUE,,,,,,mention_only,,
 site-unite-triage-hgr-vuhovi,unité de triage à l’HGR de Vuhovi,other,vuhovi,Vuhovi,Nord-Kivu,2026-08-12,090,FALSE,2026-08-12,,,,,under_construction,2026-08-15,,,2026-08-15,2,2,unité de triage à l’HGR de Vuhovi; unité de triage de l’HGR Vuhovi,""
 ct-1ct-sota,1CT SOTA,transit_centre,sota,"",Ituri,2026-07-03,050,FALSE,,,,,2026-07-03,operating,2026-07-03,,,2026-07-03,1,1,1CT SOTA,""
 ct-bambu,CT Bambu,transit_centre,bambu,Bambu,Ituri,2026-05-27,013,FALSE,,,,,2026-05-27,strained,2026-08-09,,,2026-08-09,9,9,CT Bambu; CT BAMBU; CT de Bambu,possible_same_site
-ct-beni,CT de Beni,transit_centre,beni,Beni,Nord-Kivu,2026-08-03,081,FALSE,2026-08-03,,,,2026-08-19,operating,2026-09-02,,,2026-09-02,5,5,Beni; CT de Beni,possible_same_site
-ct-bunia,CT Bunia,transit_centre,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,2026-05-23,operating,2026-08-26,,,2026-08-26,2,2,CT Bunia,possible_same_site
+ct-beni,CT de Beni,transit_centre,beni,Beni,Nord-Kivu,2026-08-03,081,FALSE,2026-08-03,,,,2026-08-19,operating,2026-09-02,,,2026-09-02,5,5,Beni; CT de Beni,possible_host_variant;possible_same_site
+ct-bunia,CT Bunia,transit_centre,bunia,Bunia,Ituri,2026-05-23,009,FALSE,,,,,2026-05-23,operating,2026-08-26,,,2026-08-26,2,2,CT Bunia,possible_host_variant;possible_same_site
 ct-camp-deplaces-kingoze,CT du camp de déplacés de Kingoze,transit_centre,kingoze,"",Ituri,2026-07-10,057,FALSE,,2026-07-10,057,,,opened,2026-07-10,,,2026-07-10,1,1,CT du camp de déplacés de Kingoze,""
 ct-camp-kingozi,CT du camp de Kingozi,transit_centre,camp kingozi,"",Ituri,2026-07-12,059,FALSE,,,,,2026-07-12,expanded,2026-07-12,,,2026-07-12,1,1,CT du camp de Kingozi,""
 ct-ctem,CTEM,transit_centre,ctem,"",Ituri,2026-07-21,068,FALSE,,,,,2026-07-21,operating,2026-07-21,,,2026-07-21,1,1,CTEM,""
@@ -511,14 +511,14 @@ ct-fataki,CT Fataki,transit_centre,fataki,"",Ituri,2026-07-14,061,FALSE,,,,,2026
 ct-fomulac,FOMULAC,transit_centre,fomulac,"",Sud-Kivu,2026-08-27,105,FALSE,,,,,2026-08-27,operating,2026-08-27,,,2026-08-27,1,1,FOMULAC,possible_same_site
 ct-hc-kisangani,CT de l'HC Kisangani,transit_centre,kisangani,"","",2026-08-03,081,FALSE,,,,,2026-08-03,operating,2026-08-04,20,2026-08-03,2026-08-04,2,2,CT de l'HC Kisangani,possible_same_site
 ct-heal-africa,CT HEAL AFRICA,transit_centre,heal africa,"",Nord-kivu,2026-05-27,013,FALSE,,,,,2026-05-27,operating,2026-05-28,19,2026-05-28,2026-06-02,3,3,CT HEAL AFRICA; Heal Africa,""
-ct-hgr-beni,CT de l’HGR de Beni,transit_centre,beni,"",Nord-Kivu,2026-07-02,049,FALSE,,,,,2026-07-02,operating,2026-07-02,,,2026-07-02,1,1,CT de l’HGR de Beni,possible_same_site;possible_spelling_variant
-ct-hgr-bunia,CT HGR Bunia,transit_centre,bunia,"",Ituri,2026-07-14,061,FALSE,,,,,2026-07-14,operating,2026-07-14,,,2026-07-14,1,1,CT HGR Bunia,possible_same_site;possible_spelling_variant
+ct-hgr-beni,CT de l’HGR de Beni,transit_centre,beni,"",Nord-Kivu,2026-07-02,049,FALSE,,,,,2026-07-02,operating,2026-07-02,,,2026-07-02,1,1,CT de l’HGR de Beni,possible_host_variant;possible_same_site;possible_spelling_variant
+ct-hgr-bunia,CT HGR Bunia,transit_centre,bunia,"",Ituri,2026-07-14,061,FALSE,,,,,2026-07-14,operating,2026-07-14,,,2026-07-14,1,1,CT HGR Bunia,possible_host_variant;possible_same_site;possible_spelling_variant
 ct-hgr-buta,HGR de Buta,transit_centre,buta,Buta,Bas-Uélé,2026-08-19,097,FALSE,2026-09-06,,,,,planned,2026-09-06,,,2026-09-06,7,7,centre de transit à l’HGR de Buta; HGR de Buta,possible_spelling_variant
 ct-hgr-kilo,HGR Kilo,transit_centre,kilo,Kilo,Ituri,2026-05-24,010,FALSE,,,,,2026-07-30,strained,2026-07-31,,,2026-07-31,6,6,HGR Kilo,""
 ct-hgr-makiso-kisangani,centre de transit de l'HGR Makiso-Kisangani,transit_centre,makiso kisangani,Makiso-Kisangani,Tshopo,2026-09-09,118,FALSE,,,,,2026-09-09,operating,2026-09-12,,,2026-09-12,4,4,centre de transit de l'HGR Makiso-Kisangani; CT de l’HGR Makiso-Kisangani,possible_same_site
-ct-hgr-musienene,CT de l’HGR de Musienene,transit_centre,musienene,Musienene,Nord-Kivu,2026-08-07,085,FALSE,2026-08-07,,,,,under_construction,2026-09-05,,,2026-09-05,7,7,CT de l’HGR de Musienene; CT de l'HGR Musienene,possible_same_site
-ct-hgr-nia-nia,CT HGR Nia-Nia,transit_centre,nia nia,"",Ituri,2026-07-11,058,FALSE,,,,,2026-07-11,operating,2026-07-11,,,2026-07-11,1,1,CT HGR Nia-Nia,possible_same_site
-ct-hgr-oicha,CT de l’HGR Oicha,transit_centre,oicha,Oicha,Nord-Kivu,2026-07-23,070,FALSE,,,,,2026-07-23,operating,2026-07-23,,,2026-07-23,1,1,CT de l’HGR Oicha,possible_same_site
+ct-hgr-musienene,CT de l’HGR de Musienene,transit_centre,musienene,Musienene,Nord-Kivu,2026-08-07,085,FALSE,2026-08-07,,,,,under_construction,2026-09-05,,,2026-09-05,7,7,CT de l’HGR de Musienene; CT de l'HGR Musienene,possible_host_variant;possible_same_site
+ct-hgr-nia-nia,CT HGR Nia-Nia,transit_centre,nia nia,"",Ituri,2026-07-11,058,FALSE,,,,,2026-07-11,operating,2026-07-11,,,2026-07-11,1,1,CT HGR Nia-Nia,possible_host_variant;possible_same_site
+ct-hgr-oicha,CT de l’HGR Oicha,transit_centre,oicha,Oicha,Nord-Kivu,2026-07-23,070,FALSE,,,,,2026-07-23,operating,2026-07-23,,,2026-07-23,1,1,CT de l’HGR Oicha,possible_host_variant;possible_same_site
 ct-kanzuli,CT Kanzuli,transit_centre,kanzuli,"",Nord-Kivu,2026-08-10,088,FALSE,,,,,2026-08-10,operating,2026-08-10,,,2026-08-10,1,1,CT Kanzuli,""
 ct-kigonze,CT de Kigonze,transit_centre,kigonze,"",Ituri,2026-08-26,104,FALSE,,,,,2026-08-26,operating,2026-09-08,,,2026-09-08,6,6,CT de Kigonze; CT Kigonze,possible_same_site
 ct-limba,centre de transit de Limba,transit_centre,limba,Viadana,Bas-Uélé,2026-08-20,098,FALSE,,,,,2026-08-20,operating,2026-08-20,3,2026-08-20,2026-08-20,1,1,centre de transit de Limba,""
@@ -529,29 +529,29 @@ ct-mangala,CT de Mangala,transit_centre,mangala,"",Ituri,2026-09-08,117,FALSE,,,
 ct-matanda,CT de Matanda,transit_centre,matanda,"",Nord-Kivu,2026-08-24,102,FALSE,2026-08-24,,,,,under_construction,2026-08-24,,,2026-08-24,1,1,CT de Matanda,possible_same_site
 ct-mayogo,CT de Mayogo,transit_centre,mayogo,Isiro,Haut-Uélé,2026-09-04,113,FALSE,,,,,2026-09-04,operating,2026-09-04,,,2026-09-04,1,1,CT de Mayogo,""
 ct-mpox,CT Mpox,transit_centre,mpox,"","",2026-08-04,082,FALSE,,,,,,mention_only,,,,2026-08-04,1,1,CT Mpox,""
-ct-musienene,CT de Musienene,transit_centre,musienene,Musienene,Nord-Kivu,2026-07-01,048,FALSE,2026-08-03,,,,2026-07-01,under_construction,2026-08-17,,,2026-08-17,7,7,CT de Musienene; CT Musienene,possible_same_site
-ct-nia-nia,CT de Nia-Nia,transit_centre,nia nia,"",Ituri,2026-08-10,088,FALSE,,,,,2026-08-10,strained,2026-08-10,,,2026-08-10,1,1,CT de Nia-Nia,possible_same_site
+ct-musienene,CT de Musienene,transit_centre,musienene,Musienene,Nord-Kivu,2026-07-01,048,FALSE,2026-08-03,,,,2026-07-01,under_construction,2026-08-17,,,2026-08-17,7,7,CT de Musienene; CT Musienene,possible_host_variant;possible_same_site
+ct-nia-nia,CT de Nia-Nia,transit_centre,nia nia,"",Ituri,2026-08-10,088,FALSE,,,,,2026-08-10,strained,2026-08-10,,,2026-08-10,1,1,CT de Nia-Nia,possible_host_variant;possible_same_site
 ct-nizi,CT Nizi,transit_centre,nizi,"",Ituri,2026-07-07,054,FALSE,,,,,2026-07-07,operating,2026-07-14,,,2026-07-14,4,4,CT Nizi,possible_same_site
 ct-nyangezi,Nyangezi,transit_centre,nyangezi,"",Sud-Kivu,2026-08-27,105,FALSE,,,,,2026-08-27,operating,2026-08-27,,,2026-08-27,1,1,Nyangezi,""
-ct-oicha,CT d’Oicha,transit_centre,oicha,Oicha,Nord-Kivu,2026-06-24,041,FALSE,,,,,2026-08-18,operating,2026-08-18,,,2026-08-18,2,2,CT d’Oicha; CT OICHA,possible_same_site
+ct-oicha,CT d’Oicha,transit_centre,oicha,Oicha,Nord-Kivu,2026-06-24,041,FALSE,,,,,2026-08-18,operating,2026-08-18,,,2026-08-18,2,2,CT d’Oicha; CT OICHA,possible_host_variant;possible_same_site
 ct-rwampara,CT de Rwampara,transit_centre,rwampara,Rwampara,"",2026-05-24,010,FALSE,,,,,2026-05-24,incident,2026-05-27,,,2026-05-27,2,2,CT de Rwampara,possible_same_site
 ct-sota,CT Sota,transit_centre,sota,"",Ituri,2026-07-05,052,FALSE,,,,,2026-07-05,operating,2026-07-15,,,2026-07-15,7,7,CT Sota; CT SOTA,possible_same_site
 ct-uob,centre de transit de l'UOB,transit_centre,uob,"",Sud-Kivu,2026-07-12,059,FALSE,,,,,2026-07-12,operating,2026-07-12,,,2026-07-12,1,1,centre de transit de l'UOB,""
 ct-vuhovi,CT de Vuhovi,transit_centre,vuhovi,"",Nord-Kivu,2026-08-19,097,FALSE,,,,,2026-08-19,operating,2026-08-19,,,2026-08-19,1,1,CT de Vuhovi,""
-cte-aru,Aru,treatment_centre,aru,Aru,Ituri,2026-06-24,041,FALSE,,,,,2026-06-24,strained,2026-08-15,,,2026-08-15,7,7,Aru; CTE Aru; CTE d'Aru; d’Aru,""
+cte-aru,Aru,treatment_centre,aru,Aru,Ituri,2026-06-24,041,FALSE,,,,,2026-06-24,strained,2026-08-15,,,2026-08-15,7,7,Aru; CTE Aru; CTE d'Aru; d’Aru,possible_host_variant
 cte-bafwasende,CTE de Bafwasende,treatment_centre,bafwasende,Bafwasende,Tshopo,2026-09-07,116,FALSE,2026-09-07,,,,,under_construction,2026-09-12,,,2026-09-12,6,6,Bafwasende; CTE de Bafwasende,""
 cte-bambu,CTE de Bambu,treatment_centre,bambu,Bambu,Ituri,2026-06-08,025,FALSE,2026-08-16,,,,2026-06-08,under_construction,2026-09-05,,,2026-09-05,26,32,Bambu; CTE de Bambu,possible_same_site
-cte-beni,CTE Beni,treatment_centre,beni,Beni,Nord-Kivu,2026-06-29,046,TRUE,,2026-07-04,051,,2026-06-29,operating,2026-09-08,20,2026-07-04,2026-09-08,12,12,CTE Beni; CTE de Beni; CTE-Beni,possible_same_site
+cte-beni,CTE Beni,treatment_centre,beni,Beni,Nord-Kivu,2026-06-29,046,TRUE,,2026-07-04,051,,2026-06-29,operating,2026-09-08,20,2026-07-04,2026-09-08,12,12,CTE Beni; CTE de Beni; CTE-Beni,possible_host_variant;possible_same_site
 cte-boma-mangbetu,CTE de Boma Mangbetu,treatment_centre,boma mangbetu,Boma Mangbetu,Haut-Uélé,2026-07-30,077,TRUE,,,,,2026-07-30,operating,2026-09-12,,,2026-09-12,3,3,CTE de Boma Mangbetu,""
-cte-bunia,CTE Bunia,treatment_centre,bunia,Bunia,Ituri,2026-05-29,015,FALSE,2026-05-29,,,,2026-05-30,operating,2026-09-11,,,2026-09-11,23,24,Bunia; CTE Bunia; CTE de Bunia,possible_same_site
+cte-bunia,CTE Bunia,treatment_centre,bunia,Bunia,Ituri,2026-05-29,015,FALSE,2026-05-29,,,,2026-05-30,operating,2026-09-11,,,2026-09-11,23,24,Bunia; CTE Bunia; CTE de Bunia,possible_host_variant;possible_same_site
 cte-buta,CTE de Buta,treatment_centre,buta,Buta,Bas-Uélé,2026-08-17,095,FALSE,2026-08-21,,,,2026-08-17,under_construction,2026-08-22,,,2026-08-22,4,5,CTE de Buta; CTE provisoire de Buta,""
 cte-butembo,CTE Butembo,treatment_centre,butembo,"",Nord-Kivu,2026-07-06,053,FALSE,,,,,2026-07-06,strained,2026-09-12,,,2026-09-12,4,4,CTE Butembo; CTE/CT de Butembo,""
 cte-celui-isiro,celui d’Isiro,treatment_centre,isiro,Isiro,Haut-Uélé,2026-09-09,118,FALSE,,,,,2026-09-09,strained,2026-09-12,,,2026-09-12,4,4,celui d’Isiro,""
 cte-cinquantenaire,CTE Cinquantenaire,treatment_centre,cinquantenaire,Lubunga,Tshopo,2026-07-14,061,FALSE,,,,,2026-07-14,operating,2026-07-24,,,2026-07-24,3,3,CTE Cinquantenaire; CTE du Cinquantenaire,""
 cte-cme,CTE CME,treatment_centre,rwampara,Rwampara,Ituri,2026-05-25,011,FALSE,2026-05-25,,,,2026-05-27,operating,2026-09-04,27,2026-05-28,2026-09-04,27,29,CME; CTC CME; CTE CME; CTE du CME,""
-cte-cme-bunia,CTE CME Bunia,treatment_centre,bunia,Bunia,Ituri,2026-05-26,012,FALSE,2026-05-26,2026-06-25,042,,2026-06-11,incident,2026-08-05,,,2026-08-05,18,19,CME Bunia; CME BUNIA; CTE au CME Bunia; CTE CME Bunia; CTE CME de Bunia; CTE CME/Bunia; CTE/CME-Bunia; CTE/CME-BUNIA,possible_same_site
-cte-cme-nyankunde,CTE CME Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,2026-06-14,031,FALSE,,,,,2026-06-14,operating,2026-06-22,,,2026-06-22,2,2,CTE CME Nyankunde; CTE/CME Nyankunde,possible_same_site
-cte-cme-rwampara,Centre de Traitement Ebola (CTE) normé de CME Rwampara,treatment_centre,rwampara,Rwampara,Ituri,2026-05-31,017,FALSE,,2026-05-31,017,,2026-07-15,strained,2026-07-15,,,2026-07-15,3,3,Centre de Traitement Ebola (CTE) normé de CME Rwampara; CTE CME de Rwampara; CTE normé CME Rwampara,""
+cte-cme-bunia,CTE CME Bunia,treatment_centre,bunia,Bunia,Ituri,2026-05-26,012,FALSE,2026-05-26,2026-06-25,042,,2026-06-11,incident,2026-08-05,,,2026-08-05,18,19,CME Bunia; CME BUNIA; CTE au CME Bunia; CTE CME Bunia; CTE CME de Bunia; CTE CME/Bunia; CTE/CME-Bunia; CTE/CME-BUNIA,possible_host_variant;possible_same_site
+cte-cme-nyankunde,CTE CME Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,2026-06-14,031,FALSE,,,,,2026-06-14,operating,2026-06-22,,,2026-06-22,2,2,CTE CME Nyankunde; CTE/CME Nyankunde,possible_host_variant;possible_same_site
+cte-cme-rwampara,Centre de Traitement Ebola (CTE) normé de CME Rwampara,treatment_centre,rwampara,Rwampara,Ituri,2026-05-31,017,FALSE,,2026-05-31,017,,2026-07-15,strained,2026-07-15,,,2026-07-15,3,3,Centre de Traitement Ebola (CTE) normé de CME Rwampara; CTE CME de Rwampara; CTE normé CME Rwampara,possible_host_variant
 cte-cth-isiro,CTH d’Isiro,treatment_centre,isiro,"","",2026-08-12,090,FALSE,,,,,2026-08-12,operating,2026-08-12,,,2026-08-12,1,1,CTH d’Isiro,""
 cte-ctm,CTM,treatment_centre,ctm,"",Tshopo,2026-09-06,115,FALSE,,,,,,mention_only,,,,2026-09-06,1,1,CTM,""
 cte-ctmi,CTMI,treatment_centre,ctmi,"",Tshopo,2026-09-10,119,FALSE,2026-09-10,,,,,planned,2026-09-11,,,2026-09-11,2,2,CTMI,""
@@ -564,29 +564,29 @@ cte-foner-mambasa,CTE de Foner Mambasa,treatment_centre,foner mambasa,"",Ituri,2
 cte-gombari,Gombari,treatment_centre,gombari,"",Haut-Uélé,2026-09-12,121,FALSE,,,,,2026-09-12,operating,2026-09-12,,,2026-09-12,1,1,Gombari,""
 cte-hc-kisangani,CTE HC Kisangani,treatment_centre,kisangani,Kisangani,Tshopo,2026-07-18,065,FALSE,,,,,2026-07-18,operating,2026-08-22,14,2026-08-22,2026-08-22,13,13,CTE de l'HC Kisangani; CTE HC de Kisangani; CTE HC Kisangani,possible_same_site
 cte-hckis,CTE HCKis,treatment_centre,hckis,"",Tshopo,2026-07-21,068,FALSE,,,,,2026-07-21,operating,2026-07-22,,,2026-07-22,2,2,CTE HCKis; CTE HCKIS,possible_same_site
-cte-hgr-aru,CTE HGR/Aru,treatment_centre,aru,"","",2026-06-25,042,FALSE,,2026-06-25,042,,,opened,2026-06-25,,,2026-06-25,1,1,CTE HGR/Aru,possible_same_site
-cte-hgr-beni,CTE de l'HGR Beni,treatment_centre,beni,Beni,Nord-Kivu,2026-08-05,083,FALSE,,,,,2026-08-22,operating,2026-08-22,,,2026-08-22,3,3,CTE de l'HGR Beni; CTE de l'HGR de Beni; CTE de l’HGR de Beni,possible_same_site;possible_spelling_variant
-cte-hgr-bunia,CTE à l’HGR Bunia,treatment_centre,bunia,Bunia,Ituri,2026-05-24,010,FALSE,2026-05-24,2026-06-15,032,,2026-05-29,operating,2026-09-08,,,2026-09-08,24,29,"CTE à l’HGR Bunia; CTE à l’HGR BUNIA; CTE à l’HGR/Bunia; CTE au HGR Bunia; CTE de l’HGR Bunia; CTE de l'HGR de Bunia; CTE de l’HGR de Bunia; CTE HGR Bunia; CTE HGR/Bunia; CTE, l’HGR Bunia; CTE/HGR Bunia; HGR/Bunia; l’HGR Bunia",possible_same_site;possible_spelling_variant
-cte-hgr-isiro,CTE de l’HGR d’Isiro,treatment_centre,isiro,"",Haut-Uélé,2026-08-20,098,FALSE,,,,,2026-08-20,incident,2026-08-20,,,2026-08-20,1,2,CTE de l’HGR d’Isiro,possible_same_site
-cte-hgr-katwa,HGR Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,2026-06-06,023,FALSE,2026-06-06,,,,,under_construction,2026-06-07,,,2026-08-15,6,7,CTE à l’HGR Katwa; HGR de Katwa; HGR Katwa,""
-cte-hgr-mongbwalu,CTE de l’HGR Mongbwalu,treatment_centre,mongbwalu,"","",2026-06-19,036,FALSE,,,,,2026-06-19,operating,2026-06-24,,,2026-06-24,2,2,CTE de l’HGR Mongbwalu,possible_same_site
-cte-hgr-nizi,HGR Nizi,treatment_centre,nizi,Nizi,Ituri,2026-05-23,009,FALSE,,,,,2026-07-15,operating,2026-07-15,,,2026-07-15,4,4,CTE HGR de Nizi; HGR Nizi; HGR NIZI,""
-cte-hgr-nyankunde,CTE HGR Nyankunde,treatment_centre,nyankunde,"","",2026-06-15,032,FALSE,2026-06-15,2026-06-25,042,,2026-06-18,opened,2026-06-25,,,2026-06-25,3,3,CTE HGR Nyankunde; CTE HGR/Nyankunde,possible_same_site
-cte-hgr-rwampara,CTE HGR/Rwampara,treatment_centre,rwampara,"","",2026-05-30,016,FALSE,2026-05-30,2026-06-25,042,,,opened,2026-06-25,,,2026-06-25,3,4,CTE au HGR Rwampara; CTE HGR/Rwampara; HGR Rwampara (CTE),possible_same_site
-cte-hopital-matanda,CTE de l’hôpital Matanda,treatment_centre,matanda,"",Nord-Kivu,2026-09-05,114,FALSE,2026-09-05,,,,,under_construction,2026-09-05,,,2026-09-05,1,1,CTE de l’hôpital Matanda,possible_same_site
-cte-isiro,CTE d'Isiro,treatment_centre,isiro,Isiro,Haut-Uélé,2026-07-30,077,TRUE,2026-08-02,2026-08-02,080,,2026-07-30,operating,2026-09-12,,,2026-09-12,16,19,CT/CTE d'Isiro; CTE d'Isiro; CTE d’Isiro; Isiro,""
+cte-hgr-aru,CTE HGR/Aru,treatment_centre,aru,"","",2026-06-25,042,FALSE,,2026-06-25,042,,,opened,2026-06-25,,,2026-06-25,1,1,CTE HGR/Aru,possible_host_variant;possible_same_site
+cte-hgr-beni,CTE de l'HGR Beni,treatment_centre,beni,Beni,Nord-Kivu,2026-08-05,083,FALSE,,,,,2026-08-22,operating,2026-08-22,,,2026-08-22,3,3,CTE de l'HGR Beni; CTE de l'HGR de Beni; CTE de l’HGR de Beni,possible_host_variant;possible_same_site;possible_spelling_variant
+cte-hgr-bunia,CTE à l’HGR Bunia,treatment_centre,bunia,Bunia,Ituri,2026-05-24,010,FALSE,2026-05-24,2026-06-15,032,,2026-05-29,operating,2026-09-08,,,2026-09-08,24,29,"CTE à l’HGR Bunia; CTE à l’HGR BUNIA; CTE à l’HGR/Bunia; CTE au HGR Bunia; CTE de l’HGR Bunia; CTE de l'HGR de Bunia; CTE de l’HGR de Bunia; CTE HGR Bunia; CTE HGR/Bunia; CTE, l’HGR Bunia; CTE/HGR Bunia; HGR/Bunia; l’HGR Bunia",possible_host_variant;possible_same_site;possible_spelling_variant
+cte-hgr-isiro,CTE de l’HGR d’Isiro,treatment_centre,isiro,"",Haut-Uélé,2026-08-20,098,FALSE,,,,,2026-08-20,incident,2026-08-20,,,2026-08-20,1,2,CTE de l’HGR d’Isiro,possible_host_variant;possible_same_site
+cte-hgr-katwa,HGR Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,2026-06-06,023,FALSE,2026-06-06,,,,,under_construction,2026-06-07,,,2026-08-15,6,7,CTE à l’HGR Katwa; HGR de Katwa; HGR Katwa,possible_host_variant
+cte-hgr-mongbwalu,CTE de l’HGR Mongbwalu,treatment_centre,mongbwalu,"","",2026-06-19,036,FALSE,,,,,2026-06-19,operating,2026-06-24,,,2026-06-24,2,2,CTE de l’HGR Mongbwalu,possible_host_variant;possible_same_site
+cte-hgr-nizi,HGR Nizi,treatment_centre,nizi,Nizi,Ituri,2026-05-23,009,FALSE,,,,,2026-07-15,operating,2026-07-15,,,2026-07-15,4,4,CTE HGR de Nizi; HGR Nizi; HGR NIZI,possible_host_variant
+cte-hgr-nyankunde,CTE HGR Nyankunde,treatment_centre,nyankunde,"","",2026-06-15,032,FALSE,2026-06-15,2026-06-25,042,,2026-06-18,opened,2026-06-25,,,2026-06-25,3,3,CTE HGR Nyankunde; CTE HGR/Nyankunde,possible_host_variant;possible_same_site
+cte-hgr-rwampara,CTE HGR/Rwampara,treatment_centre,rwampara,"","",2026-05-30,016,FALSE,2026-05-30,2026-06-25,042,,,opened,2026-06-25,,,2026-06-25,3,4,CTE au HGR Rwampara; CTE HGR/Rwampara; HGR Rwampara (CTE),possible_host_variant;possible_same_site
+cte-hopital-matanda,CTE de l’hôpital Matanda,treatment_centre,matanda,"",Nord-Kivu,2026-09-05,114,FALSE,2026-09-05,,,,,under_construction,2026-09-05,,,2026-09-05,1,1,CTE de l’hôpital Matanda,possible_host_variant;possible_same_site
+cte-isiro,CTE d'Isiro,treatment_centre,isiro,Isiro,Haut-Uélé,2026-07-30,077,TRUE,2026-08-02,2026-08-02,080,,2026-07-30,operating,2026-09-12,,,2026-09-12,16,19,CT/CTE d'Isiro; CTE d'Isiro; CTE d’Isiro; Isiro,possible_host_variant
 cte-ist-nyankunde,CTE IST Nyankunde,treatment_centre,nyankunde,"","",2026-06-16,033,FALSE,,2026-06-16,033,,,opened,2026-06-16,,,2026-06-16,1,1,CTE IST Nyankunde,possible_spelling_variant
 cte-iste,CTE ISTE,treatment_centre,iste,"",Ituri,2026-07-13,060,FALSE,,,,,2026-07-13,operating,2026-07-13,,,2026-07-13,1,1,CTE ISTE,""
 cte-istm,CTE ISTM,treatment_centre,nyankunde,Nyankunde,Ituri,2026-06-29,046,TRUE,2026-08-16,,,,2026-06-29,under_construction,2026-08-20,,,2026-08-20,28,28,CTE de ISTM; CTE ISTM; ISTM,""
-cte-istm-nyakunde,ISTM/Nyakunde,treatment_centre,nyakunde,"","",2026-07-05,052,FALSE,,2026-07-05,052,,,opened,2026-07-05,,,2026-07-05,1,1,ISTM/Nyakunde,possible_spelling_variant
-cte-istm-nyankunde,ISTM Nyankunde,treatment_centre,nyankunde,"",Ituri,2026-06-11,028,FALSE,2026-06-11,2026-06-25,042,,2026-07-11,operating,2026-07-11,,,2026-07-11,5,5,CTE ISTM Nyankunde; CTE ISTM/Nyankunde; ISTM Nyankunde; ISTM/Nyankunde,possible_spelling_variant
+cte-istm-nyakunde,ISTM/Nyakunde,treatment_centre,nyakunde,"","",2026-07-05,052,FALSE,,2026-07-05,052,,,opened,2026-07-05,,,2026-07-05,1,1,ISTM/Nyakunde,possible_host_variant;possible_spelling_variant
+cte-istm-nyankunde,ISTM Nyankunde,treatment_centre,nyankunde,"",Ituri,2026-06-11,028,FALSE,2026-06-11,2026-06-25,042,,2026-07-11,operating,2026-07-11,,,2026-07-11,5,5,CTE ISTM Nyankunde; CTE ISTM/Nyankunde; ISTM Nyankunde; ISTM/Nyankunde,possible_host_variant;possible_spelling_variant
 cte-istm-nyankunde-bunia,CTE de L'ISTM NYANKUNDE A BUNIA,treatment_centre,bunia,"",Ituri,2026-07-21,068,FALSE,,,,,2026-07-21,operating,2026-07-21,,,2026-07-21,1,1,CTE de L'ISTM NYANKUNDE A BUNIA,""
 cte-istm-zs-rwampara,CTE ISTM/ZS Rwampara,treatment_centre,rwampara,Rwampara,Ituri,2026-06-27,044,TRUE,,,,,2026-06-27,operating,2026-06-27,,,2026-06-27,1,1,CTE ISTM/ZS Rwampara,""
 cte-itav,CTE à l’ITAV,treatment_centre,itav,"",Nord-Kivu,2026-08-16,094,FALSE,2026-08-16,,,,,planned,2026-08-20,,,2026-08-20,3,3,CTE à l’ITAV; CTE de l'ITAV,""
 cte-juhudi,CTE de Juhudi,treatment_centre,juhudi,Nia-Nia,"",2026-06-30,047,FALSE,,,,,2026-06-30,operating,2026-06-30,,,2026-06-30,1,1,CTE de Juhudi,""
 cte-kalunguta,CTE Kalunguta,treatment_centre,kalunguta,"",Nord-Kivu,2026-06-29,046,TRUE,,,,,2026-06-29,operating,2026-06-29,,,2026-06-29,1,1,CTE Kalunguta,""
 cte-kasenyi,CTE de Kasenyi,treatment_centre,kasenyi,"",Ituri,2026-07-14,061,FALSE,2026-07-14,2026-08-09,087,,2026-08-12,operating,2026-09-08,80,2026-08-09,2026-09-08,4,4,CTE de Kasenyi,""
-cte-katwa,CTE de Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,2026-06-03,020,FALSE,2026-06-03,,,,2026-06-07,strained,2026-09-12,,,2026-09-12,32,35,CTE à Katwa; CTE de Katwa; CTE en construction à Katwa; CTE Katwa; Katwa,""
+cte-katwa,CTE de Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,2026-06-03,020,FALSE,2026-06-03,,,,2026-06-07,strained,2026-09-12,,,2026-09-12,32,35,CTE à Katwa; CTE de Katwa; CTE en construction à Katwa; CTE Katwa; Katwa,possible_host_variant
 cte-kigonze,Kigonze,treatment_centre,kigonze,Bunia,Ituri,2026-07-30,077,TRUE,,,,,2026-07-30,strained,2026-08-24,,,2026-08-24,9,9,CTE de Kigonze; Kigonze,possible_same_site
 cte-kilo,Kilo,treatment_centre,kilo,Kilo,Ituri,2026-08-13,091,FALSE,,,,,2026-08-13,strained,2026-09-12,,,2026-09-12,13,13,CTE de Kilo; Kilo,""
 cte-kitatumba,CTE de Kitatumba,treatment_centre,kitatumba,"",Nord-Kivu,2026-07-06,053,FALSE,,,,,2026-07-06,operating,2026-08-20,,,2026-08-20,11,12,CTE de Kitatumba; CTE Kitatumba,""
@@ -599,20 +599,20 @@ cte-mambasa,Mambasa,treatment_centre,mambasa,Mambasa,Ituri,2026-06-08,025,FALSE,
 cte-mambasa-lolwa,Mambasa Lolwa,treatment_centre,mambasa lolwa,"",Ituri,2026-09-09,118,FALSE,,,,,2026-09-09,strained,2026-09-09,,,2026-09-09,1,1,Mambasa Lolwa,""
 cte-mandima,Mandima,treatment_centre,mandima,Mandima,Ituri,2026-09-05,114,FALSE,,,,,2026-09-05,strained,2026-09-12,,,2026-09-12,5,5,CTE/CT de Mandima; Mandima,""
 cte-mangala,Mangala,treatment_centre,mangala,Mangala,Ituri,2026-08-16,094,FALSE,2026-09-02,,,,2026-08-16,strained,2026-09-12,,,2026-09-12,7,7,CTE de Mangala; Mangala,possible_same_site
-cte-matanda,CTE de Matanda,treatment_centre,matanda,"",Nord-Kivu,2026-06-17,034,FALSE,2026-06-17,,,,,under_construction,2026-08-29,,,2026-08-29,3,3,CTE de Matanda; CTE MATANDA,possible_same_site
+cte-matanda,CTE de Matanda,treatment_centre,matanda,"",Nord-Kivu,2026-06-17,034,FALSE,2026-06-17,,,,,under_construction,2026-08-29,,,2026-08-29,3,3,CTE de Matanda; CTE MATANDA,possible_host_variant;possible_same_site
 cte-meteo,CTE Météo,treatment_centre,meteo,"",Tshopo,2026-09-07,116,FALSE,2026-09-07,2026-09-10,119,,2026-09-12,operating,2026-09-13,,,2026-09-13,5,5,CTE de Météo; CTE Météo,""
-cte-mongbwalu,CTE de Mongbwalu,treatment_centre,mongbwalu,Mongbwalu,Ituri,2026-05-22,008,FALSE,2026-05-22,2026-08-14,092,,2026-06-20,operating,2026-09-05,60,2026-08-17,2026-09-05,22,24,CTE à Mongbwalu; CTE de Mongbwalu; CTE Mongbwalu; Mongbwalu,possible_spelling_variant
+cte-mongbwalu,CTE de Mongbwalu,treatment_centre,mongbwalu,Mongbwalu,Ituri,2026-05-22,008,FALSE,2026-05-22,2026-08-14,092,,2026-06-20,operating,2026-09-05,60,2026-08-17,2026-09-05,22,24,CTE à Mongbwalu; CTE de Mongbwalu; CTE Mongbwalu; Mongbwalu,possible_host_variant;possible_spelling_variant
 cte-mongwalu,CTE Mongwalu,treatment_centre,mongwalu,Mongbwalu,Ituri,2026-05-19,005,FALSE,,,,,2026-05-19,operating,2026-05-19,,,2026-05-19,1,1,CTE Mongwalu,possible_spelling_variant
 cte-munigi,CTE Munigi,treatment_centre,munigi,"",Nord-Kivu,2026-06-21,038,FALSE,,,,,2026-06-21,operating,2026-06-21,,,2026-06-21,1,1,CTE Munigi,""
 cte-musienene,CTE de Musienene,treatment_centre,musienene,"",Nord-Kivu,2026-08-04,082,FALSE,2026-08-20,,,,2026-08-04,planned,2026-09-02,,,2026-09-02,4,4,CTE de Musienene; futur centre de traitement de Musienene,possible_same_site
 cte-nia-nia,CTE de Nia-Nia,treatment_centre,nia nia,Nia-Nia,Ituri,2026-07-17,064,TRUE,2026-08-03,,,,2026-07-17,strained,2026-08-17,,,2026-08-17,9,12,CTE de Nia Nia; CTE de Nia-Nia; Nia-Nia,possible_same_site
-cte-nizi,CTE de Nizi,treatment_centre,nizi,Nizi,Ituri,2026-07-13,060,FALSE,2026-08-14,,,,2026-07-13,strained,2026-09-12,,,2026-09-12,38,46,CTE de Nizi; CTE Nizi; CTE/CT de Nizi; Nizi,possible_same_site
-cte-nyakunde,CTE Nyakunde,treatment_centre,nyakunde,Nyankunde,Ituri,2026-07-03,050,FALSE,,,,,2026-07-03,operating,2026-07-08,,,2026-07-08,3,3,CTE Nyakunde,possible_spelling_variant
-cte-nyankunde,CTE Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,2026-05-25,011,FALSE,2026-05-25,,,,2026-06-05,operating,2026-09-13,,,2026-09-13,13,13,CTE de Nyankunde; CTE Nyankunde; Nyankunde,possible_same_site;possible_spelling_variant
+cte-nizi,CTE de Nizi,treatment_centre,nizi,Nizi,Ituri,2026-07-13,060,FALSE,2026-08-14,,,,2026-07-13,strained,2026-09-12,,,2026-09-12,38,46,CTE de Nizi; CTE Nizi; CTE/CT de Nizi; Nizi,possible_host_variant;possible_same_site
+cte-nyakunde,CTE Nyakunde,treatment_centre,nyakunde,Nyankunde,Ituri,2026-07-03,050,FALSE,,,,,2026-07-03,operating,2026-07-08,,,2026-07-08,3,3,CTE Nyakunde,possible_host_variant;possible_spelling_variant
+cte-nyankunde,CTE Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,2026-05-25,011,FALSE,2026-05-25,,,,2026-06-05,operating,2026-09-13,,,2026-09-13,13,13,CTE de Nyankunde; CTE Nyankunde; Nyankunde,possible_host_variant;possible_same_site;possible_spelling_variant
 cte-oicha,CTE d'Oicha,treatment_centre,oicha,Oicha,Nord-Kivu,2026-07-14,061,FALSE,,,,,2026-07-14,strained,2026-08-03,10,2026-08-03,2026-08-03,2,2,CTE d'Oicha,possible_same_site
 cte-pawa,CTE de Pawa,treatment_centre,pawa,Pawa,Haut-Uélé,2026-08-01,079,FALSE,,,,,2026-08-01,strained,2026-09-12,,,2026-09-12,9,9,CTE de Pawa,""
 cte-rungu,Rungu,treatment_centre,rungu,"",Haut-Uélé,2026-09-12,121,FALSE,,,,,2026-09-12,operating,2026-09-12,,,2026-09-12,1,1,Rungu,""
-cte-rwampara,CTE Rwampara,treatment_centre,rwampara,Rwampara,Ituri,2026-05-24,010,FALSE,2026-05-24,2026-06-02,019,,2026-05-27,strained,2026-08-11,100,2026-07-25,2026-09-06,35,38,Centre de Traitement Ebola (CTE) de la zone de santé de Rwampara; CTE de Rwampara; CTE Rwampara; CTE RWAMPARA; Rwampara,possible_same_site
+cte-rwampara,CTE Rwampara,treatment_centre,rwampara,Rwampara,Ituri,2026-05-24,010,FALSE,2026-05-24,2026-06-02,019,,2026-05-27,strained,2026-08-11,100,2026-07-25,2026-09-06,35,38,Centre de Traitement Ebola (CTE) de la zone de santé de Rwampara; CTE de Rwampara; CTE Rwampara; CTE RWAMPARA; Rwampara,possible_host_variant;possible_same_site
 cte-rwankole,CTE de Rwankole,treatment_centre,rwankole,Bunia,Ituri,2026-05-22,008,FALSE,2026-07-17,2026-08-04,082,,2026-08-01,operating,2026-09-04,120,2026-08-04,2026-09-04,10,10,CTE de Rwankole; CTE Rwankole; Rwankole,""
 cte-simisimi,CTE normé de Simisimi,treatment_centre,simisimi,"",Tshopo,2026-08-15,093,FALSE,2026-08-15,,,,,under_construction,2026-08-15,,,2026-08-15,1,1,CTE normé de Simisimi,""
 cte-sota,CTE de Sota,treatment_centre,sota,"",Ituri,2026-07-11,058,FALSE,,,,,2026-07-11,operating,2026-08-15,,,2026-08-15,2,2,CTE de Sota; CTE Sota,possible_same_site

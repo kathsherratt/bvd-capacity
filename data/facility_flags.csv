@@ -1,0 +1,485 @@
+facility_id,flag,group
+site-abelkozo,possible_host_variant,possible_host_variant:abelkozo other
+site-cs-abelkozo,possible_host_variant,possible_host_variant:abelkozo other
+site-aero,possible_host_variant,possible_host_variant:aero other
+site-cs-aero,possible_host_variant,possible_host_variant:aero other
+site-ch-amani,possible_host_variant,possible_host_variant:amani other
+site-cm-amani,possible_host_variant,possible_host_variant:amani other
+site-cs-amani,possible_host_variant,possible_host_variant:amani other
+site-ch-aru,possible_host_variant,possible_host_variant:aru other
+site-hgr-aru,possible_host_variant,possible_host_variant:aru other
+cte-aru,possible_host_variant,possible_host_variant:aru treatment_centre
+cte-hgr-aru,possible_host_variant,possible_host_variant:aru treatment_centre
+site-ch-beni,possible_host_variant,possible_host_variant:beni other
+site-hgr-beni,possible_host_variant,possible_host_variant:beni other
+ct-beni,possible_host_variant,possible_host_variant:beni transit_centre
+ct-hgr-beni,possible_host_variant,possible_host_variant:beni transit_centre
+cte-beni,possible_host_variant,possible_host_variant:beni treatment_centre
+cte-hgr-beni,possible_host_variant,possible_host_variant:beni treatment_centre
+site-bunia-cite,possible_host_variant,possible_host_variant:bunia cite other
+site-ch-bunia-cite,possible_host_variant,possible_host_variant:bunia cite other
+site-cs-bunia-cite,possible_host_variant,possible_host_variant:bunia cite other
+hosp-bunia-hgr,possible_host_variant,possible_host_variant:bunia hospital_isolation
+hosp-centre-medical-evangelique-bunia,possible_host_variant,possible_host_variant:bunia hospital_isolation
+hosp-cme-bunia,possible_host_variant,possible_host_variant:bunia hospital_isolation
+hosp-hgr-bunia,possible_host_variant,possible_host_variant:bunia hospital_isolation
+site-cme-bunia,possible_host_variant,possible_host_variant:bunia other
+site-hgr-bunia,possible_host_variant,possible_host_variant:bunia other
+ct-bunia,possible_host_variant,possible_host_variant:bunia transit_centre
+ct-hgr-bunia,possible_host_variant,possible_host_variant:bunia transit_centre
+cte-bunia,possible_host_variant,possible_host_variant:bunia treatment_centre
+cte-cme-bunia,possible_host_variant,possible_host_variant:bunia treatment_centre
+cte-hgr-bunia,possible_host_variant,possible_host_variant:bunia treatment_centre
+site-hgr-cinquantenaire,possible_host_variant,possible_host_variant:cinquantenaire other
+site-hopital-cinquantenaire,possible_host_variant,possible_host_variant:cinquantenaire other
+hosp-ch-elikya,possible_host_variant,possible_host_variant:elikya hospital_isolation
+hosp-elikya,possible_host_variant,possible_host_variant:elikya hospital_isolation
+site-centre-hospitalier-famille,possible_host_variant,possible_host_variant:famille other
+site-cs-famille,possible_host_variant,possible_host_variant:famille other
+site-clinique-gloria,possible_host_variant,possible_host_variant:gloria other
+site-cm-gloria,possible_host_variant,possible_host_variant:gloria other
+site-ch-gracia,possible_host_variant,possible_host_variant:gracia other
+site-cm-gracia,possible_host_variant,possible_host_variant:gracia other
+site-clinique-universitaire-isiro,possible_host_variant,possible_host_variant:isiro other
+site-hgr-isiro,possible_host_variant,possible_host_variant:isiro other
+cte-hgr-isiro,possible_host_variant,possible_host_variant:isiro treatment_centre
+cte-isiro,possible_host_variant,possible_host_variant:isiro treatment_centre
+site-cm-jades,possible_host_variant,possible_host_variant:jades other
+site-cs-jades,possible_host_variant,possible_host_variant:jades other
+site-centre-medical-joie,possible_host_variant,possible_host_variant:joie other
+site-cm-joie,possible_host_variant,possible_host_variant:joie other
+site-ess-kalagane,possible_host_variant,possible_host_variant:kalagane other
+site-kalagane,possible_host_variant,possible_host_variant:kalagane other
+site-clinique-karibuni,possible_host_variant,possible_host_variant:karibuni other
+site-cm-karibuni,possible_host_variant,possible_host_variant:karibuni other
+hosp-hgr-katana,possible_host_variant,possible_host_variant:katana hospital_isolation
+hosp-katana,possible_host_variant,possible_host_variant:katana hospital_isolation
+cte-hgr-katwa,possible_host_variant,possible_host_variant:katwa treatment_centre
+cte-katwa,possible_host_variant,possible_host_variant:katwa treatment_centre
+site-ch-kavumu,possible_host_variant,possible_host_variant:kavumu other
+site-cs-kavumu,possible_host_variant,possible_host_variant:kavumu other
+site-ch-kyaghala,possible_host_variant,possible_host_variant:kyaghala other
+site-cs-kyaghala,possible_host_variant,possible_host_variant:kyaghala other
+site-hgr-logo,possible_host_variant,possible_host_variant:logo other
+site-hopital-general-logo,possible_host_variant,possible_host_variant:logo other
+site-hgr-matanda,possible_host_variant,possible_host_variant:matanda other
+site-hopital-matanda,possible_host_variant,possible_host_variant:matanda other
+site-matanda,possible_host_variant,possible_host_variant:matanda other
+cte-hopital-matanda,possible_host_variant,possible_host_variant:matanda treatment_centre
+cte-matanda,possible_host_variant,possible_host_variant:matanda treatment_centre
+site-clinique-merites,possible_host_variant,possible_host_variant:merites other
+site-cs-merites,possible_host_variant,possible_host_variant:merites other
+hosp-hgr-mongbwalu,possible_host_variant,possible_host_variant:mongbwalu hospital_isolation
+hosp-hopital-mongbwalu,possible_host_variant,possible_host_variant:mongbwalu hospital_isolation
+cte-hgr-mongbwalu,possible_host_variant,possible_host_variant:mongbwalu treatment_centre
+cte-mongbwalu,possible_host_variant,possible_host_variant:mongbwalu treatment_centre
+site-ch-mudzi-maria,possible_host_variant,possible_host_variant:mudzi maria other
+site-cs-mudzi-maria,possible_host_variant,possible_host_variant:mudzi maria other
+site-ch-mukuna,possible_host_variant,possible_host_variant:mukuna other
+site-cs-mukuna,possible_host_variant,possible_host_variant:mukuna other
+ct-hgr-musienene,possible_host_variant,possible_host_variant:musienene transit_centre
+ct-musienene,possible_host_variant,possible_host_variant:musienene transit_centre
+ct-hgr-nia-nia,possible_host_variant,possible_host_variant:nia nia transit_centre
+ct-nia-nia,possible_host_variant,possible_host_variant:nia nia transit_centre
+cte-hgr-nizi,possible_host_variant,possible_host_variant:nizi treatment_centre
+cte-nizi,possible_host_variant,possible_host_variant:nizi treatment_centre
+site-centre-medical-evangelique-nyakunde-cme-bunia,possible_host_variant,possible_host_variant:nyakunde bunia other
+site-cme-nyakunde-bunia,possible_host_variant,possible_host_variant:nyakunde bunia other
+site-cme-nyakunde,possible_host_variant,possible_host_variant:nyakunde other
+site-cs-nyakunde,possible_host_variant,possible_host_variant:nyakunde other
+cte-istm-nyakunde,possible_host_variant,possible_host_variant:nyakunde treatment_centre
+cte-nyakunde,possible_host_variant,possible_host_variant:nyakunde treatment_centre
+hosp-cme-nyankunde,possible_host_variant,possible_host_variant:nyankunde hospital_isolation
+hosp-hgr-nyankunde,possible_host_variant,possible_host_variant:nyankunde hospital_isolation
+site-cme-nyankunde,possible_host_variant,possible_host_variant:nyankunde other
+site-hgr-nyankunde,possible_host_variant,possible_host_variant:nyankunde other
+cte-cme-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatment_centre
+cte-hgr-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatment_centre
+cte-istm-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatment_centre
+cte-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatment_centre
+ct-hgr-oicha,possible_host_variant,possible_host_variant:oicha transit_centre
+ct-oicha,possible_host_variant,possible_host_variant:oicha transit_centre
+site-ch-ruwenzori,possible_host_variant,possible_host_variant:ruwenzori other
+site-cs-ruwenzori,possible_host_variant,possible_host_variant:ruwenzori other
+site-cs-rwambuzi,possible_host_variant,possible_host_variant:rwambuzi other
+site-rwambuzi,possible_host_variant,possible_host_variant:rwambuzi other
+hosp-centre-medical-evangelique-rwampara,possible_host_variant,possible_host_variant:rwampara hospital_isolation
+hosp-hgr-rwampara,possible_host_variant,possible_host_variant:rwampara hospital_isolation
+hosp-rwampara-cme,possible_host_variant,possible_host_variant:rwampara hospital_isolation
+hosp-rwampara-hgr,possible_host_variant,possible_host_variant:rwampara hospital_isolation
+ci-hgr-rwampara,possible_host_variant,possible_host_variant:rwampara isolation_centre
+ci-rwampara,possible_host_variant,possible_host_variant:rwampara isolation_centre
+site-cs-rwampara,possible_host_variant,possible_host_variant:rwampara other
+site-hgr-rwampara,possible_host_variant,possible_host_variant:rwampara other
+cte-cme-rwampara,possible_host_variant,possible_host_variant:rwampara treatment_centre
+cte-hgr-rwampara,possible_host_variant,possible_host_variant:rwampara treatment_centre
+cte-rwampara,possible_host_variant,possible_host_variant:rwampara treatment_centre
+site-ch-rwankole,possible_host_variant,possible_host_variant:rwankole other
+site-cs-rwankole,possible_host_variant,possible_host_variant:rwankole other
+site-clinique-salama,possible_host_variant,possible_host_variant:salama other
+site-cs-salama,possible_host_variant,possible_host_variant:salama other
+site-ch-shukrani,possible_host_variant,possible_host_variant:shukrani other
+site-cm-shukrani,possible_host_variant,possible_host_variant:shukrani other
+site-ch-sofepadi,possible_host_variant,possible_host_variant:sofepadi other
+site-clinique-sofepadi,possible_host_variant,possible_host_variant:sofepadi other
+site-centre-hospitalier-unibu,possible_host_variant,possible_host_variant:unibu other
+site-ch-unibu,possible_host_variant,possible_host_variant:unibu other
+site-clinique-unibu,possible_host_variant,possible_host_variant:unibu other
+ct-bambu,possible_same_site,possible_same_site:bambu
+cte-bambu,possible_same_site,possible_same_site:bambu
+ct-beni,possible_same_site,possible_same_site:beni
+cte-beni,possible_same_site,possible_same_site:beni
+ct-bunia,possible_same_site,possible_same_site:bunia
+cte-bunia,possible_same_site,possible_same_site:bunia
+cte-cme-bunia,possible_same_site,possible_same_site:cme bunia
+hosp-cme-bunia,possible_same_site,possible_same_site:cme bunia
+site-cme-bunia,possible_same_site,possible_same_site:cme bunia
+cte-cme-nyankunde,possible_same_site,possible_same_site:cme nyankunde
+hosp-cme-nyankunde,possible_same_site,possible_same_site:cme nyankunde
+site-cme-nyankunde,possible_same_site,possible_same_site:cme nyankunde
+ci-cs-boikene,possible_same_site,possible_same_site:cs boikene
+site-cs-boikene,possible_same_site,possible_same_site:cs boikene
+cte-elikya,possible_same_site,possible_same_site:elikya
+hosp-elikya,possible_same_site,possible_same_site:elikya
+ct-fataki,possible_same_site,possible_same_site:fataki
+cte-fataki,possible_same_site,possible_same_site:fataki
+ct-fomulac,possible_same_site,possible_same_site:fomulac
+hosp-fomulac,possible_same_site,possible_same_site:fomulac
+ct-hc-kisangani,possible_same_site,possible_same_site:hc kisangani
+cte-hc-kisangani,possible_same_site,possible_same_site:hc kisangani
+site-hc-kisangani,possible_same_site,possible_same_site:hc kisangani
+cte-hckis,possible_same_site,possible_same_site:hckis
+hosp-hckis,possible_same_site,possible_same_site:hckis
+cte-hgr-aru,possible_same_site,possible_same_site:hgr aru
+hosp-hgr-aru,possible_same_site,possible_same_site:hgr aru
+site-hgr-aru,possible_same_site,possible_same_site:hgr aru
+ct-hgr-beni,possible_same_site,possible_same_site:hgr beni
+cte-hgr-beni,possible_same_site,possible_same_site:hgr beni
+site-hgr-beni,possible_same_site,possible_same_site:hgr beni
+ci-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
+ct-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
+cte-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
+hosp-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
+site-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
+ci-hgr-isiro,possible_same_site,possible_same_site:hgr isiro
+cte-hgr-isiro,possible_same_site,possible_same_site:hgr isiro
+site-hgr-isiro,possible_same_site,possible_same_site:hgr isiro
+ct-hgr-makiso-kisangani,possible_same_site,possible_same_site:hgr makiso kisangani
+site-hgr-makiso-kisangani,possible_same_site,possible_same_site:hgr makiso kisangani
+cte-hgr-mongbwalu,possible_same_site,possible_same_site:hgr mongbwalu
+hosp-hgr-mongbwalu,possible_same_site,possible_same_site:hgr mongbwalu
+site-hgr-mongbwalu,possible_same_site,possible_same_site:hgr mongbwalu
+ci-hgr-musienene,possible_same_site,possible_same_site:hgr musienene
+ct-hgr-musienene,possible_same_site,possible_same_site:hgr musienene
+hosp-hgr-musienene,possible_same_site,possible_same_site:hgr musienene
+ct-hgr-nia-nia,possible_same_site,possible_same_site:hgr nia nia
+hosp-hgr-nia-nia,possible_same_site,possible_same_site:hgr nia nia
+cte-hgr-nyankunde,possible_same_site,possible_same_site:hgr nyankunde
+hosp-hgr-nyankunde,possible_same_site,possible_same_site:hgr nyankunde
+site-hgr-nyankunde,possible_same_site,possible_same_site:hgr nyankunde
+ct-hgr-oicha,possible_same_site,possible_same_site:hgr oicha
+hosp-hgr-oicha,possible_same_site,possible_same_site:hgr oicha
+ci-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
+cte-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
+hosp-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
+site-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
+cte-hopital-matanda,possible_same_site,possible_same_site:hopital matanda
+hosp-hopital-matanda,possible_same_site,possible_same_site:hopital matanda
+site-hopital-matanda,possible_same_site,possible_same_site:hopital matanda
+ct-kigonze,possible_same_site,possible_same_site:kigonze
+cte-kigonze,possible_same_site,possible_same_site:kigonze
+ct-logo,possible_same_site,possible_same_site:logo
+cte-logo,possible_same_site,possible_same_site:logo
+ct-lolwa,possible_same_site,possible_same_site:lolwa
+cte-lolwa,possible_same_site,possible_same_site:lolwa
+ct-lwiro,possible_same_site,possible_same_site:lwiro
+cte-lwiro,possible_same_site,possible_same_site:lwiro
+hosp-lwiro,possible_same_site,possible_same_site:lwiro
+ct-mangala,possible_same_site,possible_same_site:mangala
+cte-mangala,possible_same_site,possible_same_site:mangala
+ct-matanda,possible_same_site,possible_same_site:matanda
+cte-matanda,possible_same_site,possible_same_site:matanda
+site-matanda,possible_same_site,possible_same_site:matanda
+ct-musienene,possible_same_site,possible_same_site:musienene
+cte-musienene,possible_same_site,possible_same_site:musienene
+ct-nia-nia,possible_same_site,possible_same_site:nia nia
+cte-nia-nia,possible_same_site,possible_same_site:nia nia
+ct-nizi,possible_same_site,possible_same_site:nizi
+cte-nizi,possible_same_site,possible_same_site:nizi
+ci-nyankunde,possible_same_site,possible_same_site:nyankunde
+cte-nyankunde,possible_same_site,possible_same_site:nyankunde
+ct-oicha,possible_same_site,possible_same_site:oicha
+cte-oicha,possible_same_site,possible_same_site:oicha
+ci-rwampara,possible_same_site,possible_same_site:rwampara
+ct-rwampara,possible_same_site,possible_same_site:rwampara
+cte-rwampara,possible_same_site,possible_same_site:rwampara
+ct-sota,possible_same_site,possible_same_site:sota
+cte-sota,possible_same_site,possible_same_site:sota
+site-cem-nyankunde,possible_spelling_variant,possible_spelling_variant:cem nyankunde
+site-cme-nyankunde,possible_spelling_variant,possible_spelling_variant:cem nyankunde
+site-iem-nyakunde,possible_spelling_variant,possible_spelling_variant:cem nyankunde
+site-ch-amani,possible_spelling_variant,possible_spelling_variant:ch amani
+site-cm-amani,possible_spelling_variant,possible_spelling_variant:ch amani
+site-cs-amani,possible_spelling_variant,possible_spelling_variant:ch amani
+site-ch-beni,possible_spelling_variant,possible_spelling_variant:ch beni
+site-che-beni,possible_spelling_variant,possible_spelling_variant:ch beni
+site-ch-bunia-cite,possible_spelling_variant,possible_spelling_variant:ch bunia cite
+site-cs-bunia-cite,possible_spelling_variant,possible_spelling_variant:ch bunia cite
+site-csr-bunia-cite,possible_spelling_variant,possible_spelling_variant:ch bunia cite
+site-ch-cbca,possible_spelling_variant,possible_spelling_variant:ch cbca
+site-cs-cnca,possible_spelling_variant,possible_spelling_variant:ch cbca
+site-ps-cbca,possible_spelling_variant,possible_spelling_variant:ch cbca
+site-ch-gracia,possible_spelling_variant,possible_spelling_variant:ch gracia
+site-cm-gracia,possible_spelling_variant,possible_spelling_variant:ch gracia
+site-ch-kavumu,possible_spelling_variant,possible_spelling_variant:ch kavumu
+site-cs-kavumu,possible_spelling_variant,possible_spelling_variant:ch kavumu
+site-ch-kyaghala,possible_spelling_variant,possible_spelling_variant:ch kyaghala
+site-cs-kyaghala,possible_spelling_variant,possible_spelling_variant:ch kyaghala
+site-ch-mudzi-maria,possible_spelling_variant,possible_spelling_variant:ch mudzi maria
+site-ch-muzimaria,possible_spelling_variant,possible_spelling_variant:ch mudzi maria
+site-cs-mudzi-maria,possible_spelling_variant,possible_spelling_variant:ch mudzi maria
+site-ch-mukuna,possible_spelling_variant,possible_spelling_variant:ch mukuna
+site-cs-mukuna,possible_spelling_variant,possible_spelling_variant:ch mukuna
+site-ch-mudzi-maria,possible_spelling_variant,possible_spelling_variant:ch muzimaria
+site-ch-muzimaria,possible_spelling_variant,possible_spelling_variant:ch muzimaria
+site-ch-ruwenzori,possible_spelling_variant,possible_spelling_variant:ch ruwenzori
+site-cs-ruwenzori,possible_spelling_variant,possible_spelling_variant:ch ruwenzori
+site-ch-rwankole,possible_spelling_variant,possible_spelling_variant:ch rwankole
+site-cs-rwankole,possible_spelling_variant,possible_spelling_variant:ch rwankole
+site-ch-shukrani,possible_spelling_variant,possible_spelling_variant:ch shukrani
+site-cm-shukrani,possible_spelling_variant,possible_spelling_variant:ch shukrani
+site-ch-st-joseph,possible_spelling_variant,possible_spelling_variant:ch st joseph
+site-csr-st-joseph,possible_spelling_variant,possible_spelling_variant:ch st joseph
+site-ch-unibu,possible_spelling_variant,possible_spelling_variant:ch unibu
+site-ch-unite,possible_spelling_variant,possible_spelling_variant:ch unibu
+site-ch-unibu,possible_spelling_variant,possible_spelling_variant:ch unite
+site-ch-unite,possible_spelling_variant,possible_spelling_variant:ch unite
+site-chahoboka,possible_spelling_variant,possible_spelling_variant:chahoboka
+site-chaoboka,possible_spelling_variant,possible_spelling_variant:chahoboka
+site-chahoboka,possible_spelling_variant,possible_spelling_variant:chaoboka
+site-chaoboka,possible_spelling_variant,possible_spelling_variant:chaoboka
+site-ch-beni,possible_spelling_variant,possible_spelling_variant:che beni
+site-che-beni,possible_spelling_variant,possible_spelling_variant:che beni
+site-clinique-marie-claire,possible_spelling_variant,possible_spelling_variant:clinique marie claire
+site-clique-marie-claire,possible_spelling_variant,possible_spelling_variant:clinique marie claire
+site-clinique-universitaire,possible_spelling_variant,possible_spelling_variant:clinique universitaire
+site-cliniques-universitaires,possible_spelling_variant,possible_spelling_variant:clinique universitaire
+site-clinique-william,possible_spelling_variant,possible_spelling_variant:clinique william
+site-clinique-williams,possible_spelling_variant,possible_spelling_variant:clinique william
+site-clinique-william,possible_spelling_variant,possible_spelling_variant:clinique williams
+site-clinique-williams,possible_spelling_variant,possible_spelling_variant:clinique williams
+site-clinique-universitaire,possible_spelling_variant,possible_spelling_variant:cliniques universitaires
+site-cliniques-universitaires,possible_spelling_variant,possible_spelling_variant:cliniques universitaires
+site-clinique-marie-claire,possible_spelling_variant,possible_spelling_variant:clique marie claire
+site-clique-marie-claire,possible_spelling_variant,possible_spelling_variant:clique marie claire
+site-ch-amani,possible_spelling_variant,possible_spelling_variant:cm amani
+site-cm-amani,possible_spelling_variant,possible_spelling_variant:cm amani
+site-cs-amani,possible_spelling_variant,possible_spelling_variant:cm amani
+site-cm-divine,possible_spelling_variant,possible_spelling_variant:cm divine
+site-cm-divinite,possible_spelling_variant,possible_spelling_variant:cm divine
+site-cm-divine,possible_spelling_variant,possible_spelling_variant:cm divinite
+site-cm-divinite,possible_spelling_variant,possible_spelling_variant:cm divinite
+site-cm-grace,possible_spelling_variant,possible_spelling_variant:cm grace
+site-cm-gracia,possible_spelling_variant,possible_spelling_variant:cm grace
+site-ch-gracia,possible_spelling_variant,possible_spelling_variant:cm gracia
+site-cm-grace,possible_spelling_variant,possible_spelling_variant:cm gracia
+site-cm-gracia,possible_spelling_variant,possible_spelling_variant:cm gracia
+site-cm-jades,possible_spelling_variant,possible_spelling_variant:cm jades
+site-cs-jades,possible_spelling_variant,possible_spelling_variant:cm jades
+site-ch-shukrani,possible_spelling_variant,possible_spelling_variant:cm shukrani
+site-cm-shukrani,possible_spelling_variant,possible_spelling_variant:cm shukrani
+site-cme-nyakunde,possible_spelling_variant,possible_spelling_variant:cme nyakunde
+site-cme-nyankunde,possible_spelling_variant,possible_spelling_variant:cme nyakunde
+site-cs-nyakunde,possible_spelling_variant,possible_spelling_variant:cme nyakunde
+site-cem-nyankunde,possible_spelling_variant,possible_spelling_variant:cme nyankunde
+site-cme-nyakunde,possible_spelling_variant,possible_spelling_variant:cme nyankunde
+site-cme-nyankunde,possible_spelling_variant,possible_spelling_variant:cme nyankunde
+site-ch-amani,possible_spelling_variant,possible_spelling_variant:cs amani
+site-cm-amani,possible_spelling_variant,possible_spelling_variant:cs amani
+site-cs-amani,possible_spelling_variant,possible_spelling_variant:cs amani
+site-csr-amadi,possible_spelling_variant,possible_spelling_variant:cs amani
+site-cs-bora-uzima,possible_spelling_variant,possible_spelling_variant:cs bora uzima
+site-ps-bora-uzima,possible_spelling_variant,possible_spelling_variant:cs bora uzima
+hosp-cs-bundji,possible_spelling_variant,possible_spelling_variant:cs bundji
+hosp-cs-bunji,possible_spelling_variant,possible_spelling_variant:cs bundji
+site-ch-bunia-cite,possible_spelling_variant,possible_spelling_variant:cs bunia cite
+site-cs-bunia-cite,possible_spelling_variant,possible_spelling_variant:cs bunia cite
+site-csr-bunia-cite,possible_spelling_variant,possible_spelling_variant:cs bunia cite
+hosp-cs-bundji,possible_spelling_variant,possible_spelling_variant:cs bunji
+hosp-cs-bunji,possible_spelling_variant,possible_spelling_variant:cs bunji
+site-cs-butsili,possible_spelling_variant,possible_spelling_variant:cs butsili
+site-cs-tsili,possible_spelling_variant,possible_spelling_variant:cs butsili
+site-ch-cbca,possible_spelling_variant,possible_spelling_variant:cs cnca
+site-cs-cnca,possible_spelling_variant,possible_spelling_variant:cs cnca
+site-cs-sncc,possible_spelling_variant,possible_spelling_variant:cs cnca
+site-ps-cbca,possible_spelling_variant,possible_spelling_variant:cs cnca
+site-cm-jades,possible_spelling_variant,possible_spelling_variant:cs jades
+site-cs-jades,possible_spelling_variant,possible_spelling_variant:cs jades
+site-cs-kasisi,possible_spelling_variant,possible_spelling_variant:cs kasisi
+site-cs-katiri,possible_spelling_variant,possible_spelling_variant:cs kasisi
+site-cs-kasisi,possible_spelling_variant,possible_spelling_variant:cs katiri
+site-cs-katiri,possible_spelling_variant,possible_spelling_variant:cs katiri
+site-ch-kavumu,possible_spelling_variant,possible_spelling_variant:cs kavumu
+site-cs-kavumu,possible_spelling_variant,possible_spelling_variant:cs kavumu
+site-ch-kyaghala,possible_spelling_variant,possible_spelling_variant:cs kyaghala
+site-cs-kyaghala,possible_spelling_variant,possible_spelling_variant:cs kyaghala
+site-cs-lembabo,possible_spelling_variant,possible_spelling_variant:cs lembabo
+site-csr-lembabo,possible_spelling_variant,possible_spelling_variant:cs lembabo
+site-cs-madula,possible_spelling_variant,possible_spelling_variant:cs madula
+site-cs-masuli,possible_spelling_variant,possible_spelling_variant:cs madula
+site-cs-maranatha,possible_spelling_variant,possible_spelling_variant:cs maranatha
+site-ps-maranatha,possible_spelling_variant,possible_spelling_variant:cs maranatha
+site-cs-madula,possible_spelling_variant,possible_spelling_variant:cs masuli
+site-cs-masuli,possible_spelling_variant,possible_spelling_variant:cs masuli
+site-cs-matete,possible_spelling_variant,possible_spelling_variant:cs matete
+site-csr-matete,possible_spelling_variant,possible_spelling_variant:cs matete
+site-ch-mudzi-maria,possible_spelling_variant,possible_spelling_variant:cs mudzi maria
+site-cs-mudzi-maria,possible_spelling_variant,possible_spelling_variant:cs mudzi maria
+site-ch-mukuna,possible_spelling_variant,possible_spelling_variant:cs mukuna
+site-cs-mukuna,possible_spelling_variant,possible_spelling_variant:cs mukuna
+site-cme-nyakunde,possible_spelling_variant,possible_spelling_variant:cs nyakunde
+site-cs-nyakunde,possible_spelling_variant,possible_spelling_variant:cs nyakunde
+site-cs-rubi-lisanga,possible_spelling_variant,possible_spelling_variant:cs rubi lisanga
+site-csr-rubi-lisanga,possible_spelling_variant,possible_spelling_variant:cs rubi lisanga
+site-ch-ruwenzori,possible_spelling_variant,possible_spelling_variant:cs ruwenzori
+site-cs-ruwenzori,possible_spelling_variant,possible_spelling_variant:cs ruwenzori
+site-cs-rwamapara,possible_spelling_variant,possible_spelling_variant:cs rwamapara
+site-cs-rwampara,possible_spelling_variant,possible_spelling_variant:cs rwamapara
+site-cs-rwamapara,possible_spelling_variant,possible_spelling_variant:cs rwampara
+site-cs-rwampara,possible_spelling_variant,possible_spelling_variant:cs rwampara
+site-ch-rwankole,possible_spelling_variant,possible_spelling_variant:cs rwankole
+site-cs-rwankole,possible_spelling_variant,possible_spelling_variant:cs rwankole
+site-cs-salama,possible_spelling_variant,possible_spelling_variant:cs salama
+site-cs-segama,possible_spelling_variant,possible_spelling_variant:cs salama
+site-cs-salama,possible_spelling_variant,possible_spelling_variant:cs segama
+site-cs-segama,possible_spelling_variant,possible_spelling_variant:cs segama
+site-cs-cnca,possible_spelling_variant,possible_spelling_variant:cs sncc
+site-cs-sncc,possible_spelling_variant,possible_spelling_variant:cs sncc
+site-cs-tchudja,possible_spelling_variant,possible_spelling_variant:cs tchudja
+site-cs-tchunga,possible_spelling_variant,possible_spelling_variant:cs tchudja
+site-cs-tchudja,possible_spelling_variant,possible_spelling_variant:cs tchunga
+site-cs-tchunga,possible_spelling_variant,possible_spelling_variant:cs tchunga
+site-cs-butsili,possible_spelling_variant,possible_spelling_variant:cs tsili
+site-cs-tsili,possible_spelling_variant,possible_spelling_variant:cs tsili
+site-cs-tuluba,possible_spelling_variant,possible_spelling_variant:cs tuluba
+site-ps-tuluza,possible_spelling_variant,possible_spelling_variant:cs tuluba
+site-cs-uponyaji,possible_spelling_variant,possible_spelling_variant:cs uponyaji
+site-ps-uponyadji,possible_spelling_variant,possible_spelling_variant:cs uponyaji
+site-cs-vuhika,possible_spelling_variant,possible_spelling_variant:cs vuhika
+site-cs-vutike,possible_spelling_variant,possible_spelling_variant:cs vuhika
+site-cs-vuhika,possible_spelling_variant,possible_spelling_variant:cs vutike
+site-cs-vutike,possible_spelling_variant,possible_spelling_variant:cs vutike
+site-cs-amani,possible_spelling_variant,possible_spelling_variant:csr amadi
+site-csr-amadi,possible_spelling_variant,possible_spelling_variant:csr amadi
+site-ch-bunia-cite,possible_spelling_variant,possible_spelling_variant:csr bunia cite
+site-cs-bunia-cite,possible_spelling_variant,possible_spelling_variant:csr bunia cite
+site-csr-bunia-cite,possible_spelling_variant,possible_spelling_variant:csr bunia cite
+site-cs-lembabo,possible_spelling_variant,possible_spelling_variant:csr lembabo
+site-csr-lembabo,possible_spelling_variant,possible_spelling_variant:csr lembabo
+site-cs-matete,possible_spelling_variant,possible_spelling_variant:csr matete
+site-csr-matete,possible_spelling_variant,possible_spelling_variant:csr matete
+site-cs-rubi-lisanga,possible_spelling_variant,possible_spelling_variant:csr rubi lisanga
+site-csr-rubi-lisanga,possible_spelling_variant,possible_spelling_variant:csr rubi lisanga
+site-ch-st-joseph,possible_spelling_variant,possible_spelling_variant:csr st joseph
+site-csr-st-joseph,possible_spelling_variant,possible_spelling_variant:csr st joseph
+cte-elikya,possible_spelling_variant,possible_spelling_variant:elikya
+cte-elykia,possible_spelling_variant,possible_spelling_variant:elikya
+cte-elikya,possible_spelling_variant,possible_spelling_variant:elykia
+cte-elykia,possible_spelling_variant,possible_spelling_variant:elykia
+hosp-hgr-bambu,possible_spelling_variant,possible_spelling_variant:hgr bambu
+hosp-hgr-wamba,possible_spelling_variant,possible_spelling_variant:hgr bambu
+ct-hgr-beni,possible_spelling_variant,possible_spelling_variant:hgr beni
+ct-hgr-bunia,possible_spelling_variant,possible_spelling_variant:hgr beni
+cte-hgr-beni,possible_spelling_variant,possible_spelling_variant:hgr beni
+cte-hgr-bunia,possible_spelling_variant,possible_spelling_variant:hgr beni
+site-hgr-beni,possible_spelling_variant,possible_spelling_variant:hgr beni
+site-hgr-bunia,possible_spelling_variant,possible_spelling_variant:hgr beni
+ct-hgr-beni,possible_spelling_variant,possible_spelling_variant:hgr bunia
+ct-hgr-bunia,possible_spelling_variant,possible_spelling_variant:hgr bunia
+ct-hgr-buta,possible_spelling_variant,possible_spelling_variant:hgr bunia
+cte-hgr-beni,possible_spelling_variant,possible_spelling_variant:hgr bunia
+cte-hgr-bunia,possible_spelling_variant,possible_spelling_variant:hgr bunia
+site-hgr-beni,possible_spelling_variant,possible_spelling_variant:hgr bunia
+site-hgr-bunia,possible_spelling_variant,possible_spelling_variant:hgr bunia
+ct-hgr-bunia,possible_spelling_variant,possible_spelling_variant:hgr buta
+ct-hgr-buta,possible_spelling_variant,possible_spelling_variant:hgr buta
+site-hgr-jiba,possible_spelling_variant,possible_spelling_variant:hgr jiba
+site-hgr-lita,possible_spelling_variant,possible_spelling_variant:hgr jiba
+site-hgr-kabondo,possible_spelling_variant,possible_spelling_variant:hgr kabondo
+site-hgr-kyondo,possible_spelling_variant,possible_spelling_variant:hgr kabondo
+site-hgr-kabondo,possible_spelling_variant,possible_spelling_variant:hgr kyondo
+site-hgr-kyondo,possible_spelling_variant,possible_spelling_variant:hgr kyondo
+site-hgr-linga,possible_spelling_variant,possible_spelling_variant:hgr linga
+site-hgr-lita,possible_spelling_variant,possible_spelling_variant:hgr linga
+site-hgr-jiba,possible_spelling_variant,possible_spelling_variant:hgr lita
+site-hgr-linga,possible_spelling_variant,possible_spelling_variant:hgr lita
+site-hgr-lita,possible_spelling_variant,possible_spelling_variant:hgr lita
+site-hgr-matanda,possible_spelling_variant,possible_spelling_variant:hgr matanda
+site-hsr-matanda,possible_spelling_variant,possible_spelling_variant:hgr matanda
+site-hgr-mogbwalu,possible_spelling_variant,possible_spelling_variant:hgr mogbwalu
+site-hgr-mongbwalu,possible_spelling_variant,possible_spelling_variant:hgr mogbwalu
+site-hgr-mongwalu,possible_spelling_variant,possible_spelling_variant:hgr mogbwalu
+hosp-hgr-mongbwalu,possible_spelling_variant,possible_spelling_variant:hgr mongbwalu
+hosp-hgr-mungbwalu,possible_spelling_variant,possible_spelling_variant:hgr mongbwalu
+site-hgr-mogbwalu,possible_spelling_variant,possible_spelling_variant:hgr mongbwalu
+site-hgr-mongbwalu,possible_spelling_variant,possible_spelling_variant:hgr mongbwalu
+site-hgr-mongwalu,possible_spelling_variant,possible_spelling_variant:hgr mongbwalu
+site-hgr-mogbwalu,possible_spelling_variant,possible_spelling_variant:hgr mongwalu
+site-hgr-mongbwalu,possible_spelling_variant,possible_spelling_variant:hgr mongwalu
+site-hgr-mongwalu,possible_spelling_variant,possible_spelling_variant:hgr mongwalu
+hosp-hgr-mongbwalu,possible_spelling_variant,possible_spelling_variant:hgr mungbwalu
+hosp-hgr-mungbwalu,possible_spelling_variant,possible_spelling_variant:hgr mungbwalu
+hosp-hgr-nyakunde,possible_spelling_variant,possible_spelling_variant:hgr nyakunde
+hosp-hgr-nyankunde,possible_spelling_variant,possible_spelling_variant:hgr nyakunde
+hosp-hgr-nyakunde,possible_spelling_variant,possible_spelling_variant:hgr nyankunde
+hosp-hgr-nyankunde,possible_spelling_variant,possible_spelling_variant:hgr nyankunde
+hosp-hgr-bambu,possible_spelling_variant,possible_spelling_variant:hgr wamba
+hosp-hgr-wamba,possible_spelling_variant,possible_spelling_variant:hgr wamba
+site-hgr-matanda,possible_spelling_variant,possible_spelling_variant:hsr matanda
+site-hsr-matanda,possible_spelling_variant,possible_spelling_variant:hsr matanda
+site-cem-nyankunde,possible_spelling_variant,possible_spelling_variant:iem nyakunde
+site-iem-nyakunde,possible_spelling_variant,possible_spelling_variant:iem nyakunde
+ci-isolement-madula,possible_spelling_variant,possible_spelling_variant:isolement madula
+ci-isolements-madula,possible_spelling_variant,possible_spelling_variant:isolement madula
+ci-isolement-madula,possible_spelling_variant,possible_spelling_variant:isolements madula
+ci-isolements-madula,possible_spelling_variant,possible_spelling_variant:isolements madula
+cte-ist-nyankunde,possible_spelling_variant,possible_spelling_variant:ist nyankunde
+cte-istm-nyakunde,possible_spelling_variant,possible_spelling_variant:ist nyankunde
+cte-istm-nyankunde,possible_spelling_variant,possible_spelling_variant:ist nyankunde
+cte-ist-nyankunde,possible_spelling_variant,possible_spelling_variant:istm nyakunde
+cte-istm-nyakunde,possible_spelling_variant,possible_spelling_variant:istm nyakunde
+cte-istm-nyankunde,possible_spelling_variant,possible_spelling_variant:istm nyakunde
+cte-ist-nyankunde,possible_spelling_variant,possible_spelling_variant:istm nyankunde
+cte-istm-nyakunde,possible_spelling_variant,possible_spelling_variant:istm nyankunde
+cte-istm-nyankunde,possible_spelling_variant,possible_spelling_variant:istm nyankunde
+ci-konga-konga,possible_spelling_variant,possible_spelling_variant:konga konga
+ci-kongakonga,possible_spelling_variant,possible_spelling_variant:konga konga
+ci-konga-konga,possible_spelling_variant,possible_spelling_variant:kongakonga
+ci-kongakonga,possible_spelling_variant,possible_spelling_variant:kongakonga
+cte-mongbwalu,possible_spelling_variant,possible_spelling_variant:mongbwalu
+cte-mongwalu,possible_spelling_variant,possible_spelling_variant:mongbwalu
+cte-mongbwalu,possible_spelling_variant,possible_spelling_variant:mongwalu
+cte-mongwalu,possible_spelling_variant,possible_spelling_variant:mongwalu
+cte-nyakunde,possible_spelling_variant,possible_spelling_variant:nyakunde
+cte-nyankunde,possible_spelling_variant,possible_spelling_variant:nyakunde
+cte-nyakunde,possible_spelling_variant,possible_spelling_variant:nyankunde
+cte-nyankunde,possible_spelling_variant,possible_spelling_variant:nyankunde
+site-cs-bora-uzima,possible_spelling_variant,possible_spelling_variant:ps bora uzima
+site-ps-bora-uzima,possible_spelling_variant,possible_spelling_variant:ps bora uzima
+site-ch-cbca,possible_spelling_variant,possible_spelling_variant:ps cbca
+site-cs-cnca,possible_spelling_variant,possible_spelling_variant:ps cbca
+site-ps-cbca,possible_spelling_variant,possible_spelling_variant:ps cbca
+site-cs-maranatha,possible_spelling_variant,possible_spelling_variant:ps maranatha
+site-ps-maranatha,possible_spelling_variant,possible_spelling_variant:ps maranatha
+site-cs-tuluba,possible_spelling_variant,possible_spelling_variant:ps tuluza
+site-ps-tuluza,possible_spelling_variant,possible_spelling_variant:ps tuluza
+site-cs-uponyaji,possible_spelling_variant,possible_spelling_variant:ps uponyadji
+site-ps-uponyadji,possible_spelling_variant,possible_spelling_variant:ps uponyadji
+site-simbiliabo,possible_spelling_variant,possible_spelling_variant:simbiliabo
+site-simbiliambo,possible_spelling_variant,possible_spelling_variant:simbiliabo
+site-simbiliabo,possible_spelling_variant,possible_spelling_variant:simbiliambo
+site-simbiliambo,possible_spelling_variant,possible_spelling_variant:simbiliambo
+hosp-bunia-hgr,possible_word_order,possible_word_order:bunia hgr
+hosp-hgr-bunia,possible_word_order,possible_word_order:bunia hgr
+hosp-hgr-rwampara,possible_word_order,possible_word_order:hgr rwampara
+hosp-rwampara-hgr,possible_word_order,possible_word_order:hgr rwampara

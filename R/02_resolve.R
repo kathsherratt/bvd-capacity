@@ -45,6 +45,7 @@ out_registry <- function() redirect(registry_path, "facility_aliases.csv")
 out_events <- function() redirect(events_path, "facility_events.csv")
 out_facilities <- function() redirect(facilities_path, "facilities.csv")
 out_rejected <- function() redirect(rejected_path, "rejected_events.csv")
+out_flags <- function() redirect(flags_path, "facility_flags.csv")
 if (!is.null(OUT)) dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
 
 EVENTS <- c("planned", "under_construction", "opened", "operating", "expanded",
@@ -323,14 +324,26 @@ ev[, reg_kind := NULL]
 # ------------------------------------------------------------------- flags
 
 flags <- list()
-add_flag <- function(ids, flag) {
-    if (!length(ids)) return(invisible())
-    flags[[length(flags) + 1L]] <<- data.table(facility_id = unique(ids), flag = flag)
+
+#' `group` names the reason a set of facilities was put together, so a later
+#' step can reconstruct the clusters rather than only know that each member
+#' is flagged. Without it `possible_same_site` is one undifferentiated pile
+#' and a person reviewing it cannot see which rows are a decision together.
+add_flag <- function(ids, flag, group) {
+    ids <- unique(ids)
+    if (length(ids) < 2L) return(invisible())
+    flags[[length(flags) + 1L]] <<- data.table(facility_id = ids,
+        flag = flag, group = paste0(flag, ":", group))
 }
 
 fac <- unique(ev[nzchar(facility_id), .(facility_id, name_key, place_key, site_kind)])
+
+#' One name, two kinds of site. A transit centre and a treatment centre can
+#' share a name and a town, and choosing between them is a judgement.
 same_name <- fac[, .(kinds = uniqueN(site_kind)), by = name_key][kinds > 1]
-add_flag(fac[name_key %in% same_name$name_key, facility_id], "possible_same_site")
+for (k in same_name$name_key) {
+    add_flag(fac[name_key == k, facility_id], "possible_same_site", k)
+}
 
 #' INSP writes Mongbwalu, Mungbwalu and Mongwalu. Near neighbours are put
 #' side by side for a person to judge; nothing is merged automatically.
@@ -339,20 +352,44 @@ if (nrow(long) > 1L) {
     d <- adist(long$name_key, long$name_key)
     for (i in seq_len(nrow(long))) {
         near <- which(d[i, ] <= 2L & long$site_kind == long$site_kind[i])
-        if (length(near) > 1L) add_flag(long$facility_id[near], "possible_spelling_variant")
+        add_flag(long$facility_id[near], "possible_spelling_variant",
+            long$name_key[i])
     }
 }
+
+#' A treatment centre named with its host hospital and one named without it
+#' may be the same centre. `CTE de l'HGR Bunia` and `CTE de Bunia` almost
+#' certainly are; `CTE de l'HGR Rwampara` and `CTE du CME Rwampara` are two
+#' centres in one town, and `CTE de Rwampara` is a shorthand for one of them.
+#' Dropping the host from the key would merge all three, so the host stays in
+#' the key and the set is put in front of a person.
+bare_key <- trimws(gsub(" +", " ",
+    gsub(HOSPITAL_WORDS, " ", fac$name_key, perl = TRUE)))
+host <- data.table(facility_id = fac$facility_id, bare_key,
+    kind = fac$site_kind, has_host = bare_key != fac$name_key)
+host_hits <- host[nzchar(bare_key),
+    .(n = uniqueN(facility_id), any_host = any(has_host)),
+    by = .(bare_key, kind)][n > 1L & any_host == TRUE]
+for (i in seq_len(nrow(host_hits))) {
+    add_flag(host[bare_key == host_hits$bare_key[i] &
+        kind == host_hits$kind[i], facility_id], "possible_host_variant",
+        paste(host_hits$bare_key[i], host_hits$kind[i]))
+}
+
 #' `HGR Bunia` and `Bunia HGR` are one hospital and their keys are as far
 #' apart as edit distance can put them, so word order is checked separately.
-sorted_key <- vapply(strsplit(fac$name_key, " ", fixed = TRUE),
-    function(w) paste(sort(w), collapse = " "), character(1))
+fac[, sorted_key := vapply(strsplit(name_key, " ", fixed = TRUE),
+    function(w) paste(sort(w), collapse = " "), character(1))]
 reordered <- fac[, .(ids = uniqueN(facility_id)), by = .(sorted_key, site_kind)]
-hits <- reordered[ids > 1L]
-if (nrow(hits)) {
-    idx <- which(paste(sorted_key, fac$site_kind) %in%
-        paste(hits$sorted_key, hits$site_kind))
-    add_flag(fac$facility_id[idx], "possible_word_order")
+for (i in which(reordered$ids > 1L)) {
+    add_flag(fac[sorted_key == reordered$sorted_key[i] &
+        site_kind == reordered$site_kind[i], facility_id],
+        "possible_word_order", reordered$sorted_key[i])
 }
+
+flag_long <- if (length(flags)) rbindlist(flags) else
+    data.table(facility_id = character(), flag = character(), group = character())
+fwrite(unique(flag_long)[order(group, facility_id)], out_flags())
 
 flag_dt <- if (length(flags)) {
     rbindlist(flags)[, .(flags = paste(sort(unique(flag)), collapse = ";")),

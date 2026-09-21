@@ -33,6 +33,11 @@ facilities_path <- function() here::here("data", "facilities.csv")
 
 rejected_path <- function() here::here("outputs", "rejected_events.csv")
 
+#' One row a facility a flag, with the group that put it there. The facilities
+#' table carries only the flag names, which says that a row is a judgement but
+#' not who it is a judgement against.
+flags_path <- function() here::here("data", "facility_flags.csv")
+
 #' A survey of what the corpus measures, not a step of the facility pipeline.
 #' Rebuilt from the tables alone, with no model call, so it costs nothing to
 #' regenerate when the corpus changes.
