@@ -1,0 +1,385 @@
+#!/usr/bin/env Rscript
+# ai-written
+#'
+#' Verify every quote, resolve names to facilities, derive the two datasets.
+#'
+#' The gate comes first and is not negotiable: a quote must still be a span of
+#' the report as `render_report()` renders it today, and must still contain the
+#' facility as the model wrote it. A failure is a rendering bug, a gap in
+#' `normalise_for_match()` or a model that did not copy, and all three are
+#' reasons to drop the event rather than to reason around it. Rejections go to
+#' outputs/rejected_events.csv with a reason, and R/03_checks.R fails while any
+#' remain. Do not add an exemption file here.
+#'
+#' Two keys, not one. `name_key` identifies a facility, so `HGR Bunia` and
+#' `CTE de l'HGR Bunia` stay apart. `place_key` identifies the locality both
+#' sit at, and is what later passes over this corpus (laboratories,
+#' vaccination, burials) can key on without building a second name vocabulary.
+#'
+#' Judgement is flagged, never applied. Rows in the registry marked
+#' `reviewed = TRUE` are human decisions and win; everything else is a guess
+#' this script made and may remake.
+#'
+#' Usage:
+#'     Rscript R/02_resolve.R [--cache=DIR] [--out=DIR]
+
+suppressMessages({
+    library(data.table)
+})
+source(here::here("R", "lib", "paths.R"))
+source(here::here("R", "lib", "corpus.R"))
+
+args <- commandArgs(trailingOnly = TRUE)
+arg_value <- function(flag) {
+    hit <- grep(paste0("^", flag, "="), args, value = TRUE)
+    if (length(hit)) sub(paste0("^", flag, "="), "", hit[1]) else NULL
+}
+CACHE <- arg_value("--cache") %||% cache_dir()
+
+#' `--out` sends every output somewhere other than the repository's own, so a
+#' run over part of the cache cannot leave rows in the registry that a person
+#' would then have to review and delete.
+OUT <- arg_value("--out")
+redirect <- function(f, name) if (is.null(OUT)) f() else file.path(OUT, name)
+out_registry <- function() redirect(registry_path, "facility_aliases.csv")
+out_events <- function() redirect(events_path, "facility_events.csv")
+out_facilities <- function() redirect(facilities_path, "facilities.csv")
+out_rejected <- function() redirect(rejected_path, "rejected_events.csv")
+if (!is.null(OUT)) dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
+
+EVENTS <- c("planned", "under_construction", "opened", "operating", "expanded",
+    "strained", "incident", "closed", "mention_only")
+
+#' Events that show the facility in service, as against announced or planned.
+IN_SERVICE <- c("operating", "expanded", "strained", "incident")
+
+#' What `facility_id` starts with, by kind of site.
+ID_PREFIX <- c(treatment_centre = "cte", transit_centre = "ct",
+    isolation_centre = "ci", hospital_isolation = "hosp", other = "site")
+
+#' Accents folded to ASCII, with the marks macOS leaves behind removed.
+#'
+#' iconv on this platform turns `é` into `'e` rather than `e`, so the stray
+#' quote has to come out or every accented name keys differently from its
+#' unaccented spelling.
+fold_accents <- function(x) {
+    x <- iconv(x, "UTF-8", "ASCII//TRANSLIT")
+    x[is.na(x)] <- ""
+    gsub("[`'^~\"]", "", x, perl = TRUE)
+}
+
+#' Prefixes naming a kind of Ebola facility, in both their short and long
+#' forms. Removed from `name_key` because `CTE de Nizi` and `CTE Nizi` are one
+#' facility, and from `place_key` along with the hospital prefixes below.
+TYPE_WORDS <- paste0(
+    "centres? de traitement( ebola)?|centres? de transit|centre d ?isolement|",
+    "unite d ?isolement|\\bctes?\\b|\\bctcs?\\b|\\bctrs?\\b|\\bcts?\\b|\\bcis?\\b")
+
+#' Prefixes naming a kind of health structure. These stay in `name_key`,
+#' because HGR Bunia and CTE de l'HGR Bunia are two facilities, and come out of
+#' `place_key`, because both stand at Bunia.
+HOSPITAL_WORDS <- paste0(
+    "hopital general de reference|hopital general|hopital|clinique universitaire|",
+    "clinique|centre medical evangelique|centre medical|centre de sante|",
+    "centre hospitalier|poste de sante|\\bhgrs?\\b|\\bchs?\\b|\\bcmes?\\b|",
+    "\\bcms?\\b|\\bcss?\\b|\\bhcs?\\b|\\bistm\\b|\\bess\\b|\\bhg\\b")
+
+#' Words that only join a name to its place.
+JOINERS <- "\\b(de la|de|du|des|d|le|la|les|l|a|au|aux|en|the)\\b"
+
+#' An apostrophe separates two words and has to become a space before
+#' `fold_accents()` deletes it. Deleting it first welds the elided article on:
+#' `l'HGR Bunia` keys as `lhgr bunia`, `CTE d'Isiro` as `ctedisiro`, and each
+#' one splits off from its own unelided spelling.
+base_key <- function(x) {
+    x <- gsub("['’‘`´]", " ", x, perl = TRUE)
+    x <- tolower(fold_accents(x))
+    x <- gsub("[^a-z0-9]+", " ", x, perl = TRUE)
+    trimws(gsub("\\s+", " ", x, perl = TRUE))
+}
+
+#' Identifies the facility: the type of centre comes off, the host hospital
+#' stays on.
+name_key_of <- function(x) {
+    k <- base_key(x)
+    k <- gsub(TYPE_WORDS, " ", k, perl = TRUE)
+    k <- gsub(JOINERS, " ", k, perl = TRUE)
+    trimws(gsub("\\s+", " ", k, perl = TRUE))
+}
+
+#' Identifies the locality: everything describing a kind of building comes off.
+place_key_of <- function(place_raw, facility_raw) {
+    x <- ifelse(nzchar(trimws(place_raw)), place_raw, facility_raw)
+    k <- base_key(x)
+    k <- gsub(TYPE_WORDS, " ", k, perl = TRUE)
+    k <- gsub(HOSPITAL_WORDS, " ", k, perl = TRUE)
+    k <- gsub(JOINERS, " ", k, perl = TRUE)
+    trimws(gsub("\\s+", " ", k, perl = TRUE))
+}
+
+slug <- function(x) gsub(" ", "-", trimws(x), fixed = TRUE)
+
+# ---------------------------------------------------------------- read cache
+
+files <- list.files(CACHE, pattern = "\\.json$", full.names = TRUE)
+if (!length(files)) {
+    stop("No extractions in ", CACHE, ". Run Rscript R/01_facilities.R first.",
+        call. = FALSE)
+}
+message("Reading ", length(files), " cached extractions.")
+
+cached <- lapply(files, jsonlite::fromJSON, simplifyVector = FALSE)
+ev <- rbindlist(lapply(cached, function(d) {
+    if (!length(d$events)) return(NULL)
+    cbind(sitrep = d$id, extract_key = d$extract_key, model = d$model,
+        rbindlist(lapply(d$events, as.data.table), fill = TRUE))
+}), fill = TRUE)
+if (!nrow(ev)) stop("The cache holds no events at all.", call. = FALSE)
+
+for (col in c("facility_raw", "facility_type_raw", "site_kind", "name_status",
+    "place_raw", "health_zone", "province", "event", "event_date", "beds",
+    "status_note", "evidence_quote", "confidence")) {
+    if (is.null(ev[[col]])) ev[, (col) := ""]
+    ev[is.na(get(col)), (col) := ""]
+}
+
+# The report date is the corpus's, never the model's.
+meta <- rbindlist(lapply(unique(ev$sitrep), function(id) {
+    m <- read_report(id)$meta
+    data.table(sitrep = id, report_date = as.Date(m$report_date),
+        build_key = m$build_key)
+}))
+ev <- merge(ev, meta, by = "sitrep", all.x = TRUE)
+
+# ------------------------------------------------------------------ the gate
+
+rejects <- list()
+reject <- function(rows, reason) {
+    if (!nrow(rows)) return(invisible())
+    rejects[[length(rejects) + 1L]] <<- cbind(copy(rows), reason = reason)
+}
+
+#' A corpus file rebuilt since extraction invalidates its whole cache entry:
+#' the quotes were taken from text that no longer exists. Re-extract rather
+#' than verify against the new text.
+ev[, key_ok := mapply(function(k, b) startsWith(k, paste0(b, ":")),
+    extract_key, build_key)]
+reject(ev[key_ok == FALSE], "corpus rebuilt since extraction; re-run 01")
+ev <- ev[key_ok == TRUE]
+
+rendered <- setNames(lapply(unique(ev$sitrep), render_report), unique(ev$sitrep))
+ev[, quote_ok := mapply(function(q, s) quote_matches(q, rendered[[s]]),
+    evidence_quote, sitrep)]
+reject(ev[quote_ok == FALSE], "quote is not a span of the report")
+ev <- ev[quote_ok == TRUE]
+
+#' The quote has to carry the facility, or it evidences the sentence and not
+#' the row. Unnamed entries are exempt: there is no name to find.
+ev[, names_ok := name_status != "named" | mapply(function(f, q) {
+    nzchar(f) && grepl(normalise_for_match(f), normalise_for_match(q), fixed = TRUE)
+}, facility_raw, evidence_quote)]
+reject(ev[names_ok == FALSE], "quote does not contain the facility name")
+ev <- ev[names_ok == TRUE]
+
+reject(ev[!event %in% EVENTS], "event outside the vocabulary")
+ev <- ev[event %in% EVENTS]
+
+message("Verified ", nrow(ev), " events, rejected ",
+    sum(vapply(rejects, nrow, integer(1))), ".")
+
+# -------------------------------------------------------------------- keys
+
+ev[, name_key := name_key_of(facility_raw)]
+ev[, place_key := place_key_of(place_raw, facility_raw)]
+ev[, beds_int := suppressWarnings(as.integer(gsub("[^0-9]", "", beds)))]
+ev[, event_date := suppressWarnings(as.Date(event_date))]
+ev[!site_kind %in% names(ID_PREFIX), site_kind := "other"]
+
+#' Only a named facility can be resolved. An unnamed or ambiguous entry keeps
+#' its place and its quote and stays in the events table, where a person can
+#' attach it later; it never reaches facilities.csv.
+ev[, resolvable := name_status == "named" & nzchar(name_key)]
+
+#' `other` means "this report did not say what kind of place it is", not a
+#' kind of its own. A hospital decontaminated in one report and holding
+#' patients in the next would otherwise become two facilities, one of them
+#' permanently unopened, because `facility_id` starts with the site kind.
+#'
+#' So where a name is seen as `other` and as exactly one real kind, the real
+#' kind wins everywhere. Where it is seen as two real kinds, both stay: a
+#' transit centre and a treatment centre can share a name and a town, and
+#' choosing between them is a judgement, flagged below rather than made here.
+kinds <- unique(ev[resolvable == TRUE & site_kind != "other", .(name_key, site_kind)])
+single <- kinds[, .(n = .N), by = name_key][n == 1L, .(name_key)]
+promote <- merge(kinds, single, by = "name_key")
+setnames(promote, "site_kind", "real_kind")
+ev <- merge(ev, unique(promote), by = "name_key", all.x = TRUE, sort = FALSE)
+promoted <- ev[, sum(site_kind == "other" & !is.na(real_kind))]
+ev[site_kind == "other" & !is.na(real_kind), site_kind := real_kind]
+ev[, real_kind := NULL]
+if (promoted) {
+    message("Promoted ", promoted,
+        " activity-only mentions onto the facility they name.")
+}
+
+# ---------------------------------------------------------------- registry
+
+reg_cols <- c("facility_raw", "name_key", "place_key", "site_kind",
+    "facility_id", "reviewed", "note")
+registry <- if (file.exists(out_registry())) {
+    fread(out_registry(), colClasses = "character")
+} else {
+    setNames(data.table(matrix("", 0, length(reg_cols))), reg_cols)
+}
+for (col in reg_cols) if (is.null(registry[[col]])) registry[, (col) := ""]
+registry[, reviewed := toupper(trimws(reviewed)) %in% c("TRUE", "YES", "1")]
+
+seen <- unique(ev[resolvable == TRUE, .(facility_raw, name_key, place_key, site_kind)])
+# One row a spelling. Where a spelling appears with two kinds of site, the
+# commonest wins here and the disagreement is flagged below.
+modal <- ev[resolvable == TRUE, .N, by = .(facility_raw, site_kind)][order(-N)]
+seen <- merge(seen[, .(facility_raw, name_key, place_key)],
+    unique(modal, by = "facility_raw")[, .(facility_raw, site_kind)],
+    by = "facility_raw")
+
+fresh <- seen[!facility_raw %in% registry$facility_raw]
+if (nrow(fresh)) {
+    fresh[, facility_id := paste0(ID_PREFIX[site_kind], "-", slug(name_key))]
+    fresh[, reviewed := FALSE]
+    fresh[, note := paste0("added automatically ", Sys.Date())]
+    registry <- rbind(registry, fresh[, ..reg_cols], fill = TRUE)
+    message("Registry: ", nrow(fresh), " new spellings appended for review.")
+}
+
+#' A reviewed row is a decision, so its id is never recomputed. An unreviewed
+#' one is only ever this script's own guess and is refreshed, which is what
+#' lets a correction to the keys take effect without hand editing.
+registry[reviewed == FALSE, `:=`(
+    name_key = name_key_of(facility_raw),
+    facility_id = fifelse(nzchar(facility_id), facility_id,
+        paste0(ID_PREFIX[site_kind], "-", slug(name_key_of(facility_raw)))))]
+
+registry <- unique(registry, by = "facility_raw")
+fwrite(registry[order(facility_id, facility_raw)], out_registry())
+
+ev <- merge(ev, registry[, .(facility_raw, facility_id)],
+    by = "facility_raw", all.x = TRUE)
+ev[is.na(facility_id) | resolvable == FALSE, facility_id := ""]
+
+# ------------------------------------------------------------------- flags
+
+flags <- list()
+add_flag <- function(ids, flag) {
+    if (!length(ids)) return(invisible())
+    flags[[length(flags) + 1L]] <<- data.table(facility_id = unique(ids), flag = flag)
+}
+
+fac <- unique(ev[nzchar(facility_id), .(facility_id, name_key, place_key, site_kind)])
+same_name <- fac[, .(kinds = uniqueN(site_kind)), by = name_key][kinds > 1]
+add_flag(fac[name_key %in% same_name$name_key, facility_id], "possible_same_site")
+
+#' INSP writes Mongbwalu, Mungbwalu and Mongwalu. Near neighbours are put
+#' side by side for a person to judge; nothing is merged automatically.
+long <- unique(fac[nchar(name_key) >= 6L, .(facility_id, name_key, site_kind)])
+if (nrow(long) > 1L) {
+    d <- adist(long$name_key, long$name_key)
+    for (i in seq_len(nrow(long))) {
+        near <- which(d[i, ] <= 2L & long$site_kind == long$site_kind[i])
+        if (length(near) > 1L) add_flag(long$facility_id[near], "possible_spelling_variant")
+    }
+}
+flag_dt <- if (length(flags)) {
+    rbindlist(flags)[, .(flags = paste(sort(unique(flag)), collapse = ";")),
+        by = facility_id]
+} else data.table(facility_id = character(), flags = character())
+
+# ------------------------------------------------------------ write events
+
+#' Rule 1 says one entry a facility an event a report. Where a model breaks it,
+#' the longest quote is kept: it is the most informative, and the alternative
+#' is counting one statement twice.
+ev[, dup_key := paste(sitrep, facility_id, facility_raw, event)]
+ev[, quote_len := nchar(evidence_quote)]
+setorder(ev, dup_key, -quote_len)
+dups <- sum(duplicated(ev$dup_key))
+ev <- ev[!duplicated(dup_key)]
+if (dups) message("Dropped ", dups, " duplicate events (same facility, same event, same report).")
+
+event_cols <- c("sitrep", "report_date", "facility_id", "facility_raw",
+    "name_status", "site_kind", "place_key", "place_raw", "event", "event_date",
+    "beds_int", "health_zone", "province", "status_note", "evidence_quote",
+    "confidence", "model")
+setnames(ev, "beds_int", "beds")
+event_cols[event_cols == "beds_int"] <- "beds"
+setorder(ev, report_date, facility_id, event)
+fwrite(ev[, ..event_cols], out_events())
+
+if (length(rejects)) {
+    rej <- rbindlist(rejects, fill = TRUE)
+    fwrite(rej, out_rejected())
+    message("Rejected events written to ", out_rejected())
+} else if (file.exists(out_rejected())) {
+    file.remove(out_rejected())
+}
+
+# -------------------------------------------------------- derive facilities
+
+published <- sort(unique(as.integer(sub("_v.*", "", corpus_ids()))))
+commonest <- function(x) {
+    x <- x[nzchar(x)]
+    if (!length(x)) return("")
+    names(sort(table(x), decreasing = TRUE))[1]
+}
+first_of <- function(dates, keep) {
+    d <- dates[keep & !is.na(dates)]
+    if (!length(d)) as.Date(NA) else min(d)
+}
+
+res <- ev[nzchar(facility_id)]
+facilities <- res[, {
+    num <- as.integer(sub("_v.*", "", sitrep))
+    first_i <- which.min(report_date)
+    real <- event != "mention_only"
+    last_real <- if (any(real)) which(real)[which.max(report_date[real])] else NA_integer_
+    beds_i <- which(!is.na(beds))
+    opened_i <- which(event == "opened")
+    .(
+        facility_name = commonest(facility_raw),
+        site_kind = commonest(site_kind),
+        place_key = commonest(place_key),
+        health_zone = commonest(health_zone),
+        province = commonest(province),
+        date_first_mentioned = min(report_date),
+        sitrep_first_mentioned = sitrep[first_i],
+        # The sitrep before the first mention was never published, so the true
+        # first mention may sit in a report that does not exist.
+        first_mention_after_gap = !(min(num) - 1L) %in% published && min(num) > 1L,
+        date_first_planned = first_of(report_date, event %in% c("planned", "under_construction")),
+        date_opening_announced = first_of(report_date, event == "opened"),
+        sitrep_opening_announced = if (length(opened_i)) sitrep[opened_i[which.min(report_date[opened_i])]] else NA_character_,
+        # Only the reports that give an opening date have one; min() over all
+        # missing values returns Inf rather than NA.
+        date_opening_stated = first_of(event_date, seq_along(event) %in% opened_i),
+        date_first_in_service = first_of(report_date, event %in% IN_SERVICE),
+        status_latest = if (is.na(last_real)) "mention_only" else event[last_real],
+        status_latest_date = if (is.na(last_real)) as.Date(NA) else report_date[last_real],
+        beds_latest = if (length(beds_i)) beds[beds_i[which.max(report_date[beds_i])]] else NA_integer_,
+        beds_latest_date = if (length(beds_i)) max(report_date[beds_i]) else as.Date(NA),
+        date_last_mentioned = max(report_date),
+        n_sitreps = uniqueN(sitrep),
+        n_events = .N,
+        aliases = paste(sort(unique(facility_raw)), collapse = "; ")
+    )
+}, by = facility_id]
+
+facilities <- merge(facilities, flag_dt, by = "facility_id", all.x = TRUE)
+facilities[is.na(flags), flags := ""]
+setorder(facilities, site_kind, facility_id)
+fwrite(facilities, out_facilities())
+
+message("\nFacilities: ", nrow(facilities), " from ", nrow(res),
+    " resolved events, plus ", nrow(ev) - nrow(res), " unresolved.")
+print(facilities[, .N, by = site_kind])
+message("\nWritten: ", out_events())
+message("Written: ", out_facilities())
+message("Written: ", out_registry())
