@@ -33,6 +33,15 @@ facilities_path <- function() here::here("data", "facilities.csv")
 
 rejected_path <- function() here::here("outputs", "rejected_events.csv")
 
+#' A survey of what the corpus measures, not a step of the facility pipeline.
+#' Rebuilt from the tables alone, with no model call, so it costs nothing to
+#' regenerate when the corpus changes.
+indicators_path <- function() here::here("data", "indicators.csv")
+
+indicator_appearances_path <- function() {
+    here::here("data", "indicator_appearances.csv")
+}
+
 ensure_dirs <- function() {
     for (d in c(cache_dir(), dirname(registry_path()), here::here("outputs", "logs"))) {
         dir.create(d, recursive = TRUE, showWarnings = FALSE)
