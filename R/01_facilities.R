@@ -52,9 +52,11 @@ SITE_KINDS <- c("treatment_centre", "transit_centre", "isolation_centre",
 EVENTS <- c("planned", "under_construction", "opened", "operating", "expanded",
     "strained", "incident", "closed", "mention_only")
 
+NAME_STATUS <- c("named", "unnamed", "ambiguous")
+
 EVENT_FIELDS <- c("facility_raw", "facility_type_raw", "site_kind",
-    "health_zone", "province", "event", "event_date", "beds", "status_note",
-    "evidence_quote", "confidence")
+    "name_status", "place_raw", "health_zone", "province", "event",
+    "event_date", "beds", "status_note", "evidence_quote", "confidence")
 
 #' Absent values are `""`, never null.
 #'
@@ -73,6 +75,8 @@ SCHEMA <- list(
                 facility_raw = str_field(),
                 facility_type_raw = str_field(),
                 site_kind = list(type = "STRING", enum = I(SITE_KINDS)),
+                name_status = list(type = "STRING", enum = I(NAME_STATUS)),
+                place_raw = str_field(),
                 health_zone = str_field(),
                 province = str_field(),
                 event = list(type = "STRING", enum = I(EVENTS)),

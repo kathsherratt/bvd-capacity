@@ -2,7 +2,7 @@
 
 You are reading one French-language situation report (SitRep) of the Institut National de Santé Publique (INSP), Democratic Republic of the Congo, on the 2026 Bundibugyo virus disease outbreak.
 
-Record every named facility where people with Ebola are treated, isolated or held, and what this report says about each one's state. Record nothing else.
+Record every facility where people with Ebola are treated, isolated or held, and what this report says about each one's state. Record nothing else.
 
 ## Input
 
@@ -27,10 +27,23 @@ Include, whatever the report calls them:
 
 Leave out:
 
-- any facility the report does not name: `le CTE`, `un CTE de 100 lits`, `les trois centres de transit`
-- a name that could be two different sites in the same report (`Rwampara` where both `HGR Rwampara` and `CME Rwampara` appear)
+- statements about treatment centres as a group rather than about one site: `12 décès dans les CTE ont été enregistrés, dont 12 en Ituri`, `les CTE/CT ont enregistré 127 nouvelles admissions`. These count a system, not a place. When no single facility is being described, record nothing.
 - totals and roll-ups that sit in a table where facilities sit: `BUNIA TOTAL`, `RWAMPARA TOTAL`, `TOTAL GENERAL`, `TOTAL` are arithmetic, not places
 - laboratories, points of entry (PoE, PoC), vaccination sites, burial teams and health zones as such. A health zone is a place, not a facility.
+
+## Facilities the report does not name
+
+Record these too. Do not skip a facility because you cannot name it; say so in `name_status` instead.
+
+| `name_status` | when |
+|---|---|
+| `named` | the report gives the facility's own name, or the place or host hospital it sits at: `CTE de Nizi`, `CTE de l'HGR Bunia`, `SOFEPADI` |
+| `unnamed` | one facility is described but not named: `un CTE de 100 lits`, `le CTE de fortune`, `un centre de transit dans la zone de santé de Nizi` |
+| `ambiguous` | a name that could be more than one site in this report: `Rwampara`, where both `HGR Rwampara` and `CME Rwampara` appear |
+
+Put in `facility_raw` the words the report uses, even when those are `un CTE de 100 lits`. A later step decides whether an unnamed or ambiguous entry can be attached to a known facility. Recording it is your job; deciding is not.
+
+This applies only to a single facility. A sentence counting all the CTEs at once is still left out, however it is worded.
 
 ## Output
 
@@ -38,16 +51,18 @@ One object with an `events` array. One entry a facility a state, in the order yo
 
 | field | content |
 |---|---|
-| `facility_raw` | the name exactly as this report writes it, including its type prefix and any misspelling: `CTE de Nizi`, `HGR Bunia`, `BUNIA SOFEPADI`, `Clibnique Bénedicte` |
+| `facility_raw` | the facility as this report writes it, including its type prefix and any misspelling: `CTE de Nizi`, `HGR Bunia`, `BUNIA SOFEPADI`, `Clibnique Bénedicte` |
 | `facility_type_raw` | the type prefix as written (`CTE`, `CT`, `CTC`, `CI`, `HGR`, `CH`, `CME`, `CS`), or `""` if the name carries none |
 | `site_kind` | `treatment_centre`, `transit_centre`, `isolation_centre`, `hospital_isolation` or `other`. Use `hospital_isolation` for a hospital, clinic or health centre holding Ebola patients |
+| `name_status` | `named`, `unnamed` or `ambiguous`, as the table above sets out |
+| `place_raw` | the town, site or locality this facility is at or named after, as written: `Nizi`, `Bunia`, `Mongbwalu`. `""` when the report gives none. A facility named after its host hospital takes that hospital's place, so `CTE de l'HGR Bunia` is `Bunia` |
 | `health_zone` | the health zone as written, `""` if this report does not give one for this facility |
 | `province` | the province as written, `""` if not given |
 | `event` | one value from the table below |
 | `event_date` | `YYYY-MM-DD`, only when the report states the date of this event (`ouvert le 22 mai`). The report's own date is not an event date. `""` otherwise |
 | `beds` | the bed capacity stated for this facility, digits only. Patients, admissions and occupancy are not beds. `""` if no bed count is given for it |
 | `status_note` | one short English sentence saying what the report says. Translate; do not interpret, infer or explain |
-| `evidence_quote` | 20 to 200 characters copied character for character from the input, containing the facility name. French, accents, spacing and misspellings all as they are |
+| `evidence_quote` | 20 to 200 characters copied character for character from the input, containing the facility as the report writes it. French, accents, spacing and misspellings all as they are |
 | `confidence` | `high` when the wording is unambiguous, `low` when it is not |
 
 ## Event values
@@ -73,4 +88,4 @@ One object with an `events` array. One entry a facility a state, in the order yo
 5. Use nothing from outside this report: not your own knowledge of the outbreak, not other reports, not what another facility in this report is doing.
 6. Every `evidence_quote` is checked by exact substring match against the input text after whitespace is collapsed. A quote that does not match is thrown away with its entry. Copy, never retype from memory, and never join two separate spans.
 7. When the facility is named in a table header or row, quote the shortest run of that rendered line that still contains the name. `| BUNIA HGR | BUNIA SOFEPADI |` is a valid quote; a header row longer than 200 characters should be cut down, not rewritten.
-8. Return `{"events": []}` when the report names no facility. That is a real answer, not a failure.
+8. Return `{"events": []}` when the report describes no facility. That is a real answer, not a failure.

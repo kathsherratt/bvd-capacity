@@ -1,6 +1,6 @@
 # Plan: Ebola treatment centre opening dates from the INSP sitrep corpus
 
-Handover for a fresh session. Written 2026-09-17 03:10, updated 12:50. Delete this file once the work is merged.
+Handover for a fresh session. Written 2026-09-17 03:10, updated 2026-09-21. Delete this file once the work is merged.
 
 ## Goal
 
@@ -12,21 +12,22 @@ Later consumers of the same corpus (treatment capacity, care-seeking) will sit b
 
 | | role | state |
 |---|---|---|
-| `~/Documents/Github/bvd-sitreps` (epiforecasts/bvd-sitreps) | fetches PDFs, publishes the corpus. Knows nothing about facilities | branch `rebuild-corpus`, corpus committed (`3d14a3b`), QA passing. Translation running via agy |
-| `~/Documents/Github/bvd-capacity` (no remote) | reads the corpus by path, extracts facilities | branch `etc-dates`, uncommitted. Prototype stripped; `paths.R` and `gemini.R` (with agy backend) written |
+| `~/Documents/Github/bvd-sitreps` (epiforecasts/bvd-sitreps) | fetches PDFs, publishes the corpus. Knows nothing about facilities | branch `rebuild-corpus` pushed, 5 commits ahead of `main`, no PR opened. Corpus and English pages complete |
+| `~/Documents/Github/bvd-capacity` (kathsherratt/bvd-capacity, private) | reads the corpus by path, extracts facilities | branch `etc-dates` pushed. Steps 1 and 2 written, no model call made yet |
 
 Rule: bvd-capacity never opens a PDF and never sources code from bvd-sitreps. It depends on bvd-sitreps' data only. If something cannot be answered from the corpus, fix it in bvd-sitreps.
 
-## State of the corpus (updated 2026-09-17 12:50)
+## State of the corpus (updated 2026-09-21)
 
-Complete and passing. 116 of 116 reports built; `Rscript R/05-check-corpus.R` prints PASS (lowest numeric recall 0.9655, 748 tables). Table CSVs written (`R/03-tables-to-csv.R`). English translation (`R/04-translate.R`, flash, ~$7) has not been run.
+Complete and passing. 116 of 116 reports built; `Rscript R/05-check-corpus.R` prints PASS (lowest numeric recall 0.9655, 748 tables). Table CSVs written (`R/03-tables-to-csv.R`). All 116 English pages translated through agy and rendered (`173c563`); 113 needed a reviewed row in `assets/translate-exemptions.csv` for `fonctionnel 24h/24` against `operational 24/7`.
 
 - 114 reports on `gemini-3.1-pro-preview`; 008 and 016 on `gemini-3.8-flash`, recorded with reasons in `bvd-sitreps/assets/model-overrides.csv` (pro looped on 008 and dropped page-1 headline figures on 016).
 - 12 chart axis ticks in 031 are exempted after review in `bvd-sitreps/data/corpus-qa-exemptions.csv`.
 - Spend on the key so far: $42.76 logged in `bvd-sitreps/outputs/gemini-ledger.csv`, plus ~$1.50 unlogged.
 - At 10:40 the API key (`...1ZEQ`) ran out of prepaid credit. The user will not spend more. Everything after that runs through the Antigravity CLI on the user's Ultra plan instead, at no per-call cost (see "The agy route" below).
-- Corpus committed in bvd-sitreps as `3d14a3b` on `rebuild-corpus`. After that commit: `R/04-translate.R` gained a caption fix, decimal-separator normalisation, a body-number check and low thinking; `R/lib/gemini.R` gained the agy backend. Uncommitted.
-- Translation of all 116 reports launched through agy at 12:46 (`outputs/logs/translate_agy_2026-09-17-1246.log`), ~30-70 s a report. 005 and 081 checked by hand first: every table and body number intact, markers kept, abbreviations glossed, page renders in Quarto.
+- All of it is committed and pushed on `rebuild-corpus`, through `173c563`.
+- Translation ran at 30-70 s a report on `agy:gemini-3.8-flash-low`. Ledger at 266 calls.
+- `data/corpus/fr/109_files/mediabag` is an empty Quarto render artefact left in the corpus directory, untracked. Worth deleting in bvd-sitreps.
 
 Exit status 3 from `02` or `04` means a clean stop on quota or budget; rerun to resume, finished reports are cached.
 
@@ -57,8 +58,12 @@ Every row has as many cells as `columns`. Spanning cells are repeated on each ro
 
 - `git rm` of the prototype: `R/02_text.R`, `R/03_parse.R`, `R/05_build.R`, `R/06_checks.R`, `data/text/`, `data/registry/`, `data/observations/`, `data/derived/`. Kept `LICENSE`, `README.md`, `DESIGN.md`, `dictionary.md` (all three describe the prototype and need rewriting). `outputs/` is gitignored.
 - `R/lib/paths.R`: `sitreps_root()`, `corpus_dir(...)`, `sitreps_manifest_path()`, `cache_dir(...)` (`data/cache/`, committed), `registry_path()` (`registry/facility_aliases.csv`), `events_path()` (`data/facility_events.csv`), `facilities_path()` (`data/facilities.csv`), `rejected_path()` (`outputs/rejected_events.csv`), `ensure_dirs()`.
+- `R/lib/corpus.R`: `corpus_ids()`, `read_report()`, `render_report()`, `normalise_for_match()`, `quote_matches()`. Step 1 as specified below. Verified: renders byte-identically across calls, all 116 ids resolve, SitRep 006 Tableau VI keeps its facility column headers, a header slice passes the gate and a paraphrase fails it.
+- `assets/prompt-facilities.md` and `R/01_facilities.R`: step 2 as specified below, with `--only`, `--force` and `--cache=DIR`. Payload is 23.5k characters median and 38.5k worst case, so roughly 33k input tokens a call on the agy route. Nothing has been through a live model.
 - `R/lib/gemini.R`: copy of bvd-sitreps' client, including the later fixes (retries dropped connections, logs usage before raising on a bad finish, optional `thinking_level`). `gemini(parts, schema, model = GEMINI_MODEL_EXTRACT, temperature = 0, label)` returns parsed JSON from a `responseSchema` call. Pin `GEMINI_MODEL_EXTRACT` defaults to `gemini-3.1-pro-preview` (unvalidated for extraction; see step 2). Handles: per-minute 429 retries honouring `retryDelay`; daily-quota, billing and budget stops raised as class `gemini_quota_stop`; `GEMINI_BUDGET_USD` checked before each call against a ledger; `GEMINI_LEDGER` env var to share one ledger across repos; `GEMINI_PRICES` table (add any new model before budgeting it); `gemini_pdf_part()`, `gemini_text_part()`, `gemini_models()`, `gemini_spent()`.
-- Empty `assets/`, `registry/`, `data/cache/`.
+- Empty `registry/`, `data/cache/`.
+
+Still to do, in order: the model comparison in step 2, the full extraction run, then steps 3 to 5.
 
 ## Remaining steps
 
@@ -77,21 +82,27 @@ Input to the model: the prompt, then `render_report(id)` as text. Output schema,
 
 ```
 events: [{
-  facility_raw      name exactly as written ("CTE de Nizi", "HGR Bunia", "Bunia SOFEPADI")
+  facility_raw      as written ("CTE de Nizi", "HGR Bunia", "un CTE de 100 lits")
   facility_type_raw type prefix as written, "" if none (CTE, CT, CTC, CI, HGR, CH, CS, ...)
   site_kind         treatment_centre | transit_centre | isolation_centre | hospital_isolation | other
+  name_status       named | unnamed | ambiguous
+  place_raw         town, site or locality as written, "" if not given
   health_zone       as written, "" if not given
   province          as written, "" if not given
   event             planned | under_construction | opened | operating | expanded | strained | incident | closed | mention_only
   event_date        YYYY-MM-DD only if the text states the date of this event; else ""
-  beds              integer bed capacity stated for this facility; else null. Patients are not beds
+  beds              bed capacity stated for this facility, digits as a string; else "". Patients are not beds
   status_note       one short English sentence, translating not interpreting
   evidence_quote    contiguous span copied character for character, 20-200 chars, containing the facility name
   confidence        high | low
 }]
 ```
 
-Prompt content: carry over the event table and rules 1, 2, 3, 6, 7 from `~/Documents/Github/bvd-internal-cmmid/skills/etc-facilities/prompts/facility-events.md` (one event per facility per event value per report; `mention_only` is normal; a referral means `operating`; no outside knowledge; quotes checked verbatim). Drop everything about batches, passages, registries, OCR and column interleaving; none applies to the corpus. Add: include hospital isolation sites where the text shows Ebola patients isolated or treated there (early reports use `HGR Bunia`, `CH Elikya`, `SOFEPADI` before CTEs exist; the old register missed these); leave out unnamed facilities ("le CTE", "un CTE de 100 lits"); a facility named in a table header or row label is a mention, and the quote is that header or row as rendered; `opened` is an announcement of opening, inauguration, mise en service or rendu opérationnel, not the first patient.
+Prompt content: carry over the event table and rules 1, 2, 3, 6, 7 from `~/Documents/Github/bvd-internal-cmmid/skills/etc-facilities/prompts/facility-events.md` (one event per facility per event value per report; `mention_only` is normal; a referral means `operating`; no outside knowledge; quotes checked verbatim). Drop everything about batches, passages, registries, OCR and column interleaving; none applies to the corpus. Add: include hospital isolation sites where the text shows Ebola patients isolated or treated there (early reports use `HGR Bunia`, `CH Elikya`, `SOFEPADI` before CTEs exist; the old register missed these); a facility named in a table header or row label is a mention, and the quote is that header or row as rendered; `opened` is an announcement of opening, inauguration, mise en service or rendu opérationnel, not the first patient.
+
+Nothing is dropped for being unnamed. A facility the report describes but does not name (`un CTE de 100 lits`, `le CTE de fortune`), or names ambiguously (`Rwampara` where both HGR and CME Rwampara exist), is recorded with `name_status` and resolved, or not, in step 3. Asking the model to suppress these makes the loss invisible; a flag is recoverable. Measured on the corpus: about 15 to 20 such mentions carry a bed count, opening wording or a bracketed list of names, so the volume is small.
+
+What must stay out is the other thing an unnamed `CTE` usually means: a count over all of them ("12 décès dans les CTE ont été enregistrés", "les CTE/CT ont enregistré 127 nouvelles admissions"). That is roughly 398 of the 1210 prose mentions, it is province-level throughput rather than a facility event, and letting it in would swamp the register. It deserves a pass of its own later; see "Later passes".
 
 Cache: `data/cache/<id>.json` holding `id`, `report_date`, `extract_key`, `model`, `events`. `extract_key` = the corpus file's `build_key` + md5 of the prompt + md5 of the schema + model. Skip when the key matches. Keying on anything less means a prompt fix silently misses reports already read (this bit bvd-sitreps once).
 
@@ -114,11 +125,13 @@ nohup caffeinate -is Rscript R/01_facilities.R > outputs/logs/facilities_$(date 
 In order:
 
 1. Read every cache file. Verify each `evidence_quote`: `normalise_for_match(quote)` must be a substring of `normalise_for_match(render_report(id))` and must contain `facility_raw` (normalised). Failures go to `outputs/rejected_events.csv` with the reason and are dropped.
-2. Name key: fold accents (`iconv` to ASCII//TRANSLIT, then drop `'`^~"` which macOS inserts), lowercase, remove type prefixes and their spelled-out forms (`centre de traitement ebola`, `centre de transit`, `centre d'isolement`, CTE, CTC, CT, CI), remove `de du d' de la l' des`, collapse punctuation to single spaces. Type class from `site_kind`.
-3. Registry `registry/facility_aliases.csv`, columns `facility_raw, name_key, site_kind, facility_id, reviewed, note`. Rows with `reviewed = TRUE` are hand decisions and win. New spellings are appended with `reviewed = FALSE` and an automatic `facility_id` = `<site_kind prefix>-<name_key slug>` (`cte-bunia`, `ct-kigonze`, `hosp-hgr-bunia`). Never rename an existing `facility_id`.
+2. Place key and name key. The place key is the locality (`bunia`, `mongbwalu`, `nizi`), from `place_raw` where the model gave one and from the facility name otherwise; it is a column of the registry in its own right, not something baked only into `facility_id`. Later passes over this corpus (laboratories, vaccination sites, burial teams, points of entry) key on the same places rather than building a second name vocabulary, and `CTE de l'HGR Bunia` and `HGR Bunia` are two facilities at one place.
+
+   The name key identifies the facility: fold accents (`iconv` to ASCII//TRANSLIT, then drop `'`^~"` which macOS inserts), lowercase, remove type prefixes and their spelled-out forms (`centre de traitement ebola`, `centre de transit`, `centre d'isolement`, CTE, CTC, CT, CI), remove `de du d' de la l' des`, collapse punctuation to single spaces. Type class from `site_kind`.
+3. Registry `registry/facility_aliases.csv`, columns `facility_raw, name_key, place_key, site_kind, facility_id, reviewed, note`. An event whose `name_status` is `unnamed` or `ambiguous` gets no `facility_id` and no registry row; it keeps its place and health zone and stays in the events table for a person to attach or leave. Nothing about it reaches `facilities.csv`. Rows with `reviewed = TRUE` are hand decisions and win. New spellings are appended with `reviewed = FALSE` and an automatic `facility_id` = `<site_kind prefix>-<name_key slug>` (`cte-bunia`, `ct-kigonze`, `hosp-hgr-bunia`). Never rename an existing `facility_id`.
 4. Flags, not merges, for judgement calls: same `name_key` with different `site_kind` (`CT Bunia` vs `CTE Bunia`) gets `possible_same_site`; keys within `adist` 2 of each other, both 6+ characters, same `site_kind`, get `possible_spelling_variant` (INSP writes Mongbwalu, Mungbwalu and Mongwalu). A person resolves these by editing the registry and setting `reviewed = TRUE`.
-5. Write `data/facility_events.csv`: `sitrep, report_date, facility_id, facility_raw, site_kind, event, event_date, beds, health_zone, province, status_note, evidence_quote, confidence`. `report_date` from corpus front matter, never from the model.
-6. Write `data/facilities.csv`, every column derived from events:
+5. Write `data/facility_events.csv`: `sitrep, report_date, facility_id, facility_raw, name_status, site_kind, place_key, place_raw, event, event_date, beds, health_zone, province, status_note, evidence_quote, confidence`. `facility_id` is empty for an unresolved row. `report_date` from corpus front matter, never from the model.
+6. Write `data/facilities.csv` from the rows that carry a `facility_id`, every column derived from events:
    - `facility_id, facility_name` (most frequent raw spelling), `site_kind`, `health_zone`, `province` (most frequent non-empty)
    - `date_first_mentioned, sitrep_first_mentioned`
    - `first_mention_after_gap`: TRUE if the sitrep number before the first mention was never published, so the true first mention may be earlier
@@ -133,13 +146,21 @@ Keep announced opening and first in service separate. The old register found nin
 
 ### 4. `R/03_checks.R`: gate
 
-Fail (exit 1) if: `outputs/rejected_events.csv` has rows; any event value outside the closed vocabulary; any event's `facility_id` absent from the registry; any `report_date` outside the corpus range; any facilities row whose dates cannot be recomputed from events; any registry `facility_id` claimed by two different `site_kind` values. Print counts: facilities by `site_kind` and province, events by type, unreviewed registry rows, flagged rows.
+Fail (exit 1) if: `outputs/rejected_events.csv` has rows; any event value outside the closed vocabulary; any non-empty `facility_id` absent from the registry; any `named` event without a `facility_id`; any `report_date` outside the corpus range; any facilities row whose dates cannot be recomputed from events; any registry `facility_id` claimed by two different `site_kind` values. Print counts: facilities by `site_kind` and province, events by type, unreviewed registry rows, flagged rows.
 
 Do not relax the quote check to make rejects disappear. A reject is fixed by rerunning that report with a better prompt, or it stays out.
 
 ### 5. Documentation
 
 Rewrite `README.md` (what, coverage, method, limitations, running), `dictionary.md` (columns of the three outputs), and replace `DESIGN.md` or cut it to principles that still hold. Its "Principles" section (place first, provenance per row, absence is data, vintages kept) still applies. Add a `.gitignore` line check: `data/cache/` is committed, `outputs/` is not.
+
+## Later passes
+
+The same corpus, the same renderer and the same quote gate serve the other contact points with the health system, one pass a topic rather than one prompt for all of them. Each needs its own event vocabulary (a laboratory opens, has throughput and runs out of reagent; a burial team deploys and performs burials), and a single union vocabulary would be about thirty values chosen between badly. Extraction is cheap to repeat on plan quota, so the cost of adding a pass later is roughly one full re-run.
+
+Coverage in the corpus, of 116 reports: laboratories 116, burials 116, points of entry 111, transit centres 103, vaccination 58.
+
+Separate from those, and probably first: province-level treatment throughput from the statements this pass excludes ("les CTE/CT ont enregistré 127 nouvelles admissions"). That is the question the repository is named for and no pass currently captures it.
 
 ## Verification
 
