@@ -1,159 +1,140 @@
+`#ai-input`
+
 # bvd-capacity
 
-Health-care capacity and strain read from the INSP situation reports for the
-2026 Bundibugyo virus disease outbreak in the Democratic Republic of the
-Congo. Sub-national by design, public data only.
+When each Ebola treatment, transit and isolation facility appeared, opened and
+came under strain during the 2026 Bundibugyo virus disease outbreak in the
+Democratic Republic of the Congo, read from the INSP situation reports.
 
-Beds, patients in isolation, admissions, exits and occupancy by province and
-day; saturation by named treatment or transit centre. Every value carries the
-French sentence it came from, the report number and the page.
-
-- `data/observations/` — one row per indicator per place per report
-- `data/derived/occupancy_daily.csv` — one row per place per report
-- `data/derived/coverage.csv` — which indicators each report carried
-- `data/registry/` — reports, indicators, eras, facilities
-- `dictionary.md` — column definitions
-
-Phase 1 of [DESIGN.md](DESIGN.md), which sets out the full scope: workforce,
-supplies, transport, laboratory throughput, a Quarto site and exports to
-BDBV2026-Data and BVDOutbreakSize are not built yet.
-
-## What is here
+Every row carries the French sentence it came from, and that sentence is
+checked against the report character for character before the row is kept.
 
 | | |
 |---|---|
-| Source | INSP SitRep PDFs mirrored at https://github.com/INRB-UMIE/BDBV2026-Data, `data/insp_sitrep/raw/` |
-| Reports | 96 PDFs: SitReps 001-122, 14 May to 13 September 2026, plus a reissued 012 |
-| Missing from the mirror | 003, 029, 043, 045, 059, 061, 063, 068, 071, 075, 076, 083, 084, 086-088, 090-092, 095, 098, 100, 103, 105, 107, 120, 121 |
-| Scanned reports, read by OCR | 007-011, 012 (first issue), 014 |
-| Observations | 1,975: 1,845 values and 130 places a report named but did not fill in |
-| Reports with a capacity value | 73, 1 June to 13 September |
-| Places | 6 provinces, a national total, and 29 named facilities |
+| Source | INSP situation reports, via the verified corpus published by [bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) |
+| Reports | 116, SitReps 001 to 122, 14 May to 13 September 2026 |
+| Events | 1,885 |
+| Facilities | 620 |
+| Read by | `gemini-3.1-pro` at low thinking, one call a report |
 
-Counts by indicator, where a value is a number the report printed and `ND` is
-a place the report listed and left blank:
+## The three outputs
 
-| indicator | rows | values | ND |
+`data/facility_events.csv` is the observations: one row for each thing a
+report says about a facility. A facility mentioned in forty reports has forty
+or more rows, each with its own quote. This is the table to use for anything
+that should respect what was known when.
+
+`data/facilities.csv` is the register: one row a facility, with the dates
+derived from its events. First mentioned, first planned, opening announced,
+opening date as stated, first seen in service, latest status, latest bed
+count.
+
+`registry/facility_aliases.csv` is the name vocabulary: one row a spelling,
+mapping it to a `facility_id`. It is the only file meant to be edited by hand.
+
+Supporting: `data/facility_flags.csv` says which facilities each flag grouped
+together. `data/indicators.csv` and `data/indicator_appearances.csv` are a
+separate survey of every label the situation report tables use, built without
+a model call.
+
+## Coverage
+
+| kind of site | facilities | in 3+ reports | with an in-service date |
 |---|---|---|---|
-| `patients_isolated` | 278 | 262 | 16 |
-| `admissions_24h` | 277 | 258 | 19 |
-| `exits_24h` | 269 | 251 | 18 |
-| `occupancy_rate` | 234 | 219 | 15 |
-| `patients_start_day` | 206 | 189 | 17 |
-| `patients_confirmed` | 201 | 186 | 15 |
-| `patients_suspect` | 196 | 182 | 14 |
-| `beds_total` | 160 | 144 | 16 |
-| `facility_saturated` | 125 | 125 | — |
-| `facility_expanded` | 24 | 24 | — |
-| `facility_incident` | 5 | 5 | — |
+| treatment centre | 81 | 52 | 68 |
+| hospital isolation | 83 | 22 | 81 |
+| transit centre | 40 | 12 | 35 |
+| isolation centre | 27 | 5 | 10 |
+| other | 389 | 40 | 13 |
 
-`beds_total` is the one indicator read at all three levels: 152 rows by
-province or nationally, 8 for a named facility.
+`other` is a health facility the response touched without the report saying it
+held Ebola patients: a decontamination, a supply delivery, a supervision
+visit. Most appear once. They are kept because a later pass over the same
+corpus will want them, and because deciding they are irrelevant is not the
+extraction step's job.
 
-## How a value gets here
+Of 1,885 events, 1,595 resolve to a named facility. The remaining 290 are
+places the report described without naming, kept with their place and their
+quote so a person can attach them later, and absent from `facilities.csv`.
 
-The reports changed template three times, and the template decides how a
-number can be read.
+## Method
 
-| era | reports | how capacity appears | route |
-|---|---|---|---|
-| narrative | 001-018 | not reported at province level | none |
-| table | 019-080 | `Indicateur` table with a column per province | parsed by column |
-| dashboard | 081-082 | two-column layout; the columns interleave when the PDF text is extracted | not parsed |
-| prose | 083-122 | one bullet per province, as sentences | parsed by sentence |
+1. `R/lib/corpus.R` renders a report to one deterministic text, body and
+   tables together. Extraction and verification use the same renderer, so a
+   quote that matched at extraction still matches at verification.
+2. `R/01_facilities.R` sends that text to the model with
+   `assets/prompt-facilities.md` and a fixed schema, and caches the reply in
+   `data/cache/` under a key made from the corpus build key, the prompt, the
+   schema and the model. Any change to any of those invalidates the cache.
+3. `R/02_resolve.R` verifies every quote, keys the names, assigns facility
+   ids from the registry, and derives the two tables.
+4. `R/03_checks.R` rebuilds the register from the events by a second
+   implementation and fails if the two disagree.
+5. `R/04_review.R` orders the open naming judgements by how many events
+   depend on each.
 
-Reading the table means aligning each number against its column. The header
-is not enough: in some templates the numbers sit twenty characters to the
-right of the word above them, and a province the row leaves blank would shift
-every value after it. So the column positions are measured from the rows that
-carry one cell per column, and a short row is then aligned against those
-positions, skipping whichever column makes the total distance smallest. Rows
-aligned that way are marked `confidence = low`: there are 8, all checked by
-hand.
+The quote gate in step 3 has no exemption route. A quote that is not a span of
+the report is dropped, whatever it says, because a model that paraphrases once
+will paraphrase again and there is no way to tell from the row which it did.
+Rejections are written to `outputs/rejected_events.csv` and `R/03_checks.R`
+fails while any remain.
 
-Facility saturation is not parsed here. It comes from the treatment facility
-register, where each statement was read against a fixed passage and its quote
-checked verbatim, and is reshaped into the same long schema.
+## Running it
 
-## Checks
-
-`Rscript R/06_checks.R`. All 1,975 quotes occur verbatim in their report.
-
-The rest report and continue, because the reports contradict themselves and
-the disagreement is the finding:
-
-| check | failures |
-|---|---|
-| start + admissions − exits = end of day | 17 of 171 place-days |
-| confirmed + suspect = patients in isolation | 6 of 166 |
-| printed occupancy rate against patients ÷ beds | 6 of 108 |
-| national total against the provinces it names | 0 of 290 |
-
-SitRep 046 is the pattern: Ituri opens with 449 patients, admits 68 and
-discharges 50, which leaves 467, and the table prints 451. SitRep 065 gives
-Nord-Kivu 181 patients in 141 beds and calls it 123.1 per cent. Both numbers
-are kept and flagged; neither is corrected.
-
-## Rerunning
-
-Requirements: R with `data.table` and `pdftools`. Rebuilding the text from
-the PDFs as well needs `tesseract` with French, Python 3 with `pymupdf`, and
-a BDBV2026-Data clone.
-
-```bash
-Rscript R/02_text.R --pdf-dir=/path/to/BDBV2026-Data/data/insp_sitrep/raw
-Rscript R/03_parse.R
-Rscript R/05_build.R
-Rscript R/06_checks.R
+```sh
+Rscript R/01_facilities.R          # model calls; --only=, --force, --cache=
+Rscript R/02_resolve.R             # no model calls
+Rscript R/03_checks.R              # exit 1 on any failure
+Rscript R/04_review.R              # worksheet for the naming decisions
 ```
 
-`data/text/` is committed, so steps 3 to 5 run on a fresh clone with nothing
-but R and `data.table`, and step 2 is only needed for new reports. Step 2 on
-the committed cache reproduces `data/registry/reports.csv` unchanged.
+`R/01_facilities.R` expects a bvd-sitreps checkout beside this one, or
+`BVD_SITREPS` pointing at one. It reads that corpus by path and never opens a
+PDF. Extraction takes about three hours over 116 reports and should be run
+detached:
 
-`01_fetch.R` (ask INSP for reports the mirror does not have yet) and
-`04_passages.R` (passages for a reading pass) are in the design and not yet
-written.
+```sh
+mkdir -p outputs/logs
+nohup caffeinate -is Rscript R/01_facilities.R \
+  > outputs/logs/facilities_$(date +%F-%H%M).log 2>&1 &
+```
 
-## Limits
+Exit 3 means the model quota stopped the run; rerunning resumes from the
+cache. `data/cache/` is committed, so steps 2 to 4 run without any model
+access.
 
-- 27 report numbers between 001 and 122 are absent from the mirror, so a
-  series can have a gap that is not a reporting gap.
-- Which provinces print which quantity changes from report to report. A total
-  carries `places_included` naming the places behind it, so a step in a
-  national series is not read as a change on the ground.
-- Indicators appear and vanish with the template. The confirmed/suspect
-  split and patients at the start of the day stop dead at SitRep 080 with the
-  table; bed capacity is reported in only 40 of 96 reports, first at 051.
-  `data/derived/coverage.csv` is the record of this and should be read beside
-  any series.
+## Limitations
 
-| indicator | first report | last | reports carrying it |
-|---|---|---|---|
-| `exits_24h` | 018 | 122 | 72 |
-| `admissions_24h` | 019 | 122 | 70 |
-| `patients_isolated` | 018 | 122 | 68 |
-| `occupancy_rate` | 028 | 122 | 58 |
-| `patients_start_day` | 019 | 080 | 48 |
-| `patients_confirmed` | 019 | 080 | 47 |
-| `patients_suspect` | 019 | 080 | 46 |
-| `beds_total` | 051 | 122 | 40 |
-| `facility_saturated` | 062 | 119 | 24 |
-| `facility_expanded` | 027 | 118 | 16 |
-| `facility_incident` | 010 | 108 | 5 |
-- A quantity a report does not print is never zero. It is `ND` where the
-  report named the place and left it blank, and absent otherwise.
-- SitReps 081 and 082 hold province figures this repository does not extract.
-  Their two-column layout interleaves on extraction, so a parsed quote would
-  not be a sentence the report printed.
-- Spelled-out numbers are not parsed. "Une nouvelle admission a été
-  enregistrée" reads as absent, not as 1.
-- Facility-level rows cover the 29 centres a report described as saturated,
-  expanded or damaged. Absence of a facility is not evidence it was fine.
-- `carry_forward` flags a report repeating the previous report's beds and
-  patients unchanged. It is flagged, not dropped: 9 rows.
+The register counts spellings, not buildings. `CTE de l'HGR Bunia` and `CTE de
+Bunia` are probably one centre and are two rows until someone says otherwise;
+`CTE de l'HGR Rwampara` and `CTE du CME Rwampara` are two centres in one town
+and must stay apart. 79 such decisions are open, and the first ten carry 63%
+of the events involved. Until they are made, treat the facility counts above
+as an upper bound and the event table as the reliable layer.
 
-Public data. Facility and province level only, no person-level information.
-The mirror's own metadata asks that distribution terms be confirmed with INSP
-before external republication; attribution to INSP with report number and
-date belongs on anything derived from this.
+A date here is the date a report said something, not the date it happened.
+`date_first_in_service` is the first report showing patients at the facility,
+which is at or after the true opening.
+
+`date_opening_stated` is empty for every facility. It exists to hold a date
+the report itself gives, and across 116 reports the INSP never gives one: an
+opening is announced on the day it is reported (`Inauguration officielle du
+CTE normé de CME Rwampara`) and the date is the report's. Three events
+anywhere in the corpus carry a date of their own. Treat
+`date_opening_announced`, which 20 facilities have, as the earliest date an
+opening is known by, not as the opening.
+
+Seven SitRep numbers were never published (003, 029, 043, 045, 063, 075,
+076), so a facility's first mention may sit in a report that does not exist.
+`first_mention_after_gap` marks the 50 facilities where this is possible.
+
+Fourteen events were rejected by the quote gate and are not in the data. Eight
+are quotes that are not spans of the report; six are quotes too short to name
+what they evidence.
+
+Beds are sparse. Only 25 facilities have a bed count, because the bed table
+stops appearing after SitRep 090.
+
+## Licence
+
+Code under the licence in `LICENSE`. The situation reports are the INSP's.
