@@ -124,6 +124,32 @@ together, so `R/04_review.R` can reconstruct the clusters.
 Nothing flagged is ever merged automatically. A flag says a person should
 look, and `R/04_review.R` says in what order.
 
+## data/organisations.csv
+
+Who the reports name alongside a facility, one row an organisation, written
+by `R/07_organisations.R`. A keyword scan over the corpus with no model call.
+
+| column | meaning |
+|---|---|
+| `organisation` | the name as this script groups it; MSF covers MSF, MSF France and MSF Hollande |
+| `type` | international NGO, UN agency, DRC government, Congolese hospital or institute, local contractor |
+| `role_in_reports` | what the reports attribute to it, read from the quotes |
+| `facility_sentences` | sentences naming both it and a facility |
+| `reports` | how many reports those fall in |
+| `first_sitrep`, `last_sitrep` | the range |
+| `example_quote` | a verbatim sentence, a literal slice of the corpus |
+| `corpus_md`, `source_pdf` | paths to that report inside a bvd-sitreps checkout |
+
+A row says an organisation was named in a sentence that also mentions a
+facility. That covers building a treatment centre and equally covers
+delivering soap to one, so `facility_sentences` is an upper bound on
+providing a facility. Read the quote before citing a row.
+
+`type` separates two different things. An international NGO or UN agency is a
+partner with its own records to ask for. A Congolese hospital or institute,
+CME, ISTM, FOMULAC, is the building itself, and appears because the reports
+name a facility by its host.
+
 ## data/reference/grid3_places.csv
 
 GRID3 COD Health Facilities v8.0, trimmed to the six outbreak provinces and to

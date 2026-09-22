@@ -33,7 +33,8 @@ count.
 mapping it to a `facility_id`. It is the only file meant to be edited by hand.
 
 Supporting: `data/facility_flags.csv` says which facilities each flag grouped
-together. `data/reference/grid3_places.csv` is the canonical place vocabulary,
+together. `data/organisations.csv` is who the reports name alongside a
+facility, with a verbatim quote and a path to the report for each. `data/reference/grid3_places.csv` is the canonical place vocabulary,
 described below. `data/indicators.csv` and `data/indicator_appearances.csv` are a
 separate survey of every label the situation report tables use, built without
 a model call.
@@ -120,6 +121,8 @@ Rscript R/02_resolve.R             # no model calls
 Rscript R/03_checks.R              # exit 1 on any failure
 Rscript R/04_review.R              # worksheet for the naming decisions
 Rscript R/05_places.R              # what GRID3 does and does not recognise
+Rscript R/06_opening.R             # opening dates as intervals
+Rscript R/07_organisations.R       # who is named alongside a facility
 ```
 
 `R/01_facilities.R` expects a bvd-sitreps checkout beside this one, or
