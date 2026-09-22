@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: >-
-  If you use or build on this dataset, please cite it using these
-  metadata, together with the corpus it reads and the INSP situation
-  reports behind that.
+  Cite the sources first: the INSP situation reports every row is read
+  from, and GRID3 for the place vocabulary. Use these metadata where it
+  matters how the rows were produced.
 title: >-
   bvd-capacity: Ebola treatment and isolation facilities in the 2026
   DRC Bundibugyo virus outbreak
@@ -63,4 +63,20 @@ references:
     doi: 10.7916/f1ft-y872
     notes: >-
       The canonical place and facility vocabulary in
-      data/reference/grid3_places.csv. CC BY 4.0.
+      data/reference/grid3_places.csv. CC BY 4.0. Obtained through the
+      contextual data assembled at INRB-UMIE/BDBV2026-Data.
+  - type: data
+    title: >-
+      BDBV2026-Data: data for the 2026 Bundibugyo Ebolavirus outbreak
+    authors:
+      - name: >-
+          Institut National de Recherche Biomedicale (INRB) and One
+          Health Institute for Africa (INOHA), Kinshasa
+      - name: >-
+          Institut National de Sante Publique (INSP), Democratic
+          Republic of the Congo
+    year: 2026
+    url: "https://github.com/INRB-UMIE/BDBV2026-Data"
+    notes: >-
+      Assembled the contextual datasets this repository's GRID3
+      extract was taken from.

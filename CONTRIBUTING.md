@@ -2,13 +2,16 @@
 
 # Contributing
 
-Issues and pull requests are welcome.
+Issues and pull requests are welcome, on anything: a bug, a correction, a new
+step, a better prompt, or a question about why something works the way it
+does.
 
-The most useful contribution is a judgement. The pipeline deliberately refuses
-to decide whether two spellings are one facility, and leaves the question in
-`registry/facility_aliases.csv` for a person. If you know the outbreak
-response, resolving those is worth more than any code change. Run
-`Rscript R/04_review.R` to see which decisions carry the most events.
+One kind of contribution needs no code at all, so it is worth naming. The
+pipeline deliberately refuses to decide whether two spellings are one
+facility, and leaves the question in `registry/facility_aliases.csv` for a
+person. If you know the outbreak response, or the places, you can answer those
+directly. `Rscript R/04_review.R` orders them by how many events depend on
+each.
 
 ## What this repository is for
 

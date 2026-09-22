@@ -174,35 +174,41 @@ stops appearing after SitRep 090.
 
 ## Citation
 
-If you use this dataset, please cite it together with the corpus it reads and
-the reports behind that:
+Cite the sources. This repository reads them; it is not itself the evidence.
 
-- **This dataset** — Sherratt, K. (2026). *bvd-capacity: Ebola treatment and
-  isolation facilities in the 2026 DRC Bundibugyo virus outbreak.*
-  <https://github.com/kathsherratt/bvd-capacity>.
-- **The corpus** — Sherratt, K. (2026). *bvd-sitreps: a machine-readable
-  corpus of the INSP situation reports for the 2026 DRC Bundibugyo virus
-  outbreak.* <https://github.com/epiforecasts/bvd-sitreps>.
-- **The situation reports** — Institut National de Santé Publique, Democratic
-  Republic of the Congo (2026). *Situation reports on the 17th Ebola virus
-  disease epidemic.* <https://insp.cd/ebola-17eme-epidemie/>.
+- **The situation reports**, the source of every row — Institut National de
+  Santé Publique, Democratic Republic of the Congo (2026). *Situation reports
+  on the 17th Ebola virus disease epidemic.*
+  <https://insp.cd/ebola-17eme-epidemie/>.
 - **The place vocabulary** — CIESIN, Columbia University; Ministère de la
   Santé Publique, Hygiène et Prévention, DRC; GRID3 (2025). *GRID3 COD Health
   Facilities v8.0.* DOI:
-  [10.7916/f1ft-y872](https://doi.org/10.7916/f1ft-y872). CC BY 4.0.
+  [10.7916/f1ft-y872](https://doi.org/10.7916/f1ft-y872). CC BY 4.0. Obtained
+  through the contextual data assembled by INRB/INOHA and INSP at
+  [INRB-UMIE/BDBV2026-Data](https://github.com/INRB-UMIE/BDBV2026-Data),
+  which is worth crediting alongside it.
 
-[CITATION.cff](CITATION.cff) carries the same metadata in a form GitHub and
-reference managers can read.
+Add these where it matters how the rows were produced, for instance if you
+rely on the opening intervals or the facility identities rather than on a
+figure you could read in a report yourself:
 
-Cite a report rather than this dataset for any single figure. Every row in
-`facility_events.csv` carries the sentence and the report it came from.
+- Sherratt, K. (2026). *bvd-capacity: Ebola treatment and isolation facilities
+  in the 2026 DRC Bundibugyo virus outbreak.*
+  <https://github.com/kathsherratt/bvd-capacity>.
+- Sherratt, K. (2026). *bvd-sitreps: a machine-readable corpus of the INSP
+  situation reports for the 2026 DRC Bundibugyo virus outbreak.*
+  <https://github.com/epiforecasts/bvd-sitreps>.
+
+[CITATION.cff](CITATION.cff) carries all of it in a form GitHub and reference
+managers can read.
+
+For any single figure, cite the report it came from rather than this dataset.
+Every row in `facility_events.csv` names its report and carries the sentence.
 
 ## Contributing
 
-The most useful contribution is a judgement, not a code change: the register
-leaves open whether two spellings are one facility, and
-`Rscript R/04_review.R` orders those decisions by the events at stake. See
-[CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions of every kind are welcome, including questions about how
+something works. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 
