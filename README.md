@@ -172,6 +172,38 @@ what they evidence.
 Beds are sparse. Only 25 facilities have a bed count, because the bed table
 stops appearing after SitRep 090.
 
+## Citation
+
+If you use this dataset, please cite it together with the corpus it reads and
+the reports behind that:
+
+- **This dataset** — Sherratt, K. (2026). *bvd-capacity: Ebola treatment and
+  isolation facilities in the 2026 DRC Bundibugyo virus outbreak.*
+  <https://github.com/kathsherratt/bvd-capacity>.
+- **The corpus** — Sherratt, K. (2026). *bvd-sitreps: a machine-readable
+  corpus of the INSP situation reports for the 2026 DRC Bundibugyo virus
+  outbreak.* <https://github.com/epiforecasts/bvd-sitreps>.
+- **The situation reports** — Institut National de Santé Publique, Democratic
+  Republic of the Congo (2026). *Situation reports on the 17th Ebola virus
+  disease epidemic.* <https://insp.cd/ebola-17eme-epidemie/>.
+- **The place vocabulary** — CIESIN, Columbia University; Ministère de la
+  Santé Publique, Hygiène et Prévention, DRC; GRID3 (2025). *GRID3 COD Health
+  Facilities v8.0.* DOI:
+  [10.7916/f1ft-y872](https://doi.org/10.7916/f1ft-y872). CC BY 4.0.
+
+[CITATION.cff](CITATION.cff) carries the same metadata in a form GitHub and
+reference managers can read.
+
+Cite a report rather than this dataset for any single figure. Every row in
+`facility_events.csv` carries the sentence and the report it came from.
+
+## Contributing
+
+The most useful contribution is a judgement, not a code change: the register
+leaves open whether two spellings are one facility, and
+`Rscript R/04_review.R` orders those decisions by the events at stake. See
+[CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Licence
 
 Code under the licence in `LICENSE`. The situation reports are the INSP's.

@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: >-
+  If you use or build on this dataset, please cite it using these
+  metadata, together with the corpus it reads and the INSP situation
+  reports behind that.
+title: >-
+  bvd-capacity: Ebola treatment and isolation facilities in the 2026
+  DRC Bundibugyo virus outbreak
+abstract: >-
+  When each Ebola treatment, transit and isolation facility appeared,
+  opened and came under strain during the 2026 Bundibugyo virus
+  disease outbreak in the Democratic Republic of the Congo, read from
+  the INSP situation reports. Every row carries the French sentence it
+  came from, and that sentence is checked character for character
+  against the report before the row is kept. Opening dates are given
+  as intervals, because the reports state an opening date for no
+  facility.
+authors:
+  - family-names: Sherratt
+    given-names: Katharine
+repository-code: "https://github.com/kathsherratt/bvd-capacity"
+license: MIT
+keywords:
+  - Ebola
+  - Bundibugyo virus
+  - Democratic Republic of the Congo
+  - health system capacity
+  - Ebola treatment centre
+  - outbreak response
+references:
+  - type: software
+    title: >-
+      bvd-sitreps: a machine-readable corpus of the INSP situation
+      reports for the 2026 DRC Bundibugyo virus outbreak
+    authors:
+      - family-names: Sherratt
+        given-names: Katharine
+    year: 2026
+    url: "https://github.com/epiforecasts/bvd-sitreps"
+    notes: >-
+      The corpus this repository reads. It never opens a PDF.
+  - type: report
+    title: "Situation reports on the 17th Ebola virus disease epidemic"
+    authors:
+      - name: >-
+          Institut National de Sante Publique, Democratic Republic
+          of the Congo
+    year: 2026
+    url: "https://insp.cd/ebola-17eme-epidemie/"
+    notes: >-
+      The source of every quote in this dataset.
+  - type: database
+    title: "GRID3 COD Health Facilities, version 8.0"
+    authors:
+      - name: >-
+          Center for International Earth Science Information Network
+          (CIESIN), Columbia University
+      - name: >-
+          Ministere de la Sante Publique, Hygiene et Prevention,
+          Democratic Republic of the Congo
+      - name: GRID3
+    year: 2025
+    doi: 10.7916/f1ft-y872
+    notes: >-
+      The canonical place and facility vocabulary in
+      data/reference/grid3_places.csv. CC BY 4.0.
