@@ -2,16 +2,17 @@
 
 # bvd-capacity
 
-When each Ebola treatment, transit and isolation facility appeared, opened and
-came under strain during the 2026 Bundibugyo virus disease outbreak in the
-Democratic Republic of the Congo, read from the INSP situation reports.
+This repository holds a dataset of when each Ebola treatment, transit and isolation facility appeared, opened and came under strain during the 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo, read from the INSP situation reports.
 
-Every row carries the French sentence it came from, and that sentence is
-checked against the report character for character before the row is kept.
+Very many thanks to INSP and all those providing public access to these reports.
+
+- Authors are in no way affiliated with INSP, and INSP hold complete rights over the source material; see [citation](#citation) and [licence](#licence) details.
+- Every row is extracted by Google Gemini, and you should assume this has **not been reviewed by a human**. Every row carries the French sentence it came from, checked character for character against the report, so please read the quote and the source report before relying on any row.
+- If you spot any errors, give feedback, or wish to contribute, you are very welcome and encouraged to open an [Issue](https://github.com/kathsherratt/bvd-capacity/issues).
 
 | | |
 |---|---|
-| Source | INSP situation reports, via the verified corpus published by [bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) |
+| Source | INSP situation reports, via the corpus published by [bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) |
 | Reports | 116, SitReps 001 to 122, 14 May to 13 September 2026 |
 | Events | 1,885 |
 | Facilities | 620 |
@@ -174,23 +175,21 @@ stops appearing after SitRep 090.
 
 ## Citation
 
-Cite the sources. This repository reads them; it is not itself the evidence.
+Please cite the INSP situation reports, and GRID3 for the place vocabulary.
 
-- **The situation reports**, the source of every row — Institut National de
-  Santé Publique, Democratic Republic of the Congo (2026). *Situation reports
-  on the 17th Ebola virus disease epidemic.*
+- Institut National de Santé Publique, Democratic Republic of the Congo
+  (2026). *Situation reports on the 17th Ebola virus disease epidemic.*
   <https://insp.cd/ebola-17eme-epidemie/>.
-- **The place vocabulary** — CIESIN, Columbia University; Ministère de la
-  Santé Publique, Hygiène et Prévention, DRC; GRID3 (2025). *GRID3 COD Health
-  Facilities v8.0.* DOI:
+- CIESIN, Columbia University; Ministère de la Santé Publique, Hygiène et
+  Prévention, DRC; GRID3 (2025). *GRID3 COD Health Facilities v8.0.* DOI:
   [10.7916/f1ft-y872](https://doi.org/10.7916/f1ft-y872). CC BY 4.0. Obtained
   through the contextual data assembled by INRB/INOHA and INSP at
-  [INRB-UMIE/BDBV2026-Data](https://github.com/INRB-UMIE/BDBV2026-Data),
-  which is worth crediting alongside it.
+  [INRB-UMIE/BDBV2026-Data](https://github.com/INRB-UMIE/BDBV2026-Data), which
+  is worth crediting alongside it.
 
-Add these where it matters how the rows were produced, for instance if you
-rely on the opening intervals or the facility identities rather than on a
-figure you could read in a report yourself:
+If you relied on the opening intervals or the facility identities for further
+work, rather than on a figure you could read in a report yourself, you may
+wish to also cite this dataset and the corpus it reads:
 
 - Sherratt, K. (2026). *bvd-capacity: Ebola treatment and isolation facilities
   in the 2026 DRC Bundibugyo virus outbreak.*
@@ -199,17 +198,20 @@ figure you could read in a report yourself:
   situation reports for the 2026 DRC Bundibugyo virus outbreak.*
   <https://github.com/epiforecasts/bvd-sitreps>.
 
-[CITATION.cff](CITATION.cff) carries all of it in a form GitHub and reference
-managers can read.
+Machine-readable citation: [CITATION.cff](CITATION.cff).
 
-For any single figure, cite the report it came from rather than this dataset.
-Every row in `facility_events.csv` names its report and carries the sentence.
+For any individual statement or number, please cite the specific report it
+appears in. Every row in `facility_events.csv` names its report.
 
 ## Contributing
 
-Contributions of every kind are welcome, including questions about how
-something works. See [CONTRIBUTING.md](CONTRIBUTING.md).
+All feedback, discussion, or contributions of any kind are very welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 
-Code under the licence in `LICENSE`. The situation reports are the INSP's.
+The code in `R/` is MIT, in [LICENSE](LICENSE).
+
+`data/` is derived from situation reports published by INSP, who hold all
+rights attached to them. The extraction and the derived tables are published
+here under CC BY 4.0. `data/reference/grid3_places.csv` is GRID3's, under
+CC BY 4.0, cited above.

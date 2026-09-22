@@ -1,26 +1,23 @@
-`#ai-input`
-
 # Contributing
 
-Issues and pull requests are welcome, on anything: a bug, a correction, a new
-step, a better prompt, or a question about why something works the way it
-does.
+Issues and pull requests are very welcome at
+[kathsherratt/bvd-capacity](https://github.com/kathsherratt/bvd-capacity).
 
-One kind of contribution needs no code at all, so it is worth naming. The
-pipeline deliberately refuses to decide whether two spellings are one
-facility, and leaves the question in `registry/facility_aliases.csv` for a
-person. If you know the outbreak response, or the places, you can answer those
-directly. `Rscript R/04_review.R` orders them by how many events depend on
-each.
+Feedback, questions, corrections, bug reports, new steps, better prompts: all
+of it is welcome, and none of it needs to be polished.
+
+One kind of contribution needs no code at all. The pipeline deliberately
+refuses to decide whether two spellings are one facility, and leaves the
+question in `registry/facility_aliases.csv` for a person. If you know the
+response, or the places, you can answer those directly.
+`Rscript R/04_review.R` orders them by how many events depend on each.
 
 ## What this repository is for
 
 Turning what the situation reports say about facilities into a dataset, and
-being honest about what is not known. It reads the corpus published by
-[bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) by path, never
-opens a PDF, and never sources code from that repository. A change there
-reaches here as changed files, which the cache keys notice, not as changed
-behaviour.
+being clear about what is not known. It reads the corpus published by
+[bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) by path, and never
+opens a PDF.
 
 If a question cannot be answered from `data/corpus/`, the fix belongs in
 bvd-sitreps.
@@ -61,37 +58,30 @@ about three hours over 116 reports; run it detached.
 `BVD_SITREPS` points at a bvd-sitreps checkout; the default is a sibling
 clone.
 
-## The rules that are not negotiable
+## Four rules to know before changing anything
 
-**The quote gate has no exemption.** Every row carries the sentence it came
-from, and the row is kept only if that sentence is a span of the rendered
-report after normalising whitespace and apostrophes. There is no allow-list
-and no confidence threshold that lets a row through.
+These are the load-bearing decisions. Everything else is open to argument.
 
-The argument for an exemption is always that this particular quote is
-obviously right and the model only tidied the punctuation. The argument
-against is that a model which paraphrases when it is right will paraphrase
-when it is wrong, and the row gives no way to tell the two apart. When the
-gate rejects something genuine, fix the renderer, the normaliser or the
-prompt, all of which are testable. If none of those is at fault, the row stays
-out. Running the gate over the full corpus rejected 100 events, of which 92
-were bugs in this repository's own code, found because the gate had no way to
-hide them.
+The quote gate has no exemption. A row is kept only if its sentence is a span
+of the rendered report, with no allow-list and no confidence threshold. A
+model that paraphrases when it is right will paraphrase when it is wrong, and
+the row gives no way to tell which. When the gate rejects something genuine,
+the fix is in the renderer, the normaliser or the prompt, all of which are
+testable; if none of those is at fault, the row stays out. Over the full
+corpus the gate rejected 100 events, 92 of which turned out to be bugs here.
 
-**Extraction records, resolution decides.** A facility the report does not
-name is recorded with `name_status = unnamed`, not dropped at the point of
-reading. What counts is decided in code that can be read and rerun, not
-inside a model call that cannot.
+Extraction records, resolution decides. A facility the report does not name is
+recorded with `name_status = unnamed`, not dropped at the point of reading, so
+what counts is decided in code that can be read and rerun.
 
-**Judgement is flagged, never applied.** Where two names might be one
-facility, both stay and the pair is flagged. Merging them is a person's
-decision, recorded in the registry with `reviewed = TRUE`, and from then on
-never recomputed.
+Judgement is flagged, never applied. Where two names might be one facility,
+both stay and the pair is flagged. Merging them is a person's decision,
+recorded with `reviewed = TRUE` and never recomputed after that.
 
-**GRID3 constrains, it never overrides.** What a report says about a province
-or health zone is kept. The lookup fills gaps and raises flags. Built the
-other way round it silently moves facilities between provinces, which it did
-twenty times in testing.
+GRID3 constrains, it never overrides. What a report says about a province or
+health zone is kept; the lookup only fills gaps and raises flags. Built the
+other way round it moves facilities between provinces, which it did twenty
+times in testing.
 
 ## Conventions
 
@@ -109,12 +99,12 @@ documentation, and tables in preference to prose where a claim can be one.
 
 ## Pull requests
 
-Say what you ran and what the counts were before and after. `R/03_checks.R`
-prints them, and a change that moves a facility count without explanation is
-the thing reviewers should catch.
+Please say what you ran and what the counts were before and after.
+`R/03_checks.R` prints them, and a facility count that moves without
+explanation is the thing worth catching.
 
 A change to `assets/prompt-facilities.md` or the model pin invalidates the
-whole cache and costs a full re-run, so it needs a reason in the commit.
+whole cache and costs a full re-run, so it helps to say why.
 
 ## Use of AI
 

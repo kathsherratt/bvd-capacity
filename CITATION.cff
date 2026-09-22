@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: >-
-  Cite the sources first: the INSP situation reports every row is read
-  from, and GRID3 for the place vocabulary. Use these metadata where it
-  matters how the rows were produced.
+  Please cite the INSP situation reports every row is read from, and
+  GRID3 for the place vocabulary. Use these metadata as a secondary
+  reference.
 title: >-
   bvd-capacity: Ebola treatment and isolation facilities in the 2026
   DRC Bundibugyo virus outbreak
