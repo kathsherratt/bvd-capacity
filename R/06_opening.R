@@ -122,8 +122,8 @@ setcolorder(out, c("facility_id", "facility_name", "site_kind", "place_key",
     "interval_days", "basis", "censoring", "explanation"))
 setorder(out, site_kind, opened_by, facility_id)
 
-dir.create(here::here("outputs"), showWarnings = FALSE, recursive = TRUE)
-path <- file.path(here::here("outputs"), "etc-opening.csv")
+dir.create(dirname(opening_path()), showWarnings = FALSE, recursive = TRUE)
+path <- opening_path()
 fwrite(out, path)
 
 # ----------------------------------------------------------------- report

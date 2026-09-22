@@ -1,0 +1,5 @@
+rank,cluster,site_kind,facilities,events,same_report,now,if_merged,sheet
+1,site-hgr-bunia,transit_centre,2,3,0,[none .. 2026-05-23] / [none .. 2026-07-14],[none .. 2026-05-23],01-site-hgr-bunia-transit.md
+5,site-hgr-mongwalu,treatment_centre,2,27,0,[none .. 2026-05-19] / [none .. 2026-06-19],[none .. 2026-05-19],05-site-hgr-mongwalu-treatment.md
+6,cte-katwa,treatment_centre,2,42,3,[2026-06-07 .. none] / [2026-06-03 .. 2026-06-07],[2026-06-06 .. 2026-06-07],06-cte-katwa-treatment.md
+14,cte-kitatumba,treatment_centre,2,16,1,[none .. 2026-07-06],[none .. 2026-07-06],14-cte-kitatumba-treatment.md

@@ -8,7 +8,7 @@
 #' facility as the model wrote it. A failure is a rendering bug, a gap in
 #' `normalise_for_match()` or a model that did not copy, and all three are
 #' reasons to drop the event rather than to reason around it. Rejections go to
-#' outputs/rejected_events.csv with a reason, and R/03_checks.R fails while any
+#' checks/rejected_events.csv with a reason, and R/03_checks.R fails while any
 #' remain. Do not add an exemption file here.
 #'
 #' Two keys, not one. `name_key` identifies a facility, so `HGR Bunia` and

@@ -8,14 +8,10 @@ site-cm-amani,possible_host_variant,possible_host_variant:amani other
 site-cs-amani,possible_host_variant,possible_host_variant:amani other
 site-ch-aru,possible_host_variant,possible_host_variant:aru other
 site-hgr-aru,possible_host_variant,possible_host_variant:aru other
-cte-aru,possible_host_variant,possible_host_variant:aru treatment_centre
-cte-hgr-aru,possible_host_variant,possible_host_variant:aru treatment_centre
 site-ch-beni,possible_host_variant,possible_host_variant:beni other
 site-hgr-beni,possible_host_variant,possible_host_variant:beni other
-ct-beni,possible_host_variant,possible_host_variant:beni transit_centre
-ct-hgr-beni,possible_host_variant,possible_host_variant:beni transit_centre
-cte-beni,possible_host_variant,possible_host_variant:beni treatment_centre
-cte-hgr-beni,possible_host_variant,possible_host_variant:beni treatment_centre
+hosp-bundji,possible_host_variant,possible_host_variant:bundji hospital_isolation
+hosp-cs-bundji,possible_host_variant,possible_host_variant:bundji hospital_isolation
 site-bunia-cite,possible_host_variant,possible_host_variant:bunia cite other
 site-ch-bunia-cite,possible_host_variant,possible_host_variant:bunia cite other
 site-cs-bunia-cite,possible_host_variant,possible_host_variant:bunia cite other
@@ -42,8 +38,6 @@ site-ch-gracia,possible_host_variant,possible_host_variant:gracia other
 site-cm-gracia,possible_host_variant,possible_host_variant:gracia other
 site-clinique-universitaire-isiro,possible_host_variant,possible_host_variant:isiro other
 site-hgr-isiro,possible_host_variant,possible_host_variant:isiro other
-cte-hgr-isiro,possible_host_variant,possible_host_variant:isiro treatment_centre
-cte-isiro,possible_host_variant,possible_host_variant:isiro treatment_centre
 site-cm-jades,possible_host_variant,possible_host_variant:jades other
 site-cs-jades,possible_host_variant,possible_host_variant:jades other
 site-centre-medical-joie,possible_host_variant,possible_host_variant:joie other
@@ -65,8 +59,6 @@ site-hopital-general-logo,possible_host_variant,possible_host_variant:logo other
 site-hgr-matanda,possible_host_variant,possible_host_variant:matanda other
 site-hopital-matanda,possible_host_variant,possible_host_variant:matanda other
 site-matanda,possible_host_variant,possible_host_variant:matanda other
-cte-hopital-matanda,possible_host_variant,possible_host_variant:matanda treatment_centre
-cte-matanda,possible_host_variant,possible_host_variant:matanda treatment_centre
 site-clinique-merites,possible_host_variant,possible_host_variant:merites other
 site-cs-merites,possible_host_variant,possible_host_variant:merites other
 hosp-hgr-mongbwalu,possible_host_variant,possible_host_variant:mongbwalu hospital_isolation
@@ -77,18 +69,14 @@ site-ch-mudzi-maria,possible_host_variant,possible_host_variant:mudzi maria othe
 site-cs-mudzi-maria,possible_host_variant,possible_host_variant:mudzi maria other
 site-ch-mukuna,possible_host_variant,possible_host_variant:mukuna other
 site-cs-mukuna,possible_host_variant,possible_host_variant:mukuna other
-ct-hgr-musienene,possible_host_variant,possible_host_variant:musienene transit_centre
-ct-musienene,possible_host_variant,possible_host_variant:musienene transit_centre
-ct-hgr-nia-nia,possible_host_variant,possible_host_variant:nia nia transit_centre
-ct-nia-nia,possible_host_variant,possible_host_variant:nia nia transit_centre
 cte-hgr-nizi,possible_host_variant,possible_host_variant:nizi treatment_centre
 cte-nizi,possible_host_variant,possible_host_variant:nizi treatment_centre
 site-centre-medical-evangelique-nyakunde-cme-bunia,possible_host_variant,possible_host_variant:nyakunde bunia other
 site-cme-nyakunde-bunia,possible_host_variant,possible_host_variant:nyakunde bunia other
 site-cme-nyakunde,possible_host_variant,possible_host_variant:nyakunde other
 site-cs-nyakunde,possible_host_variant,possible_host_variant:nyakunde other
-cte-istm-nyakunde,possible_host_variant,possible_host_variant:nyakunde treatment_centre
-cte-nyakunde,possible_host_variant,possible_host_variant:nyakunde treatment_centre
+cte-istm-nyankunde,possible_host_variant,possible_host_variant:nyakunde treatment_centre
+cte-nyankunde,possible_host_variant,possible_host_variant:nyakunde treatment_centre
 hosp-cme-nyankunde,possible_host_variant,possible_host_variant:nyankunde hospital_isolation
 hosp-hgr-nyankunde,possible_host_variant,possible_host_variant:nyankunde hospital_isolation
 site-cme-nyankunde,possible_host_variant,possible_host_variant:nyankunde other
@@ -97,8 +85,6 @@ cte-cme-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatmen
 cte-hgr-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatment_centre
 cte-istm-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatment_centre
 cte-nyankunde,possible_host_variant,possible_host_variant:nyankunde treatment_centre
-ct-hgr-oicha,possible_host_variant,possible_host_variant:oicha transit_centre
-ct-oicha,possible_host_variant,possible_host_variant:oicha transit_centre
 site-ch-ruwenzori,possible_host_variant,possible_host_variant:ruwenzori other
 site-cs-ruwenzori,possible_host_variant,possible_host_variant:ruwenzori other
 site-cs-rwambuzi,possible_host_variant,possible_host_variant:rwambuzi other
@@ -107,8 +93,6 @@ hosp-centre-medical-evangelique-rwampara,possible_host_variant,possible_host_var
 hosp-hgr-rwampara,possible_host_variant,possible_host_variant:rwampara hospital_isolation
 hosp-rwampara-cme,possible_host_variant,possible_host_variant:rwampara hospital_isolation
 hosp-rwampara-hgr,possible_host_variant,possible_host_variant:rwampara hospital_isolation
-ci-hgr-rwampara,possible_host_variant,possible_host_variant:rwampara isolation_centre
-ci-rwampara,possible_host_variant,possible_host_variant:rwampara isolation_centre
 site-cs-rwampara,possible_host_variant,possible_host_variant:rwampara other
 site-hgr-rwampara,possible_host_variant,possible_host_variant:rwampara other
 cte-cme-rwampara,possible_host_variant,possible_host_variant:rwampara treatment_centre
@@ -125,12 +109,6 @@ site-clinique-sofepadi,possible_host_variant,possible_host_variant:sofepadi othe
 site-centre-hospitalier-unibu,possible_host_variant,possible_host_variant:unibu other
 site-ch-unibu,possible_host_variant,possible_host_variant:unibu other
 site-clinique-unibu,possible_host_variant,possible_host_variant:unibu other
-cte-aru,possible_same_host,possible_same_host:Aru
-cte-hgr-aru,possible_same_host,possible_same_host:Aru
-ct-beni,possible_same_host,possible_same_host:Beni
-ct-hgr-beni,possible_same_host,possible_same_host:Beni
-cte-beni,possible_same_host,possible_same_host:Beni
-cte-hgr-beni,possible_same_host,possible_same_host:Beni
 ct-bunia,possible_same_host,possible_same_host:Bunia
 ct-hgr-bunia,possible_same_host,possible_same_host:Bunia
 cte-bunia,possible_same_host,possible_same_host:Bunia
@@ -139,8 +117,6 @@ hosp-bunia-hgr,possible_same_host,possible_same_host:Bunia
 hosp-hgr-bunia,possible_same_host,possible_same_host:Bunia
 cte-butembo,possible_same_host,possible_same_host:Butembo
 cte-kitatumba,possible_same_host,possible_same_host:Butembo
-cte-hgr-isiro,possible_same_host,possible_same_host:Isiro
-cte-isiro,possible_same_host,possible_same_host:Isiro
 hosp-fomulac,possible_same_host,possible_same_host:Katana
 hosp-hgr-katana,possible_same_host,possible_same_host:Katana
 hosp-katana,possible_same_host,possible_same_host:Katana
@@ -154,18 +130,11 @@ cte-hgr-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
 cte-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
 hosp-hgr-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
 hosp-hopital-mongbwalu,possible_same_host,possible_same_host:Mongbwalu
-ct-hgr-musienene,possible_same_host,possible_same_host:Musienene
-ct-musienene,possible_same_host,possible_same_host:Musienene
-ct-hgr-nia-nia,possible_same_host,possible_same_host:Nia Nia
-ct-nia-nia,possible_same_host,possible_same_host:Nia Nia
 cte-hgr-nizi,possible_same_host,possible_same_host:Nizi
 cte-nizi,possible_same_host,possible_same_host:Nizi
 cte-hgr-nyankunde,possible_same_host,possible_same_host:Nyankunde
+cte-istm-nyankunde,possible_same_host,possible_same_host:Nyankunde
 cte-nyankunde,possible_same_host,possible_same_host:Nyankunde
-ct-hgr-oicha,possible_same_host,possible_same_host:Oicha
-ct-oicha,possible_same_host,possible_same_host:Oicha
-ci-hgr-rwampara,possible_same_host,possible_same_host:Rwampara
-ci-rwampara,possible_same_host,possible_same_host:Rwampara
 cte-hgr-rwampara,possible_same_host,possible_same_host:Rwampara
 cte-rwampara,possible_same_host,possible_same_host:Rwampara
 hosp-hgr-rwampara,possible_same_host,possible_same_host:Rwampara
@@ -174,6 +143,8 @@ ct-bambu,possible_same_site,possible_same_site:bambu
 cte-bambu,possible_same_site,possible_same_site:bambu
 ct-beni,possible_same_site,possible_same_site:beni
 cte-beni,possible_same_site,possible_same_site:beni
+hosp-bundji,possible_same_site,possible_same_site:bundji
+site-bundji,possible_same_site,possible_same_site:bundji
 ct-bunia,possible_same_site,possible_same_site:bunia
 cte-bunia,possible_same_site,possible_same_site:bunia
 cte-cme-bunia,possible_same_site,possible_same_site:cme bunia
@@ -195,11 +166,11 @@ cte-hc-kisangani,possible_same_site,possible_same_site:hc kisangani
 site-hc-kisangani,possible_same_site,possible_same_site:hc kisangani
 cte-hckis,possible_same_site,possible_same_site:hckis
 hosp-hckis,possible_same_site,possible_same_site:hckis
-cte-hgr-aru,possible_same_site,possible_same_site:hgr aru
+cte-aru,possible_same_site,possible_same_site:hgr aru
 hosp-hgr-aru,possible_same_site,possible_same_site:hgr aru
 site-hgr-aru,possible_same_site,possible_same_site:hgr aru
-ct-hgr-beni,possible_same_site,possible_same_site:hgr beni
-cte-hgr-beni,possible_same_site,possible_same_site:hgr beni
+ct-beni,possible_same_site,possible_same_site:hgr beni
+cte-beni,possible_same_site,possible_same_site:hgr beni
 site-hgr-beni,possible_same_site,possible_same_site:hgr beni
 ci-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
 ct-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
@@ -207,7 +178,7 @@ cte-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
 hosp-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
 site-hgr-bunia,possible_same_site,possible_same_site:hgr bunia
 ci-hgr-isiro,possible_same_site,possible_same_site:hgr isiro
-cte-hgr-isiro,possible_same_site,possible_same_site:hgr isiro
+cte-isiro,possible_same_site,possible_same_site:hgr isiro
 site-hgr-isiro,possible_same_site,possible_same_site:hgr isiro
 ct-hgr-makiso-kisangani,possible_same_site,possible_same_site:hgr makiso kisangani
 site-hgr-makiso-kisangani,possible_same_site,possible_same_site:hgr makiso kisangani
@@ -222,13 +193,13 @@ hosp-hgr-nia-nia,possible_same_site,possible_same_site:hgr nia nia
 cte-hgr-nyankunde,possible_same_site,possible_same_site:hgr nyankunde
 hosp-hgr-nyankunde,possible_same_site,possible_same_site:hgr nyankunde
 site-hgr-nyankunde,possible_same_site,possible_same_site:hgr nyankunde
-ct-hgr-oicha,possible_same_site,possible_same_site:hgr oicha
+ct-oicha,possible_same_site,possible_same_site:hgr oicha
 hosp-hgr-oicha,possible_same_site,possible_same_site:hgr oicha
-ci-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
+ci-rwampara,possible_same_site,possible_same_site:hgr rwampara
 cte-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
 hosp-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
 site-hgr-rwampara,possible_same_site,possible_same_site:hgr rwampara
-cte-hopital-matanda,possible_same_site,possible_same_site:hopital matanda
+cte-matanda,possible_same_site,possible_same_site:hopital matanda
 hosp-hopital-matanda,possible_same_site,possible_same_site:hopital matanda
 site-hopital-matanda,possible_same_site,possible_same_site:hopital matanda
 ct-kigonze,possible_same_site,possible_same_site:kigonze
@@ -245,14 +216,12 @@ cte-mangala,possible_same_site,possible_same_site:mangala
 ct-matanda,possible_same_site,possible_same_site:matanda
 cte-matanda,possible_same_site,possible_same_site:matanda
 site-matanda,possible_same_site,possible_same_site:matanda
-ct-musienene,possible_same_site,possible_same_site:musienene
+ct-hgr-musienene,possible_same_site,possible_same_site:musienene
 cte-musienene,possible_same_site,possible_same_site:musienene
-ct-nia-nia,possible_same_site,possible_same_site:nia nia
+ct-hgr-nia-nia,possible_same_site,possible_same_site:nia nia
 cte-nia-nia,possible_same_site,possible_same_site:nia nia
 ct-nizi,possible_same_site,possible_same_site:nizi
 cte-nizi,possible_same_site,possible_same_site:nizi
-ci-nyankunde,possible_same_site,possible_same_site:nyankunde
-cte-nyankunde,possible_same_site,possible_same_site:nyankunde
 ct-oicha,possible_same_site,possible_same_site:oicha
 cte-oicha,possible_same_site,possible_same_site:oicha
 ci-rwampara,possible_same_site,possible_same_site:rwampara
@@ -355,10 +324,6 @@ site-cs-matete,possible_spelling_variant,possible_spelling_variant:csr matete
 site-csr-matete,possible_spelling_variant,possible_spelling_variant:csr matete
 site-cs-rubi-lisanga,possible_spelling_variant,possible_spelling_variant:csr rubi lisanga
 site-csr-rubi-lisanga,possible_spelling_variant,possible_spelling_variant:csr rubi lisanga
-cte-elikya,possible_spelling_variant,possible_spelling_variant:elikya
-cte-elykia,possible_spelling_variant,possible_spelling_variant:elikya
-cte-elikya,possible_spelling_variant,possible_spelling_variant:elykia
-cte-elykia,possible_spelling_variant,possible_spelling_variant:elykia
 site-hgr-matanda,possible_spelling_variant,possible_spelling_variant:hgr matanda
 site-hsr-matanda,possible_spelling_variant,possible_spelling_variant:hgr matanda
 site-hgr-mogbwalu,possible_spelling_variant,possible_spelling_variant:hgr mogbwalu
@@ -378,29 +343,6 @@ hosp-hgr-nyakunde,possible_spelling_variant,possible_spelling_variant:hgr nyanku
 hosp-hgr-nyankunde,possible_spelling_variant,possible_spelling_variant:hgr nyankunde
 site-hgr-matanda,possible_spelling_variant,possible_spelling_variant:hsr matanda
 site-hsr-matanda,possible_spelling_variant,possible_spelling_variant:hsr matanda
-ci-isolement-madula,possible_spelling_variant,possible_spelling_variant:isolement madula
-ci-isolements-madula,possible_spelling_variant,possible_spelling_variant:isolement madula
-ci-isolement-madula,possible_spelling_variant,possible_spelling_variant:isolements madula
-ci-isolements-madula,possible_spelling_variant,possible_spelling_variant:isolements madula
-cte-ist-nyankunde,possible_spelling_variant,possible_spelling_variant:ist nyankunde
-cte-istm-nyankunde,possible_spelling_variant,possible_spelling_variant:ist nyankunde
-cte-istm-nyakunde,possible_spelling_variant,possible_spelling_variant:istm nyakunde
-cte-istm-nyankunde,possible_spelling_variant,possible_spelling_variant:istm nyakunde
-cte-ist-nyankunde,possible_spelling_variant,possible_spelling_variant:istm nyankunde
-cte-istm-nyakunde,possible_spelling_variant,possible_spelling_variant:istm nyankunde
-cte-istm-nyankunde,possible_spelling_variant,possible_spelling_variant:istm nyankunde
-ci-konga-konga,possible_spelling_variant,possible_spelling_variant:konga konga
-ci-kongakonga,possible_spelling_variant,possible_spelling_variant:konga konga
-ci-konga-konga,possible_spelling_variant,possible_spelling_variant:kongakonga
-ci-kongakonga,possible_spelling_variant,possible_spelling_variant:kongakonga
-cte-mongbwalu,possible_spelling_variant,possible_spelling_variant:mongbwalu
-cte-mongwalu,possible_spelling_variant,possible_spelling_variant:mongbwalu
-cte-mongbwalu,possible_spelling_variant,possible_spelling_variant:mongwalu
-cte-mongwalu,possible_spelling_variant,possible_spelling_variant:mongwalu
-cte-nyakunde,possible_spelling_variant,possible_spelling_variant:nyakunde
-cte-nyankunde,possible_spelling_variant,possible_spelling_variant:nyakunde
-cte-nyakunde,possible_spelling_variant,possible_spelling_variant:nyankunde
-cte-nyankunde,possible_spelling_variant,possible_spelling_variant:nyankunde
 site-cs-bora-uzima,possible_spelling_variant,possible_spelling_variant:ps bora uzima
 site-ps-bora-uzima,possible_spelling_variant,possible_spelling_variant:ps bora uzima
 site-cs-maranatha,possible_spelling_variant,possible_spelling_variant:ps maranatha

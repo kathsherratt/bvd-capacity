@@ -56,8 +56,8 @@ Every row has as many cells as `columns`. Spanning cells are repeated on each ro
 
 ## Done so far in bvd-capacity (branch `etc-dates`)
 
-- `git rm` of the prototype: `R/02_text.R`, `R/03_parse.R`, `R/05_build.R`, `R/06_checks.R`, `data/text/`, `data/registry/`, `data/observations/`, `data/derived/`. Kept `LICENSE`, `README.md`, `DESIGN.md`, `dictionary.md` (all three describe the prototype and need rewriting). `outputs/` is gitignored.
-- `R/lib/paths.R`: `sitreps_root()`, `corpus_dir(...)`, `sitreps_manifest_path()`, `cache_dir(...)` (`data/cache/`, committed), `registry_path()` (`registry/facility_aliases.csv`), `events_path()` (`data/facility_events.csv`), `facilities_path()` (`data/facilities.csv`), `rejected_path()` (`outputs/rejected_events.csv`), `ensure_dirs()`.
+- `git rm` of the prototype: `R/02_text.R`, `R/03_parse.R`, `R/05_build.R`, `R/06_checks.R`, `data/text/`, `data/registry/`, `data/observations/`, `data/derived/`. Kept `LICENSE`, `README.md`, `DESIGN.md`, `dictionary.md` (all three describe the prototype and need rewriting). `runs/` is gitignored.
+- `R/lib/paths.R`: `sitreps_root()`, `corpus_dir(...)`, `sitreps_manifest_path()`, `cache_dir(...)` (`data/cache/`, committed), `registry_path()` (`registry/facility_aliases.csv`), `events_path()` (`data/facility_events.csv`), `facilities_path()` (`data/facilities.csv`), `rejected_path()` (`checks/rejected_events.csv`), `ensure_dirs()`.
 - `R/lib/corpus.R`: `corpus_ids()`, `read_report()`, `render_report()`, `normalise_for_match()`, `quote_matches()`. Step 1 as specified below. Verified: renders byte-identically across calls, all 116 ids resolve, SitRep 006 Tableau VI keeps its facility column headers, a header slice passes the gate and a paraphrase fails it.
 - `assets/prompt-facilities.md` and `R/01_facilities.R`: step 2 as specified below, with `--only`, `--force` and `--cache=DIR`. Payload is 23.5k characters median and 38.5k worst case, so roughly 33k input tokens a call on the agy route. Nothing has been through a live model.
 - `R/lib/gemini.R`: copy of bvd-sitreps' client, including the later fixes (retries dropped connections, logs usage before raising on a bad finish, optional `thinking_level`). `gemini(parts, schema, model = GEMINI_MODEL_EXTRACT, temperature = 0, label)` returns parsed JSON from a `responseSchema` call. Pin `GEMINI_MODEL_EXTRACT` defaults to `gemini-3.1-pro-preview` (unvalidated for extraction; see step 2). Handles: per-minute 429 retries honouring `retryDelay`; daily-quota, billing and budget stops raised as class `gemini_quota_stop`; `GEMINI_BUDGET_USD` checked before each call against a ledger; `GEMINI_LEDGER` env var to share one ledger across repos; `GEMINI_PRICES` table (add any new model before budgeting it); `gemini_pdf_part()`, `gemini_text_part()`, `gemini_models()`, `gemini_spent()`.
@@ -116,7 +116,7 @@ Run with one budget across both repos:
 export GEMINI_LEDGER=~/Documents/Github/bvd-sitreps/outputs/gemini-ledger.csv
 export GEMINI_BACKEND=agy          # plan quota, no per-call cost
 export AGY_MODEL=gemini-3.1-pro-low   # or whatever the comparison chose
-nohup caffeinate -is Rscript R/01_facilities.R > outputs/logs/facilities_$(date +%F-%H%M).log 2>&1 &
+nohup caffeinate -is Rscript R/01_facilities.R > runs/logs/facilities_$(date +%F-%H%M).log 2>&1 &
 ```
 
 
@@ -124,7 +124,7 @@ nohup caffeinate -is Rscript R/01_facilities.R > outputs/logs/facilities_$(date 
 
 In order:
 
-1. Read every cache file. Verify each `evidence_quote`: `normalise_for_match(quote)` must be a substring of `normalise_for_match(render_report(id))` and must contain `facility_raw` (normalised). Failures go to `outputs/rejected_events.csv` with the reason and are dropped.
+1. Read every cache file. Verify each `evidence_quote`: `normalise_for_match(quote)` must be a substring of `normalise_for_match(render_report(id))` and must contain `facility_raw` (normalised). Failures go to `checks/rejected_events.csv` with the reason and are dropped.
 2. Place key and name key. The place key is the locality (`bunia`, `mongbwalu`, `nizi`), from `place_raw` where the model gave one and from the facility name otherwise; it is a column of the registry in its own right, not something baked only into `facility_id`. Later passes over this corpus (laboratories, vaccination sites, burial teams, points of entry) key on the same places rather than building a second name vocabulary, and `CTE de l'HGR Bunia` and `HGR Bunia` are two facilities at one place.
 
    The name key identifies the facility: fold accents (`iconv` to ASCII//TRANSLIT, then drop `'`^~"` which macOS inserts), lowercase, remove type prefixes and their spelled-out forms (`centre de traitement ebola`, `centre de transit`, `centre d'isolement`, CTE, CTC, CT, CI), remove `de du d' de la l' des`, collapse punctuation to single spaces. Type class from `site_kind`.
@@ -146,13 +146,13 @@ Keep announced opening and first in service separate. The old register found nin
 
 ### 4. `R/03_checks.R`: gate
 
-Fail (exit 1) if: `outputs/rejected_events.csv` has rows; any event value outside the closed vocabulary; any non-empty `facility_id` absent from the registry; any `named` event without a `facility_id`; any `report_date` outside the corpus range; any facilities row whose dates cannot be recomputed from events; any registry `facility_id` claimed by two different `site_kind` values. Print counts: facilities by `site_kind` and province, events by type, unreviewed registry rows, flagged rows.
+Fail (exit 1) if: `checks/rejected_events.csv` has rows; any event value outside the closed vocabulary; any non-empty `facility_id` absent from the registry; any `named` event without a `facility_id`; any `report_date` outside the corpus range; any facilities row whose dates cannot be recomputed from events; any registry `facility_id` claimed by two different `site_kind` values. Print counts: facilities by `site_kind` and province, events by type, unreviewed registry rows, flagged rows.
 
 Do not relax the quote check to make rejects disappear. A reject is fixed by rerunning that report with a better prompt, or it stays out.
 
 ### 5. Documentation
 
-Rewrite `README.md` (what, coverage, method, limitations, running), `dictionary.md` (columns of the three outputs), and replace `DESIGN.md` or cut it to principles that still hold. Its "Principles" section (place first, provenance per row, absence is data, vintages kept) still applies. Add a `.gitignore` line check: `data/cache/` is committed, `outputs/` is not.
+Rewrite `README.md` (what, coverage, method, limitations, running), `dictionary.md` (columns of the three outputs), and replace `DESIGN.md` or cut it to principles that still hold. Its "Principles" section (place first, provenance per row, absence is data, vintages kept) still applies. Add a `.gitignore` line check: `data/cache/` and `checks/` are committed, `runs/` is not.
 
 ## Later passes
 
@@ -178,7 +178,7 @@ Separate from those, and probably first: province-level treatment throughput fro
 - Quota: Ultra plan, unpublished amount, refreshes every five hours within a weekly limit. A quota message raises `gemini_quota_stop` (kind `agy_quota`), the loop stops, exit 3; rerun later. The user should set Antigravity's AI Credit Overages to Never.
 - Each call carries ~20-35k tokens of agent context. Ledger rows have `key_tail = agy` and `cost_usd = 0`.
 - No temperature control, so reruns vary more than on the API. The verbatim quote gate matters more, not less.
-- Raw stdout and stderr of every call are saved to `outputs/logs/agy/<label>_<time>_attempt<n>.*`. Read these first when a call fails.
+- Raw stdout and stderr of every call are saved to `runs/logs/agy/<label>_<time>_attempt<n>.*`. Read these first when a call fails.
 - Measured on translation: flash-high on SitRep 005 spent 80-120k thinking tokens and 530k total over two attempts and returned nothing; flash-low did the whole report in 12 s with no thinking tokens. Start extraction tests on low.
 
 ## Traps already hit in this work
@@ -191,6 +191,6 @@ Separate from those, and probably first: province-level treatment throughput fro
 - data.table scoping: inside `dt[...]`, a loop variable with the same name as a column (`id`) silently resolves to the column. Use `dt[match(this_id, dt$id)]` or a differently named variable.
 - Define `%||%` before first use in any script that does not source `gemini.R`.
 - `tools::md5sum` and `digest::digest(x, algo = "md5", serialize = FALSE)` for text; `serialize = TRUE` (default) for R objects such as schemas.
-- Long runs detached with `nohup caffeinate -is ... > outputs/logs/... 2>&1 &`; poll the log. The IDE extension host crashes under memory pressure and takes attached jobs with it.
+- Long runs detached with `nohup caffeinate -is ... > runs/logs/... 2>&1 &`; poll the log. The IDE extension host crashes under memory pressure and takes attached jobs with it.
 - Commit only when asked. Commit trailer: `Commit-Via: LLM from @kathsherratt`; no Co-Authored-By.
 - Writing style for docs: no bold or italics, short sentences, tables over prose, no statements of the obvious.

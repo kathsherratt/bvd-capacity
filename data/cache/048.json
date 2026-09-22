@@ -10,13 +10,13 @@
       "site_kind": "treatment_centre",
       "name_status": "named",
       "place_raw": "Bunia",
-      "health_zone": "",
+      "health_zone": "Bunia",
       "province": "Ituri",
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Three deaths were recorded at this treatment centre.",
-      "evidence_quote": "Cinq décès notifiés reparti de la manière suivante : (3 au CTE de Bunia,1 au CTE de Mongbwalu et 1 au CTE Rwampara) et 9 décès communautaires.",
+      "status_note": "Three deaths were recorded among Ebola patients at the Bunia treatment centre.",
+      "evidence_quote": "(3 au CTE de Bunia,1 au CTE de Mongbwalu et 1 au CTE Rwampara)",
       "confidence": "high"
     },
     {
@@ -30,8 +30,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "One death was recorded at this treatment centre.",
-      "evidence_quote": "Cinq décès notifiés reparti de la manière suivante : (3 au CTE de Bunia,1 au CTE de Mongbwalu et 1 au CTE Rwampara) et 9 décès communautaires.",
+      "status_note": "Six Ebola patients were declared cured and discharged from the Mongbwalu treatment centre.",
+      "evidence_quote": "19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME)",
       "confidence": "high"
     },
     {
@@ -45,8 +45,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "One death was recorded at this treatment centre.",
-      "evidence_quote": "Cinq décès notifiés reparti de la manière suivante : (3 au CTE de Bunia,1 au CTE de Mongbwalu et 1 au CTE Rwampara) et 9 décès communautaires.",
+      "status_note": "One death occurred among Ebola patients at the Rwampara treatment centre.",
+      "evidence_quote": "(3 au CTE de Bunia,1 au CTE de Mongbwalu et 1 au CTE Rwampara)",
       "confidence": "high"
     },
     {
@@ -54,29 +54,14 @@
       "facility_type_raw": "CTE",
       "site_kind": "treatment_centre",
       "name_status": "named",
-      "place_raw": "Elikya",
+      "place_raw": "",
       "health_zone": "",
       "province": "Ituri",
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Seven patients were declared cured and discharged from this treatment centre.",
-      "evidence_quote": "dont 19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME) et 2 au CTE Katwa dans la province du Nord-Kivu ont été déclarés guéris",
-      "confidence": "high"
-    },
-    {
-      "facility_raw": "CTE Mongbwalu",
-      "facility_type_raw": "CTE",
-      "site_kind": "treatment_centre",
-      "name_status": "named",
-      "place_raw": "Mongbwalu",
-      "health_zone": "",
-      "province": "Ituri",
-      "event": "operating",
-      "event_date": "",
-      "beds": "",
-      "status_note": "Six patients were declared cured at this treatment centre.",
-      "evidence_quote": "dont 19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME) et 2 au CTE Katwa dans la province du Nord-Kivu ont été déclarés guéris",
+      "status_note": "Seven Ebola patients were declared cured after negative tests at the Elikya treatment centre.",
+      "evidence_quote": "19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME)",
       "confidence": "high"
     },
     {
@@ -90,8 +75,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Four patients were declared cured after returning negative control tests.",
-      "evidence_quote": "dont 19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME) et 2 au CTE Katwa dans la province du Nord-Kivu ont été déclarés guéris",
+      "status_note": "Four Ebola patients were declared cured after negative tests at the ISTM treatment centre.",
+      "evidence_quote": "19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME)",
       "confidence": "high"
     },
     {
@@ -105,8 +90,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Two patients were declared cured at this treatment centre.",
-      "evidence_quote": "dont 19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME) et 2 au CTE Katwa dans la province du Nord-Kivu ont été déclarés guéris",
+      "status_note": "Two Ebola patients were declared cured after negative tests at the CME treatment centre.",
+      "evidence_quote": "19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME)",
       "confidence": "high"
     },
     {
@@ -120,23 +105,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Two Ebola patients were declared cured after obtaining negative control tests.",
-      "evidence_quote": "dont 19 dans la province de l’Ituri (7 au CTE Elikya, 6 au CTE Mongbwalu, 4 au CTE ISTM et 2 au CTE CME) et 2 au CTE Katwa dans la province du Nord-Kivu ont été déclarés guéris",
-      "confidence": "high"
-    },
-    {
-      "facility_raw": "CTE",
-      "facility_type_raw": "CTE",
-      "site_kind": "treatment_centre",
-      "name_status": "unnamed",
-      "place_raw": "",
-      "health_zone": "",
-      "province": "",
-      "event": "planned",
-      "event_date": "",
-      "beds": "",
-      "status_note": "A site evaluation was conducted to find land for the construction of a treatment centre.",
-      "evidence_quote": "Descente sur terrain du DG de l’INSP avec l’équipe de la coordination dans les ZS de Nizi et Nyankunde pour évaluer terrain qui vas servir pour la construction du CTE.",
+      "status_note": "Two Ebola patients were declared cured after negative tests at the Katwa treatment centre.",
+      "evidence_quote": "2 au CTE Katwa dans la province du Nord-Kivu ont été déclarés guéris après avoir obtenu des tests de contrôles négatifs.",
       "confidence": "high"
     },
     {
@@ -144,13 +114,13 @@
       "facility_type_raw": "CTE",
       "site_kind": "treatment_centre",
       "name_status": "unnamed",
-      "place_raw": "",
+      "place_raw": "Bunia",
       "health_zone": "Bunia",
-      "province": "",
+      "province": "Ituri",
       "event": "planned",
       "event_date": "",
       "beds": "",
-      "status_note": "A site was identified for the construction of a new treatment centre in the Bunia health zone.",
+      "status_note": "A site has been identified for the construction of a new treatment centre in the Bunia health zone.",
       "evidence_quote": "L’identification du site pour la construction du nouveau CTE dans la ZS de Bunia.",
       "confidence": "high"
     },
@@ -161,12 +131,12 @@
       "name_status": "unnamed",
       "place_raw": "",
       "health_zone": "",
-      "province": "",
+      "province": "Ituri",
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "One validated alert case was referred to an unnamed treatment centre.",
-      "evidence_quote": "1 a été validée et référée dans un CTE et les 2 autres sont invalidées ;",
+      "status_note": "One validated live alert was referred to a treatment centre in Ituri.",
+      "evidence_quote": "dot 1 a été validée et référée dans un CTE et les 2 autres sont invalidées",
       "confidence": "high"
     },
     {
@@ -176,12 +146,12 @@
       "name_status": "named",
       "place_raw": "Musienene",
       "health_zone": "",
-      "province": "",
+      "province": "Nord-Kivu",
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "A suspected child patient was discharged from the transit centre after testing negative twice.",
-      "evidence_quote": "L’enfant enregistré au CT Musienene comme cas suspect et soupçonnée d’être le cas positif évadé du CH Mutiri est sorti après deux tests négatifs ;",
+      "status_note": "A suspect case child, suspected to be an escaped positive case, was discharged from the Musienene transit centre after negative tests.",
+      "evidence_quote": "L’enfant enregistré au CT Musienene comme cas suspect et soupçonnée d’être le cas positif évadé du CH Mutiri est sorti après deux tests négatifs",
       "confidence": "high"
     },
     {
@@ -195,8 +165,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "A positive case reportedly escaped from this facility.",
-      "evidence_quote": "L’enfant enregistré au CT Musienene comme cas suspect et soupçonnée d’être le cas positif évadé du CH Mutiri est sorti après deux tests négatifs ;",
+      "status_note": "A positive Ebola case escaped from the Mutiri health centre.",
+      "evidence_quote": "L’enfant enregistré au CT Musienene comme cas suspect et soupçonnée d’être le cas positif évadé du CH Mutiri est sorti après deux tests négatifs",
       "confidence": "high"
     },
     {
@@ -206,12 +176,12 @@
       "name_status": "named",
       "place_raw": "Beni",
       "health_zone": "",
-      "province": "",
+      "province": "Nord-Kivu",
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "The family of a confirmed deceased patient at this treatment centre made threats, forcing staff to flee.",
-      "evidence_quote": "suite aux menaces proférées par la famille de défunte confirmées dans le CTE Beni, après avoir ses premiers soins au PS Divine.",
+      "status_note": "A confirmed patient who later died had received care at the Beni treatment centre, and its staff received training.",
+      "evidence_quote": "famille de défunte confirmées dans le CTE Beni, après avoir ses premiers soins au PS Divine.",
       "confidence": "high"
     },
     {
@@ -225,8 +195,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "A confirmed Ebola patient received their first care at this facility before dying at a treatment centre.",
-      "evidence_quote": "suite aux menaces proférées par la famille de défunte confirmées dans le CTE Beni, après avoir ses premiers soins au PS Divine.",
+      "status_note": "A confirmed patient who later died received their initial care at the Divine health post.",
+      "evidence_quote": "famille de défunte confirmées dans le CTE Beni, après avoir ses premiers soins au PS Divine.",
       "confidence": "high"
     },
     {
@@ -240,8 +210,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This facility was listed among health structures receiving infection prevention and control support.",
-      "evidence_quote": "Suivis et accompagnement de 29 ESS : Clinique Salama 87,1% ; CM St Raphael 17,4%, CM St pierre 58%, PS Umoja 35,5%",
+      "status_note": "The facility was monitored and supported for infection prevention and control, achieving an 87.1% score.",
+      "evidence_quote": "Suivis et accompagnement de 29 ESS : Clinique Salama 87,1% ; CM St Raphael 17,4%, CM St pierre 58%",
       "confidence": "high"
     },
     {
@@ -255,8 +225,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "Suivis et accompagnement de 29 ESS : Clinique Salama 87,1% ; CM St Raphael 17,4%, CM St pierre 58%, PS Umoja 35,5%",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "Clinique Salama 87,1% ; CM St Raphael 17,4%, CM St pierre 58%, PS Umoja 35,5%",
       "confidence": "high"
     },
     {
@@ -270,8 +240,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "Suivis et accompagnement de 29 ESS : Clinique Salama 87,1% ; CM St Raphael 17,4%, CM St pierre 58%, PS Umoja 35,5%",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CM St Raphael 17,4%, CM St pierre 58%, PS Umoja 35,5%, Clin. Bon Berger 50,2%",
       "confidence": "high"
     },
     {
@@ -285,8 +255,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "Suivis et accompagnement de 29 ESS : Clinique Salama 87,1% ; CM St Raphael 17,4%, CM St pierre 58%, PS Umoja 35,5%",
+      "status_note": "The health post was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CM St pierre 58%, PS Umoja 35,5%, Clin. Bon Berger 50,2% ; PS rapha 50%",
       "confidence": "high"
     },
     {
@@ -300,8 +270,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "Clin. Bon Berger 50,2% ; PS rapha 50%, PS Guerison 39%, PS Maman mwilu 40% ;",
+      "status_note": "The clinic was monitored and supported for infection prevention and control.",
+      "evidence_quote": "PS Umoja 35,5%, Clin. Bon Berger 50,2% ; PS rapha 50%, PS Guerison 39%",
       "confidence": "high"
     },
     {
@@ -315,8 +285,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "Clin. Bon Berger 50,2% ; PS rapha 50%, PS Guerison 39%, PS Maman mwilu 40% ;",
+      "status_note": "The health post was monitored and supported for infection prevention and control.",
+      "evidence_quote": "Clin. Bon Berger 50,2% ; PS rapha 50%, PS Guerison 39%, PS Maman mwilu 40%",
       "confidence": "high"
     },
     {
@@ -330,8 +300,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "Clin. Bon Berger 50,2% ; PS rapha 50%, PS Guerison 39%, PS Maman mwilu 40% ;",
+      "status_note": "The health post was monitored and supported for infection prevention and control.",
+      "evidence_quote": "PS rapha 50%, PS Guerison 39%, PS Maman mwilu 40% ; CM Ave maria 30%",
       "confidence": "high"
     },
     {
@@ -345,8 +315,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "Clin. Bon Berger 50,2% ; PS rapha 50%, PS Guerison 39%, PS Maman mwilu 40% ;",
+      "status_note": "The health post was monitored and supported for infection prevention and control.",
+      "evidence_quote": "PS Guerison 39%, PS Maman mwilu 40% ; CM Ave maria 30%, CS Poli de frontiere 41,9%",
       "confidence": "high"
     },
     {
@@ -360,8 +330,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CM Ave maria 30%, CS Poli de frontiere 41,9% ; CS Nyakero 40%, CS Lengabo 68,2% ;",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "PS Maman mwilu 40% ; CM Ave maria 30%, CS Poli de frontiere 41,9% ; CS Nyakero 40%",
       "confidence": "high"
     },
     {
@@ -375,8 +345,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CM Ave maria 30%, CS Poli de frontiere 41,9% ; CS Nyakero 40%, CS Lengabo 68,2% ;",
+      "status_note": "The health centre was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CM Ave maria 30%, CS Poli de frontiere 41,9% ; CS Nyakero 40%, CS Lengabo 68,2%",
       "confidence": "high"
     },
     {
@@ -390,8 +360,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CM Ave maria 30%, CS Poli de frontiere 41,9% ; CS Nyakero 40%, CS Lengabo 68,2% ;",
+      "status_note": "The health centre was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CS Poli de frontiere 41,9% ; CS Nyakero 40%, CS Lengabo 68,2% ; PS Tuluza 25,3%",
       "confidence": "high"
     },
     {
@@ -405,8 +375,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CS Nyakero 40%, CS Lengabo 68,2% ; PS Tuluza 25,3% ; CM bethel 22,6%, PS la sagesse 8,1%",
+      "status_note": "The health centre was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CS Nyakero 40%, CS Lengabo 68,2% ; PS Tuluza 25,3% ; CM bethel 22,6%",
       "confidence": "high"
     },
     {
@@ -420,8 +390,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CS Nyakero 40%, CS Lengabo 68,2% ; PS Tuluza 25,3% ; CM bethel 22,6%, PS la sagesse 8,1%",
+      "status_note": "The health post was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CS Lengabo 68,2% ; PS Tuluza 25,3% ; CM bethel 22,6%, PS la sagesse 8,1%",
       "confidence": "high"
     },
     {
@@ -435,8 +405,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CS Nyakero 40%, CS Lengabo 68,2% ; PS Tuluza 25,3% ; CM bethel 22,6%, PS la sagesse 8,1%",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "PS Tuluza 25,3% ; CM bethel 22,6%, PS la sagesse 8,1%, PS Benjamine 14,5%",
       "confidence": "high"
     },
     {
@@ -450,8 +420,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "PS la sagesse 8,1%, PS Benjamine 14,5%, CM Karibuni, 35,5%, CM Spaec. Atlas35,5%;",
+      "status_note": "The health post was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CM bethel 22,6%, PS la sagesse 8,1%, PS Benjamine 14,5%, CM Karibuni, 35,5%",
       "confidence": "high"
     },
     {
@@ -465,8 +435,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "PS la sagesse 8,1%, PS Benjamine 14,5%, CM Karibuni, 35,5%, CM Spaec. Atlas35,5%;",
+      "status_note": "The health post was monitored and supported for infection prevention and control.",
+      "evidence_quote": "PS la sagesse 8,1%, PS Benjamine 14,5%, CM Karibuni, 35,5%, CM Spaec. Atlas35,5%",
       "confidence": "high"
     },
     {
@@ -480,8 +450,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "PS la sagesse 8,1%, PS Benjamine 14,5%, CM Karibuni, 35,5%, CM Spaec. Atlas35,5%;",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "PS Benjamine 14,5%, CM Karibuni, 35,5%, CM Spaec. Atlas35,5%; CS Lengabo 68,2%",
       "confidence": "high"
     },
     {
@@ -495,8 +465,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "PS la sagesse 8,1%, PS Benjamine 14,5%, CM Karibuni, 35,5%, CM Spaec. Atlas35,5%;",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CM Karibuni, 35,5%, CM Spaec. Atlas35,5%; CS Lengabo 68,2%; CS Bigo 59,6%",
       "confidence": "high"
     },
     {
@@ -510,8 +480,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CS Lengabo 68,2%; CS Bigo 59,6%; CM sauvetage 25,3%, CM Gracia Katsina 9,7%.",
+      "status_note": "The health centre was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CM Spaec. Atlas35,5%; CS Lengabo 68,2%; CS Bigo 59,6%; CM sauvetage 25,3%",
       "confidence": "high"
     },
     {
@@ -525,8 +495,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CS Lengabo 68,2%; CS Bigo 59,6%; CM sauvetage 25,3%, CM Gracia Katsina 9,7%.",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CS Bigo 59,6%; CM sauvetage 25,3%, CM Gracia Katsina 9,7%.",
       "confidence": "high"
     },
     {
@@ -540,8 +510,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility received infection prevention and control support.",
-      "evidence_quote": "CS Lengabo 68,2%; CS Bigo 59,6%; CM sauvetage 25,3%, CM Gracia Katsina 9,7%.",
+      "status_note": "The health facility was monitored and supported for infection prevention and control.",
+      "evidence_quote": "CS Bigo 59,6%; CM sauvetage 25,3%, CM Gracia Katsina 9,7%.",
       "confidence": "high"
     },
     {
@@ -551,11 +521,11 @@
       "name_status": "named",
       "place_raw": "Katwa",
       "health_zone": "",
-      "province": "",
+      "province": "Nord-Kivu",
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This facility achieved an infection prevention and control evaluation score over 80%.",
+      "status_note": "The general reference hospital was evaluated for infection prevention and control and scored over 80%.",
       "evidence_quote": "Seuls 2 ESS dépassent un score de 80% : HGR Katwa ET CS Kyangike ;",
       "confidence": "high"
     },
@@ -566,11 +536,11 @@
       "name_status": "named",
       "place_raw": "Kyangike",
       "health_zone": "",
-      "province": "",
+      "province": "Nord-Kivu",
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "This health facility achieved an infection prevention and control evaluation score over 80%.",
+      "status_note": "The health centre was evaluated for infection prevention and control and scored over 80%.",
       "evidence_quote": "Seuls 2 ESS dépassent un score de 80% : HGR Katwa ET CS Kyangike ;",
       "confidence": "high"
     },
@@ -585,8 +555,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "An ambulance from this hospital was made available to the response pillars.",
-      "evidence_quote": "4 Ambulances (PNC, FARDC, HGR Bunia et CTE Rwampara) ont été mis à la disposition des différents piliers pour assurer leur mobilité vers les axes.",
+      "status_note": "An ambulance from the facility was made available to support operations.",
+      "evidence_quote": "26 véhicules et 4 Ambulances (PNC, FARDC, HGR Bunia et CTE Rwampara) ont été mis à la disposition",
       "confidence": "high"
     }
   ]

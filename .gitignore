@@ -48,5 +48,8 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Working output; nothing here is an input to anything committed
-outputs/
+# What a run leaves behind: logs, raw model stdout, model comparisons, the
+# spend ledger. Nothing here is an input to anything committed, and nothing
+# reads it but a person diagnosing a run. The outputs that matter are
+# committed: data/ for the datasets, checks/ for the open judgements.
+runs/

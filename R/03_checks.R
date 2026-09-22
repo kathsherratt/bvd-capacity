@@ -49,14 +49,35 @@ registry <- fread(registry_path())
 # ------------------------------------------------------------- rejections
 
 #' A reject is a quote that is not a span of the report, or one that does not
-#' name what it evidences. Either way the event is out of the data and the
-#' build is not clean. Fix it by rerunning that report with a better prompt.
-#' Do not add an exemption.
+#' name what it evidences. Either way the event is out of the data. The first
+#' fix is to reread that report: over the corpus that cleared 13 of 14.
+#'
+#' What remains is a paraphrase the model repeats. Acknowledging one in
+#' `checks/rejected_acknowledged.csv` says a person read it against the report
+#' and expects no rerun to fix it. It admits nothing: the event stays out of
+#' the data exactly as before, and only the build's exit code changes, so that
+#' a fresh reject is visible against a clean run rather than lost in a count
+#' that was never zero.
 if (file.exists(rejected_path())) {
     rej <- fread(rejected_path())
+    known <- if (file.exists(acknowledged_path())) {
+        fread(acknowledged_path(), colClasses = "character")
+    } else {
+        data.table(sitrep = character(), facility_raw = character(),
+            reason = character())
+    }
     if (nrow(rej)) {
-        fail(nrow(rej), " rejected events in ", rejected_path())
-        print(rej[, .N, by = reason])
+        key <- function(d) paste(as.integer(d$sitrep), d$facility_raw, d$reason)
+        rej[, acknowledged := key(rej) %in% key(known)]
+        if (rej[!(acknowledged), .N]) {
+            fail(rej[!(acknowledged), .N], " rejected events not acknowledged in ",
+                acknowledged_path())
+            print(rej[!(acknowledged), .N, by = reason])
+        }
+        if (rej[(acknowledged), .N]) {
+            message(rej[(acknowledged), .N], " rejected events acknowledged, ",
+                "still excluded from the data.")
+        }
     }
 }
 

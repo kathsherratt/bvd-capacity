@@ -225,7 +225,7 @@ gemini_agy <- function(parts, schema, model, label, thinking_level = NULL) {
         env <- tryCatch(jsonlite::fromJSON(res$stdout, simplifyVector = FALSE),
             error = function(e) NULL)
         # Kept for diagnosis: an agent run that fails says why only here.
-        raw_dir <- here::here("outputs", "logs", "agy")
+        raw_dir <- here::here("runs", "logs", "agy")
         dir.create(raw_dir, recursive = TRUE, showWarnings = FALSE)
         stem <- file.path(raw_dir, paste0(gsub("[^A-Za-z0-9_-]", "_", label),
             "_", format(Sys.time(), "%Y%m%d-%H%M%S"), "_attempt", attempt))
@@ -367,7 +367,7 @@ GEMINI_PRICES <- list(
 #' `GEMINI_LEDGER` can point several repositories at one ledger, so that a
 #' single `GEMINI_BUDGET_USD` covers everything spent on one key.
 gemini_ledger_path <- function() {
-    Sys.getenv("GEMINI_LEDGER", unset = here::here("outputs", "gemini-ledger.csv"))
+    Sys.getenv("GEMINI_LEDGER", unset = here::here("runs", "gemini-ledger.csv"))
 }
 
 #' The last four characters of the key, to attribute spend to a project.
@@ -417,7 +417,7 @@ gemini_check_budget <- function(model, label) {
     invisible(TRUE)
 }
 
-#' Append one row per call to outputs/gemini-ledger.csv.
+#' Append one row per call to runs/gemini-ledger.csv.
 #'
 #' Token counts are the only honest way to answer "what did rebuilding the
 #' corpus cost", and they are gone once the response is discarded. Thinking

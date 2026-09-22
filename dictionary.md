@@ -2,10 +2,11 @@
 
 # Column definitions
 
-Four tables. `facility_events.csv` is what the reports say,
-`facilities.csv` is what follows from it, `facility_aliases.csv` is the name
-vocabulary that joins them, and `facility_flags.csv` records which facilities
-a flag put together.
+`facility_events.csv` is what the reports say, `facilities.csv` is what
+follows from it, `facility_opening.csv` turns that into an interval an opening
+falls in, `facility_aliases.csv` is the name vocabulary that joins them, and
+`facility_flags.csv` records which facilities a flag put together. The files
+under `checks/` are the judgements none of that could settle.
 
 An empty string and `NA` both mean the report did not say. Neither means zero.
 
@@ -88,6 +89,102 @@ second implementation.
 | `aliases` | every spelling seen, semicolon separated |
 | `flags` | open judgements, semicolon separated, see below |
 
+## data/facility_opening.csv
+
+One row a facility, 620 rows, written by `R/06_opening.R` from the events. The
+columns up to `explanation` are the estimate; the rest are carried from
+`facilities.csv` unchanged, so the file stands alone.
+
+| column | meaning |
+|---|---|
+| `opened_after` | latest report showing it still building or planned, before any evidence of service; empty where none |
+| `opened_by` | earliest report showing it holding patients, or announcing its opening, whichever came first; empty where none |
+| `opened_midpoint` | midway between the two bounds, only where both exist |
+| `interval_days` | days between the bounds |
+| `basis` | which evidence bounds it, one of the five below |
+| `censoring` | how to read the bounds in an analysis |
+| `explanation` | the same, as one sentence naming the dates |
+| `first_service` | earliest `operating`, `expanded`, `strained` or `incident` event |
+| `announced` | earliest `opened` event |
+| `last_not_open` | same as `opened_after`, kept under its own name |
+
+| `basis` | facilities | what it means |
+|---|---|---|
+| `bounded both sides` | 17 | reported building, then reported in service |
+| `in service, no earlier bound` | 190 | in service from its first mention; may have opened long before |
+| `announced, no earlier bound` | 6 | opening announced, nothing showing it built |
+| `building, never seen open` | 29 | building when last mentioned, never reported holding patients |
+| `no opening evidence` | 378 | named only; mostly the `other` sites, which the response touched without treating anyone there |
+
+An announcement is not treated as the opening. Where a facility has both, the
+median gap between the announcement and the first report showing patients is
+minus four days, so `opened_by` takes whichever came first. `mention_only` is
+evidence neither way.
+
+## checks/rejected_events.csv
+
+What the quote gate dropped, 14 rows, written by `R/02_resolve.R`. The event
+columns are as extracted, plus `quote_ok`, `names_ok` and `reason`, which is
+`quote is not a span of the report` (8) or `quote does not name the facility`
+(6). `R/03_checks.R` fails while the file has rows. A rejection is fixed by
+rerunning that report, never by relaxing the gate.
+
+## checks/review_queue.csv
+
+The open naming judgements, 208 facilities in 65 clusters, written by
+`R/04_review.R`. One row a facility, ordered by `rank`, the cluster's position
+when clusters are sorted by `events_in_cluster`, so the first decisions are
+the ones most of the data hangs on. `cluster` groups the facilities a flag put
+together; `host_zone` is the health zone they share. Decide one by editing
+`facility_id` in `registry/facility_aliases.csv` and setting `reviewed =
+TRUE`, then rerun from `R/02_resolve.R`.
+
+## checks/decisions/
+
+One markdown sheet a decision, 20 of them, written by `R/08_decisions.R` from
+the review queue. A sheet asks one question: are these names, all of one
+`site_kind` and one place, one facility or more than one? It carries the rival
+names and their aliases, what GRID3 recognises, how many reports name more
+than one of them, what merging would do to the opening interval, and the
+quotes that carry the bounds. `index.csv` lists all 20 with those counts.
+
+A cluster from `review_queue.csv` becomes one sheet a `site_kind`, because a
+treatment centre and a transit centre at one hospital are two facilities
+however the reports spell them. Clusters with no treatment, transit or
+isolation centre get no sheet: no opening date depends on them.
+
+`Decision:` and `Reason:` at the foot of each sheet are for a person to fill
+in. The decision itself is recorded in `registry/facility_aliases.csv`, which
+is what the pipeline reads; the sheet is the working.
+
+## registry/decisions.csv
+
+The naming decisions a person has made, one row each. This is the record;
+`facility_aliases.csv` is what the pipeline reads, and `R/09_apply_decisions.R`
+carries one into the other.
+
+| column | meaning |
+|---|---|
+| `decision_id` | `<cluster>__<kind>`, the same id as the sheet in `checks/decisions/` |
+| `rank`, `cluster`, `site_kind` | which question this answers, as `checks/review_queue.csv` posed it |
+| `verdict` | `same`, `apart` or `unsure` |
+| `facility_ids` | the ids the decision was made over, semicolon separated |
+| `merged_into` | for `same`, the id the others fold into; empty otherwise |
+| `decided_by`, `decided_on` | who, and when |
+| `note` | the reason, in the decider's words |
+| `open_question` | a pair inside an `apart` group whose names differ only by spelling, so the group decision did not settle it |
+
+`same` gives every name in the group one id. `apart` keeps the ids apart and
+records that this was decided, not overlooked. `unsure` leaves the facilities
+separate and still flagged, which is what `checks/review_queue.csv` lists.
+
+Decisions apply in file order, so a row that assumes an earlier one sits
+after it: at Nyankunde and Mongbwalu the spelling merges collapse the variants
+first, and the `apart` row that follows ranges over the ids left. A `same`
+needs its `merged_into` id to still exist and an `apart` needs at least two of
+its ids; `R/09_apply_decisions.R` reports and skips a row that fails, rather
+than applying a decision to a question the data no longer asks.
+
 ## registry/facility_aliases.csv
 
 One row a spelling. 795 rows. The only file meant to be edited by hand.
@@ -157,9 +254,9 @@ the columns a name lookup needs. 8,667 rows: `province`, `health_zone`,
 `health_area`, `locality`, `facility_type`, `facility_name`, `grid3id`. Built
 by `tools/grid3-lexicon.R`, committed, and read only by `R/lib/places.R`.
 
-## outputs/place-check.csv
+## checks/place_check.csv
 
-One row a facility, written by `R/05_places.R` and not committed.
+One row a facility, written by `R/05_places.R`.
 `confirmed_in_zone` is TRUE where GRID3 lists that name inside that health
 zone, which is the strong form; `name_known` allows a match anywhere in the
 six provinces; `place_known` says only that the locality exists. `grid3_type`

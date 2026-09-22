@@ -27,11 +27,40 @@ cache_dir <- function(...) here::here("data", "cache", ...)
 
 registry_path <- function() here::here("registry", "facility_aliases.csv")
 
+#' The naming decisions a person made, with who made them and when.
+#' `R/09_apply_decisions.R` carries them into the vocabulary above; this file
+#' is the record, and the only place the reasoning is written down.
+decisions_path <- function() here::here("registry", "decisions.csv")
+
 events_path <- function() here::here("data", "facility_events.csv")
 
 facilities_path <- function() here::here("data", "facilities.csv")
 
-rejected_path <- function() here::here("outputs", "rejected_events.csv")
+#' Derived from the events, one row a facility: the interval an opening falls
+#' in, and what kind of evidence bounds it.
+opening_path <- function() here::here("data", "facility_opening.csv")
+
+#' What the pipeline could not settle by itself. Small, committed, and read by
+#' a person: the events dropped for a bad quote, the facilities that may be
+#' duplicates, the places GRID3 disagrees with. A run that changes any of
+#' these should show it in the diff.
+checks_dir <- function(...) here::here("checks", ...)
+
+rejected_path <- function() checks_dir("rejected_events.csv")
+
+#' The rejects a person has read against the report and expects to stay
+#' rejected. Acknowledging one keeps it out of the data and out of the build's
+#' failure count; it is never a route to admitting a row.
+acknowledged_path <- function() checks_dir("rejected_acknowledged.csv")
+
+review_queue_path <- function() checks_dir("review_queue.csv")
+
+place_check_path <- function() checks_dir("place_check.csv")
+
+#' Everything a run leaves behind that nothing downstream reads: logs, raw
+#' model stdout, model comparisons, the spend ledger. Not committed; delete it
+#' and rerun.
+runs_dir <- function(...) here::here("runs", ...)
 
 #' One row a facility a flag, with the group that put it there. The facilities
 #' table carries only the flag names, which says that a row is a judgement but
@@ -57,7 +86,8 @@ indicator_appearances_path <- function() {
 }
 
 ensure_dirs <- function() {
-    for (d in c(cache_dir(), dirname(registry_path()), here::here("outputs", "logs"))) {
+    for (d in c(cache_dir(), dirname(registry_path()), checks_dir(),
+        runs_dir("logs"))) {
         dir.create(d, recursive = TRUE, showWarnings = FALSE)
     }
     invisible(NULL)

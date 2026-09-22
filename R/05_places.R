@@ -10,7 +10,7 @@
 #' the gate proves the model copied the report, not that the report's facility
 #' is real.
 #'
-#' Writes outputs/place-check.csv, one row a facility. Nothing is changed.
+#' Writes checks/place_check.csv, one row a facility. Nothing is changed.
 #'
 #' Usage:
 #'     Rscript R/05_places.R
@@ -64,8 +64,8 @@ out <- facilities[, .(facility_id, facility_name, site_kind, place_key,
     health_zone, province, n_sitreps, n_events, confirmed_in_zone,
     name_known, place_known, grid3_type, flags)]
 setorder(out, -confirmed_in_zone, -n_events)
-dir.create(here::here("outputs"), showWarnings = FALSE, recursive = TRUE)
-fwrite(out, file.path(here::here("outputs"), "place-check.csv"))
+dir.create(checks_dir(), showWarnings = FALSE, recursive = TRUE)
+fwrite(out, place_check_path())
 
 # ----------------------------------------------------------------- report
 
@@ -83,4 +83,4 @@ message("\nUnknown to GRID3, by how much the register leans on them:")
 print(facilities[!name_known & !place_known][order(-n_events)][
     seq_len(min(15, .N)), .(facility_id, site_kind, n_sitreps, n_events)])
 
-message("\nWritten: ", file.path(here::here("outputs"), "place-check.csv"))
+message("\nWritten: ", place_check_path())

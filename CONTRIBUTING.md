@@ -38,10 +38,13 @@ bvd-sitreps.
 | `R/07_organisations.R` | who the reports name alongside a facility |
 | `tools/grid3-lexicon.R` | rebuilds the committed GRID3 extract; needs `sf` and a BDBV2026-Data checkout |
 | `assets/prompt-facilities.md` | the extraction prompt |
+| `R/08_decisions.R` | a sheet a naming decision, with the quotes that settle it |
+| `R/09_apply_decisions.R` | carries `registry/decisions.csv` into the name vocabulary |
 | `registry/facility_aliases.csv` | the name vocabulary, the only file meant to be edited by hand |
 
 `data/cache/` is committed, because each entry costs a model call to remake.
-`outputs/` is not.
+`checks/` is committed, because each file is a decision waiting for a person.
+`runs/`, which holds logs, raw model output and the spend ledger, is not.
 
 ## Running it
 
@@ -58,7 +61,7 @@ about three hours over 116 reports; run it detached.
 `BVD_SITREPS` points at a bvd-sitreps checkout; the default is a sibling
 clone.
 
-## Four rules to know before changing anything
+## Five rules to know before changing anything
 
 These are the load-bearing decisions. Everything else is open to argument.
 
@@ -78,10 +81,44 @@ Judgement is flagged, never applied. Where two names might be one facility,
 both stay and the pair is flagged. Merging them is a person's decision,
 recorded with `reviewed = TRUE` and never recomputed after that.
 
+A kind of site is a structure, not a spelling. A treatment centre, a transit
+centre and an isolation centre at one hospital are three facilities, and no
+decision merges across `site_kind`. The reports name all three by their host
+(`CTE de l'HGR Bunia`, `CT HGR Bunia`, `CI HGR Bunia`), so the
+`possible_same_host` and `possible_host_variant` flags group them together;
+that grouping says they share a building, which is not the same claim. Merging
+across kinds drags a centre's opening earlier, because the hospital was
+isolating patients months before the centre was built beside it. A merge
+decision compares names within one `site_kind`.
+
 GRID3 constrains, it never overrides. What a report says about a province or
 health zone is kept; the lookup only fills gaps and raises flags. Built the
 other way round it moves facilities between provinces, which it did twenty
 times in testing.
+
+## Making a naming decision
+
+The reports spell one facility several ways and spell several facilities one
+way, so some names cannot be resolved by code. Those questions are collected,
+ranked by the events that depend on them, and answered by a person.
+
+1. Read the sheet in `checks/decisions/`, one per question. It holds the
+   candidate names, what GRID3 recognises, whether any report names more than
+   one of them, what merging would do to the opening interval, and the quotes
+   the bounds come from.
+2. Add a row to `registry/decisions.csv` with the verdict, your name, the
+   date, and a reason. `same` needs a `merged_into` id: the id the other names
+   fold into, conventionally the one already carrying the most events.
+3. Run `Rscript R/09_apply_decisions.R`, then `R/02_resolve.R`, which is
+   what carries the decision into the data, then `R/03_checks.R` and
+   `R/06_opening.R`. Applying a decision without resolving again leaves the
+   events pointing at ids the registry no longer has, and `R/03_checks.R`
+   says so.
+
+Disagreeing with a recorded decision is an ordinary pull request: change the
+verdict and the reason, rerun, and say in the description what the quotes show.
+The decision belongs to whoever can read the evidence, not to whoever ran the
+pipeline first.
 
 ## Conventions
 

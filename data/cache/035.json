@@ -15,8 +15,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "A validated live alert was referred to the facility.",
-      "evidence_quote": "validée et orientée vers le CME de Bunia",
+      "status_note": "A live alert was referred to this facility for care.",
+      "evidence_quote": "1 alerte vivante en provenance de la ZS de Kilo a été investiguée, validée et orientée vers le CME de Bunia",
       "confidence": "high"
     },
     {
@@ -30,7 +30,22 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "A lifeless body originating from this facility was intercepted.",
+      "status_note": "A dead body originating from this facility was intercepted at a checkpoint.",
+      "evidence_quote": "1 corps sans vie en provenance de CH Muzimaria vers Central soleniama, a été libéré",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "Central soleniama",
+      "facility_type_raw": "",
+      "site_kind": "other",
+      "name_status": "named",
+      "place_raw": "",
+      "health_zone": "",
+      "province": "",
+      "event": "mention_only",
+      "event_date": "",
+      "beds": "",
+      "status_note": "A dead body was being transported towards this location.",
       "evidence_quote": "1 corps sans vie en provenance de CH Muzimaria vers Central soleniama, a été libéré",
       "confidence": "high"
     },
@@ -45,8 +60,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "The exposure level of healthcare providers at the facility was evaluated.",
-      "evidence_quote": "évaluation du degré d’exposition des prestataires au CH CBCA dans la ZS de Katwa : 1 à haut risque",
+      "status_note": "An evaluation of healthcare worker exposure was conducted at this facility.",
+      "evidence_quote": "Evaluation du degré d’exposition des prestataires au CH CBCA dans la ZS de Katwa : 1 à haut risque",
       "confidence": "high"
     },
     {
@@ -60,8 +75,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "An infection prevention and control scorecard was evaluated for the facility.",
-      "evidence_quote": "évaluation score card de 3 ESS de la ZS de Beni (CH CBCA 56,5 %, CHP Heshima Letu 60%, Dispensaire Bora Uzima 22%)",
+      "status_note": "An infection prevention and control scorecard evaluation was conducted at this facility.",
+      "evidence_quote": "évaluation score card de 3 ESS de la ZS de Beni (CH CBCA 56,5 %, CHP Heshima Letu 60%, Dispensaire Bora Uzima 22%).",
       "confidence": "high"
     },
     {
@@ -75,8 +90,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "An infection prevention and control scorecard was evaluated for the facility.",
-      "evidence_quote": "évaluation score card de 3 ESS de la ZS de Beni (CH CBCA 56,5 %, CHP Heshima Letu 60%, Dispensaire Bora Uzima 22%)",
+      "status_note": "An infection prevention and control scorecard evaluation was performed here.",
+      "evidence_quote": "évaluation score card de 3 ESS de la ZS de Beni (CH CBCA 56,5 %, CHP Heshima Letu 60%, Dispensaire Bora Uzima 22%).",
       "confidence": "high"
     },
     {
@@ -90,8 +105,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "An infection prevention and control scorecard was evaluated for the facility.",
-      "evidence_quote": "évaluation score card de 3 ESS de la ZS de Beni (CH CBCA 56,5 %, CHP Heshima Letu 60%, Dispensaire Bora Uzima 22%)",
+      "status_note": "An infection prevention and control scorecard was completed for this dispensary.",
+      "evidence_quote": "évaluation score card de 3 ESS de la ZS de Beni (CH CBCA 56,5 %, CHP Heshima Letu 60%, Dispensaire Bora Uzima 22%).",
       "confidence": "high"
     },
     {
@@ -99,13 +114,13 @@
       "facility_type_raw": "Centre hospitalier",
       "site_kind": "other",
       "name_status": "named",
-      "place_raw": "Bugarula",
+      "place_raw": "",
       "health_zone": "Idjwi",
       "province": "Sud-Kivu",
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "An infection prevention and control scorecard was completed for the facility.",
+      "status_note": "An infection prevention and control scorecard evaluation was performed for this facility.",
       "evidence_quote": "Score card réalisé au Centre hospitalier Bugarula ZS Idjwi avec un score de 43,5%.",
       "confidence": "high"
     },
@@ -120,7 +135,7 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Infection prevention and control supplies and dignity kits were delivered to the facility.",
+      "status_note": "Dignity kits and infection control supplies were delivered to this treatment center.",
       "evidence_quote": "des kits dignités et intrants PCI au CTE CME Bunia, CTE HGR Nyankunde, CSR Shari",
       "confidence": "high"
     },
@@ -135,7 +150,7 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Infection prevention and control supplies and dignity kits were delivered to the facility.",
+      "status_note": "Infection control supplies and dignity kits were delivered to the treatment center.",
       "evidence_quote": "des kits dignités et intrants PCI au CTE CME Bunia, CTE HGR Nyankunde, CSR Shari",
       "confidence": "high"
     },
@@ -150,7 +165,7 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "Infection prevention and control supplies and dignity kits were delivered to the facility.",
+      "status_note": "Infection control supplies and dignity kits were delivered to this facility.",
       "evidence_quote": "des kits dignités et intrants PCI au CTE CME Bunia, CTE HGR Nyankunde, CSR Shari",
       "confidence": "high"
     }

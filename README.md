@@ -14,11 +14,11 @@ Very many thanks to INSP and all those providing public access to these reports.
 |---|---|
 | Source | INSP situation reports, via the corpus published by [bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) |
 | Reports | 116, SitReps 001 to 122, 14 May to 13 September 2026 |
-| Events | 1,885 |
-| Facilities | 620 |
+| Events | 1,895 |
+| Facilities | 608 |
 | Read by | `gemini-3.1-pro` at low thinking, one call a report |
 
-## The three outputs
+## The outputs
 
 `data/facility_events.csv` is the observations: one row for each thing a
 report says about a facility. A facility mentioned in forty reports has forty
@@ -30,6 +30,12 @@ derived from its events. First mentioned, first planned, opening announced,
 opening date as stated, first seen in service, latest status, latest bed
 count.
 
+`data/facility_opening.csv` is the opening estimate: one row a facility,
+giving the interval its opening falls in, which evidence bounds each end, and
+how it is censored. The reports never state an opening date, so this is
+derived from reports that show a facility still building and reports that show
+it holding patients.
+
 `registry/facility_aliases.csv` is the name vocabulary: one row a spelling,
 mapping it to a `facility_id`. It is the only file meant to be edited by hand.
 
@@ -40,15 +46,37 @@ described below. `data/indicators.csv` and `data/indicator_appearances.csv` are 
 separate survey of every label the situation report tables use, built without
 a model call.
 
+`checks/` holds what the pipeline could not settle by itself, for a person to
+settle: `rejected_events.csv` is what the quote gate dropped and why,
+`review_queue.csv` the naming decisions ordered by the events at stake,
+`place_check.csv` the register against GRID3, and `decisions/` one sheet a
+decision with the quotes that settle it. They are committed, so a run
+that changes a judgement shows it in the diff. `runs/` holds logs, raw model
+output and the spend ledger, and is not committed.
+
 ## Coverage
 
 | kind of site | facilities | in 3+ reports | with an in-service date |
 |---|---|---|---|
-| treatment centre | 81 | 52 | 68 |
+| treatment centre | 72 | 50 | 63 |
 | hospital isolation | 83 | 22 | 81 |
-| transit centre | 40 | 12 | 35 |
-| isolation centre | 27 | 5 | 10 |
-| other | 389 | 40 | 13 |
+| transit centre | 36 | 12 | 32 |
+| isolation centre | 23 | 6 | 9 |
+| other | 394 | 39 | 13 |
+
+Opening evidence, for the three kinds of site that hold patients:
+
+| | bounded both sides | in service, no earlier bound | announced only | building, never seen open | nothing |
+|---|---|---|---|---|---|
+| treatment centre | 13 | 50 | 1 | 7 | 1 |
+| transit centre | 0 | 32 | 1 | 2 | 1 |
+| isolation centre | 0 | 9 | 0 | 10 | 4 |
+
+Thirteen centres were reported building and then reported holding patients, so
+their opening is bounded on both sides. For most of the rest the reports show
+a centre already in service at its first mention, which fixes a date it had
+opened by and nothing earlier. `data/facility_opening.csv` carries the bounds,
+which evidence sets each one, and how it is censored.
 
 `other` is a health facility the response touched without the report saying it
 held Ebola patients: a decontamination, a supply delivery, a supervision
@@ -56,7 +84,7 @@ visit. Most appear once. They are kept because a later pass over the same
 corpus will want them, and because deciding they are irrelevant is not the
 extraction step's job.
 
-Of 1,885 events, 1,595 resolve to a named facility. The remaining 290 are
+Of 1,895 events, 1,604 resolve to a named facility. The remaining 291 are
 places the report described without naming, kept with their place and their
 quote so a person can attach them later, and absent from `facilities.csv`.
 
@@ -105,13 +133,15 @@ https://doi.org/10.7916/f1ft-y872. CC BY 4.0.
 4. `R/03_checks.R` rebuilds the register from the events by a second
    implementation and fails if the two disagree.
 5. `R/04_review.R` orders the open naming judgements by how many events
-   depend on each, and `R/05_places.R` checks the register's places against
-   GRID3.
+   depend on each, `R/08_decisions.R` writes a sheet for each with the quotes
+   that settle it, and `R/09_apply_decisions.R` carries the answers in
+   `registry/decisions.csv` back into the name vocabulary. `R/05_places.R`
+   checks the register's places against GRID3.
 
 The quote gate in step 3 has no exemption route. A quote that is not a span of
 the report is dropped, whatever it says, because a model that paraphrases once
 will paraphrase again and there is no way to tell from the row which it did.
-Rejections are written to `outputs/rejected_events.csv` and `R/03_checks.R`
+Rejections are written to `checks/rejected_events.csv` and `R/03_checks.R`
 fails while any remain.
 
 ## Running it
@@ -124,7 +154,21 @@ Rscript R/04_review.R              # worksheet for the naming decisions
 Rscript R/05_places.R              # what GRID3 does and does not recognise
 Rscript R/06_opening.R             # opening dates as intervals
 Rscript R/07_organisations.R       # who is named alongside a facility
+Rscript R/08_decisions.R           # a sheet a naming decision, with its quotes
+Rscript R/09_apply_decisions.R     # the decisions made, into the name vocabulary
 ```
+
+The order matters in one place. `R/09_apply_decisions.R` edits the name
+vocabulary and `R/02_resolve.R` reads it, so a decision reaches the data only
+on the next resolve. After a new extraction, which appends spellings the
+decisions have never seen, the sequence is resolve, apply, resolve again:
+
+```sh
+Rscript R/02_resolve.R && Rscript R/09_apply_decisions.R && Rscript R/02_resolve.R
+```
+
+Day to day, with no new extraction, `R/09_apply_decisions.R` then
+`R/02_resolve.R` is enough.
 
 `R/01_facilities.R` expects a bvd-sitreps checkout beside this one, or
 `BVD_SITREPS` pointing at one. It reads that corpus by path and never opens a
@@ -132,23 +176,49 @@ PDF. Extraction takes about three hours over 116 reports and should be run
 detached:
 
 ```sh
-mkdir -p outputs/logs
+mkdir -p runs/logs
 nohup caffeinate -is Rscript R/01_facilities.R \
-  > outputs/logs/facilities_$(date +%F-%H%M).log 2>&1 &
+  > runs/logs/facilities_$(date +%F-%H%M).log 2>&1 &
 ```
 
 Exit 3 means the model quota stopped the run; rerunning resumes from the
 cache. `data/cache/` is committed, so steps 2 to 4 run without any model
 access.
 
+## The naming decisions
+
+The reports write one facility several ways and write several facilities one
+way, so some names cannot be resolved by code. `CTE de l'HGR Bunia` and `CTE
+de Bunia` may be one centre; `CTE de l'HGR Rwampara` and `CTE du CME
+Rwampara` are two centres in one town and must stay apart. Those questions
+are collected, ranked by the events that depend on each, and answered by a
+person.
+
+`registry/decisions.csv` is the record: the verdict, who made it, when, and
+the reason. `R/09_apply_decisions.R` carries it into the name vocabulary. A
+verdict of `same` folds the names into one `facility_id`, `apart` keeps them
+separate and records that this was decided rather than missed, and `unsure`
+leaves the question open and the facilities flagged.
+
+The evidence for each open question is a sheet in `checks/decisions/`: the
+candidate names, what GRID3 recognises, whether any report names more than one
+of them in a single sentence, what merging would do to the opening interval,
+and the quotes the bounds come from.
+
+Disagreeing with a recorded decision is welcome and is an ordinary pull
+request, or a comment on the issue that documents them. The decision belongs
+to whoever can read the evidence.
+
 ## Limitations
 
 The register counts spellings, not buildings. `CTE de l'HGR Bunia` and `CTE de
 Bunia` are probably one centre and are two rows until someone says otherwise;
 `CTE de l'HGR Rwampara` and `CTE du CME Rwampara` are two centres in one town
-and must stay apart. 65 such decisions are open, and the first ten carry 66%
-of the events involved. Until they are made, treat the facility counts above
-as an upper bound and the event table as the reliable layer.
+and must stay apart. Twenty of these have been decided and are recorded in
+`registry/decisions.csv`; four questions over treatment, transit and isolation
+centres remain open, and 63 more stand over `other` sites that no opening date
+depends on. Until those are settled, treat the facility counts above as an
+upper bound and the event table as the reliable layer.
 
 A date here is the date a report said something, not the date it happened.
 `date_first_in_service` is the first report showing patients at the facility,
@@ -159,16 +229,19 @@ the report itself gives, and across 116 reports the INSP never gives one: an
 opening is announced on the day it is reported (`Inauguration officielle du
 CTE normé de CME Rwampara`) and the date is the report's. Three events
 anywhere in the corpus carry a date of their own. Treat
-`date_opening_announced`, which 20 facilities have, as the earliest date an
+`date_opening_announced`, which 18 facilities have, as the earliest date an
 opening is known by, not as the opening.
 
 Seven SitRep numbers were never published (003, 029, 043, 045, 063, 075,
 076), so a facility's first mention may sit in a report that does not exist.
 `first_mention_after_gap` marks the 50 facilities where this is possible.
 
-Fourteen events were rejected by the quote gate and are not in the data. Eight
-are quotes that are not spans of the report; six are quotes too short to name
-what they evidence.
+Two events were rejected by the quote gate and are not in the data: a
+saturation table SitRep 081 rewrites into a sentence of its own, and a name
+SitRep 048 renders joined to the number beside it. Twelve more were rejected
+on the first pass and cleared when those reports were reread. Both survivors
+are recorded in `checks/rejected_acknowledged.csv` with the reason they are
+expected to stay rejected.
 
 Beds are sparse. Only 25 facilities have a bed count, because the bed table
 stops appearing after SitRep 090.

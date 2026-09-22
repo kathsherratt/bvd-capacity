@@ -86,12 +86,35 @@ setorder(sheet, rank, -n_events)
 setcolorder(sheet, c("rank", "cluster", "facility_id", "facility_name",
     "site_kind", "n_sitreps", "n_events"))
 
-out <- file.path(here::here("outputs"), "review-queue.csv")
+#' A question answered is not a question. A decision in
+#' registry/decisions.csv settles the facilities it names, so those rows are
+#' marked rather than asked again; `unsure` settles nothing. The decision
+#' holds only while the group is unchanged, so a facility added to the cluster
+#' by a later extraction reopens it, which is the same rule
+#' R/09_apply_decisions.R applies.
+sheet[, settled := ""]
+if (file.exists(decisions_path())) {
+    decided <- fread(decisions_path(), colClasses = "character")
+    for (i in seq_len(nrow(decided))) {
+        d <- decided[i]
+        if (d$verdict == "unsure") next
+        ids <- sort(trimws(strsplit(d$facility_ids, ";")[[1]]))
+        rows <- sheet$cluster == d$cluster & sheet$site_kind == d$site_kind
+        if (!any(rows)) next
+        if (!identical(sort(sheet$facility_id[rows]), ids)) next
+        sheet[rows, settled := d$verdict]
+    }
+}
+
+out <- review_queue_path()
 dir.create(dirname(out), showWarnings = FALSE, recursive = TRUE)
 fwrite(sheet, out)
 
 # ----------------------------------------------------------------- report
 
+message(sheet[settled == "", uniqueN(cluster)], " open decisions, ",
+    sheet[settled != "", uniqueN(paste(cluster, site_kind))],
+    " already settled in ", basename(decisions_path()), ".\n")
 message(nrow(decisions), " decisions over ", nrow(q), " facilities and ",
     sum(q$n_events), " events.")
 message(nrow(facilities) - nrow(q), " facilities are flagged against nothing ",

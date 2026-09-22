@@ -15,8 +15,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "Four rooms at the facility were decontaminated.",
-      "evidence_quote": "décontamination d’un ménage d’un cas confirmé au quartier Ngezi ainsi que de quatre (4) salles du CH UNIBU (AS Ngezi).",
+      "status_note": "Four rooms of the facility were decontaminated.",
+      "evidence_quote": "quatre (4) salles du CH UNIBU (AS Ngezi).",
       "confidence": "high"
     },
     {
@@ -25,13 +25,13 @@
       "site_kind": "other",
       "name_status": "named",
       "place_raw": "Rwankole",
-      "health_zone": "",
+      "health_zone": "Bunia",
       "province": "",
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "Healthcare providers at the facility were briefed on infection prevention and control.",
-      "evidence_quote": "Poursuite du briefing de quarante (40) prestataires de soins sur l’introduction à la PCI, les précautions standards et complémentaires (AS Rwambuzi et CH Rwankole).",
+      "status_note": "A safe and dignified burial was conducted following an alert.",
+      "evidence_quote": "1 au CH Rwankole, 2 à l’HGR Bunia, 1 à Top Santé et 1 sécurisé à l’HGR Bunia.",
       "confidence": "high"
     },
     {
@@ -40,28 +40,13 @@
       "site_kind": "other",
       "name_status": "named",
       "place_raw": "",
-      "health_zone": "",
+      "health_zone": "Bunia",
       "province": "",
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "A safe and dignified burial was conducted at the facility.",
-      "evidence_quote": "Quatre (4) EDS réalisés sur six (6) alertes : 1 au CH Rwankole, 2 à l’HGR Bunia, 1 à Top Santé et 1 sécurisé à l’HGR Bunia.",
-      "confidence": "high"
-    },
-    {
-      "facility_raw": "HGR Bunia",
-      "facility_type_raw": "HGR",
-      "site_kind": "hospital_isolation",
-      "name_status": "named",
-      "place_raw": "Bunia",
-      "health_zone": "",
-      "province": "",
-      "event": "operating",
-      "event_date": "",
-      "beds": "",
-      "status_note": "One critical case is being treated at the hospital.",
-      "evidence_quote": "Un (1) cas critique pris en charge à l’HGR Bunia.",
+      "status_note": "A safe and dignified burial was conducted following an alert.",
+      "evidence_quote": "1 au CH Rwankole, 2 à l’HGR Bunia, 1 à Top Santé et 1 sécurisé à l’HGR Bunia.",
       "confidence": "high"
     },
     {
@@ -70,13 +55,28 @@
       "site_kind": "hospital_isolation",
       "name_status": "named",
       "place_raw": "Bambu",
-      "health_zone": "",
+      "health_zone": "Bambu",
       "province": "",
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Eleven suspected cases escaped from the hospital due to a lack of nutritional support.",
+      "status_note": "Eleven suspect cases escaped due to a lack of nutritional support.",
       "evidence_quote": "Évasion de onze (11) cas suspects à l’HGR Bambu en raison du manque d’appui nutritionnel.",
+      "confidence": "high"
+    },
+    {
+      "facility_raw": "HGR Bunia",
+      "facility_type_raw": "HGR",
+      "site_kind": "hospital_isolation",
+      "name_status": "named",
+      "place_raw": "Bunia",
+      "health_zone": "Bunia",
+      "province": "",
+      "event": "operating",
+      "event_date": "",
+      "beds": "",
+      "status_note": "One critical case was treated.",
+      "evidence_quote": "Un (1) cas critique pris en charge à l’HGR Bunia.",
       "confidence": "high"
     },
     {
@@ -90,37 +90,37 @@
       "event": "under_construction",
       "event_date": "",
       "beds": "",
-      "status_note": "Construction work on the treatment centre is being monitored.",
+      "status_note": "Construction work for the centre was monitored.",
       "evidence_quote": "Suivi des travaux de construction des CTE de Bunia, du CME et de Rwampara.",
       "confidence": "high"
     },
     {
-      "facility_raw": "CTE du CME",
-      "facility_type_raw": "CTE",
+      "facility_raw": "CME",
+      "facility_type_raw": "CME",
       "site_kind": "treatment_centre",
-      "name_status": "named",
-      "place_raw": "CME",
+      "name_status": "ambiguous",
+      "place_raw": "",
       "health_zone": "",
       "province": "",
       "event": "under_construction",
       "event_date": "",
       "beds": "",
-      "status_note": "Construction work on the treatment centre is being monitored.",
+      "status_note": "Construction work for a treatment centre at this location was monitored.",
       "evidence_quote": "Suivi des travaux de construction des CTE de Bunia, du CME et de Rwampara.",
       "confidence": "high"
     },
     {
-      "facility_raw": "CTE de Rwampara",
-      "facility_type_raw": "CTE",
+      "facility_raw": "Rwampara",
+      "facility_type_raw": "",
       "site_kind": "treatment_centre",
-      "name_status": "named",
+      "name_status": "ambiguous",
       "place_raw": "Rwampara",
       "health_zone": "",
       "province": "",
       "event": "under_construction",
       "event_date": "",
       "beds": "",
-      "status_note": "Construction work on the treatment centre is being monitored.",
+      "status_note": "Construction work for a treatment centre at this location was monitored.",
       "evidence_quote": "Suivi des travaux de construction des CTE de Bunia, du CME et de Rwampara.",
       "confidence": "high"
     },
@@ -135,7 +135,7 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Four deaths were recorded at the treatment centre.",
+      "status_note": "Four deaths were recorded at the facility.",
       "evidence_quote": "ainsi que quatre (4) décès au CTE de l’HGR Bunia.",
       "confidence": "high"
     },
@@ -150,9 +150,9 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Individuals deprived of liberty are receiving psychosocial support in isolation.",
-      "evidence_quote": "Accompagnement psychosocial de quatre (4) personnes privées de liberté (PPL) en isolement à Rwampara et Nyankunde",
-      "confidence": "low"
+      "status_note": "Persons deprived of liberty received psychosocial support while in isolation.",
+      "evidence_quote": "personnes privées de liberté (PPL) en isolement à Rwampara et Nyankunde,",
+      "confidence": "high"
     },
     {
       "facility_raw": "Nyankunde",
@@ -165,9 +165,9 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "Individuals deprived of liberty are receiving psychosocial support in isolation.",
-      "evidence_quote": "Accompagnement psychosocial de quatre (4) personnes privées de liberté (PPL) en isolement à Rwampara et Nyankunde",
-      "confidence": "low"
+      "status_note": "Persons deprived of liberty received psychosocial support while in isolation.",
+      "evidence_quote": "personnes privées de liberté (PPL) en isolement à Rwampara et Nyankunde,",
+      "confidence": "high"
     },
     {
       "facility_raw": "HGR Rwampara",
@@ -180,8 +180,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "The hospital is isolating and treating patients.",
-      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru |",
+      "status_note": "The hospital had patients in isolation according to the patient movement table.",
+      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru | Total |",
       "confidence": "high"
     },
     {
@@ -195,8 +195,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "The facility is isolating and treating patients.",
-      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru |",
+      "status_note": "The facility had patients in isolation according to the patient movement table.",
+      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru | Total |",
       "confidence": "high"
     },
     {
@@ -210,8 +210,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "The hospital is isolating and treating patients.",
-      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru |",
+      "status_note": "The hospital had patients in isolation according to the patient movement table.",
+      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru | Total |",
       "confidence": "high"
     },
     {
@@ -225,8 +225,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "The hospital is isolating and treating patients.",
-      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru |",
+      "status_note": "The hospital had patients in isolation according to the patient movement table.",
+      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru | Total |",
       "confidence": "high"
     },
     {
@@ -240,8 +240,8 @@
       "event": "operating",
       "event_date": "",
       "beds": "",
-      "status_note": "The hospital is isolating and treating patients.",
-      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru |",
+      "status_note": "The hospital had patients in isolation according to the patient movement table.",
+      "evidence_quote": "| ISSUES | HGR Bunia | HGR Rwampara | CME | HGR Mongbwalu | HGR Nyankunde | HGR Bambu | HGR Aru | Total |",
       "confidence": "high"
     },
     {
@@ -255,9 +255,9 @@
       "event": "strained",
       "event_date": "",
       "beds": "",
-      "status_note": "The Ebola treatment centre has a total lack of essential medicines.",
+      "status_note": "The facility faced a total absence of essential medicines.",
       "evidence_quote": "Absence totale de médicaments essentiels au Centre de Traitement Ebola (CTE) et au bloc d'isolement de Rwampara et de Nyankunde.",
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "facility_raw": "bloc d'isolement de Rwampara",
@@ -270,23 +270,23 @@
       "event": "strained",
       "event_date": "",
       "beds": "",
-      "status_note": "The isolation block is completely out of essential medicines.",
-      "evidence_quote": "Absence totale de médicaments essentiels au Centre de Traitement Ebola (CTE) et au bloc d'isolement de Rwampara et de Nyankunde.",
+      "status_note": "The isolation block faced a total absence of essential medicines.",
+      "evidence_quote": "et au bloc d'isolement de Rwampara et de Nyankunde.",
       "confidence": "high"
     },
     {
-      "facility_raw": "bloc d'isolement de Nyankunde",
+      "facility_raw": "Nyankunde",
       "facility_type_raw": "",
       "site_kind": "isolation_centre",
-      "name_status": "named",
+      "name_status": "ambiguous",
       "place_raw": "Nyankunde",
       "health_zone": "",
       "province": "",
       "event": "strained",
       "event_date": "",
       "beds": "",
-      "status_note": "The isolation block is completely out of essential medicines.",
-      "evidence_quote": "Absence totale de médicaments essentiels au Centre de Traitement Ebola (CTE) et au bloc d'isolement de Rwampara et de Nyankunde.",
+      "status_note": "The isolation facility faced a total absence of essential medicines.",
+      "evidence_quote": "et au bloc d'isolement de Rwampara et de Nyankunde.",
       "confidence": "high"
     },
     {
@@ -300,8 +300,8 @@
       "event": "mention_only",
       "event_date": "",
       "beds": "",
-      "status_note": "The facility received a delivery of infection prevention and control supplies.",
-      "evidence_quote": "Livraison des intrants PCI aux ESS dans les ZS Rwampara, CME Bunia et écoles de Bunia avec l’appui de l’OMS et OCHA.",
+      "status_note": "Infection prevention and control supplies were delivered to the facility.",
+      "evidence_quote": "Livraison des intrants PCI aux ESS dans les ZS Rwampara, CME Bunia et écoles de Bunia",
       "confidence": "high"
     }
   ]
