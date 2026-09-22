@@ -48,6 +48,11 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# One model reply a report. Not committed: it is machine output, it is bulky,
+# and the datasets derived from it are committed instead. Rebuilding it costs
+# one model run over the corpus.
+data/cache/
+
 # What a run leaves behind: logs, raw model stdout, model comparisons, the
 # spend ledger. Nothing here is an input to anything committed, and nothing
 # reads it but a person diagnosing a run. The outputs that matter are

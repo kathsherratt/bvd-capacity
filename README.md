@@ -182,8 +182,9 @@ nohup caffeinate -is Rscript R/01_facilities.R \
 ```
 
 Exit 3 means the model quota stopped the run; rerunning resumes from the
-cache. `data/cache/` is committed, so steps 2 to 4 run without any model
-access.
+cache. `data/cache/` is not committed, so steps 2 onwards run from a cache you
+built: the datasets in `data/` are the committed result. Changing a decision
+or the register and rerunning steps 2, 9 and 3 needs no model access.
 
 ## The naming decisions
 

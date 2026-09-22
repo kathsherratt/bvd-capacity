@@ -42,9 +42,10 @@ bvd-sitreps.
 | `R/09_apply_decisions.R` | carries `registry/decisions.csv` into the name vocabulary |
 | `registry/facility_aliases.csv` | the name vocabulary, the only file meant to be edited by hand |
 
-`data/cache/` is committed, because each entry costs a model call to remake.
 `checks/` is committed, because each file is a decision waiting for a person.
-`runs/`, which holds logs, raw model output and the spend ledger, is not.
+`data/cache/`, one model reply a report, is not: it is machine output, and the
+datasets derived from it are committed instead. Nor is `runs/`, which holds
+logs, raw model output and the spend ledger.
 
 ## Running it
 
@@ -54,9 +55,11 @@ Rscript R/02_resolve.R             # no model calls
 Rscript R/03_checks.R              # exit 1 on any failure
 ```
 
-Steps 2 onwards need no model access, so anyone with a clone can reproduce the
-dataset from the committed cache. Only step 1 needs a model, and it takes
-about three hours over 116 reports; run it detached.
+Steps 2 onwards need no model access, but they read `data/cache/`, which is
+not committed. A clone can therefore check, query and correct the datasets as
+they stand, and rebuilding them from the reports means rerunning step 1: about
+three hours over 116 reports, run detached. A correction to the register or a
+decision needs no model at all.
 
 `BVD_SITREPS` points at a bvd-sitreps checkout; the default is a sibling
 clone.
