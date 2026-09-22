@@ -36,6 +36,9 @@ events <- fread(events_path())[nzchar(facility_id)]
 queue <- fread(review_queue_path())
 opening <- fread(opening_path())
 places <- if (file.exists(place_check_path())) fread(place_check_path()) else NULL
+decided <- if (file.exists(decisions_path())) {
+    fread(decisions_path(), colClasses = "character")
+} else NULL
 
 #' The same rule as R/06_opening.R, applied to a hypothetical merge.
 bounds_of <- function(d) {
@@ -146,6 +149,30 @@ for (i in seq_len(nrow(subgroups))) {
             if (nrow(o)) interval_of(o$opened_after[1], o$opened_by[1]) else "not in the opening table"))
     }
 
+    #' A group that grew has a decision covering part of it. Re-asking the
+    #' whole question throws away an answer someone already gave, so the
+    #' earlier verdict is shown with what has joined since.
+    prior <- if (!is.null(decided)) {
+        decided[cluster == sg$cluster & site_kind == sg$site_kind &
+            verdict != "unsure"]
+    } else NULL
+    if (!is.null(prior) && nrow(prior)) {
+        l <- c(l, "", "## Already decided, in part", "")
+        for (j in seq_len(nrow(prior))) {
+            was <- sort(trimws(strsplit(prior$facility_ids[j], ";")[[1]]))
+            joined <- setdiff(members$facility_id, was)
+            l <- c(l, sprintf("`%s` was decided **%s** by %s on %s, over %s.",
+                prior$decision_id[j], prior$verdict[j], prior$decided_by[j],
+                prior$decided_on[j], paste0("`", was, "`", collapse = ", ")))
+            if (length(joined)) {
+                l <- c(l, sprintf("Since then %s joined the group, which is why it is asked again.",
+                    paste0("`", joined, "`", collapse = ", ")))
+            }
+            if (nzchar(prior$note[j])) l <- c(l, sprintf("Reason given: %s", prior$note[j]))
+            l <- c(l, "")
+        }
+    }
+
     l <- c(l, "",
         if (shared > 0) {
             sprintf(paste("%d report%s name more than one of them. A report",
@@ -206,6 +233,56 @@ for (i in seq_len(nrow(subgroups))) {
             collapse = " / "),
         if_merged = interval_of(merged$after, merged$by),
         sheet = basename(path))
+}
+
+# ------------------------------------------- the names that carry no place
+
+#' `possible_missing_place` asks a different question: not "are these two one
+#' facility" but "which of these is the report talking about". One sheet holds
+#' them all, because each is a short question with the same shape, and because
+#' they do not belong to any cluster.
+flag_long <- if (file.exists(flags_path())) fread(flags_path()) else NULL
+if (!is.null(flag_long) && "flag" %in% names(flag_long)) {
+    mp <- flag_long[flag == "possible_missing_place"]
+    if (nrow(mp)) {
+        opening <- fread(opening_path())
+        fac <- fread(facilities_path())
+        l <- c("`#ai-written`", "",
+            "# Names that carry no place", "",
+            "The reports write some centres by their host institution alone:",
+            "`CTE CME`, `CTE ISTM`. The outbreak has several of each, so the",
+            "register cannot tell which one a report means, and the centre is",
+            "carried as a facility of its own. Each question below is which",
+            "existing centre the bare name belongs to, or whether it should be",
+            "held apart as unresolvable.", "")
+        for (g in unique(mp$group)) {
+            ids <- mp[group == g, unique(facility_id)]
+            bare <- fac[facility_id %in% ids][order(nchar(facility_name))][1]
+            others <- fac[facility_id %in% setdiff(ids, bare$facility_id)]
+            l <- c(l, sprintf("## %s", bare$facility_name), "",
+                sprintf("`%s`, %d reports, %d events, health zone %s.",
+                    bare$facility_id, bare$n_sitreps, bare$n_events,
+                    if (nzchar(bare$health_zone)) bare$health_zone else "not given"),
+                "", "Candidates:", "",
+                "| facility_id | name | reports | health zone |", "|---|---|---|---|")
+            for (j in seq_len(nrow(others))) {
+                l <- c(l, sprintf("| `%s` | %s | %d | %s |", others$facility_id[j],
+                    others$facility_name[j], others$n_sitreps[j],
+                    if (nzchar(others$health_zone[j])) others$health_zone[j] else "not given"))
+            }
+            q <- events[facility_id == bare$facility_id & nzchar(health_zone)]
+            if (!nrow(q)) q <- events[facility_id == bare$facility_id]
+            l <- c(l, "", "Quotes:", "")
+            for (k in seq_len(min(4L, nrow(q)))) {
+                l <- c(l, sprintf("- SitRep %s, %s: %s", q$sitrep[k],
+                    q$report_date[k], q$evidence_quote[k]))
+            }
+            l <- c(l, "", "Decision:", "", "Reason:", "")
+        }
+        writeLines(l, checks_dir("decisions", "00-names-without-a-place.md"))
+        message(uniqueN(mp$group), " names with no place, in ",
+            checks_dir("decisions", "00-names-without-a-place.md"))
+    }
 }
 
 idx <- rbindlist(index)

@@ -1,5 +1,12 @@
 rank,cluster,site_kind,facilities,events,same_report,now,if_merged,sheet
-1,site-hgr-bunia,transit_centre,2,3,0,[none .. 2026-05-23] / [none .. 2026-07-14],[none .. 2026-05-23],01-site-hgr-bunia-transit.md
+1,site-csr-bunia-cite,transit_centre,2,3,0,[none .. 2026-05-23] / [none .. 2026-07-14],[none .. 2026-05-23],01-site-csr-bunia-cite-transit.md
+1,site-csr-bunia-cite,treatment_centre,7,99,28,[2026-07-05 .. none] / [2026-05-28 .. 2026-05-29] / [2026-05-29 .. 2026-05-30] / [none .. 2026-06-10] / [2026-06-07 .. 2026-06-11] / [none .. 2026-06-27] / [none .. 2026-07-21],[2026-05-28 .. 2026-05-29],01-site-csr-bunia-cite-treatment.md
+2,ct-rwampara,treatment_centre,5,75,16,[2026-05-25 .. 2026-05-27] / [2026-05-24 .. 2026-05-27] / [none .. 2026-05-31] / [2026-06-06 .. 2026-06-25] / [none .. 2026-06-27],[2026-05-25 .. 2026-05-27],02-ct-rwampara-treatment.md
+3,site-hgr-nyankunde,treatment_centre,5,56,8,[2026-05-25 .. 2026-06-05] / [none .. 2026-06-14] / [2026-06-13 .. 2026-06-16] / [2026-06-15 .. 2026-06-18] / [none .. 2026-06-29],[2026-05-25 .. 2026-06-05],03-site-hgr-nyankunde-treatment.md
 5,site-hgr-mongwalu,treatment_centre,2,27,0,[none .. 2026-05-19] / [none .. 2026-06-19],[none .. 2026-05-19],05-site-hgr-mongwalu-treatment.md
 6,cte-katwa,treatment_centre,2,42,3,[2026-06-07 .. none] / [2026-06-03 .. 2026-06-07],[2026-06-06 .. 2026-06-07],06-cte-katwa-treatment.md
-14,cte-kitatumba,treatment_centre,2,16,1,[none .. 2026-07-06],[none .. 2026-07-06],14-cte-kitatumba-treatment.md
+8,site-hgr-isiro,treatment_centre,2,26,0,[none .. 2026-07-30] / [none .. 2026-08-12],[none .. 2026-07-30],08-site-hgr-isiro-treatment.md
+13,cte-kitatumba,treatment_centre,2,16,1,[none .. 2026-07-06],[none .. 2026-07-06],13-cte-kitatumba-treatment.md
+19,cte-sota,transit_centre,2,8,0,[none .. 2026-07-03] / [none .. 2026-07-05],[none .. 2026-07-03],19-cte-sota-transit.md
+30,ci-konga-konga,isolation_centre,2,4,0,[2026-08-27 .. none] / [2026-09-04 .. none],[2026-09-04 .. none],30-ci-konga-konga-isolation.md
+36,ci-isolement-zs-katana-fomulac,isolation_centre,2,3,0,[none .. 2026-08-13] / [none .. 2026-08-14],[none .. 2026-08-13],36-ci-isolement-zs-katana-fomulac-isolation.md

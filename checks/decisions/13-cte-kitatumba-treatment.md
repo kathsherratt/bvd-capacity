@@ -2,7 +2,7 @@
 
 # Treatment centres at Kitatumba, Butembo
 
-Cluster `cte-kitatumba`, rank 14 of the review queue, 16 events in the cluster.
+Cluster `cte-kitatumba`, rank 13 of the review queue, 16 events in the cluster.
 2 treatment centres to decide between.
 
 ## The question

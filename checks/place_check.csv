@@ -8,21 +8,21 @@ cte-mangala,Mangala,treatment_centre,mangala,Mangala,Ituri,8,8,TRUE,TRUE,TRUE,Bu
 cte-mambasa,Mambasa,treatment_centre,mambasa,Mambasa,Ituri,6,6,TRUE,TRUE,TRUE,Bureau Central de la Zone de Santé; Centre de Santé; Hôpital Général de Référence,""
 cte-mandima,Mandima,treatment_centre,mandima,Mandima,Ituri,5,5,TRUE,TRUE,TRUE,Bureau Central de la Zone de Santé; Centre de Santé; Hôpital Général de Référence,""
 cte-lolwa,Lolwa,treatment_centre,lolwa,Lolwa,Ituri,4,4,TRUE,TRUE,TRUE,Bureau Central de la Zone de Santé; Centre de Santé; Hôpital Général de Référence,possible_same_site
-ci-konga-konga,Konga-Konga,isolation_centre,konga konga,Makiso Kisangani,Tshopo,3,3,TRUE,TRUE,TRUE,Centre de Santé,""
-hosp-ch-salama,CH SALAMA,hospital_isolation,salama,Rwampara,Ituri,3,3,TRUE,TRUE,TRUE,Centre Hopitalier,""
+ci-konga-konga,Konga-Konga,isolation_centre,konga konga,Makiso Kisangani,Tshopo,3,3,TRUE,TRUE,TRUE,Centre de Santé,possible_name_subset
+hosp-ch-salama,CH SALAMA,hospital_isolation,salama,Rwampara,Ituri,3,3,TRUE,TRUE,TRUE,Centre Hopitalier,possible_name_subset
 hosp-elikya,Elikya,hospital_isolation,elikya,Bunia,Ituri,2,2,TRUE,TRUE,TRUE,Centre Hopitalier,possible_host_variant;possible_same_site
 hosp-lwiro,Lwiro,hospital_isolation,lwiro,Miti Murhesa,Sud-Kivu,2,2,TRUE,TRUE,TRUE,Centre de Santé; Hôpital,possible_same_site
 ct-fomulac,FOMULAC,transit_centre,fomulac,Katana,Sud-Kivu,1,1,TRUE,TRUE,TRUE,Hôpital Général de Référence,possible_same_site
 ct-nyangezi,Nyangezi,transit_centre,nyangezi,Nyangezi,Sud-Kivu,1,1,TRUE,TRUE,TRUE,Hôpital Général de Référence,""
 cte-gombari,Gombari,treatment_centre,gombari,Gombari,Haut-Uele,1,1,TRUE,TRUE,TRUE,Hôpital Général de Référence,""
 cte-rungu,Rungu,treatment_centre,rungu,Rungu,Haut-Uele,1,1,TRUE,TRUE,TRUE,Centre de Santé; Hôpital Général de Référence,""
-hosp-bundji,Bundji,hospital_isolation,bundji,Beni,Nord-Kivu,1,1,TRUE,TRUE,TRUE,Centre de Santé,possible_host_variant;possible_same_site
-hosp-fomulac,Fomulac,hospital_isolation,fomulac,Katana,Sud-Kivu,1,1,TRUE,TRUE,TRUE,Hôpital Général de Référence,possible_same_host;possible_same_site
+hosp-bundji,Bundji,hospital_isolation,bundji,Beni,Nord-Kivu,1,1,TRUE,TRUE,TRUE,Centre de Santé,possible_host_variant;possible_name_subset;possible_same_site
+hosp-fomulac,Fomulac,hospital_isolation,fomulac,Katana,Sud-Kivu,1,1,TRUE,TRUE,TRUE,Hôpital Général de Référence,possible_missing_place;possible_same_host;possible_same_site
 hosp-malepe,Malepe,hospital_isolation,malepe,Beni,Nord-Kivu,1,1,TRUE,TRUE,TRUE,Centre de Santé,""
 hosp-unibu,UNIBU,hospital_isolation,bunia,Bunia,Ituri,1,1,TRUE,TRUE,TRUE,Poste de Santé,""
 site-aero,Aéro,other,bunia,Bunia,Ituri,1,1,TRUE,TRUE,TRUE,Centre de Santé,possible_host_variant
 site-bundji,BUNDJI,other,beni,Beni,Nord-Kivu,1,1,TRUE,TRUE,TRUE,Centre de Santé,possible_same_site
-site-bunia-cite,Bunia-Cite,other,bunia,Bunia,Ituri,1,1,TRUE,TRUE,TRUE,Centre de Santé; Centre Hopitalier,possible_host_variant
+site-bunia-cite,Bunia-Cite,other,bunia,Bunia,Ituri,1,1,TRUE,TRUE,TRUE,Centre de Santé; Centre Hopitalier,possible_host_variant;possible_name_subset
 site-carl-becker,Carl Becker,other,beni,Beni,Nord-Kivu,1,1,TRUE,TRUE,TRUE,Centre Hopitalier,""
 site-ch-mudzi-maria,CH Mudzi Maria,other,mudzi maria,Bunia,"",1,1,TRUE,TRUE,TRUE,Centre Hopitalier,possible_host_variant;possible_spelling_variant
 site-chahoboka,Chahoboka,other,chahoboka,Miti Murhesa,Sud-Kivu,1,1,TRUE,TRUE,TRUE,Centre de Santé,possible_spelling_variant
@@ -38,27 +38,27 @@ site-rimba,Rimba,other,rimba,Rimba,Ituri,1,1,TRUE,TRUE,TRUE,Bureau Central de la
 site-rwambuzi,Rwambuzi,other,bunia,Bunia,Ituri,1,1,TRUE,TRUE,TRUE,Centre de Santé,possible_host_variant
 site-simbiliabo,Simbiliabo,other,simbiliabo,Bunia,Ituri,1,1,TRUE,TRUE,TRUE,Centre de Santé,possible_spelling_variant
 site-thwamahavuka,Thwamahavuka,other,thwamahavuka,Beni,Nord-Kivu,1,1,TRUE,TRUE,TRUE,Dispensaire,""
-cte-nizi,CTE de Nizi,treatment_centre,nizi,Nizi,Ituri,39,47,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
-cte-rwampara,CTE Rwampara,treatment_centre,rwampara,Rwampara,Ituri,35,38,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
-cte-katwa,CTE de Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,32,35,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
-hosp-hgr-bunia,HGR Bunia,hospital_isolation,bunia,Bunia,Ituri,32,35,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site;possible_word_order
+cte-nizi,CTE de Nizi,treatment_centre,nizi,Nizi,Ituri,39,47,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
+cte-rwampara,CTE Rwampara,treatment_centre,rwampara,Rwampara,Ituri,35,38,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
+cte-katwa,CTE de Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,32,35,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
+hosp-hgr-bunia,HGR Bunia,hospital_isolation,bunia,Bunia,Ituri,32,35,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site;possible_word_order
 cte-bambu,CTE de Bambu,treatment_centre,bambu,Bambu,Ituri,27,33,FALSE,FALSE,TRUE,,possible_same_site
-cte-cme,CTE CME,treatment_centre,rwampara,Rwampara,Ituri,28,29,FALSE,FALSE,TRUE,,""
-cte-hgr-bunia,CTE à l’HGR Bunia,treatment_centre,bunia,Bunia,Ituri,24,29,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
-cte-istm,CTE ISTM,treatment_centre,nyankunde,Nyankunde,Ituri,28,28,FALSE,FALSE,TRUE,,""
-cte-mongbwalu,CTE de Mongbwalu,treatment_centre,mongbwalu,Mongbwalu,Ituri,24,25,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
-cte-bunia,CTE Bunia,treatment_centre,bunia,Bunia,Ituri,23,24,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
+cte-cme,CTE CME,treatment_centre,rwampara,Rwampara,Ituri,28,29,FALSE,FALSE,TRUE,,possible_missing_place;possible_name_subset
+cte-hgr-bunia,CTE à l’HGR Bunia,treatment_centre,bunia,Bunia,Ituri,24,29,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
+cte-istm,CTE ISTM,treatment_centre,nyankunde,Nyankunde,Ituri,28,28,FALSE,FALSE,TRUE,,possible_missing_place;possible_name_subset
+cte-isiro,CTE d'Isiro,treatment_centre,isiro,Isiro,Haut-Uele,19,25,FALSE,FALSE,TRUE,,possible_name_subset;possible_same_site
+cte-mongbwalu,CTE de Mongbwalu,treatment_centre,mongbwalu,Mongbwalu,Ituri,24,25,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
+cte-bunia,CTE Bunia,treatment_centre,bunia,Bunia,Ituri,23,24,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 cte-elikya,CTE Elikya,treatment_centre,elikya,Bunia,Ituri,22,23,FALSE,FALSE,TRUE,,possible_same_site
-cte-isiro,CTE d'Isiro,treatment_centre,isiro,Isiro,Haut-Uele,17,21,FALSE,FALSE,TRUE,,possible_same_site
-cte-cme-bunia,CTE CME Bunia,treatment_centre,bunia,Bunia,Ituri,19,20,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
-hosp-hgr-rwampara,HGR Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,16,20,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site;possible_word_order
+cte-cme-bunia,CTE CME Bunia,treatment_centre,bunia,Bunia,Ituri,19,20,FALSE,FALSE,TRUE,,possible_host_variant;possible_missing_place;possible_name_subset;possible_same_site
+hosp-hgr-rwampara,HGR Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,16,20,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site;possible_word_order
 hosp-hgr-mongbwalu,HGR Mongbwalu,hospital_isolation,mongbwalu,Mongbwalu,Ituri,15,17,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site;possible_spelling_variant
-site-hgr-makiso-kisangani,HGR Makiso-Kisangani,other,makiso kisangani,Makiso Kisangani,Tshopo,17,17,FALSE,FALSE,TRUE,,possible_same_host;possible_same_site
-cte-nyankunde,CTE Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,16,16,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
+site-hgr-makiso-kisangani,HGR Makiso-Kisangani,other,makiso kisangani,Makiso Kisangani,Tshopo,17,17,FALSE,FALSE,TRUE,,possible_name_subset;possible_same_host;possible_same_site
+ci-madula,unités d’isolement de Madula,isolation_centre,madula,Wanierukula,Tshopo,16,16,FALSE,FALSE,TRUE,,""
+cte-nyankunde,CTE Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,16,16,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
 cte-beni,CTE Beni,treatment_centre,beni,Beni,Nord-Kivu,15,15,FALSE,FALSE,TRUE,,possible_same_site
 ct-hgr-musienene,CT de l’HGR de Musienene,transit_centre,musienene,Musienene,Nord-Kivu,14,14,FALSE,FALSE,TRUE,,possible_same_site
 cte-hc-kisangani,CTE HC Kisangani,treatment_centre,kisangani,Makiso Kisangani,Tshopo,13,13,FALSE,FALSE,TRUE,,possible_same_site
-ci-madula,unités d’isolement de Madula,isolation_centre,madula,Wanierukula,Tshopo,12,12,FALSE,FALSE,TRUE,,""
 cte-kitatumba,CTE de Kitatumba,treatment_centre,kitatumba,Butembo,Nord-Kivu,11,12,FALSE,FALSE,TRUE,,possible_same_host
 cte-nia-nia,CTE de Nia-Nia,treatment_centre,nia nia,Nia Nia,Ituri,9,11,FALSE,FALSE,TRUE,,possible_same_site
 cte-wamba,CTE de Wamba,treatment_centre,wamba,Wamba,Haut-Uele,11,11,FALSE,FALSE,TRUE,,""
@@ -69,13 +69,13 @@ site-hgr-beni,HGR de Beni,other,beni,Beni,Nord-Kivu,10,10,FALSE,FALSE,TRUE,,poss
 ct-bambu,CT Bambu,transit_centre,bambu,Bambu,Ituri,9,9,FALSE,FALSE,TRUE,,possible_same_site
 cte-pawa,CTE de Pawa,treatment_centre,pawa,Pawa,Haut-Uele,9,9,FALSE,FALSE,TRUE,,""
 hosp-centre-medical-evangelique-rwampara,Centre médical Evangélique de Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,9,9,FALSE,FALSE,TRUE,,possible_host_variant
-hosp-hgr-nyankunde,HGR Nyankunde,hospital_isolation,nyankunde,Nyankunde,Ituri,9,9,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site;possible_spelling_variant
+hosp-hgr-nyankunde,HGR Nyankunde,hospital_isolation,nyankunde,Nyankunde,Ituri,9,9,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_site;possible_spelling_variant
 cte-fataki,CTE de Fataki,treatment_centre,fataki,Fataki,Ituri,8,8,FALSE,FALSE,TRUE,,possible_same_site
 hosp-hgr-ganga,HGR de Ganga,hospital_isolation,ganga,Ganga,Bas-Uele,8,8,FALSE,FALSE,TRUE,,""
 ct-hgr-buta,HGR de Buta,transit_centre,buta,Buta,Bas-Uele,7,7,FALSE,FALSE,TRUE,,""
-ct-sota,CT Sota,transit_centre,sota,Nyankunde,Ituri,7,7,FALSE,FALSE,TRUE,,possible_same_site
-cte-hgr-katwa,HGR Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,6,7,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
-cte-istm-nyankunde,ISTM Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,7,7,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
+ct-sota,CT Sota,transit_centre,sota,Nyankunde,Ituri,7,7,FALSE,FALSE,TRUE,,possible_name_subset;possible_same_site
+cte-hgr-katwa,HGR Katwa,treatment_centre,katwa,Katwa,Nord-Kivu,6,7,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
+cte-istm-nyankunde,ISTM Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,7,7,FALSE,FALSE,TRUE,,possible_host_variant;possible_missing_place;possible_name_subset;possible_same_host
 cte-lita,CTE de Lita,treatment_centre,lita,Lita,Ituri,7,7,FALSE,FALSE,TRUE,,""
 site-hgr-bunia,HGR-Bunia,other,bunia,Bunia,Ituri,7,7,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
 ct-beni,CT de Beni,transit_centre,beni,Beni,Nord-Kivu,6,6,FALSE,FALSE,TRUE,,possible_same_site
@@ -94,17 +94,15 @@ hosp-hopital-matanda,Hôpital Matanda,hospital_isolation,matanda,Katwa,Nord-Kivu
 site-ch-don-divin,CH Don Divin,other,don divin,Katwa,Nord-Kivu,5,5,FALSE,FALSE,TRUE,,""
 site-cliniques-universitaires,Cliniques universitaires,other,s universitaires,Isiro,Haut-Uele,5,5,FALSE,FALSE,FALSE,,""
 site-cme-nyakunde,CME Nyakunde,other,nyakunde,Rwampara,Ituri,5,5,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
-ci-isolement-madula,isolement de Madula,isolation_centre,madula,Wanierukula,Tshopo,4,4,FALSE,FALSE,TRUE,,""
 ct-hgr-makiso-kisangani,centre de transit de l'HGR Makiso-Kisangani,transit_centre,makiso kisangani,Makiso Kisangani,Tshopo,4,4,FALSE,FALSE,TRUE,,possible_same_site
 ct-nizi,CT Nizi,transit_centre,nizi,Nizi,Ituri,4,4,FALSE,FALSE,TRUE,,possible_same_site
 cte-butembo,CTE Butembo,treatment_centre,butembo,Butembo,Nord-Kivu,4,4,FALSE,FALSE,TRUE,,possible_same_host
-cte-celui-isiro,celui d’Isiro,treatment_centre,isiro,Isiro,Haut-Uele,4,4,FALSE,FALSE,TRUE,,""
-cte-hgr-rwampara,CTE HGR/Rwampara,treatment_centre,rwampara,Rwampara,Ituri,3,4,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
+cte-hgr-rwampara,CTE HGR/Rwampara,treatment_centre,rwampara,Rwampara,Ituri,3,4,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 cte-kasenyi,CTE de Kasenyi,treatment_centre,kasenyi,Tchomia,Ituri,4,4,FALSE,FALSE,TRUE,,""
 cte-lwiro,CTE Lwiro,treatment_centre,lwiro,Miti Murhesa,Sud-Kivu,4,4,FALSE,FALSE,TRUE,,possible_same_site
 cte-matanda,CTE de Matanda,treatment_centre,matanda,"",Nord-Kivu,4,4,FALSE,FALSE,TRUE,,possible_same_site
 cte-musienene,CTE de Musienene,treatment_centre,musienene,Musienene,Nord-Kivu,4,4,FALSE,FALSE,TRUE,,possible_same_site
-hosp-cs-fedi,CS FEDI,hospital_isolation,fedi,Mangobo,Tshopo,4,4,FALSE,FALSE,TRUE,,""
+hosp-cs-fedi,CS FEDI,hospital_isolation,fedi,Mangobo,Tshopo,4,4,FALSE,FALSE,TRUE,,possible_name_subset
 hosp-hgr-aru,HGR Aru,hospital_isolation,aru,Aru,Ituri,4,4,FALSE,FALSE,TRUE,,possible_same_site
 hosp-hgr-kitatumba,HGR Kitatumba,hospital_isolation,kitatumba,Butembo,Nord-Kivu,4,4,FALSE,FALSE,TRUE,,""
 hosp-hgr-nyakunde,HGR NYAKUNDE,hospital_isolation,nyakunde,Nyakunde,Ituri,4,4,FALSE,FALSE,TRUE,,possible_spelling_variant
@@ -121,21 +119,21 @@ ct-lolwa,CT de Lolwa,transit_centre,lolwa,Lolwa,Ituri,3,3,FALSE,FALSE,TRUE,,poss
 ct-oicha,CT d’Oicha,transit_centre,oicha,Oicha,Nord-Kivu,3,3,FALSE,FALSE,TRUE,,possible_same_site
 cte-boma-mangbetu,CTE de Boma Mangbetu,treatment_centre,boma mangbetu,Boma Mangbetu,Haut-Uele,3,3,FALSE,FALSE,TRUE,,""
 cte-cinquantenaire,CTE Cinquantenaire,treatment_centre,cinquantenaire,Makiso Kisangani,Tshopo,3,3,FALSE,FALSE,TRUE,,""
-cte-cme-rwampara,Centre de Traitement Ebola (CTE) normé de CME Rwampara,treatment_centre,rwampara,Rwampara,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant
+cte-cme-rwampara,Centre de Traitement Ebola (CTE) normé de CME Rwampara,treatment_centre,rwampara,Rwampara,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_missing_place;possible_name_subset
 cte-ctmi,CTMI,treatment_centre,ctmi,"",Tshopo,3,3,FALSE,FALSE,FALSE,,""
-cte-hgr-nizi,CTE HGR de Nizi,treatment_centre,nizi,Nizi,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
-cte-hgr-nyankunde,CTE HGR Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
+cte-hgr-nizi,CTE HGR de Nizi,treatment_centre,nizi,Nizi,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
+cte-hgr-nyankunde,CTE HGR Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 cte-itav,CTE à l’ITAV,treatment_centre,itav,"",Nord-Kivu,3,3,FALSE,FALSE,FALSE,,""
 hosp-ch-mutiri,CH MUTIRI,hospital_isolation,mutiri,Katwa,Nord-Kivu,3,3,FALSE,FALSE,TRUE,,""
 hosp-cme-bunia,CME/BUNIA,hospital_isolation,bunia,Bunia,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
 hosp-cme-nyankunde,CME Nyankunde,hospital_isolation,nyankunde,Rwampara,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
-hosp-cs-bundji,CS Bundji,hospital_isolation,bundji,Beni,Nord-Kivu,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
+hosp-cs-bundji,CS Bundji,hospital_isolation,bundji,Beni,Nord-Kivu,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_spelling_variant
 hosp-cs-hoho,CS Hoho,hospital_isolation,hoho,Rwampara,Ituri,3,3,FALSE,FALSE,TRUE,,""
-hosp-hgr-katana,HGR Katana,hospital_isolation,katana,Katana,Sud-Kivu,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
+hosp-hgr-katana,HGR Katana,hospital_isolation,katana,Katana,Sud-Kivu,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
 hosp-hgr-mungbwalu,HGR MUNGBWALU,hospital_isolation,mungbwalu,Mongbwalu,Ituri,3,3,FALSE,FALSE,TRUE,,possible_spelling_variant
 site-ch-jerusalem,CH JERUSALEM,other,jerusalem,Katwa,Nord-Kivu,3,3,FALSE,FALSE,TRUE,,""
 site-clinique-william,Clinique William,other,william,Mangobo,Tshopo,3,3,FALSE,FALSE,TRUE,,possible_spelling_variant
-site-cme-bunia,CME/Bunia,other,bunia,Bunia,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
+site-cme-bunia,CME/Bunia,other,bunia,Bunia,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_site
 site-cs-aero,CS Aero,other,aero,Bunia,Ituri,3,3,FALSE,FALSE,TRUE,,possible_host_variant
 site-cs-boyoma,CS Boyoma,other,boyoma,Makiso Kisangani,Tshopo,3,3,FALSE,FALSE,TRUE,,""
 site-cs-jamaa,CS Jamaa,other,jamaa,Makiso Kisangani,Tshopo,3,3,FALSE,FALSE,TRUE,,""
@@ -160,43 +158,43 @@ site-poste-sante-amani,Poste de santé Amani,other,amani,Mongbwalu,Ituri,3,3,FAL
 ci-cs-boikene,CS Boikene,isolation_centre,boikene,Beni,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,possible_same_site
 ci-cs-lengabo,CS Lengabo,isolation_centre,lengabo,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,""
 ci-cs-shari,CS Shari,isolation_centre,shari,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,""
-ci-isolement-zs-katana-fomulac,isolement de la ZS de Katana (FOMULAC),isolation_centre,katana,Katana,Sud-Kivu,2,2,FALSE,FALSE,TRUE,,""
+ci-isolement-zs-katana-fomulac,isolement de la ZS de Katana (FOMULAC),isolation_centre,katana,Katana,Sud-Kivu,2,2,FALSE,FALSE,TRUE,,possible_name_subset
 ci-isolements-hgr-beni,isolements de l'HGR de Beni,isolation_centre,beni,Beni,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,""
-ct-bunia,CT Bunia,transit_centre,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
+ct-bunia,CT Bunia,transit_centre,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 ct-elikia,CT Elikia,transit_centre,elikia,Bunia,Ituri,2,2,FALSE,FALSE,FALSE,,""
 ct-hc-kisangani,CT de l'HC Kisangani,transit_centre,kisangani,Makiso Kisangani,Tshopo,2,2,FALSE,FALSE,TRUE,,possible_same_site
 ct-hgr-nia-nia,CT de Nia-Nia,transit_centre,nia nia,Nia Nia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_same_site
 ct-rwampara,CT de Rwampara,transit_centre,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,possible_same_site
-cte-cme-nyankunde,CTE CME Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
+cte-cme-nyankunde,CTE CME Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_missing_place;possible_name_subset;possible_same_site
 cte-hckis,CTE HCKis,treatment_centre,hckis,"",Tshopo,2,2,FALSE,FALSE,FALSE,,possible_same_site
-cte-hgr-mongbwalu,CTE de l’HGR Mongbwalu,treatment_centre,mongbwalu,Mongbwalu,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
+cte-hgr-mongbwalu,CTE de l’HGR Mongbwalu,treatment_centre,mongbwalu,Mongbwalu,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 cte-oicha,CTE d'Oicha,treatment_centre,oicha,Oicha,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,possible_same_site
 cte-sota,CTE de Sota,treatment_centre,sota,Nyankunde,Ituri,2,2,FALSE,FALSE,TRUE,,possible_same_site
-hosp-bunia-ch-elikya,BUNIA CH ELIKYA,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,""
+hosp-bunia-ch-elikya,BUNIA CH ELIKYA,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_name_subset
 hosp-bunia-clibnique-benedicte,BUNIA Clibnique Bénedicte,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,""
-hosp-bunia-hgr,BUNIA HGR,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_word_order
+hosp-bunia-hgr,BUNIA HGR,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_word_order
 hosp-bunia-rwaole,BUNIA RWAOLE,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,""
-hosp-bunia-sofepadi,BUNIA SOFEPADI,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,""
+hosp-bunia-sofepadi,BUNIA SOFEPADI,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_name_subset
 hosp-ch-cme,CH CME,hospital_isolation,"","","",2,2,FALSE,FALSE,FALSE,,""
-hosp-ch-elikya,CH Elikya,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant
+hosp-ch-elikya,CH Elikya,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset
 hosp-dispensaire-maman-regine,dispensaire Maman Régine,hospital_isolation,dispensaire maman regine,Lubunga,Tshopo,2,2,FALSE,FALSE,FALSE,,""
-hosp-hgr-fomulac-katana,HGR FOMULAC Katana,hospital_isolation,katana,Katana,Sud-Kivu,2,2,FALSE,FALSE,TRUE,,""
+hosp-hgr-fomulac-katana,HGR FOMULAC Katana,hospital_isolation,katana,Katana,Sud-Kivu,2,2,FALSE,FALSE,TRUE,,possible_missing_place;possible_name_subset
 hosp-hgr-mambasa,HGR Mambasa,hospital_isolation,mambasa,Mambasa,Ituri,2,2,FALSE,FALSE,TRUE,,""
-hosp-rwampara-ch-salama,RWAMPARA CH SALAMA,hospital_isolation,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,""
-hosp-rwampara-cme,RWAMPARA CME,hospital_isolation,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant
+hosp-rwampara-ch-salama,RWAMPARA CH SALAMA,hospital_isolation,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,possible_name_subset
+hosp-rwampara-cme,RWAMPARA CME,hospital_isolation,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset
 hosp-rwampara-cs-hoho,RWAMPARA CS HOHO,hospital_isolation,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,""
-hosp-rwampara-hgr,RWAMPARA HGR,hospital_isolation,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_word_order
-hosp-sofepadi,SOFEPADI,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,""
+hosp-rwampara-hgr,RWAMPARA HGR,hospital_isolation,rwampara,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_word_order
+hosp-sofepadi,SOFEPADI,hospital_isolation,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_name_subset
 site-ch-fepsi,CH Fepsi,other,fepsi,Butembo,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,""
 site-ch-mayogo,CH Mayogo,other,isiro,Isiro,Haut-Uele,2,2,FALSE,FALSE,TRUE,,""
 site-ch-saint-joseph,CH Saint Joseph,other,rughenda,Katwa,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,""
 site-clinique-salama,Clinique Salama,other,salama,"",Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant
-site-clinique-universitaire,clinique universitaire,other,isiro,Isiro,Haut-Uele,2,2,FALSE,FALSE,TRUE,,""
+site-clinique-universitaire,clinique universitaire,other,isiro,Isiro,Haut-Uele,2,2,FALSE,FALSE,TRUE,,possible_name_subset
 site-cliniques-universitaires-horizon,cliniques universitaires Horizon,other,horizon,Goma,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,""
 site-cm-bethel,CM bethel,other,bethel,"",Ituri,2,2,FALSE,FALSE,TRUE,,""
 site-cm-gracia,CM Gracia,other,beni,Beni,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
 site-cm-lobiko,CM Lobiko,other,lobiko,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,""
-site-cs-abelkozo,CS Abelkozo,other,abelkozo,Mongbwalu,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant
+site-cs-abelkozo,CS Abelkozo,other,abelkozo,Mongbwalu,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset
 site-cs-amani,CS Amani,other,amani,Karisimbi,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
 site-cs-bora-uzima,CS Bora Uzima,other,bora uzima,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_spelling_variant
 site-cs-cnca,CS CNCA,other,cnca,"",Ituri,2,2,FALSE,FALSE,TRUE,,""
@@ -215,7 +213,7 @@ site-hopital-cinquantenaire,hôpital du cinquantenaire,other,kinshasa,"","",2,2,
 site-hopital-general-reference-province-bas-uele,hôpital général de référence de la province de Bas Uele,other,province bas uele,"",Bas-Uele,1,2,FALSE,FALSE,FALSE,,""
 site-hopital-libiki,hôpital Libiki,other,libiki,"",Haut-Uele,2,2,FALSE,FALSE,FALSE,,""
 site-iem-nyakunde,IEM Nyakunde,other,nyakunde,Nyakunde,Ituri,2,2,FALSE,FALSE,TRUE,,""
-site-matanda,Matanda,other,matanda,"",Nord-Kivu,2,2,FALSE,TRUE,TRUE,,possible_host_variant;possible_same_site
+site-matanda,Matanda,other,matanda,"",Nord-Kivu,2,2,FALSE,TRUE,TRUE,,possible_host_variant;possible_name_subset;possible_same_site
 site-pavillon-militaire,pavillon militaire,other,pavillon militaire,Tshopo,Tshopo,2,2,FALSE,FALSE,FALSE,,""
 site-ps-cbca,PS CBCA,other,ps cbca,"",Ituri,2,2,FALSE,FALSE,FALSE,,""
 site-ps-katoto,PS Katoto,other,katoto,"","",2,2,FALSE,FALSE,TRUE,,""
@@ -229,19 +227,19 @@ ci-hgr-isiro,centre d’isolement de l’HGR d’Isiro,isolation_centre,isiro,Is
 ci-hgr-musienene,centre d'isolement à l'HGR de Musienene,isolation_centre,musienene,Musienene,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_same_site
 ci-isolement-hgr-vuhovi,isolement de l'HGR Vuhovi,isolation_centre,vuhovi,Vuhovi,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 ci-isolement-musienene,isolement de Musienene,isolation_centre,musienene,Musienene,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
-ci-isolement-zs-katana,isolement de la ZS de Katana,isolation_centre,katana,Katana,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,""
-ci-isolements-konga-konga,isolements (KONGA KONGA),isolation_centre,konga konga,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,""
+ci-isolement-zs-katana,isolement de la ZS de Katana,isolation_centre,katana,Katana,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_name_subset
+ci-isolements-konga-konga,isolements (KONGA KONGA),isolation_centre,konga konga,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 ci-sites-lita,sites de Lita,isolation_centre,lita,Lita,Ituri,1,1,FALSE,FALSE,TRUE,,""
 ci-sites-logo,sites de Logo,isolation_centre,logo,Logo,Ituri,1,1,FALSE,FALSE,TRUE,,""
 ci-sites-mambasa,sites de Mambasa,isolation_centre,mambasa,Mambasa,Ituri,1,1,FALSE,FALSE,TRUE,,""
 ci-sites-nizi,sites de Nizi,isolation_centre,nizi,Nizi,Ituri,1,1,FALSE,FALSE,TRUE,,""
-ct-1ct-sota,1CT SOTA,transit_centre,sota,Nyankunde,Ituri,1,1,FALSE,FALSE,TRUE,,""
+ct-1ct-sota,1CT SOTA,transit_centre,sota,Nyankunde,Ituri,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 ct-camp-deplaces-kingoze,CT du camp de déplacés de Kingoze,transit_centre,kingoze,"",Ituri,1,1,FALSE,FALSE,FALSE,,""
 ct-camp-kingozi,CT du camp de Kingozi,transit_centre,camp kingozi,"",Ituri,1,1,FALSE,FALSE,FALSE,,""
 ct-ctem,CTEM,transit_centre,ctem,"",Ituri,1,1,FALSE,FALSE,FALSE,,""
 ct-cub,CUB,transit_centre,cub,"",Sud-Kivu,1,1,FALSE,FALSE,FALSE,,""
 ct-fataki,CT Fataki,transit_centre,fataki,Fataki,Ituri,1,1,FALSE,FALSE,TRUE,,possible_same_site
-ct-hgr-bunia,CT HGR Bunia,transit_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site
+ct-hgr-bunia,CT HGR Bunia,transit_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 ct-kanzuli,CT Kanzuli,transit_centre,kanzuli,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
 ct-limba,centre de transit de Limba,transit_centre,limba,Viadana,Bas-Uele,1,1,FALSE,FALSE,TRUE,,""
 ct-logo,CT Logo,transit_centre,logo,Logo,Ituri,1,1,FALSE,FALSE,TRUE,,possible_same_site
@@ -252,14 +250,14 @@ ct-mayogo,CT de Mayogo,transit_centre,mayogo,Isiro,Haut-Uele,1,1,FALSE,FALSE,TRU
 ct-mpox,CT Mpox,transit_centre,mpox,"","",1,1,FALSE,FALSE,FALSE,,""
 ct-uob,centre de transit de l'UOB,transit_centre,uob,"",Sud-Kivu,1,1,FALSE,FALSE,FALSE,,""
 ct-vuhovi,CT de Vuhovi,transit_centre,vuhovi,Vuhovi,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
-cte-cth-isiro,CTH d’Isiro,treatment_centre,isiro,Isiro,Haut-Uele,1,1,FALSE,FALSE,TRUE,,""
+cte-cth-isiro,CTH d’Isiro,treatment_centre,isiro,Isiro,Haut-Uele,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 cte-ctm,CTM,treatment_centre,ctm,"",Tshopo,1,1,FALSE,FALSE,FALSE,,""
-cte-elikya-bunia,CTE Elikya/Bunia,treatment_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
-cte-elikya-zs-bunia,CTE Elikya/ZS Bunia,treatment_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
+cte-elikya-bunia,CTE Elikya/Bunia,treatment_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_name_subset
+cte-elikya-zs-bunia,CTE Elikya/ZS Bunia,treatment_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 cte-foner-mambasa,CTE de Foner Mambasa,treatment_centre,foner mambasa,"",Ituri,1,1,FALSE,FALSE,FALSE,,""
 cte-iste,CTE ISTE,treatment_centre,iste,"",Ituri,1,1,FALSE,FALSE,FALSE,,""
-cte-istm-nyankunde-bunia,CTE de L'ISTM NYANKUNDE A BUNIA,treatment_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
-cte-istm-zs-rwampara,CTE ISTM/ZS Rwampara,treatment_centre,rwampara,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,""
+cte-istm-nyankunde-bunia,CTE de L'ISTM NYANKUNDE A BUNIA,treatment_centre,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_missing_place;possible_name_subset
+cte-istm-zs-rwampara,CTE ISTM/ZS Rwampara,treatment_centre,rwampara,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,possible_missing_place;possible_name_subset
 cte-juhudi,CTE de Juhudi,treatment_centre,juhudi,Nia-Nia,"",1,1,FALSE,FALSE,TRUE,,""
 cte-kalunguta,CTE Kalunguta,treatment_centre,kalunguta,Kalunguta,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 cte-mambasa-lolwa,Mambasa Lolwa,treatment_centre,mambasa lolwa,"",Ituri,1,1,FALSE,FALSE,FALSE,,""
@@ -284,9 +282,9 @@ hosp-cliniques-universitaires-bukavu,Cliniques universitaires de Bukavu,hospital
 hosp-cliniques-universitaires-uele,cliniques universitaires de l'Uélé,hospital_isolation,s universitaires uele,"","",1,1,FALSE,FALSE,FALSE,,""
 hosp-cm-mathysen,CM MATHYSEN,hospital_isolation,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
 hosp-cm-merites,CM LES MERITES,hospital_isolation,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
-hosp-cme-zs-rwampara,CME/Zs Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,""
+hosp-cme-zs-rwampara,CME/Zs Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 hosp-cs-bunji,CS Bunji,hospital_isolation,bunji,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,possible_spelling_variant
-hosp-cs-fedi-mangobo,CS FEDI de Mangobo,hospital_isolation,mangobo,Mangobo,Tshopo,1,1,FALSE,FALSE,TRUE,,""
+hosp-cs-fedi-mangobo,CS FEDI de Mangobo,hospital_isolation,mangobo,Mangobo,Tshopo,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 hosp-cs-kasindi,CS Kasindi,hospital_isolation,kasindi,Mutwanga,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 hosp-cs-makerere,CS Makerere,hospital_isolation,makerere,"","",1,1,FALSE,FALSE,TRUE,,""
 hosp-csr-kyavonyonge,CSR Kyavonyonge,hospital_isolation,kyavonyonge,Kyondo,Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
@@ -298,15 +296,15 @@ hosp-hgr-nia-nia,HGR de Nia-Nia,hospital_isolation,nia nia,Nia-Nia,Ituri,1,1,FAL
 hosp-hgr-oicha,HGR Oicha,hospital_isolation,oicha,Oicha,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_same_site
 hosp-hgr-pawa,HGR de Pawa,hospital_isolation,pawa,Pawa,Haut-Uele,1,1,FALSE,FALSE,TRUE,,""
 hosp-hgr-tchomia,HGR de Tchomia,hospital_isolation,tchomia,Tchomia,Ituri,1,1,FALSE,FALSE,TRUE,,""
-hosp-hgr-zs-nyankunde,HGR de la ZS de Nyankunde,hospital_isolation,nyankunde,Nyankunde,Ituri,1,1,FALSE,FALSE,TRUE,,""
+hosp-hgr-zs-nyankunde,HGR de la ZS de Nyankunde,hospital_isolation,nyankunde,Nyankunde,Ituri,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 hosp-hopital-heal-africa,hopital Heal Africa,hospital_isolation,goma,Goma,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 hosp-hopital-mambangu,Hôpital de Mambangu,hospital_isolation,mambangu,"","",1,1,FALSE,FALSE,FALSE,,""
 hosp-hopital-militaire-makiso-kisangani,hôpital militaire de Makiso-Kisangani,hospital_isolation,makiso kisangani,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,""
 hosp-hopital-mongbwalu,hôpital Mongbwalu,hospital_isolation,mongbwalu,Mongbwalu,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
-hosp-katana,Katana,hospital_isolation,katana,Katana,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
+hosp-katana,Katana,hospital_isolation,katana,Katana,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
 hosp-ps-divine,PS Divine,hospital_isolation,divine,"","",1,1,FALSE,FALSE,TRUE,,""
 hosp-rwakole,RWAKOLE,hospital_isolation,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
-site-abelkozo,Abelkozo,other,abelkozo,"","",1,1,FALSE,TRUE,TRUE,,possible_host_variant
+site-abelkozo,Abelkozo,other,abelkozo,"","",1,1,FALSE,TRUE,TRUE,,possible_host_variant;possible_name_subset
 site-as-birinyama,AS Birinyama,other,birinyama,Nyankunde,Ituri,1,1,FALSE,FALSE,TRUE,,""
 site-bcz-bunia,Bcz/Bunia,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
 site-bethsaida,Bethsaïda,other,bethsaida,Beni,Nord-Kivu,1,1,FALSE,TRUE,TRUE,,""
@@ -323,7 +321,7 @@ site-centre-hospitalier-sainte-rita,Centre Hospitalier Sainte Rita,other,sainte 
 site-centre-hospitalier-tokobika,centre hospitalier TOKOBIKA,other,tokobika,"","",1,1,FALSE,FALSE,TRUE,,""
 site-centre-hospitalier-unibu,Centre Hospitalier UNIBU,other,lumumba,Bunia,"",1,1,FALSE,FALSE,TRUE,,possible_host_variant
 site-centre-medical-dalson,centre médical Dalson,other,dalson,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
-site-centre-medical-evangelique-nyakunde-cme-bunia,Centre Médical Evangélique Nyakunde (CME) de Bunia,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant
+site-centre-medical-evangelique-nyakunde-cme-bunia,Centre Médical Evangélique Nyakunde (CME) de Bunia,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset
 site-centre-medical-joie,centre médical La Joie,other,beni,Beni,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant
 site-centre-medical-prive-sodeseka,Centre médical privé Sodeseka,other,prive sodeseka,Katana,Sud-Kivu,1,1,FALSE,FALSE,FALSE,,""
 site-centre-medical-tradimoderne,Centre médical Tradimoderne,other,tradimoderne,"",Tshopo,1,1,FALSE,FALSE,FALSE,,""
@@ -336,7 +334,7 @@ site-ch-amani,CH Amani,other,amani,"",Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_
 site-ch-antabuse,CH Antabuse,other,antabuse,Katwa,Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
 site-ch-aru,CH Aru,other,aru,Aru,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant
 site-ch-beni,CH beni,other,beni,Beni,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
-site-ch-bunia-cite,CH Bunia cité,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
+site-ch-bunia-cite,CH Bunia cité,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_spelling_variant
 site-ch-carle-becker,CH CARLE BECKER,other,beni,Beni,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-ch-cbca,CH CBCA,other,cbca,Beni,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-ch-cebece,CH CEBECE,other,kasanga,"",Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
@@ -347,8 +345,8 @@ site-ch-kachucha,CH Kachucha,other,kachucha,Miti Muhesa,Sud-Kivu,1,1,FALSE,FALSE
 site-ch-kavumu,CH Kavumu,other,kavumu,Miti Muhesa,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
 site-ch-koso,CH Koso,other,koso,"",Tshopo,1,1,FALSE,FALSE,FALSE,,""
 site-ch-kyaghala,CH KYAGHALA,other,kyaghala,"","",1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
-site-ch-lwiro,CH Lwiro,other,lwiro,Miti- Murhesa,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,""
-site-ch-lwiro-centre,CH Lwiro Centre,other,lwiro,Miti-Murhesa,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,""
+site-ch-lwiro,CH Lwiro,other,lwiro,Miti- Murhesa,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_name_subset
+site-ch-lwiro-centre,CH Lwiro Centre,other,lwiro,Miti-Murhesa,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 site-ch-maghombi,CH Maghombi,other,oicha,Oicha,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-ch-malende,CH MALENDE,other,butembo,Butembo,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-ch-mattysen,CH MATTYSEN,other,mattysen,"","",1,1,FALSE,FALSE,FALSE,,""
@@ -397,7 +395,7 @@ site-clinique-sofepadi,Clinique SOFEPADI,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE
 site-clinique-tumaini,Clinique Tumaini,other,tumaini,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,""
 site-clinique-unibu,clinique Unibu,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant
 site-clinique-universelle,Clinique Universelle,other,universelle,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
-site-clinique-universitaire-isiro,Clinique universitaire d’Isiro,other,isiro,Isiro,Haut-Uele,1,1,FALSE,FALSE,TRUE,,possible_host_variant
+site-clinique-universitaire-isiro,Clinique universitaire d’Isiro,other,isiro,Isiro,Haut-Uele,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset
 site-clinique-vie-hommes,Clinique La vie des Hommes,other,vie hommes,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
 site-clinique-williams,Clinique Williams,other,williams,"",Tshopo,1,1,FALSE,FALSE,FALSE,,possible_spelling_variant
 site-cliniques-monusco,cliniques de la MONUSCO,other,goma,Goma,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
@@ -429,7 +427,7 @@ site-cm-st-gabriel,CM St Gabriel,other,st gabriel,"",Ituri,1,1,FALSE,FALSE,FALSE
 site-cm-st-pierre,CM St pierre,other,st pierre,"","",1,1,FALSE,FALSE,TRUE,,""
 site-cm-st-raphael,CM St Raphael,other,st raphael,"","",1,1,FALSE,FALSE,TRUE,,""
 site-cmc-kiharo,CMC Kiharo,other,kiharo,Katwa,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
-site-cme-nyakunde-bunia,CME Nyakunde Bunia,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant
+site-cme-nyakunde-bunia,CME Nyakunde Bunia,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset
 site-cme-nyankunde,CME/Nyankunde,other,nyankunde,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site;possible_spelling_variant
 site-cs-abiangama,CS Abiangama,other,abiangama,Pawa,Haut-Uele,1,1,FALSE,FALSE,TRUE,,""
 site-cs-adventiste,CS Adventiste,other,adventiste,"","",1,1,FALSE,FALSE,TRUE,,""
@@ -443,7 +441,7 @@ site-cs-baruti,CS Baruti,other,baruti,Buta,Bas-Uele,1,1,FALSE,FALSE,TRUE,,""
 site-cs-betshaida,CS Betshaïda,other,betshaida,"",Tshopo,1,1,FALSE,FALSE,FALSE,,""
 site-cs-binase,CS BINASE,other,binase,Mambasa,Ituri,1,1,FALSE,FALSE,TRUE,,""
 site-cs-boikene,CS BOIKENE,other,beni,Beni,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_same_site
-site-cs-bunia-cite,CS Bunia Cité,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
+site-cs-bunia-cite,CS Bunia Cité,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_spelling_variant
 site-cs-butanuka,CS Butanuka,other,beni,Beni,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-cs-butsili,CS BUTSILI,other,beni,Beni,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-cs-dokotolo,CS Dokotolo,other,dokotolo,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
@@ -482,8 +480,8 @@ site-cs-nyakasanza,CS Nyakasanza,other,nyakasanza,Bunia,Ituri,1,1,FALSE,FALSE,TR
 site-cs-nyakero,CS Nyakero,other,nyakero,"","",1,1,FALSE,FALSE,FALSE,,""
 site-cs-plutot,CS plutôt,other,plutot,"","",1,1,FALSE,FALSE,FALSE,,""
 site-cs-poli-frontiere,CS Poli de frontiere,other,poli frontiere,"","",1,1,FALSE,FALSE,FALSE,,""
-site-cs-reference-rubi-lisanga,CS de référence de Rubi Lisanga,other,rubi lisanga,Buta,Bas-Uele,1,1,FALSE,FALSE,TRUE,,""
-site-cs-rubi-lisanga,CS Rubi-Lisanga,other,rubi lisanga,Buta,Bas-Uele,1,1,FALSE,FALSE,TRUE,,possible_spelling_variant
+site-cs-reference-rubi-lisanga,CS de référence de Rubi Lisanga,other,rubi lisanga,Buta,Bas-Uele,1,1,FALSE,FALSE,TRUE,,possible_name_subset
+site-cs-rubi-lisanga,CS Rubi-Lisanga,other,rubi lisanga,Buta,Bas-Uele,1,1,FALSE,FALSE,TRUE,,possible_name_subset;possible_spelling_variant
 site-cs-rwambuzi,CS Rwambuzi,other,rwambuzi,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant
 site-cs-rwankole,CS Rwankole,other,rwankole,"","",1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
 site-cs-saint-luc,CS Saint-Luc,other,saint luc,Katwa,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
@@ -503,7 +501,7 @@ site-cs-vutike,CS Vutike,other,butembo,Butembo,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,"
 site-cs-yedi,CS Yedi,other,yedi,Mongbwalu,"",1,1,FALSE,FALSE,TRUE,,""
 site-csr-akwa,CSR Akwa,other,akwa,Damas,Ituri,1,1,FALSE,FALSE,FALSE,,""
 site-csr-amadi,CSR Amadi,other,amadi,Poko,Bas-Uele,1,1,FALSE,FALSE,TRUE,,""
-site-csr-bunia-cite,CSR Bunia-cité,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_spelling_variant
+site-csr-bunia-cite,CSR Bunia-cité,other,bunia,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,possible_name_subset;possible_spelling_variant
 site-csr-carl-beker,CSR CARL BEKER,other,csr carl beker,"","",1,1,FALSE,FALSE,FALSE,,""
 site-csr-foyer,CSR Foyer,other,csr foyer,"",Tshopo,1,1,FALSE,FALSE,FALSE,,""
 site-csr-kalivuli,CSR Kalivuli,other,kalivuli,"",Ituri,1,1,FALSE,FALSE,TRUE,,""
@@ -535,7 +533,7 @@ site-dispensaire-tuha,Dispensaire Tuha,other,tuha,Beni,Nord-Kivu,1,1,FALSE,FALSE
 site-dispensaire-virunga,dispensaire Virunga,other,virunga,Karisimbi,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-dispensaires-guerison-divine,dispensaires Guérison Divine,other,dispensaires guerison divine,Beni,Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
 site-dispensaires-lukogho,dispensaires Lukogho,other,dispensaires lukogho,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
-site-ess-kalagane,ESS Kalagane,other,kalagane,Nyantende,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant
+site-ess-kalagane,ESS Kalagane,other,kalagane,Nyantende,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset
 site-grace-dieu,la Grâce de Dieu,other,grace dieu,"",Ituri,1,1,FALSE,TRUE,TRUE,,""
 site-hgr-aru,HGR/Aru,other,aru,Aru,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
 site-hgr-cinquantenaire,HGR Cinquantenaire,other,cinquantenaire,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,possible_host_variant
@@ -543,7 +541,7 @@ site-hgr-kabondo,HGR Kabondo,other,kabondo,Kabondo,Tshopo,1,1,FALSE,FALSE,TRUE,,
 site-hgr-likati,HGR de Likati,other,likati,Likati,Bas-Uele,1,1,FALSE,FALSE,TRUE,,""
 site-hgr-logo,HGR de la Zone de Santé de Logo,other,logo,Logo,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
 site-hgr-lolwa,HGR LOLWA,other,lolwa,Lolwa,Ituri,1,1,FALSE,FALSE,TRUE,,""
-site-hgr-matanda,HGR Matanda,other,matanda,"","",1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
+site-hgr-matanda,HGR Matanda,other,matanda,"","",1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_spelling_variant
 site-hgr-mogbwalu,HGR Mogbwalu,other,mongbwalu,Mongbwalu,Ituri,1,1,FALSE,FALSE,TRUE,,possible_spelling_variant
 site-hgr-mongbwalu,HGR de Mongbwalu,other,mongbwalu,Mongbwalu,Ituri,1,1,FALSE,FALSE,TRUE,,possible_same_site;possible_spelling_variant
 site-hgr-nundu,HGR Nundu,other,nundu,Nundu,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,""
@@ -555,13 +553,13 @@ site-hgro,HGRO,other,tenambo,Oïcha,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-hopital-general-logo,Hôpital général de Logo,other,logo,Logo,Ituri,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host
 site-hopital-general-reference-buta,hôpital général de référence de Buta,other,buta,Buta,Bas-Uele,1,1,FALSE,FALSE,TRUE,,""
 site-hopital-lengabo,hôpital de LENGABO,other,lengabo,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,""
-site-hopital-matanda,hôpital Matanda,other,matanda,"",Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_site
+site-hopital-matanda,hôpital Matanda,other,matanda,"",Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_site
 site-hopital-militaire-mambangu,Hôpital militaire de Mambangu,other,mambangu,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
 site-hopital-militaire-muhumba,Hopital Militaire de Muhumba,other,muhumba,Kaziba,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,""
-site-hsr-matanda,HSR Matanda,other,matanda,Butembo,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_spelling_variant
+site-hsr-matanda,HSR Matanda,other,matanda,Butembo,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_name_subset;possible_spelling_variant
 site-isolement-hgr-ps-heritage,isolement HGR PS Heritage,other,nizi,Nizi,Ituri,1,1,FALSE,FALSE,TRUE,,""
 site-jesus-est-sauveur-cbca,JESUS EST SAUVEUR CBCA,other,jesus est sauveur cbca,"","",1,1,FALSE,FALSE,FALSE,,""
-site-kalagane,Kalagane,other,kalagane,"","",1,1,FALSE,TRUE,TRUE,,possible_host_variant
+site-kalagane,Kalagane,other,kalagane,"","",1,1,FALSE,TRUE,TRUE,,possible_host_variant;possible_name_subset
 site-kami,KAMI,other,kami,"",Nord-Kivu,1,1,FALSE,FALSE,FALSE,,""
 site-logo-angumu,Logo Angumu,other,logo angumu,"",Ituri,1,1,FALSE,FALSE,FALSE,,""
 site-maternite-clinique-elikya-mere-enfant,Maternité de Clinique Elikya Mère-enfant,other,rwampara,Rwampara,Ituri,1,1,FALSE,FALSE,TRUE,,""
@@ -570,7 +568,7 @@ site-morgue-ngalika,morgue de Ngalika,other,ngalika,"",Nord-Kivu,1,1,FALSE,FALSE
 site-morgue-rekapi,morgue REKAPI,other,kisangani,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,""
 site-mta-ouragan,MTA OURAGAN,other,kihinga,Katwa,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 site-orphelinat-saint-nicolas,orphelinat Saint-Nicolas,other,bankoko,Bunia,Ituri,1,1,FALSE,FALSE,TRUE,,""
-site-pavillon-militaire-hgr-makiso-kisangani,pavillon militaire de l’HGR Makiso-Kisangani,other,makiso kisangani,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,""
+site-pavillon-militaire-hgr-makiso-kisangani,pavillon militaire de l’HGR Makiso-Kisangani,other,makiso kisangani,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 site-pekis,PEKIS,other,pekis,"",Tshopo,1,1,FALSE,FALSE,FALSE,,""
 site-polyclinique-limbi-angaika,Polyclinique Limbi Angaika,other,limbi angaika,"","",1,1,FALSE,FALSE,FALSE,,""
 site-polyclinique-millenaire,Polyclinique Millénaire,other,poly millenaire,"",Tshopo,1,1,FALSE,FALSE,FALSE,,""

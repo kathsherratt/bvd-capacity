@@ -415,6 +415,48 @@ for (i in seq_len(nrow(host_hits))) {
         paste(host_hits$bare_key[i], host_hits$kind[i]))
 }
 
+#' One name's words inside another's, at the same place. `isolement Madula`
+#' and `Madula` are the same unit written twice, and neither the spelling rule
+#' nor the host rule sees it: the keys are four edits apart and `isolement` is
+#' not a hospital word. Requiring the same place_key keeps this from reaching
+#' across towns, and the shorter name is usually the one the reports settle on.
+words_of <- function(x) strsplit(x, " ", fixed = TRUE)
+sub_pool <- fac[nzchar(place_key) & nzchar(name_key)]
+for (i in seq_len(nrow(sub_pool))) {
+    here <- sub_pool[place_key == sub_pool$place_key[i] &
+        site_kind == sub_pool$site_kind[i] &
+        facility_id != sub_pool$facility_id[i]]
+    if (!nrow(here)) next
+    mine <- words_of(sub_pool$name_key[i])[[1]]
+    for (j in seq_len(nrow(here))) {
+        theirs <- words_of(here$name_key[j])[[1]]
+        if (all(mine %in% theirs) || all(theirs %in% mine)) {
+            add_flag(c(sub_pool$facility_id[i], here$facility_id[j]),
+                "possible_name_subset",
+                paste(sub_pool$place_key[i], sub_pool$site_kind[i]))
+        }
+    }
+}
+
+#' A name that is only a host, with no place at all. `CTE CME` and `CTE ISTM`
+#' name an institution the outbreak has several of: there is a CME at Bunia,
+#' at Rwampara and at Nyankunde. The reports write it bare because their
+#' reader knows which one, and the register cannot. Flagging it against every
+#' centre of that kind whose name carries the same host asks the question
+#' rather than guessing an answer, and 28 reports hang on each of these two.
+HOST_ONLY <- c("cme", "istm", "ist", "hgr", "ch", "cs", "cme bunia nyakunde",
+    "hopital", "clinique", "hospital", "fomulac", "cbca")
+bare_only <- fac[name_key %in% HOST_ONLY]
+for (i in seq_len(nrow(bare_only))) {
+    token <- bare_only$name_key[i]
+    kin <- fac[site_kind == bare_only$site_kind[i] &
+        vapply(words_of(name_key), function(w) token %in% w, logical(1))]
+    if (nrow(kin) > 1L) {
+        add_flag(unique(c(bare_only$facility_id[i], kin$facility_id)),
+            "possible_missing_place", paste(token, bare_only$site_kind[i]))
+    }
+}
+
 #' A health zone has one reference hospital, and the reports name a centre
 #' sometimes by the zone and sometimes by the hospital. GRID3 says Butembo's
 #' reference hospital is called Kitatumba, so `cte-butembo` and

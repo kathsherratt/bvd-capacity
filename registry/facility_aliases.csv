@@ -9,8 +9,6 @@ centre d’isolement de l’HGR d’Isiro,hgr isiro,isiro,isolation_centre,ci-hg
 HGR de Kabondo,hgr kabondo,kabondo,isolation_centre,ci-hgr-kabondo,FALSE,added automatically 2026-09-22
 centre d'isolement à l'HGR de Musienene,hgr musienene,musienene,isolation_centre,ci-hgr-musienene,FALSE,added automatically 2026-09-21
 isolement de l'HGR Vuhovi,isolement hgr vuhovi,vuhovi,isolation_centre,ci-isolement-hgr-vuhovi,FALSE,added automatically 2026-09-21
-isolement de Madula,isolement madula,madula,isolation_centre,ci-isolement-madula,TRUE,decision ci-isolements-madula__isolation: same
-isolements de Madula,isolements madula,madula,isolation_centre,ci-isolement-madula,TRUE,decision ci-isolements-madula__isolation: same
 isolement de Musienene,isolement musienene,musienene,isolation_centre,ci-isolement-musienene,FALSE,added automatically 2026-09-21
 isolement de la ZS de Katana,isolement zs katana,katana,isolation_centre,ci-isolement-zs-katana,FALSE,added automatically 2026-09-21
 isolement de la ZS de Katana (FOMULAC),isolement zs katana fomulac,katana,isolation_centre,ci-isolement-zs-katana-fomulac,FALSE,added automatically 2026-09-21
@@ -22,11 +20,13 @@ chantier d’isolement de Kabondo,kabondo,kabondo,isolation_centre,ci-kabondo,FA
 unités d’isolement de Kabondo,kabondo,kabondo,isolation_centre,ci-kabondo,FALSE,added automatically 2026-09-21
 Konga-Konga,konga konga,konga konga,isolation_centre,ci-konga-konga,TRUE,decision ci-kongakonga__isolation: same
 sites d’isolement de Kongakonga,kongakonga,kongakonga,isolation_centre,ci-konga-konga,TRUE,decision ci-kongakonga__isolation: same
-Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
-chantier d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
-site d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
-sites d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
-unités d’isolement de Madula,madula,madula,isolation_centre,ci-madula,FALSE,added automatically 2026-09-21
+Madula,madula,madula,isolation_centre,ci-madula,TRUE,"decision ci-madula__isolation__subset: same, One unit under construction at Madula, written unites d isolement de Madula and isolement de Madula in the same run of reports."
+chantier d’isolement de Madula,madula,madula,isolation_centre,ci-madula,TRUE,"decision ci-madula__isolation__subset: same, One unit under construction at Madula, written unites d isolement de Madula and isolement de Madula in the same run of reports."
+isolement de Madula,isolement madula,madula,isolation_centre,ci-madula,TRUE,"decision ci-madula__isolation__subset: same, One unit under construction at Madula, written unites d isolement de Madula and isolement de Madula in the same run of reports."
+isolements de Madula,isolements madula,madula,isolation_centre,ci-madula,TRUE,"decision ci-madula__isolation__subset: same, One unit under construction at Madula, written unites d isolement de Madula and isolement de Madula in the same run of reports."
+site d’isolement de Madula,madula,madula,isolation_centre,ci-madula,TRUE,"decision ci-madula__isolation__subset: same, One unit under construction at Madula, written unites d isolement de Madula and isolement de Madula in the same run of reports."
+sites d’isolement de Madula,madula,madula,isolation_centre,ci-madula,TRUE,"decision ci-madula__isolation__subset: same, One unit under construction at Madula, written unites d isolement de Madula and isolement de Madula in the same run of reports."
+unités d’isolement de Madula,madula,madula,isolation_centre,ci-madula,TRUE,"decision ci-madula__isolation__subset: same, One unit under construction at Madula, written unites d isolement de Madula and isolement de Madula in the same run of reports."
 bloc d'isolement de Nyankunde,nyankunde,nyankunde,isolation_centre,ci-nyankunde,FALSE,added automatically 2026-09-21
 bloc d'isolement de Rwampara,rwampara,rwampara,isolation_centre,ci-rwampara,TRUE,decision ct-rwampara__isolation: same
 salle d'isolement à l'HGR/Rwampara,hgr rwampara,rwampara,isolation_centre,ci-rwampara,TRUE,decision ct-rwampara__isolation: same
@@ -109,7 +109,6 @@ CTE de Buta,buta,buta,treatment_centre,cte-buta,FALSE,added automatically 2026-0
 CTE provisoire de Buta,buta,buta,treatment_centre,cte-buta,FALSE,added automatically 2026-09-21
 CTE Butembo,butembo,butembo,treatment_centre,cte-butembo,FALSE,added automatically 2026-09-21
 CTE/CT de Butembo,butembo,butembo,treatment_centre,cte-butembo,FALSE,added automatically 2026-09-21
-celui d’Isiro,celui isiro,isiro,treatment_centre,cte-celui-isiro,FALSE,added automatically 2026-09-21
 CTE Cinquantenaire,cinquantenaire,cinquantenaire,treatment_centre,cte-cinquantenaire,FALSE,added automatically 2026-09-21
 CTE du Cinquantenaire,cinquantenaire,cinquantenaire,treatment_centre,cte-cinquantenaire,FALSE,added automatically 2026-09-21
 CME,cme,"",treatment_centre,cte-cme,FALSE,added automatically 2026-09-21
@@ -180,6 +179,7 @@ CTE d'Isiro,isiro,isiro,treatment_centre,cte-isiro,TRUE,decision site-hgr-isiro_
 CTE de l’HGR d’Isiro,hgr isiro,isiro,treatment_centre,cte-isiro,TRUE,decision site-hgr-isiro__treatment: same
 CTE d’Isiro,isiro,isiro,treatment_centre,cte-isiro,TRUE,decision site-hgr-isiro__treatment: same
 Isiro,isiro,isiro,treatment_centre,cte-isiro,TRUE,decision site-hgr-isiro__treatment: same
+celui d’Isiro,celui isiro,isiro,treatment_centre,cte-isiro,TRUE,decision site-hgr-isiro__treatment: same
 CTE ISTE,iste,iste,treatment_centre,cte-iste,FALSE,added automatically 2026-09-21
 CTE ISTM,istm,"",treatment_centre,cte-istm,FALSE,added automatically 2026-09-21
 CTE de ISTM,istm,"",treatment_centre,cte-istm,FALSE,added automatically 2026-09-21

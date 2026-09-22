@@ -46,14 +46,21 @@ unite <- function(a, b) {
     ra <- root(a); rb <- root(b)
     if (ra != rb) parent[[ra]] <<- match(rb, names(parent))
 }
-for (g in split(flag_long$facility_id, flag_long$group)) {
+#' `possible_missing_place` is not a claim that two facilities are one. It
+#' says a name carries a host and no town, so the reports mean one of several
+#' centres and do not say which. Letting it join groups chains every CME in
+#' the outbreak together: Bunia, Rwampara and Nyankunde arrived in one cluster
+#' of 58 facilities across seven places, which is not a question anyone can
+#' answer. It stays on the facility as a flag and is asked separately.
+joining <- flag_long[flag != "possible_missing_place"]
+for (g in split(joining$facility_id, joining$group)) {
     g <- intersect(unique(g), names(parent))
     for (i in seq_len(length(g) - 1L)) unite(g[i], g[i + 1L])
 }
 
 comp <- data.table(facility_id = names(parent),
     cluster = vapply(names(parent), root, character(1)))
-comp <- comp[facility_id %in% flag_long$facility_id]
+comp <- comp[facility_id %in% joining$facility_id]
 
 q <- merge(facilities[, .(facility_id, facility_name, site_kind, place_key,
     province, n_sitreps, n_events, date_first_in_service, status_latest,

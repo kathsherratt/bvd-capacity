@@ -2,7 +2,7 @@
 
 # Transit centres at Bunia
 
-Cluster `site-hgr-bunia`, rank 1 of the review queue, 128 events in the cluster.
+Cluster `site-csr-bunia-cite`, rank 1 of the review queue, 170 events in the cluster.
 2 transit centres to decide between.
 
 ## The question

@@ -15,7 +15,7 @@ Very many thanks to INSP and all those providing public access to these reports.
 | Source | INSP situation reports, via the corpus published by [bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) |
 | Reports | 116, SitReps 001 to 122, 14 May to 13 September 2026 |
 | Events | 1,895 |
-| Facilities | 608 |
+| Facilities | 606 |
 | Read by | `gemini-3.1-pro` at low thinking, one call a report |
 
 ## The outputs
@@ -58,19 +58,19 @@ output and the spend ledger, and is not committed.
 
 | kind of site | facilities | in 3+ reports | with an in-service date |
 |---|---|---|---|
-| treatment centre | 72 | 50 | 63 |
+| treatment centre | 71 | 49 | 62 |
 | hospital isolation | 83 | 22 | 81 |
 | transit centre | 36 | 12 | 32 |
-| isolation centre | 23 | 6 | 9 |
+| isolation centre | 22 | 5 | 9 |
 | other | 394 | 39 | 13 |
 
 Opening evidence, for the three kinds of site that hold patients:
 
 | | bounded both sides | in service, no earlier bound | announced only | building, never seen open | nothing |
 |---|---|---|---|---|---|
-| treatment centre | 13 | 50 | 1 | 7 | 1 |
+| treatment centre | 13 | 49 | 1 | 7 | 1 |
 | transit centre | 0 | 32 | 1 | 2 | 1 |
-| isolation centre | 0 | 9 | 0 | 10 | 4 |
+| isolation centre | 0 | 9 | 0 | 9 | 4 |
 
 Thirteen centres were reported building and then reported holding patients, so
 their opening is bounded on both sides. For most of the rest the reports show
@@ -215,11 +215,16 @@ to whoever can read the evidence.
 The register counts spellings, not buildings. `CTE de l'HGR Bunia` and `CTE de
 Bunia` are probably one centre and are two rows until someone says otherwise;
 `CTE de l'HGR Rwampara` and `CTE du CME Rwampara` are two centres in one town
-and must stay apart. Twenty of these have been decided and are recorded in
-`registry/decisions.csv`; four questions over treatment, transit and isolation
-centres remain open, and 63 more stand over `other` sites that no opening date
-depends on. Until those are settled, treat the facility counts above as an
-upper bound and the event table as the reliable layer.
+and must stay apart. Twenty-five of these are decided and recorded in
+`registry/decisions.csv`; eleven questions over treatment, transit and
+isolation centres remain open. Treat the facility counts above as an upper
+bound: the error runs one way, towards splitting one centre into two, because
+a name is only ever merged by a decision someone signed.
+
+Two known cases of it: `CTE CME` and `CTE ISTM` name an institution the
+outbreak has several of, and the reports write them without a town. They are
+carried as facilities of their own, and which centre each belongs to is the
+question in `checks/decisions/00-names-without-a-place.md`.
 
 A date here is the date a report said something, not the date it happened.
 `date_first_in_service` is the first report showing patients at the facility,
