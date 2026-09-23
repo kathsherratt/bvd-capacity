@@ -8,7 +8,7 @@ This repository holds a dataset of when each Ebola treatment, transit and isolat
 > who know these facilities, and it will change while that happens. The
 > facility counts are an upper bound: names that are probably one centre are
 > held apart until someone says otherwise, so the error runs towards splitting
-> one site into two. Eleven naming questions are open in
+> one site into two. Ten naming questions are open in
 > [`checks/decisions/`](checks/decisions) and recorded in
 > [issue #1](https://github.com/epiforecasts/bvd-capacity/issues/1), and 48 of
 > the 193 capacity figures are marked `ambiguous_key` pending a decision about
@@ -26,7 +26,7 @@ Very many thanks to INSP and all those providing public access to these reports.
 | Source | INSP situation reports, via the corpus published by [bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps) |
 | Reports | 116, SitReps 001 to 122, 14 May to 13 September 2026 |
 | Events | 1,895 |
-| Facilities | 606 |
+| Facilities | 604 |
 | Read by | `gemini-3.1-pro` at low thinking, one call a report |
 
 ## The outputs
@@ -77,10 +77,10 @@ output and the spend ledger, and is not committed.
 
 | kind of site | facilities | in 3+ reports | with an in-service date |
 |---|---|---|---|
-| treatment centre | 71 | 49 | 62 |
+| treatment centre | 70 | 48 | 61 |
 | hospital isolation | 83 | 22 | 81 |
 | transit centre | 36 | 12 | 32 |
-| isolation centre | 22 | 5 | 9 |
+| isolation centre | 21 | 6 | 8 |
 | other | 394 | 39 | 13 |
 
 Opening evidence, for the three kinds of site that hold patients:
@@ -270,8 +270,8 @@ to whoever can read the evidence.
 The register counts spellings, not buildings. `CTE de l'HGR Bunia` and `CTE de
 Bunia` are probably one centre and are two rows until someone says otherwise;
 `CTE de l'HGR Rwampara` and `CTE du CME Rwampara` are two centres in one town
-and must stay apart. Twenty-five of these are decided and recorded in
-`registry/decisions.csv`; eleven questions over treatment, transit and
+and must stay apart. Twenty-seven of these are decided and recorded in
+`registry/decisions.csv`; ten questions over treatment, transit and
 isolation centres remain open. Treat the facility counts above as an upper
 bound: the error runs one way, towards splitting one centre into two, because
 a name is only ever merged by a decision someone signed.
