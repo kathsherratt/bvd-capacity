@@ -2,7 +2,7 @@
 
 # Isolation centres at Konga Konga
 
-Cluster `ci-konga-konga`, rank 30 of the review queue, 4 events in the cluster.
+Cluster `ci-konga-konga`, rank 29 of the review queue, 4 events in the cluster.
 2 isolation centres to decide between.
 
 ## The question

@@ -55,11 +55,11 @@ hosp-hgr-rwampara,HGR Rwampara,hospital_isolation,rwampara,Rwampara,Ituri,16,20,
 hosp-hgr-mongbwalu,HGR Mongbwalu,hospital_isolation,mongbwalu,Mongbwalu,Ituri,15,17,FALSE,FALSE,TRUE,,possible_host_variant;possible_same_host;possible_same_site;possible_spelling_variant
 site-hgr-makiso-kisangani,HGR Makiso-Kisangani,other,makiso kisangani,Makiso Kisangani,Tshopo,17,17,FALSE,FALSE,TRUE,,possible_name_subset;possible_same_host;possible_same_site
 ci-madula,unités d’isolement de Madula,isolation_centre,madula,Wanierukula,Tshopo,16,16,FALSE,FALSE,TRUE,,""
+cte-kitatumba,CTE de Kitatumba,treatment_centre,kitatumba,Butembo,Nord-Kivu,14,16,FALSE,FALSE,TRUE,,""
 cte-nyankunde,CTE Nyankunde,treatment_centre,nyankunde,Nyankunde,Ituri,16,16,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host
 cte-beni,CTE Beni,treatment_centre,beni,Beni,Nord-Kivu,15,15,FALSE,FALSE,TRUE,,possible_same_site
 ct-hgr-musienene,CT de l’HGR de Musienene,transit_centre,musienene,Musienene,Nord-Kivu,14,14,FALSE,FALSE,TRUE,,possible_same_site
 cte-hc-kisangani,CTE HC Kisangani,treatment_centre,kisangani,Makiso Kisangani,Tshopo,13,13,FALSE,FALSE,TRUE,,possible_same_site
-cte-kitatumba,CTE de Kitatumba,treatment_centre,kitatumba,Butembo,Nord-Kivu,11,12,FALSE,FALSE,TRUE,,possible_same_host
 cte-nia-nia,CTE de Nia-Nia,treatment_centre,nia nia,Nia Nia,Ituri,9,11,FALSE,FALSE,TRUE,,possible_same_site
 cte-wamba,CTE de Wamba,treatment_centre,wamba,Wamba,Haut-Uele,11,11,FALSE,FALSE,TRUE,,""
 hosp-hgr-vuhovi,HGR de Vuhovi,hospital_isolation,vuhovi,Vuhovi,Nord-Kivu,11,11,FALSE,FALSE,TRUE,,""
@@ -96,7 +96,6 @@ site-cliniques-universitaires,Cliniques universitaires,other,s universitaires,Is
 site-cme-nyakunde,CME Nyakunde,other,nyakunde,Rwampara,Ituri,5,5,FALSE,FALSE,TRUE,,possible_host_variant;possible_spelling_variant
 ct-hgr-makiso-kisangani,centre de transit de l'HGR Makiso-Kisangani,transit_centre,makiso kisangani,Makiso Kisangani,Tshopo,4,4,FALSE,FALSE,TRUE,,possible_same_site
 ct-nizi,CT Nizi,transit_centre,nizi,Nizi,Ituri,4,4,FALSE,FALSE,TRUE,,possible_same_site
-cte-butembo,CTE Butembo,treatment_centre,butembo,Butembo,Nord-Kivu,4,4,FALSE,FALSE,TRUE,,possible_same_host
 cte-hgr-rwampara,CTE HGR/Rwampara,treatment_centre,rwampara,Rwampara,Ituri,3,4,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 cte-kasenyi,CTE de Kasenyi,treatment_centre,kasenyi,Tchomia,Ituri,4,4,FALSE,FALSE,TRUE,,""
 cte-lwiro,CTE Lwiro,treatment_centre,lwiro,Miti Murhesa,Sud-Kivu,4,4,FALSE,FALSE,TRUE,,possible_same_site
@@ -113,6 +112,7 @@ site-cs-bigo,CS Bigo,other,bigo,Bunia,Ituri,4,4,FALSE,FALSE,TRUE,,""
 site-cs-kahungu,CS Kahungu,other,kahungu,Miti Murhesa,Sud-Kivu,4,4,FALSE,FALSE,TRUE,,""
 site-cs-nyakunde,CS Nyakunde,other,nyakunde,Beni,Nord-Kivu,4,4,FALSE,FALSE,TRUE,,possible_host_variant
 site-cs-tchunga,CS Tchunga,other,tchunga,Mongbwalu,Ituri,4,4,FALSE,FALSE,TRUE,,""
+ci-isolement-zs-katana,isolement de la ZS de Katana (FOMULAC),isolation_centre,katana,Katana,Sud-Kivu,3,3,FALSE,FALSE,TRUE,,""
 ci-transitoire-wamba,centre d’isolement transitoire de Wamba,isolation_centre,wamba,Wamba,Haut-Uele,3,3,FALSE,FALSE,TRUE,,""
 ct-heal-africa,CT HEAL AFRICA,transit_centre,heal africa,Goma,Nord-Kivu,3,3,FALSE,FALSE,TRUE,,""
 ct-lolwa,CT de Lolwa,transit_centre,lolwa,Lolwa,Ituri,3,3,FALSE,FALSE,TRUE,,possible_same_site
@@ -158,7 +158,6 @@ site-poste-sante-amani,Poste de santé Amani,other,amani,Mongbwalu,Ituri,3,3,FAL
 ci-cs-boikene,CS Boikene,isolation_centre,boikene,Beni,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,possible_same_site
 ci-cs-lengabo,CS Lengabo,isolation_centre,lengabo,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,""
 ci-cs-shari,CS Shari,isolation_centre,shari,Rwampara,Ituri,2,2,FALSE,FALSE,TRUE,,""
-ci-isolement-zs-katana-fomulac,isolement de la ZS de Katana (FOMULAC),isolation_centre,katana,Katana,Sud-Kivu,2,2,FALSE,FALSE,TRUE,,possible_name_subset
 ci-isolements-hgr-beni,isolements de l'HGR de Beni,isolation_centre,beni,Beni,Nord-Kivu,2,2,FALSE,FALSE,TRUE,,""
 ct-bunia,CT Bunia,transit_centre,bunia,Bunia,Ituri,2,2,FALSE,FALSE,TRUE,,possible_host_variant;possible_name_subset;possible_same_host;possible_same_site
 ct-elikia,CT Elikia,transit_centre,elikia,Bunia,Ituri,2,2,FALSE,FALSE,FALSE,,""
@@ -227,7 +226,6 @@ ci-hgr-isiro,centre d’isolement de l’HGR d’Isiro,isolation_centre,isiro,Is
 ci-hgr-musienene,centre d'isolement à l'HGR de Musienene,isolation_centre,musienene,Musienene,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,possible_same_site
 ci-isolement-hgr-vuhovi,isolement de l'HGR Vuhovi,isolation_centre,vuhovi,Vuhovi,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
 ci-isolement-musienene,isolement de Musienene,isolation_centre,musienene,Musienene,Nord-Kivu,1,1,FALSE,FALSE,TRUE,,""
-ci-isolement-zs-katana,isolement de la ZS de Katana,isolation_centre,katana,Katana,Sud-Kivu,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 ci-isolements-konga-konga,isolements (KONGA KONGA),isolation_centre,konga konga,Makiso Kisangani,Tshopo,1,1,FALSE,FALSE,TRUE,,possible_name_subset
 ci-sites-lita,sites de Lita,isolation_centre,lita,Lita,Ituri,1,1,FALSE,FALSE,TRUE,,""
 ci-sites-logo,sites de Logo,isolation_centre,logo,Logo,Ituri,1,1,FALSE,FALSE,TRUE,,""

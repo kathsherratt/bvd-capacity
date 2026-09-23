@@ -10,9 +10,9 @@ HGR de Kabondo,hgr kabondo,kabondo,isolation_centre,ci-hgr-kabondo,FALSE,added a
 centre d'isolement à l'HGR de Musienene,hgr musienene,musienene,isolation_centre,ci-hgr-musienene,FALSE,added automatically 2026-09-21
 isolement de l'HGR Vuhovi,isolement hgr vuhovi,vuhovi,isolation_centre,ci-isolement-hgr-vuhovi,FALSE,added automatically 2026-09-21
 isolement de Musienene,isolement musienene,musienene,isolation_centre,ci-isolement-musienene,FALSE,added automatically 2026-09-21
-isolement de la ZS de Katana,isolement zs katana,katana,isolation_centre,ci-isolement-zs-katana,FALSE,added automatically 2026-09-21
-isolement de la ZS de Katana (FOMULAC),isolement zs katana fomulac,katana,isolation_centre,ci-isolement-zs-katana-fomulac,FALSE,added automatically 2026-09-21
-l’isolement de la ZS de Katana (FOMULAC),isolement zs katana fomulac,katana,isolation_centre,ci-isolement-zs-katana-fomulac,FALSE,added automatically 2026-09-21
+isolement de la ZS de Katana,isolement zs katana,katana,isolation_centre,ci-isolement-zs-katana,TRUE,"decision ci-katana__isolation__grid3: same, GRID3 names FOMULAC the Hopital General de Reference of Katana health zone, Sud-Kivu, health area Ciranga. The isolation at the ZS de Katana and at FOMULAC are the same hospital."
+isolement de la ZS de Katana (FOMULAC),isolement zs katana fomulac,katana,isolation_centre,ci-isolement-zs-katana,TRUE,"decision ci-katana__isolation__grid3: same, GRID3 names FOMULAC the Hopital General de Reference of Katana health zone, Sud-Kivu, health area Ciranga. The isolation at the ZS de Katana and at FOMULAC are the same hospital."
+l’isolement de la ZS de Katana (FOMULAC),isolement zs katana fomulac,katana,isolation_centre,ci-isolement-zs-katana,TRUE,"decision ci-katana__isolation__grid3: same, GRID3 names FOMULAC the Hopital General de Reference of Katana health zone, Sud-Kivu, health area Ciranga. The isolation at the ZS de Katana and at FOMULAC are the same hospital."
 isolements de l'HGR de Beni,isolements hgr beni,beni,isolation_centre,ci-isolements-hgr-beni,FALSE,added automatically 2026-09-21
 isolements (KONGA KONGA),isolements konga konga,konga konga,isolation_centre,ci-isolements-konga-konga,FALSE,added automatically 2026-09-21
 Kabondo,kabondo,kabondo,isolation_centre,ci-kabondo,FALSE,added automatically 2026-09-21
@@ -107,8 +107,6 @@ CTE Bunia,bunia,bunia,treatment_centre,cte-bunia,TRUE,decision site-hgr-bunia__t
 CTE de Bunia,bunia,bunia,treatment_centre,cte-bunia,TRUE,decision site-hgr-bunia__treatment: apart
 CTE de Buta,buta,buta,treatment_centre,cte-buta,FALSE,added automatically 2026-09-21
 CTE provisoire de Buta,buta,buta,treatment_centre,cte-buta,FALSE,added automatically 2026-09-21
-CTE Butembo,butembo,butembo,treatment_centre,cte-butembo,FALSE,added automatically 2026-09-21
-CTE/CT de Butembo,butembo,butembo,treatment_centre,cte-butembo,FALSE,added automatically 2026-09-21
 CTE Cinquantenaire,cinquantenaire,cinquantenaire,treatment_centre,cte-cinquantenaire,FALSE,added automatically 2026-09-21
 CTE du Cinquantenaire,cinquantenaire,cinquantenaire,treatment_centre,cte-cinquantenaire,FALSE,added automatically 2026-09-21
 CME,cme,"",treatment_centre,cte-cme,FALSE,added automatically 2026-09-21
@@ -206,9 +204,11 @@ CTE de Kigonze,kigonze,kigonze,treatment_centre,cte-kigonze,FALSE,added automati
 Kigonze,kigonze,kigonze,treatment_centre,cte-kigonze,FALSE,added automatically 2026-09-21
 CTE de Kilo,kilo,kilo,treatment_centre,cte-kilo,FALSE,added automatically 2026-09-21
 Kilo,kilo,kilo,treatment_centre,cte-kilo,FALSE,added automatically 2026-09-21
-CTE Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,FALSE,added automatically 2026-09-21
-CTE de Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,FALSE,added automatically 2026-09-21
-Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,FALSE,added automatically 2026-09-22
+CTE Butembo,butembo,butembo,treatment_centre,cte-kitatumba,TRUE,"decision cte-kitatumba__treatment__grid3: same, GRID3 COD Health Facilities v8.0 names Butembo health zone reference hospital Kitatumba (Hopital General de Reference, health area Kyangike). One centre, two names."
+CTE Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,TRUE,"decision cte-kitatumba__treatment__grid3: same, GRID3 COD Health Facilities v8.0 names Butembo health zone reference hospital Kitatumba (Hopital General de Reference, health area Kyangike). One centre, two names."
+CTE de Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,TRUE,"decision cte-kitatumba__treatment__grid3: same, GRID3 COD Health Facilities v8.0 names Butembo health zone reference hospital Kitatumba (Hopital General de Reference, health area Kyangike). One centre, two names."
+CTE/CT de Butembo,butembo,butembo,treatment_centre,cte-kitatumba,TRUE,"decision cte-kitatumba__treatment__grid3: same, GRID3 COD Health Facilities v8.0 names Butembo health zone reference hospital Kitatumba (Hopital General de Reference, health area Kyangike). One centre, two names."
+Kitatumba,kitatumba,kitatumba,treatment_centre,cte-kitatumba,TRUE,"decision cte-kitatumba__treatment__grid3: same, GRID3 COD Health Facilities v8.0 names Butembo health zone reference hospital Kitatumba (Hopital General de Reference, health area Kyangike). One centre, two names."
 CTE Komanda,komanda,komanda,treatment_centre,cte-komanda,FALSE,added automatically 2026-09-21
 CTE de Komanda,komanda,komanda,treatment_centre,cte-komanda,FALSE,added automatically 2026-09-21
 Komanda,komanda,komanda,treatment_centre,cte-komanda,FALSE,added automatically 2026-09-21

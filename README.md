@@ -186,6 +186,35 @@ cache. `data/cache/` is not committed, so steps 2 onwards run from a cache you
 built: the datasets in `data/` are the committed result. Changing a decision
 or the register and rerunning steps 2, 9 and 3 needs no model access.
 
+## Other accounts of the same outbreak
+
+INSP is not the only publisher writing about this epidemic, and a second
+account is worth having for the same reason a second implementation of the
+facilities table is worth having: agreement is weak evidence, disagreement is
+strong. Three other sources are read here, each under its own licence, and
+none of them can change a row in the register.
+
+| source | what it is | what it settles |
+|---|---|---|
+| WHO Disease Outbreak News | 12 documents, May to September, fetched from WHO's public API | little about individual facilities, but it names the sites outside the DRC that took patients from this outbreak, which the INSP reports never mention |
+| GRID3 COD Health Facilities v8.0 | the national health facility register | which hospital is a health zone's reference hospital, which health areas sit inside which zone, and which names are registered facilities in their own right |
+| OpenStreetMap | 1,502 named health facilities in the six provinces, via Overpass | names as written on buildings rather than as registered, so it holds facilities a ministry list does not |
+
+The DONs go through the same machinery as the situation reports: one model
+call a document, a fixed schema, and a quote gate that drops any claim whose
+sentence is not a span of the document. `data/external_corroboration.csv` says
+how each external mention met the register, and the interesting column is the
+one where it did not.
+
+GRID3 and OSM answer a narrower question, asked of each open naming decision
+by `R/23_registers_suggest.R` and printed on the sheet: is one name the
+reference hospital of the other's zone, is one a health area inside it, are
+both registered separately, and does a facility of this name exist on the map
+at all. A finding is evidence on a sheet, never a decision.
+
+`data/external/LICENCE.md` and `data/reference/LICENCE.md` carry the terms.
+The MIT licence at the root covers this repository's code, never its sources.
+
 ## The naming decisions
 
 The reports write one facility several ways and write several facilities one

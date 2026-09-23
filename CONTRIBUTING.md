@@ -41,6 +41,11 @@ bvd-sitreps.
 | `R/08_decisions.R` | a sheet a naming decision, with the quotes that settle it |
 | `R/09_apply_decisions.R` | carries `registry/decisions.csv` into the name vocabulary |
 | `tools/decision-cards.R` | the open questions as JSON, for answering them away from a terminal |
+| `R/20_external_fetch.R` | fetches WHO Disease Outbreak News and renders each to one deterministic text |
+| `R/21_external_extract.R` | reads those documents with the same schema and quote gate as the reports |
+| `R/22_external_match.R` | says what each external mention corroborates, and what it names that the register lacks |
+| `R/23_registers_suggest.R` | asks GRID3 and OpenStreetMap about each open naming decision |
+| `tools/osm-places.R` | rebuilds the OpenStreetMap extract through Overpass |
 | `registry/facility_aliases.csv` | the name vocabulary, the only file meant to be edited by hand |
 
 `checks/` is committed, because each file is a decision waiting for a person.

@@ -33,6 +33,11 @@ Merged, the opening interval becomes [2026-05-28 .. 2026-05-29].
 - `cte-elikya-zs-bunia`: [none .. 2026-06-27] becomes [2026-05-28 .. 2026-05-29].
 - `cte-istm-nyankunde-bunia`: [none .. 2026-07-21] becomes [2026-05-28 .. 2026-05-29].
 
+## What the other registers say
+
+- GRID3 on `cte-bunia` against `cte-elikya`: GRID3 lists both in bunia zone: Hôpital Général de Référence and Centre Hopitalier (leans apart)
+
+
 ## The quotes
 
 ### `cte-hgr-bunia`

@@ -247,6 +247,41 @@ partner with its own records to ask for. A Congolese hospital or institute,
 CME, ISTM, FOMULAC, is the building itself, and appears because the reports
 name a facility by its host.
 
+## data/external_corroboration.csv
+
+One row for each facility mention in a document INSP did not write, after the
+quote gate. Written by `R/22_external_match.R`.
+
+| column | meaning |
+|---|---|
+| `source`, `doc_id`, `publisher`, `licence`, `url` | where the mention came from and under what terms |
+| `report_date` | the document's own date |
+| `facility_raw` … `confidence` | as in `facility_events.csv`, read by the same schema |
+| `facility_id` | the register facility this matched, empty where none |
+| `match_kind` | `id` (the name folds to a register id), `place_kind` (same place and kind as exactly one facility), `place_only` (the place is known, the kind is not there), `unmatched` |
+
+`unmatched` is the column to read. It is either a facility the situation
+reports never named, or a name for one they named differently. The WHO
+documents' unmatched rows are mostly facilities outside the Democratic
+Republic of the Congo: an isolation unit in Berlin, a university hospital in
+Frankfurt, the Mulago Isolation Treatment Unit in Kampala.
+
+## checks/register_suggestions.csv
+
+What the other registers say about an open naming decision, written by
+`R/23_registers_suggest.R` and printed on the sheet. `source` is `grid3` or
+`osm`, `finding` is one of `reference_hospital`, `area_in_zone`,
+`both_registered`, `host_registered_at` or `named_in_osm`, and `leans` says
+which way it points. None of it decides anything.
+
+## data/reference/osm_places.csv
+
+1,502 named facilities tagged `hospital`, `clinic` or `doctors` in the six
+outbreak provinces, from OpenStreetMap through the Overpass API. Columns:
+`province`, `osm_type`, `osm_id`, `name`, `amenity`, `healthcare`, `operator`,
+`lat`, `lon`. Rebuilt by `tools/osm-places.R`. © OpenStreetMap contributors,
+ODbL 1.0.
+
 ## data/reference/grid3_places.csv
 
 GRID3 COD Health Facilities v8.0, trimmed to the six outbreak provinces and to

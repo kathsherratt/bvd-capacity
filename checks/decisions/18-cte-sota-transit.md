@@ -2,7 +2,7 @@
 
 # Transit centres at Sota
 
-Cluster `cte-sota`, rank 19 of the review queue, 10 events in the cluster.
+Cluster `cte-sota`, rank 18 of the review queue, 10 events in the cluster.
 2 transit centres to decide between.
 
 ## The question

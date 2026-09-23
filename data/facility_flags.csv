@@ -153,8 +153,6 @@ site-kalagane,possible_name_subset,possible_name_subset:kalagane other
 hosp-hgr-fomulac-katana,possible_name_subset,possible_name_subset:katana hospital_isolation
 hosp-hgr-katana,possible_name_subset,possible_name_subset:katana hospital_isolation
 hosp-katana,possible_name_subset,possible_name_subset:katana hospital_isolation
-ci-isolement-zs-katana,possible_name_subset,possible_name_subset:katana isolation_centre
-ci-isolement-zs-katana-fomulac,possible_name_subset,possible_name_subset:katana isolation_centre
 cte-hgr-katwa,possible_name_subset,possible_name_subset:katwa treatment_centre
 cte-katwa,possible_name_subset,possible_name_subset:katwa treatment_centre
 ci-isolements-konga-konga,possible_name_subset,possible_name_subset:konga konga isolation_centre
@@ -203,8 +201,6 @@ cte-bunia,possible_same_host,possible_same_host:Bunia
 cte-hgr-bunia,possible_same_host,possible_same_host:Bunia
 hosp-bunia-hgr,possible_same_host,possible_same_host:Bunia
 hosp-hgr-bunia,possible_same_host,possible_same_host:Bunia
-cte-butembo,possible_same_host,possible_same_host:Butembo
-cte-kitatumba,possible_same_host,possible_same_host:Butembo
 hosp-fomulac,possible_same_host,possible_same_host:Katana
 hosp-hgr-katana,possible_same_host,possible_same_host:Katana
 hosp-katana,possible_same_host,possible_same_host:Katana

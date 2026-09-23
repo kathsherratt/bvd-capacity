@@ -39,6 +39,9 @@ places <- if (file.exists(place_check_path())) fread(place_check_path()) else NU
 decided <- if (file.exists(decisions_path())) {
     fread(decisions_path(), colClasses = "character")
 } else NULL
+register_hits <- if (file.exists(checks_dir("register_suggestions.csv"))) {
+    fread(checks_dir("register_suggestions.csv"), colClasses = "character")
+} else NULL
 
 #' The same rule as R/06_opening.R, applied to a hypothetical merge.
 bounds_of <- function(d) {
@@ -196,6 +199,23 @@ for (i in seq_len(nrow(subgroups))) {
             interval_of(merged$after, merged$by)))
     }
 
+    #' What the national register says about the same names, beside what the
+    #' reports say. GRID3 constrains and never overrides, so this is evidence
+    #' on the sheet, not an answer on it.
+    hits <- if (!is.null(register_hits)) {
+        register_hits[cluster == sg$cluster & site_kind == sg$site_kind]
+    } else NULL
+    if (!is.null(hits) && nrow(hits)) {
+        l <- c(l, "", "## What the other registers say", "")
+        for (j in seq_len(nrow(hits))) {
+            l <- c(l, sprintf("- %s on `%s`%s: %s (leans %s)",
+                toupper(hits$source[j]), hits$facility_a[j],
+                if (nzchar(hits$facility_b[j])) paste0(" against `", hits$facility_b[j], "`") else "",
+                hits$detail[j], hits$leans[j]))
+        }
+        l <- c(l, "")
+    }
+
     l <- c(l, "", "## The quotes", "")
     for (j in seq_len(nrow(members))) {
         m <- members[j]
@@ -269,6 +289,16 @@ if (!is.null(flag_long) && "flag" %in% names(flag_long)) {
                 l <- c(l, sprintf("| `%s` | %s | %d | %s |", others$facility_id[j],
                     others$facility_name[j], others$n_sitreps[j],
                     if (nzchar(others$health_zone[j])) others$health_zone[j] else "not given"))
+            }
+            g3 <- if (!is.null(register_hits)) {
+                register_hits[facility_a == bare$facility_id &
+                    finding %in% c("host_registered_at", "named_in_osm")]
+            } else NULL
+            if (!is.null(g3) && nrow(g3)) {
+                for (r in seq_len(nrow(g3))) {
+                    l <- c(l, "", sprintf("%s lists that host at: %s",
+                        toupper(g3$source[r]), g3$detail[r]), "")
+                }
             }
             q <- events[facility_id == bare$facility_id & nzchar(health_zone)]
             if (!nrow(q)) q <- events[facility_id == bare$facility_id]

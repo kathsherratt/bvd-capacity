@@ -44,6 +44,11 @@ Merged, the opening interval becomes [2026-05-25 .. 2026-06-05].
 - `cte-hgr-nyankunde`: [2026-06-15 .. 2026-06-18] becomes [2026-05-25 .. 2026-06-05].
 - `cte-cme-nyankunde`: [none .. 2026-06-14] becomes [2026-05-25 .. 2026-06-05].
 
+## What the other registers say
+
+- GRID3 on `cte-istm-nyankunde` against `cte-nyankunde`: GRID3 names nyankunde the Hôpital Général de Référence of nyankunde health zone (leans same)
+
+
 ## The quotes
 
 ### `cte-istm`

@@ -1,0 +1,8 @@
+cluster,site_kind,facility_a,facility_b,source,finding,leans,detail,grid3id
+site-csr-bunia-cite,treatment_centre,cte-bunia,cte-elikya,grid3,both_registered,apart,GRID3 lists both in bunia zone: Hôpital Général de Référence and Centre Hopitalier,""
+site-hgr-nyankunde,treatment_centre,cte-istm-nyankunde,cte-nyankunde,grid3,reference_hospital,same,GRID3 names nyankunde the Hôpital Général de Référence of nyankunde health zone,hltfac_A0CBC1B26C
+cte-cme,treatment_centre,cte-cme,"",grid3,host_registered_at,narrows the candidates,"Evangelique (Rwampara, Centre Médical); Evangelique Kasenyi (Tchomia, Poste de Santé); Evangelique (Karisimbi, Centre Médical); Evangelique Kisangani (Makiso Kisangani, Polyclinque); Evangelique (Tshopo, Centre de Santé); Communaute Evangelique Ubangi Mongala (Yahuma, Centre de Santé de Référence)",""
+hosp-fomulac,hospital_isolation,hosp-fomulac,"",grid3,host_registered_at,narrows the candidates,"Fomulac (Katana, Hôpital Général de Référence)",""
+cte-istm,treatment_centre,cte-istm,"",grid3,host_registered_at,narrows the candidates,"Istm (Beni, Clinique); Istm (Butembo, Polyclinque)",""
+cte-cme,treatment_centre,cte-cme,"",osm,named_in_osm,narrows the candidates,"Centre Médical Évangélique (Ituri, clinic); Centre de Santé Evangelique Kasenyi (Ituri, doctors); Centre Medical Evangelique Nyakunde (Nord-Kivu, clinic); Centre Medical Evangelique Nyakunde Sose (Nord-Kivu, clinic); Centre Médical Évangélique (Nord-Kivu, hospital)",""
+cte-istm,treatment_centre,cte-istm,"",osm,named_in_osm,narrows the candidates,"Clininque ISTM (Nord-Kivu, clinic); Polyclinique ISTM (Nord-Kivu, clinic)",""

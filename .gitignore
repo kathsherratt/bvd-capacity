@@ -48,6 +48,11 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# One model reply a document, for the external sources. Not committed, for
+# the same reason data/cache/ is not: it is machine output, and
+# data/external_corroboration.csv is the result that matters.
+data/cache-external/
+
 # One model reply a report. Not committed: it is machine output, it is bulky,
 # and the datasets derived from it are committed instead. Rebuilding it costs
 # one model run over the corpus.

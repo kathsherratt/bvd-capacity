@@ -21,6 +21,12 @@ Candidates:
 | `cte-cme-nyankunde` | CTE CME Nyankunde | 2 | Nyankunde |
 | `cte-cme-rwampara` | Centre de Traitement Ebola (CTE) normé de CME Rwampara | 3 | Rwampara |
 
+GRID3 lists that host at: Evangelique (Rwampara, Centre Médical); Evangelique Kasenyi (Tchomia, Poste de Santé); Evangelique (Karisimbi, Centre Médical); Evangelique Kisangani (Makiso Kisangani, Polyclinque); Evangelique (Tshopo, Centre de Santé); Communaute Evangelique Ubangi Mongala (Yahuma, Centre de Santé de Référence)
+
+
+OSM lists that host at: Centre Médical Évangélique (Ituri, clinic); Centre de Santé Evangelique Kasenyi (Ituri, doctors); Centre Medical Evangelique Nyakunde (Nord-Kivu, clinic); Centre Medical Evangelique Nyakunde Sose (Nord-Kivu, clinic); Centre Médical Évangélique (Nord-Kivu, hospital)
+
+
 Quotes:
 
 - SitRep 025, 2026-06-08: 3 nouveaux guéris au CTE CME de la ZS de Rwampara (province de l’Ituri).
@@ -39,6 +45,9 @@ Candidates:
 | facility_id | name | reports | health zone |
 |---|---|---|---|
 | `hosp-hgr-fomulac-katana` | HGR FOMULAC Katana | 2 | Katana |
+
+GRID3 lists that host at: Fomulac (Katana, Hôpital Général de Référence)
+
 
 Quotes:
 
@@ -59,6 +68,12 @@ Candidates:
 | `cte-istm-nyankunde` | ISTM Nyankunde | 7 | Nyankunde |
 | `cte-istm-nyankunde-bunia` | CTE de L'ISTM NYANKUNDE A BUNIA | 1 | Bunia |
 | `cte-istm-zs-rwampara` | CTE ISTM/ZS Rwampara | 1 | Rwampara |
+
+GRID3 lists that host at: Istm (Beni, Clinique); Istm (Butembo, Polyclinque)
+
+
+OSM lists that host at: Clininque ISTM (Nord-Kivu, clinic); Polyclinique ISTM (Nord-Kivu, clinic)
+
 
 Quotes:
 

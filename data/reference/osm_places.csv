@@ -1,0 +1,1503 @@
+province,osm_type,osm_id,name,amenity,healthcare,operator,lat,lon
+Bas-Uele,way,443247028,Centre de Santé Mibana,doctors,"","",2.8718601,27.5619874
+Haut-Uele,way,419933762,Centre de santé,clinic,"","",2.5186489,27.7015748
+Haut-Uele,way,610334753,Hôpital Nebobongo,hospital,hospital,CECCA16,2.451993,27.6325486
+Haut-Uele,way,620198884,Hôpital de Dungu,hospital,hospital,"",3.6113754,28.5562303
+Haut-Uele,node,956709708,Lopitalo,hospital,hospital,catholic church,2.7849061,27.6102844
+Haut-Uele,way,612244930,Lopitalo ya Leta / Hôpital de l'État,hospital,hospital,"",2.7737965,27.6165267
+Haut-Uele,node,4408610952,Poste de Santé Zambasende,doctors,"","",2.9173293,27.6386451
+Ituri,node,13848835711,Aide-Vision,clinic,clinic,"AIDE-VISION, Asbl",1.5492925,30.2428776
+Ituri,node,9202141493,Bora Uzima,doctors,centre,"",1.5439852,30.2495619
+Ituri,way,1516960731,Bureau Central de la Zone de santé Rwampara,hospital,hospital,"",1.5434794,30.1791761
+Ituri,node,7919697507,CH Zunguluka,doctors,"","",1.1000787,29.8515391
+Ituri,node,13848829683,CH Zunguluka,doctors,"","",1.1000787,29.8515391
+Ituri,node,7919697513,CS Bikima,doctors,"","",1.0759741,29.9287261
+Ituri,node,13848829684,CS Bikima,doctors,"","",1.0759741,29.9287261
+Ituri,node,7919697512,CS Boga,doctors,"","",1.0227138,29.9537679
+Ituri,node,7919697511,CS Bwakadi,doctors,"","",0.9417828,29.8108394
+Ituri,node,6374000544,CS GBI,doctors,centre,"",1.613686,30.623423
+Ituri,node,9221250450,CS GBI,doctors,centre,"",1.6182373,30.6167609
+Ituri,way,996312913,CS Kabakaba,doctors,centre,"",1.7483735,30.1676883
+Ituri,way,984674074,CS Masikini,clinic,clinic,"",2.0032331,30.1929922
+Ituri,way,983834473,CS Mbidjo,clinic,clinic,MSP,2.0754763,30.1064959
+Ituri,node,7919697508,CS Tondoli,doctors,"","",0.9325692,29.9232261
+Ituri,way,983841031,CSR Akwe,clinic,clinic,"",2.0951581,30.1323405
+Ituri,node,8194411474,Cabinet Par Medical Amani(Onc),clinic,"","",0.6149687,29.286805
+Ituri,node,6337598797,Centre De Nyarambe,hospital,"","",2.2460922,31.1278053
+Ituri,node,13848829626,Centre De Nyarambe,hospital,"","",2.2460922,31.1278053
+Ituri,node,7375058088,Centre Hospitalier Alpha Sadco,clinic,"","",3.12298,30.7137817
+Ituri,node,8194411458,Centre Hospitalier Bismillah,clinic,"","",0.85189,29.2585033
+Ituri,node,8194411442,Centre Hospitalier Codemuco Laliya,clinic,"","",0.8633123,29.2585735
+Ituri,node,8194398208,Centre Hospitalier Mandima,clinic,"","",1.0544,29.14622
+Ituri,node,9331757206,Centre Hospitalier Mont Bleu,clinic,clinic,Privé,1.5565291,30.2549496
+Ituri,node,8194411424,Centre Hospitalier Saint Bienereuse Anuarite,clinic,"","",0.7593696,29.2301574
+Ituri,node,8194411462,Centre Hospitalier Village Orange Bella,clinic,"","",0.6275524,29.2519539
+Ituri,node,11367649300,Centre Medical Etoile des mages,clinic,clinic,"",1.5377455,30.2444989
+Ituri,node,8194411475,Centre Medical Gwado Bora Uzima,clinic,"","",1.2040983,29.1143991
+Ituri,node,13848835624,Centre Medical Gwado Bora Uzima,clinic,"","",1.2040983,29.1143991
+Ituri,node,8194411468,Centre Medical La Guerison,clinic,"","",0.6937639,29.2454762
+Ituri,node,8194411422,Centre Medical Shalom,clinic,"","",0.7519667,29.2321383
+Ituri,node,8194398200,Centre Medicalc Avo Lwemba,clinic,"","",0.9716867,29.1961462
+Ituri,node,11345421588,Centre Médical Opas,clinic,clinic,"",1.5510251,30.234958
+Ituri,node,10225485776,Centre Médical ya Shifa,clinic,clinic,"",1.5577045,30.2295074
+Ituri,node,8007369919,Centre Médical Évangélique,clinic,clinic,"",1.5386683,30.2489467
+Ituri,node,10075047082,Centre Médico-chirurgical Tokobika,clinic,clinic,"",1.539777,30.2408607
+Ituri,node,11364156786,Centre Nutritionnel et Thérapeutique,clinic,clinic,ATPai / CIDECOM,1.5405619,30.2373169
+Ituri,node,7375044277,Centre de Santé Abedju,doctors,"","",3.333645,30.8459967
+Ituri,node,13848835760,Centre de Santé Abelkozo,doctors,doctor,"",1.875306,30.0822566
+Ituri,node,7375058144,Centre de Santé Apaa,doctors,"","",3.1926776,30.6997497
+Ituri,node,13848829642,Centre de Santé Apaa,doctors,"","",3.1926776,30.6997497
+Ituri,way,791689755,Centre de Santé Atsinia,hospital,hospital,"",3.0161051,30.6227658
+Ituri,node,8014547604,Centre de Santé Bahaha,doctors,centre,"",1.3955417,29.3582867
+Ituri,node,13848829696,Centre de Santé Bahaha,doctors,centre,"",1.3955417,29.3582867
+Ituri,node,8047586610,Centre de Santé Bakonde,doctors,doctor,"",1.8440976,30.1191801
+Ituri,node,8047586602,Centre de Santé Bambu,doctors,centre,"",1.8015365,30.2364483
+Ituri,node,13848835745,Centre de Santé Bambu,doctors,centre,"",1.8015365,30.2364483
+Ituri,node,8047586611,Centre de Santé Bandebusi,doctors,centre,"",1.8182508,30.1238264
+Ituri,node,13848835762,Centre de Santé Bandebusi,doctors,centre,"",1.8182508,30.1238264
+Ituri,node,8014547603,Centre de Santé Bandibwami,doctors,centre,"",1.3785676,29.2825705
+Ituri,node,13848829697,Centre de Santé Bandibwami,doctors,centre,"",1.3785676,29.2825705
+Ituri,node,8014547602,Centre de Santé Bandikido,doctors,centre,"",1.3903204,29.4094207
+Ituri,node,13848829692,Centre de Santé Bandikido,doctors,centre,"",1.3903204,29.4094207
+Ituri,node,8785024018,Centre de Santé Biakato Mines,doctors,"","",0.8516849,29.2583435
+Ituri,node,8047586598,Centre de Santé Bodza,doctors,centre,"",1.71532,30.25768
+Ituri,node,8047586608,Centre de Santé Buengwe,doctors,centre,"",1.73275,30.12281
+Ituri,node,13848835668,Centre de Santé Buengwe,doctors,centre,"",1.73275,30.12281
+Ituri,node,8047586617,Centre de Santé Bunzenzele,doctors,centre,"",1.6957424,30.0492772
+Ituri,node,13848835669,Centre de Santé Bunzenzele,doctors,centre,"",1.6957424,30.0492772
+Ituri,way,963650140,Centre de Santé CECA20,doctors,doctor,"",1.9334087,30.0542012
+Ituri,node,7375044280,Centre de Santé Dema,doctors,"","",3.12353,30.70609
+Ituri,node,13848829641,Centre de Santé Dema,doctors,"","",3.12353,30.70609
+Ituri,node,8047586606,Centre de Santé Dhungo,doctors,centre,"",1.7282867,30.1929282
+Ituri,node,13848835666,Centre de Santé Dhungo,doctors,centre,"",1.7282867,30.1929282
+Ituri,node,7375044278,Centre de Santé Donzu,doctors,"","",3.3710883,30.88029
+Ituri,way,1005969422,Centre de Santé Epulu,clinic,"","",1.4036559,28.5718948
+Ituri,way,791691322,Centre de Santé Essoko,hospital,hospital,"",3.0291604,30.7068818
+Ituri,node,6374000545,Centre de Santé Evangelique Kasenyi,doctors,centre,"",1.401723,30.443548
+Ituri,node,7375058140,Centre de Santé Gobiri,doctors,"","",3.2269133,30.770565
+Ituri,node,13848829640,Centre de Santé Gobiri,doctors,"","",3.2269133,30.770565
+Ituri,node,8047586614,Centre de Santé Itendey,doctors,doctor,"",1.78907,30.08637
+Ituri,node,13848835753,Centre de Santé Itendey,doctors,centre,"",1.78907,30.08637
+Ituri,node,8047586601,Centre de Santé Kaba-Kaba,doctors,centre,"",1.75748,30.11655
+Ituri,node,13848835672,Centre de Santé Kaba-Kaba,doctors,centre,"",1.75748,30.11655
+Ituri,node,6374000524,Centre de Santé Kasenyi,doctors,centre,"",1.396024,30.443042
+Ituri,way,791693868,Centre de Santé Kikia,hospital,hospital,"",3.0578746,30.6755658
+Ituri,node,8047586604,Centre de Santé Kilo-Mission,doctors,centre,"",1.8300756,30.1548676
+Ituri,node,13848835751,Centre de Santé Kilo-Mission,doctors,centre,"",1.8300756,30.1548676
+Ituri,node,8047586612,Centre de Santé Kobu Matumaini,doctors,centre,"",1.8292867,30.1970488
+Ituri,node,13848835761,Centre de Santé Kobu Matumaini,doctors,centre,"",1.8292867,30.1970488
+Ituri,way,1516960733,Centre de Santé Kunda CST,hospital,hospital,"",1.6204519,30.1605309
+Ituri,node,8047586599,Centre de Santé Lalo,doctors,centre,"",1.936524,30.2797005
+Ituri,node,13848835747,Centre de Santé Lalo,doctors,centre,"",1.936524,30.2797005
+Ituri,node,8047586609,Centre de Santé Lisey,doctors,centre,"",1.7513193,30.0859665
+Ituri,node,13848835671,Centre de Santé Lisey,doctors,centre,"",1.7513193,30.0859665
+Ituri,node,8014547601,Centre de Santé Lolwa,doctors,centre,"",1.3513617,29.4971783
+Ituri,node,13848835608,Centre de Santé Lolwa,doctors,centre,"",1.3513617,29.4971783
+Ituri,node,8014547600,Centre de Santé Mabangifo,doctors,centre,"",1.4049017,29.5951867
+Ituri,node,13848829644,Centre de Santé Mabangifo,doctors,centre,"",1.4049017,29.5951867
+Ituri,node,8014547599,Centre de Santé Mabukulu,doctors,centre,"",1.3451549,29.2160133
+Ituri,node,13848835607,Centre de Santé Mabukulu,doctors,centre,"",1.3451549,29.2160133
+Ituri,node,8014547598,Centre de Santé Manya,doctors,centre,"",1.3529174,29.1538313
+Ituri,node,13848835605,Centre de Santé Manya,doctors,centre,"",1.3529174,29.1538313
+Ituri,node,7862174098,Centre de Santé Marabo,doctors,centre,public,1.442646,30.0047519
+Ituri,node,13848835634,Centre de Santé Marabo,doctors,centre,public,1.442646,30.0047519
+Ituri,way,963644899,Centre de Santé NDCM,doctors,doctor,public,1.9501036,30.0491937
+Ituri,node,6374000342,Centre de Santé Nana,doctors,centre,"",1.431893,30.472483
+Ituri,node,8047586618,Centre de Santé Ngabulo,doctors,centre,"",1.7972334,30.19453
+Ituri,node,13848835755,Centre de Santé Ngabulo,doctors,centre,"",1.7972334,30.19453
+Ituri,way,533385164,Centre de Santé Nono,hospital,hospital,"",3.0028629,30.6867
+Ituri,node,9326426816,Centre de Santé Nyakasanza,doctors,centre,"",1.557735,30.2602318
+Ituri,node,6374000335,Centre de Santé Nyamamba,doctors,centre,"",1.526531,30.520312
+Ituri,node,6374000334,Centre de Santé Nyamavi,doctors,centre,"",1.329314,30.38092
+Ituri,node,13848829676,Centre de Santé Nyamavi,doctors,centre,"",1.329314,30.38092
+Ituri,node,6374000333,Centre de Santé Nyamuasi,doctors,centre,"",1.424141,30.455277
+Ituri,node,8047586607,Centre de Santé Nyangaray,doctors,centre,"",1.7143519,30.1386878
+Ituri,node,13848835670,Centre de Santé Nyangaray,doctors,centre,"",1.7143519,30.1386878
+Ituri,node,8047586615,Centre de Santé Nyarada,doctors,centre,"",1.7372623,30.2508139
+Ituri,node,13848835735,Centre de Santé Nyarada,doctors,centre,"",1.7372623,30.2508139
+Ituri,way,1516960724,Centre de Santé Okapi,clinic,"",Okapi Conservation Project,1.4025714,28.5749609
+Ituri,node,7375058134,Centre de Santé Ovoa,doctors,"","",3.01283,30.7454733
+Ituri,node,13848829629,Centre de Santé Ovoa,doctors,"","",3.01283,30.7454733
+Ituri,node,13848835752,Centre de Santé Petsi,doctors,centre,"",1.7685633,30.2166181
+Ituri,node,8479519310,Centre de Santé Pluto,doctors,doctor,"",1.9812264,30.0303589
+Ituri,node,7375058131,Centre de Santé Rogale,doctors,"","",3.2703283,30.8211617
+Ituri,node,8047586605,Centre de Santé Tchangana,doctors,centre,"",1.8224995,30.0575339
+Ituri,node,13848835757,Centre de Santé Tchangana,doctors,doctor,"",1.8224995,30.0575339
+Ituri,node,8047586616,Centre de Santé Tchudja,doctors,centre,"",1.8581972,30.2199165
+Ituri,node,13848835754,Centre de Santé Tchudja,doctors,centre,"",1.8581972,30.2199165
+Ituri,node,8014547597,Centre de Santé Toly Toly,doctors,centre,"",1.3903533,29.4094183
+Ituri,node,13848829689,Centre de Santé Toly Toly,doctors,centre,"",1.3903533,29.4094183
+Ituri,node,6374000323,Centre de Santé Torges,doctors,centre,"",1.650195,30.645129
+Ituri,node,8047586613,Centre de Santé Tsili - Lipri,doctors,centre,"",1.7079438,30.2152072
+Ituri,node,13848835667,Centre de Santé Tsili - Lipri,doctors,centre,"",1.7079438,30.2152072
+Ituri,way,533384990,Centre de Santé Yetsu,doctors,hospital,"",3.0198806,30.6461444
+Ituri,way,1516960722,Centre de Santé Yetsu,doctors,hospital,"",3.0198806,30.6461444
+Ituri,node,8047586600,Centre de Santé Zengo,doctors,centre,"",1.9537445,30.2112477
+Ituri,node,13848835758,Centre de Santé Zengo,doctors,centre,"",1.9537445,30.2112477
+Ituri,node,3381333457,Centre de Santé de Bandisende,hospital,"","",1.398482,28.69788
+Ituri,node,13848835603,Centre de Santé de Bandisende,hospital,"","",1.398482,28.69788
+Ituri,node,3381333458,Centre de Santé de Binase,hospital,"","",1.355057,29.031503
+Ituri,node,3381333459,Centre de Santé de Butiaba,hospital,"","",1.338366,29.037878
+Ituri,node,3381333461,Centre de Santé de Lwemba,hospital,"","",0.998991,29.171076
+Ituri,node,3381333462,Centre de Santé de Mayuano,hospital,"","",1.1366368,29.1462811
+Ituri,node,3381333463,Centre de Santé de Molokay,hospital,"","",1.4043052,28.3902987
+Ituri,node,13848835604,Centre de Santé de Molokay,hospital,"","",1.4043052,28.3902987
+Ituri,node,7862174105,Centre de Santé de Référence Bwanasura,doctors,centre,public,1.0739711,29.5871171
+Ituri,node,13848829682,Centre de Santé de Référence Bwanasura,doctors,centre,public,1.0739711,29.5871171
+Ituri,node,6374000288,Centre de Santé de Référence Kasenyi,doctors,centre,"",1.388799,30.431817
+Ituri,node,7862174106,Centre de Santé de Référence Kombokabo,doctors,centre,public,1.4691401,30.0998899
+Ituri,node,13848835631,Centre de Santé de Référence Kombokabo,doctors,centre,public,1.4691401,30.0998899
+Ituri,node,7919697509,Centre de Santé de Référence Tchabi,doctors,"","",0.98075,29.87805
+Ituri,node,3381333466,Centre de Santé de Teturi,hospital,"","",1.0555869,29.1461403
+Ituri,node,13848835736,Centre de Santé de Tsiku,clinic,"","",1.7310528,30.3427531
+Ituri,node,11626244730,Centre de Santé de référence,doctors,centre,"",1.8189691,30.1263686
+Ituri,node,13848835763,Centre de Santé de référence,doctors,centre,"",1.8189691,30.1263686
+Ituri,node,10075012012,Centre de santé Akungu médicale,doctors,centre,"",1.5523437,30.2157155
+Ituri,node,7375058145,Centre de santé Angiria,doctors,"","",3.1022767,30.6730617
+Ituri,node,7375044279,Centre de santé Ariwara,doctors,"","",3.1371,30.68819
+Ituri,node,13848829639,Centre de santé Ariwara,doctors,"","",3.1371,30.68819
+Ituri,node,7375058143,Centre de santé Ayiforo,doctors,"","",3.1994267,30.7881533
+Ituri,node,10019486412,Centre de santé Bankoko,doctors,centre,"",1.5531897,30.2337675
+Ituri,node,10224672519,Centre de santé Baraka,doctors,centre,"",1.5701376,30.2188812
+Ituri,node,8046569869,Centre de santé Croix verte,doctors,centre,privé,1.5563875,30.2565859
+Ituri,node,7375058142,Centre de santé Edipi,doctors,"","",3.266875,30.7212783
+Ituri,node,13848829637,Centre de santé Edipi,doctors,"","",3.266875,30.7212783
+Ituri,node,10221681649,Centre de santé Gloria,doctors,centre,"",1.5338392,30.2390139
+Ituri,node,10222392302,Centre de santé Hoho,doctors,centre,public,1.5380488,30.2410987
+Ituri,node,7375058137,Centre de santé Lea,doctors,"","",3.176445,30.6502167
+Ituri,node,13848829636,Centre de santé Lea,doctors,"","",3.176445,30.6502167
+Ituri,node,7375058136,Centre de santé Nderi,doctors,"","",3.1040133,30.7729
+Ituri,node,13848829635,Centre de santé Nderi,doctors,"","",3.1040133,30.7729
+Ituri,node,10313897398,Centre de santé Ngezi,doctors,centre,"",1.5749577,30.2439743
+Ituri,node,7375058128,Centre de santé Ombayi,doctors,"","",3.0797783,30.76938
+Ituri,node,13848829627,Centre de santé Ombayi,doctors,"","",3.0797783,30.76938
+Ituri,node,7375058135,Centre de santé Omundatsi,doctors,"","",3.09845,30.6187417
+Ituri,node,13848829631,Centre de santé Omundatsi,doctors,"","",3.09845,30.6187417
+Ituri,node,10075012011,Centre de santé Opas,doctors,centre,"",1.5464222,30.2129321
+Ituri,node,7375058133,Centre de santé Ovutsiri,doctors,"","",3.1256133,30.6896583
+Ituri,node,13848829643,Centre de santé Ovutsiri,doctors,"","",3.1256133,30.6896583
+Ituri,node,7375058132,Centre de santé Pabiri,doctors,"","",3.1507667,30.7864117
+Ituri,node,7375058130,Centre de santé Titi,doctors,"","",3.2542407,30.8218241
+Ituri,node,7375058129,Centre de santé Witsiri,doctors,"","",3.2251517,30.7101983
+Ituri,node,13848835688,Centre de santé adventiste,doctors,centre,private,1.5575453,30.2458428
+Ituri,node,10068842249,Centre de santé d'Aéroport Espace sûr,doctors,centre,"",1.574516,30.2203403
+Ituri,node,5881283887,Centre de santé de Bikima,clinic,"","",1.0731535,29.928292
+Ituri,node,5881246052,Centre de santé de Blukwa NBI,clinic,"","",1.771786,30.6120548
+Ituri,node,5881335947,Centre de santé de Burasi,clinic,"","",1.0233049,30.2212161
+Ituri,node,8007228798,Centre de santé de Commune,doctors,centre,"",1.5531272,30.2563113
+Ituri,node,5881271255,Centre de santé de Heritage,doctors,centre,"",1.7288686,30.3234297
+Ituri,node,13848835733,Centre de santé de Kambe,clinic,"","",1.6992541,30.352824
+Ituri,node,5881319970,Centre de santé de Kyabyohe,clinic,"","",0.917883,30.1383204
+Ituri,node,13848835732,Centre de santé de Loga,clinic,"","",1.6830184,30.4053068
+Ituri,node,5881300180,Centre de santé de Mugwanga,doctors,"","",0.9753341,29.9731051
+Ituri,node,5881283885,Centre de santé de Rubingo,doctors,"","",1.0440149,29.9363574
+Ituri,node,13848835739,Centre de santé de Salibokho,clinic,"","",1.6890709,30.4830024
+Ituri,node,13848835740,Centre de santé de Tche,clinic,"","",1.6674602,30.5152506
+Ituri,node,5881312037,Centre de santé de Tondoli,doctors,"","",0.932583,29.9232616
+Ituri,node,13848835717,Centre hospitalier La charité,clinic,clinic,"",1.5653784,30.2503068
+Ituri,node,10222392281,Centre hospitalier Mere-enfant Elikya,clinic,clinic,"",1.5305003,30.2530901
+Ituri,node,10223807870,Centre hospitalier des sœurs,clinic,clinic,"",1.5557422,30.2145696
+Ituri,node,10222392274,Centre médical Gloire à Dieu,clinic,clinic,"",1.5446198,30.2525989
+Ituri,node,10226545725,Centre médical Siloe,clinic,clinic,"",1.5594818,30.2297053
+Ituri,node,9221250420,Centre médical Tegra,clinic,clinic,"",1.5219069,30.2600957
+Ituri,node,11349463136,Centre médical Ushindi,clinic,clinic,"",1.5616036,30.225746
+Ituri,node,10221681653,Centre médico chirurgical Emmanuel,clinic,clinic,"",1.5352763,30.2272645
+Ituri,node,8121168556,Cesop,doctors,doctor,"",1.549495,30.24962
+Ituri,node,7375044282,Clinique Bon Samaritain Ariwara,clinic,"","",3.1300219,30.6981642
+Ituri,node,11369022182,Clinique Bondeko,clinic,clinic,"",1.5384996,30.2352064
+Ituri,node,13848835712,Clinique Bénédicte,clinic,clinic,"",1.5524067,30.2422486
+Ituri,node,8194398196,Clinique Codemuco,clinic,"","",1.2040378,29.1180312
+Ituri,node,13848835623,Clinique Codemuco,clinic,"","",1.2040378,29.1180312
+Ituri,node,7375058089,Clinique Croire A La Vie,clinic,"","",3.1300317,30.69514
+Ituri,node,8039136548,Clinique Espoir,clinic,clinic,"",1.5270767,30.2553703
+Ituri,node,8194398192,Clinique EzeCentre Hospitalieriel,clinic,"","",1.1341698,29.14659
+Ituri,node,8194398191,Clinique In God We Trust,clinic,"","",1.1355609,29.1475585
+Ituri,node,7375058093,Clinique Jehova Rapha,clinic,"","",3.1298117,30.703535
+Ituri,node,10226706192,Clinique Karibuni,clinic,clinic,"",1.5474331,30.2423995
+Ituri,node,8194398199,Clinique La Sagesse,clinic,"","",1.0133144,29.1643215
+Ituri,node,8194398198,Clinique La Victoire,clinic,"","",1.1503567,29.1412283
+Ituri,node,13848835689,Clinique Maternité Maman Marie Claire Vandekerckhove,clinic,clinic,"",1.5539585,30.249732
+Ituri,node,11343870435,Clinique Mont Horeb,clinic,clinic,"",1.5559973,30.235567
+Ituri,node,13848835696,Clinique Mont Horeb,clinic,clinic,"",1.5524684,30.2394973
+Ituri,node,13848835633,Clinique Oui pour la santé,clinic,clinic,Oui Pour la Santé - OPSa asbl,1.5460706,30.2322658
+Ituri,node,13848835691,Clinique Panvitalisme Sanitas,clinic,clinic,"",1.5647725,30.2434627
+Ituri,node,11367595728,Clinique Pendo la mungu,clinic,clinic,"",1.5444101,30.2421722
+Ituri,node,8194411450,Clinique Saint Valentin,clinic,"","",0.8514483,29.2537467
+Ituri,node,10222392285,Clinique Saint Valentin,clinic,clinic,"",1.523771,30.2445942
+Ituri,node,10222392296,Clinique Shalom,clinic,clinic,"",1.5449978,30.2437332
+Ituri,node,11727455463,Clinique Shalom,clinic,clinic,"",1.5550129,30.2447739
+Ituri,node,10550761828,Clinique Shekina de Bunia,clinic,clinic,"",1.5735802,30.2204812
+Ituri,node,10226611511,Clinique Source de vie,clinic,clinic,"",1.5475363,30.2370518
+Ituri,node,13848835715,Clinique Top Santé,clinic,clinic,"",1.5597385,30.2470324
+Ituri,node,8194411423,Clinique Tropical,clinic,"","",0.7505142,29.2296285
+Ituri,node,13848835706,Clinique Vanti Vanti,clinic,clinic,"",1.5620149,30.2426885
+Ituri,node,13848835693,Clinique du Mémorial André Mandoboy,clinic,clinic,"",1.5612245,30.2400544
+Ituri,node,13848835639,Clinique gynéco-obstétricale La providence,clinic,clinic,"",1.545768,30.2249685
+Ituri,node,8007435155,Clinique universelle,clinic,clinic,"",1.5448952,30.2492111
+Ituri,node,7375058091,Dispensaire Expérience de Dieu,clinic,clinic,"",3.1458983,30.7181767
+Ituri,way,791750271,Hopital General Adja,hospital,hospital,"",3.016183,30.4778157
+Ituri,node,3678715093,Hopital Général de Référence de Gety,hospital,"","",1.2183992,30.1561276
+Ituri,node,13848829668,Hopital Général de Référence de Gety,hospital,"","",1.2183992,30.1561276
+Ituri,way,679831300,Hôpital Général Ariwara,hospital,"","",3.1353106,30.7106168
+Ituri,way,619402141,Hôpital Général de Mambasa,hospital,hospital,"",1.349633,29.074475
+Ituri,way,619402140,Hôpital Général de Mandima,hospital,hospital,"",1.3555392,29.0825617
+Ituri,node,3381333470,Hôpital Général de Nia-Nia,hospital,hospital,"",1.4041571,27.6031149
+Ituri,node,8014547596,Hôpital Général de Référence Lolwa,hospital,"","",1.3517183,29.495525
+Ituri,node,13848835611,Hôpital Général de Référence Lolwa,hospital,"","",1.3517183,29.495525
+Ituri,way,611897245,Hôpital Général de Référence de Bunia,hospital,hospital,"",1.5717995,30.2385696
+Ituri,way,963644927,Hôpital Général de Référence de Mongbwalu,hospital,hospital,"",1.9468031,30.0445359
+Ituri,node,8007344941,Hôpital Salama,clinic,clinic,"",1.5341075,30.2522268
+Ituri,node,4033718613,Hôpital de Geti Maternité,clinic,"","",1.208351,30.174193
+Ituri,node,13848829681,Hôpital de Geti Maternité,clinic,"","",1.208351,30.174193
+Ituri,node,9303507511,Hôpital général de réference de Nizi,hospital,"","",1.7554733,30.3030659
+Ituri,node,13848835738,Hôpital général de réference de Nizi,hospital,"","",1.7554733,30.3030659
+Ituri,node,13848835719,Hôpital provincial PNC de l'Ituri,hospital,hospital,"",1.5610629,30.2428693
+Ituri,node,10222381215,Ituri Medical Center,clinic,clinic,"",1.5449697,30.2505031
+Ituri,node,11054959859,KULUBA HC II,hospital,"","",3.5055417,30.9417637
+Ituri,node,8397100266,Katanga Centre de Santé,doctors,"","",0.7847479,29.2341092
+Ituri,node,11363192786,La MONUC,clinic,clinic,"",1.534502,30.2480359
+Ituri,node,6403584615,MSF,clinic,clinic,Médecins sans frontières,1.5464571,30.2496086
+Ituri,way,1516960732,MSF - Bon marché,hospital,hospital,Médecins sans frontières,1.5690493,30.228631
+Ituri,way,962915504,Medical Hope Center of Dr.Pay,clinic,clinic,private,1.9281802,30.059513
+Ituri,way,662837977,Nyankunde,hospital,hospital,"",1.4315442,30.0328613
+Ituri,node,7919697510,PS Kabugeja,doctors,"","",0.9466143,30.0366104
+Ituri,node,10224671196,Point de secours du comité de redynamisation de la Croix rouge Ituri,clinic,clinic,"",1.5698306,30.2109741
+Ituri,node,8194411465,Poste de Sante Cbca Alima,clinic,"","",0.9071517,29.2346767
+Ituri,node,5333865323,Rotiko,doctors,"",None,2.9676383,30.84389
+Ituri,node,8121287886,Shekinah,clinic,clinic,"",1.5771153,30.2217759
+Nord-Kivu,node,13440255101,Air de santé mangodomu,hospital,"","",0.578052,29.3291386
+Nord-Kivu,node,12206729268,CBCA,clinic,"",Ministère de la santé,-1.0840735,29.2239439
+Nord-Kivu,node,13846862705,CBCA,clinic,"",Ministère de la santé,-1.0840735,29.2239439
+Nord-Kivu,node,12206729311,CEBCE,clinic,"",Ministère de la santé,-1.0824658,29.2289409
+Nord-Kivu,node,13846862703,CEBCE,clinic,"",Ministère de la santé,-1.0824658,29.2289409
+Nord-Kivu,node,13846863292,CH Adrenaline,clinic,"","",0.0406133,29.714405
+Nord-Kivu,way,788816818,CH BITUMBI,hospital,hospital,"",0.0699592,29.0983401
+Nord-Kivu,node,13846863298,CH De La Rmscepromen,clinic,"","",0.0403816,29.7146777
+Nord-Kivu,node,13846862912,CH Espoir,clinic,"","",0.0897395,29.2910917
+Nord-Kivu,node,13846863303,CH Gloria Divina,clinic,"","",0.0522117,29.690285
+Nord-Kivu,node,13846863294,CH Joseph Dawa,clinic,"","",0.0489456,29.709368
+Nord-Kivu,node,13846863068,CH La Charité II,clinic,"","",0.1441068,29.2694557
+Nord-Kivu,way,1516636693,CH La Gazelle,clinic,"","",0.4911316,29.4744324
+Nord-Kivu,node,13846863297,CH Madi,clinic,"","",0.0517503,29.7114149
+Nord-Kivu,node,13846863084,CH Maison Medicale Lulengo,clinic,"","",0.1526462,29.3246435
+Nord-Kivu,node,6374053871,CH Mukongo,hospital,hospital,"",0.021776,29.102094
+Nord-Kivu,node,13846862961,CH Mulenzi,clinic,"","",0.1313619,29.3356868
+Nord-Kivu,way,796919244,CH SAINTE STELLA,hospital,hospital,"",-0.1539103,29.2442568
+Nord-Kivu,node,13846862907,CH Saint Gabriel,clinic,"","",0.0883938,29.2946057
+Nord-Kivu,node,13846863293,CH Shalom,clinic,"","",0.0549911,29.7051225
+Nord-Kivu,node,13846863301,CH Socidec,clinic,"","",0.0448789,29.7116473
+Nord-Kivu,way,809575787,CH TUMAINI,hospital,hospital,"",0.0605097,29.0518876
+Nord-Kivu,node,13846863300,CH Umoja,clinic,"","",0.0458359,29.7151741
+Nord-Kivu,way,809218755,CH WALIHYA,hospital,hospital,"",0.0353018,29.0959106
+Nord-Kivu,node,13846863066,CH Ziada,clinic,"","",0.144074,29.2787392
+Nord-Kivu,way,615333191,CH de l'Unité,hospital,yes,"",0.4893463,29.4733684
+Nord-Kivu,node,13846862908,CH saint Gabriel,clinic,"","",0.0883903,29.2945989
+Nord-Kivu,node,13846863023,CLIN LA MERVEILLE,clinic,clinic,"",0.1265067,29.29177
+Nord-Kivu,node,6374102978,CLIN STE CROIX,clinic,clinic,"",-0.1861959,29.2930525
+Nord-Kivu,node,6374102977,CLIN UNILUK,clinic,clinic,"",-0.116766,29.2441002
+Nord-Kivu,node,13846863304,CLIN Umoja,clinic,"","",0.3313617,29.6758067
+Nord-Kivu,node,13846863223,CLinic la Famille,clinic,"","",0.4990844,29.4730997
+Nord-Kivu,node,13846863299,CM Joseph Dawa,clinic,"","",0.3284196,29.6767114
+Nord-Kivu,node,13846863296,CM La Guerison,clinic,"","",0.3361617,29.67726
+Nord-Kivu,node,13846863302,CM Tumaini Letu,clinic,"","",0.3335186,29.6843215
+Nord-Kivu,node,13846863290,CM Usalama,clinic,"","",0.0432047,29.7121552
+Nord-Kivu,node,6374000558,CS BARAKA,doctors,centre,"",-0.237123,29.29162
+Nord-Kivu,node,13846862768,CS BARAKA,doctors,centre,"",-0.237123,29.29162
+Nord-Kivu,node,13846862847,CS BIKINDWE,doctors,centre,"",0.011577,29.283363
+Nord-Kivu,node,6374000554,CS BUKONDI,doctors,centre,"",-0.1163421,29.317211
+Nord-Kivu,node,13846862789,CS BUKONDI,doctors,centre,"",-0.1163421,29.317211
+Nord-Kivu,node,13846862746,CS BUKUNUNU,doctors,centre,"",-0.371983,29.348478
+Nord-Kivu,node,6374000551,CS BUNYUKA,doctors,centre,"",0.1491583,29.370275
+Nord-Kivu,node,13846862890,CS BUNYUKA,doctors,centre,"",0.1491583,29.370275
+Nord-Kivu,node,7057690592,CS Bulongo,doctors,"","",0.325484,29.6779392
+Nord-Kivu,node,6374000546,CS CCLK,doctors,centre,"",-1.63438,29.16702
+Nord-Kivu,node,13846852570,CS CCLK,doctors,centre,"",-1.63438,29.16702
+Nord-Kivu,node,6374000539,CS ISONGA,doctors,centre,"",0.158517,29.431197
+Nord-Kivu,node,13846862885,CS ISONGA,doctors,centre,"",0.158517,29.431197
+Nord-Kivu,node,13846863141,CS ISONGA,doctors,centre,"",0.186823,29.488346
+Nord-Kivu,node,6374000538,CS IVATAMA,doctors,centre,"",0.0136317,29.2488817
+Nord-Kivu,node,13846862868,CS IVATAMA,doctors,centre,"",0.0136317,29.2488817
+Nord-Kivu,node,6374000536,CS KAGHERI,doctors,centre,"",-0.2195714,29.125088
+Nord-Kivu,node,13846862747,CS KAGHERI,doctors,centre,"",-0.2195714,29.125088
+Nord-Kivu,node,6374000534,CS KALENGEHYA,doctors,centre,"",0.033716,29.38715
+Nord-Kivu,node,13846862871,CS KALENGEHYA,doctors,centre,"",0.033716,29.38715
+Nord-Kivu,node,13846862745,CS KALIMBA,doctors,centre,"",-0.3654317,29.3117282
+Nord-Kivu,node,13846862873,CS KALIVULI,doctors,centre,"",0.03363,29.5094916
+Nord-Kivu,node,6374000526,CS KASALALA,doctors,centre,"",-0.1449767,29.2468817
+Nord-Kivu,node,13846862810,CS KASALALA,doctors,centre,"",-0.1449767,29.2468817
+Nord-Kivu,node,6374000523,CS KASISI,doctors,centre,"",-0.037517,29.438842
+Nord-Kivu,node,13846862797,CS KASISI,doctors,centre,"",-0.037517,29.438842
+Nord-Kivu,node,13846862878,CS KASISI,doctors,centre,"",0.0640494,29.5174053
+Nord-Kivu,node,13846863135,CS KASITU,doctors,centre,"",0.2082109,29.3390638
+Nord-Kivu,node,6374000520,CS KASONGWERE,doctors,centre,"",-0.068348,29.397009
+Nord-Kivu,node,13846862802,CS KASONGWERE,doctors,centre,"",-0.068348,29.397009
+Nord-Kivu,node,6374000519,CS KASUGHO,doctors,centre,"",-0.2554717,29.0031383
+Nord-Kivu,node,13846862754,CS KASUGHO,doctors,centre,"",-0.2554717,29.0031383
+Nord-Kivu,node,13846863137,CS KATANDA,doctors,centre,"",0.230397,29.424092
+Nord-Kivu,node,6374000516,CS KATIRI,doctors,centre,"",-0.0292317,29.3900433
+Nord-Kivu,node,13846862809,CS KATIRI,doctors,centre,"",-0.0292317,29.3900433
+Nord-Kivu,node,6374000515,CS KATOLO,doctors,centre,"",0.00688,29.24609
+Nord-Kivu,node,13846862849,CS KATOLO,doctors,centre,"",0.00688,29.24609
+Nord-Kivu,node,6374000512,CS KIGHALI,doctors,centre,"",0.0826183,29.3774417
+Nord-Kivu,node,13846862877,CS KIGHALI,doctors,centre,"",0.0826183,29.3774417
+Nord-Kivu,node,6374000510,CS KIMBULU,doctors,centre,"",-0.057358,29.230434
+Nord-Kivu,node,13846862785,CS KIMBULU,doctors,centre,"",-0.057358,29.230434
+Nord-Kivu,node,13846862879,CS KIRINDERA,doctors,centre,"",0.034145,29.4421217
+Nord-Kivu,node,13846862876,CS KIRINDERA CBCEA,doctors,centre,"",0.0331517,29.4531117
+Nord-Kivu,node,13846862757,CS KISAKA,doctors,centre,"",-0.287368,29.444307
+Nord-Kivu,node,13846862769,CS KISIMA,doctors,centre,"",-0.3044954,29.377392
+Nord-Kivu,node,13846862781,CS KITEMBE,doctors,centre,"",-0.056118,29.302112
+Nord-Kivu,node,13846862881,CS KIVUWE,doctors,centre,"",0.000603,29.501656
+Nord-Kivu,node,13846862869,CS KYANGENDI,doctors,centre,"",0.001015,29.526607
+Nord-Kivu,node,8604777510,CS Kahondo,hospital,"","",0.63232,29.9261333
+Nord-Kivu,node,8604775653,CS Kamango,hospital,"","",0.6642815,29.8875404
+Nord-Kivu,way,1156965781,CS Kibati,doctors,doctor,"",-1.2925151,28.6155689
+Nord-Kivu,way,1516636675,CS Kibati,doctors,doctor,"",-1.2925151,28.6155689
+Nord-Kivu,node,7057690551,CS Kotokoli,doctors,"","",0.3274784,29.6724338
+Nord-Kivu,node,6374000491,CS LUKANGA,doctors,centre,"",-0.1048551,29.2612872
+Nord-Kivu,node,13846862794,CS LUKANGA,doctors,centre,"",-0.1048551,29.2612872
+Nord-Kivu,node,13846862791,CS LUOTU,doctors,centre,"",-0.01674,29.348077
+Nord-Kivu,node,6374000487,CS MABAMBI,doctors,centre,"",0.0728317,29.12288
+Nord-Kivu,node,13846862844,CS MABAMBI,doctors,centre,"",0.0728317,29.12288
+Nord-Kivu,node,6374000382,CS MAGHERYA,doctors,centre,"",-0.0537014,29.3553033
+Nord-Kivu,node,13846862801,CS MAGHERYA,doctors,centre,"",-0.0537014,29.3553033
+Nord-Kivu,node,13846862775,CS MASERKA,doctors,centre,"",-0.133333,29.333334
+Nord-Kivu,node,6374000367,CS MASUMO,doctors,centre,"",-0.0323445,29.148266
+Nord-Kivu,node,13846862818,CS MASUMO,doctors,centre,"",-0.0323445,29.148266
+Nord-Kivu,node,13846862774,CS MIHAKE,doctors,centre,"",-0.0129876,29.3136069
+Nord-Kivu,node,6374000359,CS MIRINGATE,doctors,centre,"",-0.166667,29.466667
+Nord-Kivu,node,13846862779,CS MIRINGATE,doctors,centre,"",-0.166667,29.466667
+Nord-Kivu,node,13846862760,CS MUBANA,doctors,centre,"",-0.282753,29.41232
+Nord-Kivu,node,6374000352,CS MULO,doctors,centre,"",-0.166667,29.266667
+Nord-Kivu,node,13846862807,CS MULO,doctors,centre,"",-0.166667,29.266667
+Nord-Kivu,node,6374000351,CS MUMOLE,doctors,centre,"",0.2142855,29.3890384
+Nord-Kivu,node,13846863150,CS MUMOLE,doctors,centre,"",0.2142855,29.3890384
+Nord-Kivu,node,13846862728,CS MUSEYA,doctors,centre,"",-0.079745,29.5322633
+Nord-Kivu,node,13846863144,CS MUTENDERO,doctors,centre,"",0.225039,29.490446
+Nord-Kivu,node,12965992842,CS Mungazi,doctors,doctor,"",-1.2640325,28.5545559
+Nord-Kivu,node,13846862648,CS Mungazi,doctors,doctor,"",-1.2640325,28.5545559
+Nord-Kivu,node,6374000339,CS NGITSE,doctors,centre,"",-0.096965,29.388103
+Nord-Kivu,node,13846862787,CS NGITSE,doctors,centre,"",-0.096965,29.388103
+Nord-Kivu,node,6374000336,CS NYABILI,doctors,centre,"",-0.143555,29.317823
+Nord-Kivu,node,13846862790,CS NYABILI,doctors,centre,"",-0.143555,29.317823
+Nord-Kivu,node,13846862782,CS RWESE,doctors,centre,"",-0.062176,29.255177
+Nord-Kivu,node,6374000319,CS VAYANA,doctors,centre,"",-0.0176483,29.4098833
+Nord-Kivu,node,13846862776,CS VAYANA,doctors,centre,"",-0.0176483,29.4098833
+Nord-Kivu,node,6374000317,CS VUHALIHYA,doctors,centre,"",0.000825,29.1343867
+Nord-Kivu,node,13846862839,CS VUHALIHYA,doctors,centre,"",0.000825,29.1343867
+Nord-Kivu,node,6374000315,CS VUHOVI,doctors,centre,"",0.123455,29.37052
+Nord-Kivu,node,13846862891,CS VUHOVI,doctors,centre,"",0.123455,29.37052
+Nord-Kivu,node,13846862764,CS VUKENDO,doctors,centre,"",-0.337501,29.399091
+Nord-Kivu,node,13846862883,CS VULAMBAYIRI,doctors,centre,"",0.0049833,29.412135
+Nord-Kivu,node,6374000308,CS VUNYAKONDOMI,doctors,centre,"",-0.1888479,29.3508118
+Nord-Kivu,node,13846862756,CS VUNYAKONDOMI,doctors,centre,"",-0.1888479,29.3508118
+Nord-Kivu,node,6374000305,CS VUSAMBA,doctors,centre,"",0.018984,29.158085
+Nord-Kivu,node,13846862843,CS VUSAMBA,doctors,centre,"",0.018984,29.158085
+Nord-Kivu,node,6374000304,CS VUSAYI,doctors,centre,"",0.0178533,29.06877
+Nord-Kivu,node,13846862835,CS VUSAYI,doctors,centre,"",0.0178533,29.06877
+Nord-Kivu,node,6374000298,CS VUTUMBE,doctors,centre,"",0.0717041,28.963899
+Nord-Kivu,node,13846862832,CS VUTUMBE,doctors,centre,"",0.0717041,28.963899
+Nord-Kivu,node,6374000296,CS VUYINGA,doctors,centre,"",0.056665,29.0510167
+Nord-Kivu,node,13846862821,CS VUYINGA,doctors,centre,"",0.056665,29.0510167
+Nord-Kivu,node,6374000295,CS VYAKUNO,doctors,centre,"",0.052688,29.410827
+Nord-Kivu,node,13846862875,CS VYAKUNO,doctors,centre,"",0.052688,29.410827
+Nord-Kivu,node,6374000302,CS Vusorongi,doctors,centre,"",-0.0417,29.49069
+Nord-Kivu,node,13846862793,CS Vusorongi,doctors,centre,"",-0.0417,29.49069
+Nord-Kivu,node,6374000292,CSR BULAMBO,doctors,centre,"",0.2053695,29.4185644
+Nord-Kivu,node,13846863142,CSR BULAMBO,doctors,centre,"",0.2053695,29.4185644
+Nord-Kivu,node,13846862755,CSR KAGHULI,doctors,centre,"",-0.244749,29.420651
+Nord-Kivu,node,6374000287,CSR KASIMA,doctors,centre,"",-0.235425,29.23316
+Nord-Kivu,node,13846862759,CSR KASIMA,doctors,centre,"",-0.235425,29.23316
+Nord-Kivu,node,6374000286,CSR KATOLO,doctors,centre,"",-0.221755,29.030738
+Nord-Kivu,node,13846862748,CSR KATOLO,doctors,centre,"",-0.221755,29.030738
+Nord-Kivu,node,13846862765,CSR KIRIKIRI,doctors,centre,"",-0.2802216,29.2900766
+Nord-Kivu,node,6373999482,CSR KYAVINYONGE,doctors,centre,"",-0.150035,29.55719
+Nord-Kivu,node,13846862724,CSR KYAVINYONGE,doctors,centre,"",-0.150035,29.55719
+Nord-Kivu,node,6373999480,CSR MUKONGO,doctors,centre,"",0.02809,29.10508
+Nord-Kivu,node,13846862840,CSR MUKONGO,doctors,centre,"",0.02809,29.10508
+Nord-Kivu,node,12211725397,CdS Kabizo,clinic,"","",-1.1650797,29.2300417
+Nord-Kivu,node,13846862708,CdS Kabizo,clinic,"","",-1.1650797,29.2300417
+Nord-Kivu,node,12216281711,CdS Kishishe,clinic,"","",-1.0302328,29.2207994
+Nord-Kivu,node,13846862710,CdS Kishishe,clinic,"","",-1.0302328,29.2207994
+Nord-Kivu,node,12211669090,Cds Mushababwe,clinic,"","",-1.122904,29.1971559
+Nord-Kivu,node,13846862707,Cds Mushababwe,clinic,"","",-1.122904,29.1971559
+Nord-Kivu,node,7331759549,Centre De Santé Bunagana,doctors,"","",-1.2984427,29.5923993
+Nord-Kivu,node,7331759552,Centre De Santé De Référence Bugusa,doctors,"","",-1.29804,29.5469617
+Nord-Kivu,node,7331759547,Centre De Santé Kabonero,doctors,"","",-1.3180083,29.5528783
+Nord-Kivu,node,13846863166,Centre De Santé Kasebere,doctors,"","",0.415548,29.2906883
+Nord-Kivu,node,7331759553,Centre De Santé Thsengerero,doctors,"","",-1.2762772,29.5534378
+Nord-Kivu,node,13846862972,Centre Hospitalier Afya Bora,clinic,nurse,"",0.1127999,29.2929382
+Nord-Kivu,node,9076996082,Centre Hospitalier All the Same,hospital,"","",0.0803368,29.3082058
+Nord-Kivu,node,13846862930,Centre Hospitalier Americano,clinic,"","",0.1076328,29.3371656
+Nord-Kivu,node,13846862940,Centre Hospitalier Anuarite,clinic,"","",0.1171163,29.3170866
+Nord-Kivu,node,13846863097,Centre Hospitalier Anuarite,doctors,"","",0.1560688,29.3206355
+Nord-Kivu,node,13846863123,Centre Hospitalier Baraka,clinic,"","",0.1368862,29.2650624
+Nord-Kivu,node,13846863124,Centre Hospitalier Baraka II,clinic,"","",0.1369102,29.2667717
+Nord-Kivu,node,13846862896,Centre Hospitalier Bethel,clinic,"","",0.1029833,29.28386
+Nord-Kivu,node,13846863128,Centre Hospitalier Butuhe,doctors,"","",0.2133236,29.2754799
+Nord-Kivu,node,13846863087,Centre Hospitalier Bwira,doctors,"","",0.1426746,29.3233467
+Nord-Kivu,node,13846863030,Centre Hospitalier CBCA,clinic,"",Communauté des Eglises Baptistes au Centre de l'Afrique,0.1304729,29.289324
+Nord-Kivu,node,13846862915,Centre Hospitalier CEMEBU,clinic,hospital,"",0.0999748,29.3038484
+Nord-Kivu,way,1005497282,Centre Hospitalier Carl Becker,clinic,"","",0.4991581,29.4723527
+Nord-Kivu,way,258938423,Centre Hospitalier Cmak,hospital,hospital,"",-1.6781693,29.2167179
+Nord-Kivu,node,9139918686,Centre Hospitalier Coeur Immaculé,clinic,"","",0.1012706,29.2914618
+Nord-Kivu,node,13846863306,Centre Hospitalier Col Vumbi,clinic,"","",0.7052184,29.5126385
+Nord-Kivu,way,1516636687,Centre Hospitalier Dieu Merci,clinic,"","",0.1402816,29.3168687
+Nord-Kivu,node,13846863089,Centre Hospitalier Don Beni,doctors,"","",0.1496677,29.3159495
+Nord-Kivu,node,13846862971,Centre Hospitalier El Rapha,clinic,hospital,"",0.11798,29.2996783
+Nord-Kivu,node,6374058438,Centre Hospitalier Emanuel Dalzon,hospital,hospital,"",0.4949573,29.4666467
+Nord-Kivu,node,6374058407,Centre Hospitalier Emmanuel d'Alzon,doctors,hospital,"",0.095735,29.32796
+Nord-Kivu,node,9602600906,Centre Hospitalier Emmanuel d'Alzon,hospital,"",private,0.0959365,29.3279766
+Nord-Kivu,node,13846862935,Centre Hospitalier Emmanuel d'Alzon,doctors,hospital,"",0.095735,29.32796
+Nord-Kivu,node,13846863039,Centre Hospitalier FEPSI,clinic,"",Farmamundi,0.1325573,29.2858091
+Nord-Kivu,node,13846862977,Centre Hospitalier Faraja,clinic,"","",0.11295,29.2925483
+Nord-Kivu,node,13846862916,Centre Hospitalier Furaha,clinic,"","",0.1080479,29.2866448
+Nord-Kivu,way,479568883,Centre Hospitalier Guerison Divine,clinic,"","",-1.6168552,29.1509779
+Nord-Kivu,way,480884065,Centre Hospitalier Heshima,hospital,hospital,"",-1.6530805,29.1769346
+Nord-Kivu,way,792888385,Centre Hospitalier Heshima Letu,clinic,hospital,"",0.1365531,29.2965311
+Nord-Kivu,way,1516636690,Centre Hospitalier Heshima Letu,clinic,hospital,"",0.1365531,29.2965311
+Nord-Kivu,node,13846863172,Centre Hospitalier Kabasha,doctors,centre,"",0.38331,29.3752
+Nord-Kivu,node,7769529097,Centre Hospitalier Katali,hospital,"",Prive,0.1164446,29.2742779
+Nord-Kivu,node,13846863126,Centre Hospitalier Kivetya,clinic,centre,"",0.21441,29.31827
+Nord-Kivu,node,13846863075,Centre Hospitalier Kivika,doctors,centre,"",0.1503822,29.2939458
+Nord-Kivu,way,649544662,Centre Hospitalier Kyeshero,hospital,"","",-1.6610393,29.1833963
+Nord-Kivu,node,13846862966,Centre Hospitalier La Fidélité,doctors,"","",0.1306072,29.3151656
+Nord-Kivu,node,13846863305,Centre Hospitalier La Grace,clinic,"","",0.7041364,29.5107497
+Nord-Kivu,node,13846862967,Centre Hospitalier Laborne,doctors,"","",0.1208623,29.3342724
+Nord-Kivu,node,13846862960,Centre Hospitalier Le Bon Berger,clinic,"","",0.1201364,29.3116986
+Nord-Kivu,node,13846863274,Centre Hospitalier Le Rohe,clinic,"","",0.695999,29.5060043
+Nord-Kivu,node,13846863070,Centre Hospitalier Luna,clinic,hospital,"",0.1519391,29.2966031
+Nord-Kivu,node,9158473673,Centre Hospitalier Maboya,hospital,"","",0.2956774,29.3413281
+Nord-Kivu,node,13846863157,Centre Hospitalier Mabuku,doctors,"","",0.3246131,29.2983638
+Nord-Kivu,node,13846863105,Centre Hospitalier Maghombi,clinic,"","",0.1728708,29.3112311
+Nord-Kivu,node,9097966935,Centre Hospitalier Mahamba,clinic,"","",0.1020725,29.2835682
+Nord-Kivu,node,13846863016,Centre Hospitalier Makasi,clinic,"","",0.1295211,29.292123
+Nord-Kivu,node,13846863067,Centre Hospitalier Mama Musayi,clinic,hospital,"",0.1384457,29.2839773
+Nord-Kivu,way,658395717,Centre Hospitalier Masiki,hospital,"","",0.120417,29.3004962
+Nord-Kivu,way,985811973,Centre Hospitalier Matanda,clinic,"","",0.123403,29.2946148
+Nord-Kivu,node,13846863095,Centre Hospitalier Muchanga,doctors,"","",0.1683617,29.3244839
+Nord-Kivu,node,13846862974,Centre Hospitalier Muchungaji Mwema,clinic,"","",0.1129692,29.3074733
+Nord-Kivu,way,193316890,Centre Hospitalier Muungano La Ressurection,hospital,hospital,"",-1.6545331,29.2096454
+Nord-Kivu,way,1516636662,Centre Hospitalier Muungano La Ressurection,hospital,hospital,"",-1.6545331,29.2096454
+Nord-Kivu,node,13846863115,Centre Hospitalier Mwangaza,clinic,"","",0.1645559,29.2832848
+Nord-Kivu,node,13846863080,Centre Hospitalier Ngote,clinic,nurse,"",0.135535,29.3179587
+Nord-Kivu,way,653728668,Centre Hospitalier Notre-Dame d'Afrique,hospital,hospital,"",-1.6643757,29.2255848
+Nord-Kivu,node,13846863077,Centre Hospitalier PNC Butembo,doctors,"","",0.1409667,29.2811017
+Nord-Kivu,way,792887964,Centre Hospitalier Paida,hospital,hospital,"",0.4824863,29.4972988
+Nord-Kivu,node,13846863074,Centre Hospitalier Père Morand Kleiber,doctors,nurse,"",0.13686,29.2813617
+Nord-Kivu,node,13846863032,Centre Hospitalier SILOE,clinic,"","",0.1360088,29.294715
+Nord-Kivu,node,13846863088,Centre Hospitalier Saint Ambroise,doctors,nurse;vaccination_centre,"",0.1413017,29.31747
+Nord-Kivu,way,653650249,Centre Hospitalier Saint Camille,clinic,"","",0.1688472,29.2970983
+Nord-Kivu,way,654883850,Centre Hospitalier Saint Luc,clinic,yes,"",0.1184733,29.3230026
+Nord-Kivu,way,796892586,Centre Hospitalier Saint Pierre,hospital,hospital,"",0.4956983,29.4713894
+Nord-Kivu,node,6374102312,Centre Hospitalier Saint Thomas,hospital,nurse,"",0.0801,29.314117
+Nord-Kivu,way,792561668,Centre Hospitalier Sainte Famille,clinic,hospital,"",0.1305165,29.320417
+Nord-Kivu,node,13846863182,Centre Hospitalier Shamamba,clinic,nurse,"",0.476055,29.4476617
+Nord-Kivu,node,13846862893,Centre Hospitalier Taraja,clinic,hospital,"",0.1019,29.29575
+Nord-Kivu,way,1516636684,Centre Hospitalier UOR,clinic,hospital,"",0.1500631,29.2933754
+Nord-Kivu,way,796948425,Centre Hospitalier Vukaka,clinic,hospital,"",0.0848242,29.2969968
+Nord-Kivu,node,13846862905,Centre Hospitalier Vukanga,clinic,hospital,"",0.09446,29.27786
+Nord-Kivu,node,13846862852,Centre Hospitalier Vutuli,clinic,hospital,"",0.0834417,29.3194717
+Nord-Kivu,node,13846863076,Centre Hospitalier Wanamahika,doctors,centre,"",0.138333,29.2995
+Nord-Kivu,node,6374058431,Centre Hospitalier de Gloire,hospital,hospital,"",0.515284,29.4427473
+Nord-Kivu,node,7772337957,Centre Hospitalier de Kitsombiro,hospital,"",Privée,-0.2788973,29.2001172
+Nord-Kivu,way,1516636691,Centre Hospitalier la Brèche,clinic,hospital,"",0.1415868,29.2993084
+Nord-Kivu,node,13846863054,Centre Hospitalier la Charité,clinic,hospital,"",0.134165,29.2684417
+Nord-Kivu,way,1516636682,Centre Hospitalier la Guérison,clinic,"","",0.1313725,29.2927988
+Nord-Kivu,node,13846863238,Centre Hospitalier la Neige,clinic,"","",0.4946534,29.4882428
+Nord-Kivu,node,13846862975,Centre HospitalierARESCEPROMEN,clinic,"","",0.1099134,29.2955721
+Nord-Kivu,node,9084148545,Centre Hospiter Espoir du Graben,hospital,"","",0.1036619,29.3027837
+Nord-Kivu,node,6151303008,Centre Medical Bareb,clinic,"","",-1.6548558,29.2011324
+Nord-Kivu,node,13846862537,Centre Medical Bareb,clinic,"","",-1.6548558,29.2011324
+Nord-Kivu,node,13882598302,Centre Medical Canaan,hospital,"","",0.4839046,29.4629574
+Nord-Kivu,node,13846863193,Centre Medical Evangelique Nyakunde,clinic,"","",0.4877619,29.4679217
+Nord-Kivu,node,13846863176,Centre Medical Evangelique Nyakunde Sose,clinic,"","",0.4729117,29.4332458
+Nord-Kivu,node,13846863242,Centre Medical Gabaon,clinic,"","",0.5163819,29.4687173
+Nord-Kivu,node,11025458141,Centre Medical Grand Samaritain,hospital,hospital,"",-1.6646144,29.2159381
+Nord-Kivu,node,13846862503,Centre Medical Grand Samaritain,hospital,hospital,"",-1.6646144,29.2159381
+Nord-Kivu,node,13846863177,Centre Medical Kitsa,clinic,"","",0.449255,29.4201583
+Nord-Kivu,node,6123238010,Centre Medicale Armani /UDPR,clinic,"","",-1.6557419,29.2131869
+Nord-Kivu,node,13846862514,Centre Medicale Armani /UDPR,clinic,"","",-1.6557419,29.2131869
+Nord-Kivu,node,13846863195,Centre Medicale Ruwenzori,clinic,centre,"",0.4925141,29.4789025
+Nord-Kivu,node,13846863228,Centre Medicale Santé d'Afrique,doctors,nurse,"",0.4975401,29.4815132
+Nord-Kivu,node,13846863159,Centre Medico Chirurgical Bora,clinic,"","",0.508562,29.143164
+Nord-Kivu,node,13846863217,Centre Medico Chirurgical Mapendo/ Dokotolo,clinic,"","",0.5009508,29.4540387
+Nord-Kivu,node,13846863160,Centre Medico Chirurgical cantine,clinic,"","",0.50885,29.14314
+Nord-Kivu,node,7149742204,Centre Médical,clinic,"","",-1.6454344,29.2125446
+Nord-Kivu,node,13846862606,Centre Médical,clinic,"","",-1.6454344,29.2125446
+Nord-Kivu,node,7149709368,Centre Médical Afia Yetu,clinic,"","",-1.6412727,29.2005873
+Nord-Kivu,node,13846862590,Centre Médical Afia Yetu,clinic,"","",-1.6412727,29.2005873
+Nord-Kivu,node,7149726343,Centre Médical Akiba,clinic,"","",-1.6350659,29.2052771
+Nord-Kivu,node,13846862595,Centre Médical Akiba,clinic,"","",-1.6350659,29.2052771
+Nord-Kivu,node,13846862490,Centre Médical Alanine,hospital,"","",-1.6623964,29.2040315
+Nord-Kivu,node,13846863064,Centre Médical Alanine,clinic,"","",0.1423256,29.2939653
+Nord-Kivu,node,7149735275,Centre Médical Amkeni Kadjudu,clinic,"","",-1.6449149,29.209232
+Nord-Kivu,node,13846862610,Centre Médical Amkeni Kadjudu,clinic,"","",-1.6449149,29.209232
+Nord-Kivu,node,7149706190,Centre Médical Balume,clinic,"","",-1.648516,29.1995888
+Nord-Kivu,node,13846862533,Centre Médical Balume,clinic,"","",-1.648516,29.1995888
+Nord-Kivu,node,13846863072,Centre Médical Belle Vue,clinic,"","",0.1327776,29.2914079
+Nord-Kivu,node,13846862562,Centre Médical Bisengimana,clinic,"","",-1.6685306,29.2313851
+Nord-Kivu,node,6151228893,Centre Médical Bonjour,clinic,"","",-1.6520413,29.2309163
+Nord-Kivu,node,13846862569,Centre Médical Bonjour,clinic,"","",-1.6520413,29.2309163
+Nord-Kivu,node,13846863029,Centre Médical Bénédiction,clinic,"",privé,0.1310577,29.2871191
+Nord-Kivu,node,13846862567,Centre Médical Chirugical Goma,clinic,"","",-1.6686292,29.2298958
+Nord-Kivu,node,13846862991,Centre Médical Chirurgical Luvika II,clinic,"","",0.123796,29.2907081
+Nord-Kivu,way,483414144,Centre Médical Dieu Guérit,clinic,"","",-1.638199,29.1926681
+Nord-Kivu,way,296469558,Centre Médical Dieu Merci,clinic,"","",-1.6416424,29.1988127
+Nord-Kivu,way,1516636670,Centre Médical Dieu Merci,clinic,"","",-1.6416424,29.1988127
+Nord-Kivu,node,13846862565,Centre Médical Dimajelo,clinic,"","",-1.6679307,29.2291045
+Nord-Kivu,node,13846862423,Centre Médical Eben Ezer,clinic,"","",-1.6736347,29.2245649
+Nord-Kivu,way,485956930,Centre Médical Eden Sante,clinic,"","",-1.6394595,29.1958916
+Nord-Kivu,node,13846862933,Centre Médical Juhudi,clinic,"","",0.1041729,29.3291891
+Nord-Kivu,node,13846863264,Centre Médical Jérusalem,clinic,"","",0.5120339,29.4365525
+Nord-Kivu,node,13846862422,Centre Médical Kacha,clinic,"","",-1.6760839,29.2253528
+Nord-Kivu,node,7149735324,Centre Médical Kratos,clinic,"","",-1.6464927,29.2123139
+Nord-Kivu,node,13846862604,Centre Médical Kratos,clinic,"","",-1.6464927,29.2123139
+Nord-Kivu,node,9081665224,Centre Médical La Famille,hospital,"","",0.1185934,29.2983733
+Nord-Kivu,node,13846862498,Centre Médical La Famille,clinic,"","",-1.6619077,29.2106435
+Nord-Kivu,way,765558903,Centre Médical Marita Malkia was Amani,clinic,"","",-1.651123,29.1955889
+Nord-Kivu,node,13846862566,Centre Médical Mont Sinai,clinic,"","",-1.669589,29.2277835
+Nord-Kivu,node,7149799217,Centre Médical Mungu Iko,clinic,"","",-1.6508462,29.1988626
+Nord-Kivu,node,13846862529,Centre Médical Mungu Iko,clinic,"","",-1.6508462,29.1988626
+Nord-Kivu,node,7149623588,Centre Médical Musamariya Mwema,clinic,"","",-1.6483065,29.2030522
+Nord-Kivu,node,13846862510,Centre Médical Musamariya Mwema,clinic,"","",-1.6483065,29.2030522
+Nord-Kivu,node,13846862931,Centre Médical Notre Secours,clinic,"","",0.1029773,29.3200371
+Nord-Kivu,node,13846862499,Centre Médical Pamed,clinic,"","",-1.6622579,29.2084076
+Nord-Kivu,node,13846862968,Centre Médical Sacré Coeur de Jésus,clinic,centre,"",0.1192971,29.271735
+Nord-Kivu,node,13846863180,Centre Médical Safina,clinic,"","",0.4708236,29.4698235
+Nord-Kivu,node,7149618809,Centre Médical Saint Velentain,clinic,"","",-1.6411339,29.2044671
+Nord-Kivu,node,13846862579,Centre Médical Saint Velentain,clinic,"","",-1.6411339,29.2044671
+Nord-Kivu,node,6286283017,Centre Médical Sainte Elizabeth,clinic,"","",-1.6623749,29.2416143
+Nord-Kivu,node,13846862564,Centre Médical Sainte Elizabeth,clinic,"","",-1.6623749,29.2416143
+Nord-Kivu,node,7149711202,Centre Médical Selema la Santé,clinic,"","",-1.6485431,29.2005832
+Nord-Kivu,node,13846862528,Centre Médical Selema la Santé,clinic,"","",-1.6485431,29.2005832
+Nord-Kivu,node,7149585575,Centre Médical Siloe,clinic,"","",-1.6467106,29.2192937
+Nord-Kivu,node,13846862589,Centre Médical Siloe,clinic,"","",-1.6467106,29.2192937
+Nord-Kivu,node,13846862467,Centre Médical Snel Mabanga,clinic,"","",-1.6765825,29.2210606
+Nord-Kivu,node,13846863078,Centre Médical Sonogho,clinic,"","",0.1343114,29.3337492
+Nord-Kivu,node,7149708346,Centre Médical Tout eat Grace,clinic,"","",-1.6383187,29.2037496
+Nord-Kivu,node,13846862600,Centre Médical Tout eat Grace,clinic,"","",-1.6383187,29.2037496
+Nord-Kivu,node,6151228894,Centre Médical Tumaini Masanza,clinic,"","",-1.6521405,29.2313589
+Nord-Kivu,node,13846862568,Centre Médical Tumaini Masanza,clinic,"","",-1.6521405,29.2313589
+Nord-Kivu,node,7149713520,Centre Médical Uhakika,clinic,"","",-1.6379829,29.1932407
+Nord-Kivu,node,13846862586,Centre Médical Uhakika,clinic,"","",-1.6379829,29.1932407
+Nord-Kivu,node,13846863061,Centre Médical Umoja,clinic,"","",0.1339781,29.2951811
+Nord-Kivu,node,6151395959,Centre Médical Ushindi,clinic,"","",-1.6591606,29.2320546
+Nord-Kivu,node,13846862559,Centre Médical Ushindi,clinic,"","",-1.6591606,29.2320546
+Nord-Kivu,node,13846862531,Centre Médical Vuhe,clinic,"","",-1.6512269,29.1956835
+Nord-Kivu,node,9186543969,Centre Médical la Guérison Divin,clinic,"","",0.5069808,29.4250174
+Nord-Kivu,node,13846863263,Centre Médical la Guérison Divin,clinic,"","",0.5069808,29.4250174
+Nord-Kivu,node,13846863237,Centre Médical la Neige,clinic,"","",0.4946872,29.4881882
+Nord-Kivu,way,640676132,Centre Médical le Chirurgical Don Divin,clinic,hospital,"",0.1687169,29.3093589
+Nord-Kivu,node,13846862416,Centre Médical Évangélique,hospital,"","",-1.6730177,29.2332966
+Nord-Kivu,way,653728667,Centre Médicale CBCE Signers,clinic,"","",-1.6786872,29.2330212
+Nord-Kivu,node,13846863090,Centre Médico Chirurgical De l'Espoir,clinic,"","",0.1595993,29.3118701
+Nord-Kivu,node,13846863082,Centre Médico Chirurgical Kalengere,clinic,"","",0.1487799,29.3225963
+Nord-Kivu,node,13846862932,Centre Médico Nutritionnel CEMENU SOPHIA,clinic,"","",0.1060454,29.3144397
+Nord-Kivu,node,13846863125,Centre Médico-Chirurgical Kitovo,clinic,"","",0.1839,29.2234633
+Nord-Kivu,node,13846862897,Centre Psychiatrique Sainte Croix,clinic,"",prive,0.1081852,29.3031065
+Nord-Kivu,node,13846862950,Centre Psycho Clinique Santé Mentale Uhai,clinic,"","",0.1190071,29.3182763
+Nord-Kivu,node,13846863230,Centre d'intervention Psychosociale Écologique et Juridique,doctors,"","",0.5050816,29.4770935
+Nord-Kivu,node,6151396102,Centre de Nursing Misinga,doctors,"","",-1.6658878,29.2299662
+Nord-Kivu,node,13846862570,Centre de Nursing Misinga,doctors,"","",-1.6658878,29.2299662
+Nord-Kivu,node,7383140824,Centre de Sante Bulengero,doctors,"","",-1.66467,28.9100967
+Nord-Kivu,node,13846852575,Centre de Sante Bulengero,doctors,"","",-1.66467,28.9100967
+Nord-Kivu,node,6374000550,Centre de Sante Burusi,doctors,centre,"",-0.0824134,29.450138
+Nord-Kivu,node,13846862792,Centre de Sante Burusi,doctors,centre,"",-0.0824134,29.450138
+Nord-Kivu,node,13846863248,Centre de Sante Couriel Internationale,clinic,"","",0.5082919,29.4664895
+Nord-Kivu,node,7383140818,Centre de Sante Humule,doctors,doctor,"",-1.58792,28.9160383
+Nord-Kivu,node,13846852577,Centre de Sante Humule,doctors,doctor,"",-1.58792,28.9160383
+Nord-Kivu,node,13846863276,Centre de Sante Kithevya,doctors,centre,"",0.6914267,29.5099583
+Nord-Kivu,node,13846863308,Centre de Sante Mabasele,doctors,centre,"",0.7229454,29.5084285
+Nord-Kivu,node,13846863232,Centre de Sante Mabolio,doctors,centre,"",0.487106,29.4454353
+Nord-Kivu,node,13846863234,Centre de Sante Madrandele,doctors,centre,"",0.5045493,29.4699234
+Nord-Kivu,node,13846863231,Centre de Sante Malepe,doctors,centre,"",0.4873667,29.47762
+Nord-Kivu,node,8014570606,Centre de Sante Masosi,doctors,centre,"",0.6516877,29.4898301
+Nord-Kivu,node,13846863278,Centre de Sante Masosi,doctors,centre,"",0.6516877,29.4898301
+Nord-Kivu,node,9806238381,Centre de Sante Mbau,doctors,centre,"",0.653934,29.4989767
+Nord-Kivu,node,13846863280,Centre de Sante Mbau,doctors,centre,"",0.653934,29.4989767
+Nord-Kivu,node,7383140799,Centre de Sante Mushaki,doctors,"","",-1.5282817,28.9794717
+Nord-Kivu,node,13846862619,Centre de Sante Mushaki,doctors,"","",-1.5282817,28.9794717
+Nord-Kivu,node,8014570632,Centre de Sante Pakanza,doctors,centre,"",0.6785097,29.5043611
+Nord-Kivu,node,13846863287,Centre de Sante Pakanza,doctors,centre,"",0.6785097,29.5043611
+Nord-Kivu,node,7383140800,Centre de Sante Ruhegeri,doctors,"","",-1.6281783,28.9182783
+Nord-Kivu,node,13846852578,Centre de Sante Ruhegeri,doctors,"","",-1.6281783,28.9182783
+Nord-Kivu,node,13846863307,Centre de Sante de Reference Mbau,doctors,nurse,"",0.7114977,29.5125521
+Nord-Kivu,node,8014570621,Centre de Santembau,doctors,centre,"",0.653934,29.4989767
+Nord-Kivu,node,13846863286,Centre de Santembau,doctors,centre,"",0.653934,29.4989767
+Nord-Kivu,way,147636996,Centre de Santé 8e CEPAC,hospital,"","",-1.420605,28.0684877
+Nord-Kivu,node,7383140823,Centre de Santé Bitonga,doctors,"","",-1.7090084,28.9647899
+Nord-Kivu,node,13846852536,Centre de Santé Bitonga,doctors,"","",-1.7090084,28.9647899
+Nord-Kivu,node,13846863240,Centre de Santé Boikene,doctors,centre,"",0.5178095,29.4928934
+Nord-Kivu,node,7407509032,Centre de Santé Buabo,doctors,"","",-1.4396513,28.7692412
+Nord-Kivu,node,13846862639,Centre de Santé Buabo,doctors,"","",-1.4396513,28.7692412
+Nord-Kivu,node,6374000555,Centre de Santé Bughumirya,doctors,centre,"",0.037245,29.320203
+Nord-Kivu,node,13846862859,Centre de Santé Bughumirya,doctors,centre,"",0.037245,29.320203
+Nord-Kivu,node,7407509029,Centre de Santé Buguri,doctors,"","",-1.4327102,28.8905428
+Nord-Kivu,node,13846862633,Centre de Santé Buguri,doctors,"","",-1.4327102,28.8905428
+Nord-Kivu,node,13846863269,Centre de Santé Buhumbani,doctors,"","",0.5209062,29.3535661
+Nord-Kivu,node,7407509030,Centre de Santé Bukombo,doctors,"","",-1.3325187,28.773123
+Nord-Kivu,node,13846862665,Centre de Santé Bukombo,doctors,"","",-1.3325187,28.773123
+Nord-Kivu,node,13846863266,Centre de Santé Bundji,doctors,centre,"",0.5049121,29.3873019
+Nord-Kivu,node,7383140821,Centre de Santé Buroha,doctors,doctor,"",-1.4749567,29.0407983
+Nord-Kivu,node,13846862631,Centre de Santé Buroha,doctors,doctor,"",-1.4749567,29.0407983
+Nord-Kivu,node,7383140822,Centre de Santé Bushuhe,doctors,"","",-1.5854583,28.987233
+Nord-Kivu,node,13846852583,Centre de Santé Bushuhe,doctors,"","",-1.5854583,28.987233
+Nord-Kivu,node,13846863187,Centre de Santé Butanuka,doctors,nurse,"",0.4728992,29.4669835
+Nord-Kivu,node,13846863226,Centre de Santé Butsili,doctors,centre,"",0.5026078,29.4527328
+Nord-Kivu,node,13846863127,Centre de Santé Butuhe,doctors,"","",0.2085497,29.2711762
+Nord-Kivu,node,6374000547,Centre de Santé Bweteta,doctors,centre,"",0.0539165,29.2344093
+Nord-Kivu,node,13846862857,Centre de Santé Bweteta,doctors,centre,"",0.0539165,29.2344093
+Nord-Kivu,node,6374000543,Centre de Santé Heri Upone 2,doctors,centre,"",-1.646489,29.232595
+Nord-Kivu,node,13846862574,Centre de Santé Heri Upone 2,doctors,centre,"",-1.646489,29.232595
+Nord-Kivu,node,6374000542,Centre de Santé Honest,doctors,centre,"",-1.663371,29.17486
+Nord-Kivu,node,13846852571,Centre de Santé Honest,doctors,centre,"",-1.663371,29.17486
+Nord-Kivu,node,7383140815,Centre de Santé Kabase,doctors,"","",-1.6598645,28.9857697
+Nord-Kivu,node,13846852579,Centre de Santé Kabase,doctors,"","",-1.6598645,28.9857697
+Nord-Kivu,node,13846863173,Centre de Santé Kabasha,doctors,centre,"",0.37564,29.36534
+Nord-Kivu,node,7407509027,Centre de Santé Kahanga,doctors,"","",-1.3424537,28.8765105
+Nord-Kivu,node,13846862693,Centre de Santé Kahanga,doctors,"","",-1.3424537,28.8765105
+Nord-Kivu,node,7407509028,Centre de Santé Kalonge,doctors,"","",-1.3683862,28.9285661
+Nord-Kivu,node,13846862700,Centre de Santé Kalonge,doctors,"","",-1.3683862,28.9285661
+Nord-Kivu,node,13846863155,Centre de Santé Kalunguta,doctors,centre,"",0.3285873,29.3526627
+Nord-Kivu,node,6374000530,Centre de Santé Kambuli,doctors,centre,"",0.0743726,29.3403651
+Nord-Kivu,node,13846862864,Centre de Santé Kambuli,doctors,centre,"",0.0743726,29.3403651
+Nord-Kivu,node,7407509025,Centre de Santé Kaniro,doctors,"","",-1.4870084,28.8151889
+Nord-Kivu,node,13846862641,Centre de Santé Kaniro,doctors,"","",-1.4870084,28.8151889
+Nord-Kivu,node,7407509026,Centre de Santé Kanyatsi,doctors,"","",-1.366233,28.9813919
+Nord-Kivu,node,13846862697,Centre de Santé Kanyatsi,doctors,"","",-1.366233,28.9813919
+Nord-Kivu,node,13846863235,Centre de Santé Kanzulinzuli,doctors,centre,"",0.4977369,29.4467486
+Nord-Kivu,node,7383140813,Centre de Santé Karuba,doctors,"","",-1.5774333,28.9661017
+Nord-Kivu,node,13846862616,Centre de Santé Karuba,doctors,"","",-1.5774333,28.9661017
+Nord-Kivu,node,13846863227,Centre de Santé Kasabinyole,doctors,nurse,"",0.500241,29.4791103
+Nord-Kivu,node,13846863188,Centre de Santé Kasanga,doctors,centre,"",0.4811999,29.4550259
+Nord-Kivu,node,7383140814,Centre de Santé Kashebere,doctors,"","",-1.4795528,28.9468873
+Nord-Kivu,node,13846862632,Centre de Santé Kashebere,doctors,"","",-1.4795528,28.9468873
+Nord-Kivu,node,7383140811,Centre de Santé Kasura,doctors,"","",-1.544259,28.8836762
+Nord-Kivu,node,13846862621,Centre de Santé Kasura,doctors,"","",-1.544259,28.8836762
+Nord-Kivu,node,13846863152,Centre de Santé Katanda,doctors,centre,"",0.280054,29.482467
+Nord-Kivu,node,13846862501,Centre de Santé Katoyi,clinic,"","",-1.6663047,29.2232224
+Nord-Kivu,node,7383140812,Centre de Santé Kausa,doctors,"","",-1.4373717,28.98172
+Nord-Kivu,node,13846862635,Centre de Santé Kausa,doctors,"","",-1.4373717,28.98172
+Nord-Kivu,node,7407509023,Centre de Santé Kazinga,doctors,"","",-1.4416967,28.694575
+Nord-Kivu,node,13846862638,Centre de Santé Kazinga,doctors,"","",-1.4416967,28.694575
+Nord-Kivu,node,6374000513,Centre de Santé Kibwe,doctors,centre,"",0.1717867,29.4012883
+Nord-Kivu,node,13846862889,Centre de Santé Kibwe,doctors,centre,"",0.1717867,29.4012883
+Nord-Kivu,node,7383140809,Centre de Santé Kihindo,doctors,"","",-1.6295066,29.0300508
+Nord-Kivu,node,13846852574,Centre de Santé Kihindo,doctors,"","",-1.6295066,29.0300508
+Nord-Kivu,node,13846862623,Centre de Santé Kimoka,doctors,"","",-1.5504486,29.061008
+Nord-Kivu,node,13846862628,Centre de Santé Kimoka,doctors,"","",-1.5504486,29.061008
+Nord-Kivu,node,7383140807,Centre de Santé Kionde,doctors,"","",-1.6403582,29.0001962
+Nord-Kivu,node,13846852580,Centre de Santé Kionde,doctors,"","",-1.6403582,29.0001962
+Nord-Kivu,node,7407509024,Centre de Santé Kirolirwe,doctors,doctor,"",-1.3968836,29.0164749
+Nord-Kivu,node,13846862701,Centre de Santé Kirolirwe,doctors,doctor,"",-1.3968836,29.0164749
+Nord-Kivu,node,7383140808,Centre de Santé Kirotshe,doctors,"","",-1.6196066,29.0152267
+Nord-Kivu,node,13846852572,Centre de Santé Kirotshe,doctors,"","",-1.6196066,29.0152267
+Nord-Kivu,node,7407509021,Centre de Santé Kitsule,doctors,"","",-1.4149958,28.8618457
+Nord-Kivu,node,13846862634,Centre de Santé Kitsule,doctors,"","",-1.4149958,28.8618457
+Nord-Kivu,node,7383140805,Centre de Santé Kyabondo,doctors,"","",-1.6717333,29.0007445
+Nord-Kivu,node,13846852537,Centre de Santé Kyabondo,doctors,"","",-1.6717333,29.0007445
+Nord-Kivu,node,9835954910,Centre de Santé Kyaghala,hospital,"","",0.1174917,29.3403667
+Nord-Kivu,node,13846862862,Centre de Santé Kyambogho,doctors,centre,"",0.077845,29.2781783
+Nord-Kivu,node,13846863151,Centre de Santé Lisasa,doctors,centre,"",0.29486,29.42395
+Nord-Kivu,way,1071235894,Centre de Santé Loashi,doctors,doctor,"",-1.3602849,28.7912779
+Nord-Kivu,node,10660783656,Centre de Santé Lubero Cité,hospital,"","",-0.1609159,29.2365715
+Nord-Kivu,node,7407509019,Centre de Santé Luke,doctors,"","",-1.5030792,28.730493
+Nord-Kivu,node,13846862640,Centre de Santé Luke,doctors,"","",-1.5030792,28.730493
+Nord-Kivu,way,1130670900,Centre de Santé Lukweti,doctors,"","",-1.2014229,28.7380188
+Nord-Kivu,way,1516636674,Centre de Santé Lukweti,doctors,"","",-1.2014229,28.7380188
+Nord-Kivu,node,7383140806,Centre de Santé Luzirantaka,doctors,"","",-1.6859093,28.8858049
+Nord-Kivu,node,13846852535,Centre de Santé Luzirantaka,doctors,"","",-1.6859093,28.8858049
+Nord-Kivu,node,7407509017,Centre de Santé Lwibo,doctors,"","",-1.2571157,28.7489163
+Nord-Kivu,node,13846862649,Centre de Santé Lwibo,doctors,"","",-1.2571157,28.7489163
+Nord-Kivu,node,13846863284,Centre de Santé MAVIVI,doctors,centre,"",0.583877,29.487399
+Nord-Kivu,node,13846863233,Centre de Santé Mabakanga,doctors,centre,"",0.4992843,29.4725845
+Nord-Kivu,way,423192471,Centre de Santé Machumbi,doctors,doctor,"",-1.3140662,28.6731787
+Nord-Kivu,way,1516636677,Centre de Santé Machumbi,doctors,doctor,"",-1.3140662,28.6731787
+Nord-Kivu,node,7407509018,Centre de Santé Mahanga,doctors,"","",-1.3577392,28.67222
+Nord-Kivu,node,13846862674,Centre de Santé Mahanga,doctors,"","",-1.3577392,28.67222
+Nord-Kivu,node,7407509015,Centre de Santé Mahya,doctors,"","",-1.5432349,28.5617786
+Nord-Kivu,node,13846862642,Centre de Santé Mahya,doctors,"","",-1.5432349,28.5617786
+Nord-Kivu,node,6374000377,Centre de Santé Makimbilio,doctors,centre,"",-1.685721,29.241192
+Nord-Kivu,node,13846862404,Centre de Santé Makimbilio,doctors,centre,"",-1.685721,29.241192
+Nord-Kivu,node,13846863153,Centre de Santé Makoko,doctors,centre,"",0.28985,29.23671
+Nord-Kivu,node,13849060401,Centre de Santé Malende,hospital,"","",0.1218719,29.2342944
+Nord-Kivu,node,13846863267,Centre de Santé Mambango,doctors,centre,"",0.5020921,29.4017067
+Nord-Kivu,node,13846863163,Centre de Santé Mambingi,doctors,centre,"",0.36689,29.27511
+Nord-Kivu,node,13846863165,Centre de Santé Mambingi,doctors,centre,"",0.36689,29.27511
+Nord-Kivu,node,6123542533,Centre de Santé Mapendo,clinic,"","",-1.6871868,29.2417149
+Nord-Kivu,node,7407509016,Centre de Santé Masisi,doctors,"","",-1.3977186,28.818967
+Nord-Kivu,node,13846862654,Centre de Santé Masisi,doctors,"","",-1.3977186,28.818967
+Nord-Kivu,node,13846862921,Centre de Santé Masuli,doctors,nurse,"",0.091002,29.2977181
+Nord-Kivu,node,13846863174,Centre de Santé Mataba,doctors,centre,"",0.41693,29.40092
+Nord-Kivu,node,7383140803,Centre de Santé Matanda,doctors,"","",-1.5446533,28.9349531
+Nord-Kivu,node,13846862615,Centre de Santé Matanda,doctors,"","",-1.5446533,28.9349531
+Nord-Kivu,node,13846863158,Centre de Santé Mbilinga,doctors,centre,"",0.3208,29.20596
+Nord-Kivu,node,7407509013,Centre de Santé Mbitsi,doctors,"","",-1.3587056,28.73391
+Nord-Kivu,node,13846862661,Centre de Santé Mbitsi,doctors,"","",-1.3587056,28.73391
+Nord-Kivu,node,13846862502,Centre de Santé Medicalise Urbain Rapha,clinic,"","",-1.6650955,29.2132004
+Nord-Kivu,node,7407509014,Centre de Santé Miandja,doctors,"","",-1.3245737,28.8337205
+Nord-Kivu,node,13846862696,Centre de Santé Miandja,doctors,"","",-1.3245737,28.8337205
+Nord-Kivu,node,13846862918,Centre de Santé Mitoya,doctors,centre,"",0.1024667,29.3008934
+Nord-Kivu,node,7383140804,Centre de Santé Mitumbala,doctors,"","",-1.5626593,29.0115109
+Nord-Kivu,node,13846862626,Centre de Santé Mitumbala,doctors,"","",-1.5626593,29.0115109
+Nord-Kivu,way,148109218,Centre de Santé Moria,hospital,"","",-1.4292127,28.078751
+Nord-Kivu,node,7407509011,Centre de Santé Mpanamo,doctors,"","",-1.37185,28.906945
+Nord-Kivu,node,13846862695,Centre de Santé Mpanamo,doctors,"","",-1.37185,28.906945
+Nord-Kivu,node,7407509012,Centre de Santé Muheto,doctors,"","",-1.3420164,28.9515488
+Nord-Kivu,node,13846862694,Centre de Santé Muheto,doctors,"","",-1.3420164,28.9515488
+Nord-Kivu,node,13846863178,Centre de Santé Mukulya,doctors,centre,"",0.453495,29.423147
+Nord-Kivu,node,9352570583,Centre de Santé Mulo,hospital,"","",-0.1308102,29.2637988
+Nord-Kivu,node,7383140801,Centre de Santé Mumba,doctors,"","",-1.5880339,28.8789642
+Nord-Kivu,node,13846852582,Centre de Santé Mumba,doctors,"","",-1.5880339,28.8789642
+Nord-Kivu,node,6374000350,Centre de Santé Munoli,doctors,centre,"",0.064645,29.214291
+Nord-Kivu,node,13846862866,Centre de Santé Munoli,doctors,centre,"",0.064645,29.214291
+Nord-Kivu,node,7383140802,Centre de Santé Murambi,doctors,doctor,"",-1.5346833,29.0236917
+Nord-Kivu,node,13846862630,Centre de Santé Murambi,doctors,doctor,"",-1.5346833,29.0236917
+Nord-Kivu,node,6374000347,Centre de Santé Musavuli,hospital,"","",0.5007249,29.4762283
+Nord-Kivu,node,6374000346,Centre de Santé Musenda,doctors,centre,"",0.0620933,29.369985
+Nord-Kivu,node,13846862874,Centre de Santé Musenda,doctors,centre,"",0.0620933,29.369985
+Nord-Kivu,node,7473467188,Centre de Santé Ndosho,doctors,"","",-1.6518303,29.2024103
+Nord-Kivu,node,13846862516,Centre de Santé Ndosho,doctors,"","",-1.6518303,29.2024103
+Nord-Kivu,node,6374000341,Centre de Santé Ngeleza,doctors,centre,"",0.041644,29.340412
+Nord-Kivu,node,13846862867,Centre de Santé Ngeleza,doctors,centre,"",0.041644,29.340412
+Nord-Kivu,node,13846863268,Centre de Santé Ngilinga,doctors,"","",0.4953517,29.4411633
+Nord-Kivu,node,6374000338,Centre de Santé Ngoma,doctors,centre,"",0.08857,29.161075
+Nord-Kivu,node,13846862838,Centre de Santé Ngoma,doctors,centre,"",0.08857,29.161075
+Nord-Kivu,node,7407509009,Centre de Santé Ngomashi,doctors,"","",-1.4591534,28.6329119
+Nord-Kivu,node,13846862637,Centre de Santé Ngomashi,doctors,"","",-1.4591534,28.6329119
+Nord-Kivu,node,13846863258,Centre de Santé Ngongolio,doctors,centre,"",0.511341,29.4507312
+Nord-Kivu,node,13846863281,Centre de Santé Ngoyo,doctors,"","",0.5532,29.24081
+Nord-Kivu,node,13846863283,Centre de Santé Ngoyo,doctors,"","",0.5532469,29.2408328
+Nord-Kivu,node,7407509008,Centre de Santé Nyabiondo,doctors,"","",-1.3160978,28.7265621
+Nord-Kivu,node,13846862666,Centre de Santé Nyabiondo,doctors,"","",-1.3160978,28.7265621
+Nord-Kivu,node,7407509006,Centre de Santé Nyakariba,doctors,"","",-1.3655826,28.9727586
+Nord-Kivu,node,13846862698,Centre de Santé Nyakariba,doctors,"","",-1.3655826,28.9727586
+Nord-Kivu,node,7407509010,Centre de Santé Nyamitaba,doctors,"","",-1.3727965,28.9949029
+Nord-Kivu,node,13846862699,Centre de Santé Nyamitaba,doctors,"","",-1.3727965,28.9949029
+Nord-Kivu,node,13846863192,Centre de Santé Paida,doctors,centre,"",0.4696351,29.5012755
+Nord-Kivu,node,13846863130,Centre de Santé Rwahwa,doctors,centre,"",0.239925,29.2174683
+Nord-Kivu,node,13846863190,Centre de Santé Rwangoma,doctors,centre,"",0.4731298,29.4745446
+Nord-Kivu,node,7407509007,Centre de Santé Sati,doctors,"","",-1.4339311,28.8187552
+Nord-Kivu,node,13846862636,Centre de Santé Sati,doctors,"","",-1.4339311,28.8187552
+Nord-Kivu,node,13846863282,Centre de Santé Sayo,doctors,centre,"",0.565032,29.4347827
+Nord-Kivu,node,13846862421,Centre de Santé Shirika La Umoja (Handicapé Physique),doctors,centre,"",-1.6706802,29.2320418
+Nord-Kivu,node,13846863175,Centre de Santé Supa,doctors,centre,"",0.4207401,29.4705655
+Nord-Kivu,node,13846863229,Centre de Santé Tamende,doctors,centre,"",0.497048,29.466896
+Nord-Kivu,node,6374000322,Centre de Santé Tout Passe,doctors,centre,"",-1.647265,29.238031
+Nord-Kivu,node,13846862573,Centre de Santé Tout Passe,doctors,centre,"",-1.647265,29.238031
+Nord-Kivu,node,10660783648,Centre de Santé Tukendilama,hospital,"","",-0.1611067,29.233962
+Nord-Kivu,node,13846863239,Centre de Santé Tuungane,doctors,centre,"",0.494233,29.4925137
+Nord-Kivu,node,13846862855,Centre de Santé Vighole,doctors,centre,"",0.0753645,29.3046721
+Nord-Kivu,node,6123542534,Centre de Santé Virunga,clinic,"","",-1.6635847,29.2333237
+Nord-Kivu,node,13846862561,Centre de Santé Virunga,clinic,"","",-1.6635847,29.2333237
+Nord-Kivu,node,9187154943,Centre de Santé Vuhika,hospital,"","",0.1053276,29.3101501
+Nord-Kivu,node,13846863133,Centre de Santé Vurondo,doctors,centre,"",0.25706,29.19047
+Nord-Kivu,node,6374000306,Centre de Santé Vusa,doctors,centre,"",0.048712,29.169391
+Nord-Kivu,node,13846862841,Centre de Santé Vusa,doctors,centre,"",0.048712,29.169391
+Nord-Kivu,way,660780624,Centre de Santé Wanamahika,clinic,"","",0.1402322,29.3081069
+Nord-Kivu,way,619852846,Centre de Santé de Référence,hospital,hospital,"",0.6052836,29.3070951
+Nord-Kivu,node,13846863161,Centre de Santé de Référence Aloya,doctors,"","",0.49538,29.14369
+Nord-Kivu,node,13846863129,Centre de Santé de Référence Kahamba,doctors,centre,"",0.26027,29.23539
+Nord-Kivu,node,6374000285,Centre de Santé de Référence Kipese,doctors,centre,"",-0.2379,29.295904
+Nord-Kivu,node,13846862762,Centre de Santé de Référence Kipese,doctors,centre,"",-0.2379,29.295904
+Nord-Kivu,node,7915548969,Centre de Santé de Référence Magherya,hospital,"",Etat,-0.0609476,29.3634514
+Nord-Kivu,node,13846862922,Centre de Santé de Référence Nduko,doctors,centre,"",0.09502,29.26957
+Nord-Kivu,node,7383140820,Centre de Santé de Référence Ngungu,doctors,"","",-1.653685,28.88582
+Nord-Kivu,node,13846852581,Centre de Santé de Référence Ngungu,doctors,"","",-1.653685,28.88582
+Nord-Kivu,node,7383140817,Centre de Santé de Référence Rubaya,doctors,"","",-1.5413532,28.8723277
+Nord-Kivu,node,13846862618,Centre de Santé de Référence Rubaya,doctors,"","",-1.5413532,28.8723277
+Nord-Kivu,node,13846863277,Centre de Santé linzo,doctors,"","",0.59885,29.3147
+Nord-Kivu,node,13846863279,Centre de Santé linzo,doctors,"","",0.5988292,29.3146021
+Nord-Kivu,node,13846863162,Centre de Santé ngazi,doctors,"","",0.4254704,29.1463243
+Nord-Kivu,node,13846863168,Centre de Santé visiki,doctors,"","",0.37717,29.23844
+Nord-Kivu,node,13846863169,Centre de Santé visiki,doctors,"","",0.3772344,29.2383501
+Nord-Kivu,node,13846863164,Centre de Santé vusayiro,doctors,"","",0.35792,29.18427
+Nord-Kivu,node,13846863170,Centre de Santé vusayiro,doctors,"","",0.3578858,29.1842472
+Nord-Kivu,node,9165465618,Centre de Traitement Covid,hospital,"","",0.1450982,29.2859071
+Nord-Kivu,node,13846863285,Centre de Traitement Ebola,doctors,"","",0.605894,29.30645
+Nord-Kivu,node,13846862443,Centre de santé Amani,clinic,"","",-1.6699456,29.2244079
+Nord-Kivu,node,6150230771,Centre de santé Baraka,clinic,"","",-1.6303555,29.1767341
+Nord-Kivu,node,13846852568,Centre de santé Baraka,clinic,"","",-1.6303555,29.1767341
+Nord-Kivu,node,13846852561,Centre de santé Buhimba,clinic,"","",-1.6188524,29.1438713
+Nord-Kivu,node,6123237472,Centre de santé Bujovu,clinic,"","",-1.6503757,29.2437728
+Nord-Kivu,node,13180450634,Centre de santé Bukohwa,clinic,"","",0.5800367,29.9154282
+Nord-Kivu,way,653710788,Centre de santé CCLK,clinic,"","",-1.6343507,29.1669574
+Nord-Kivu,way,1516636669,Centre de santé CCLK,clinic,"","",-1.6343507,29.1669574
+Nord-Kivu,node,13846862465,Centre de santé Carmel,clinic,"","",-1.6708819,29.2044222
+Nord-Kivu,node,6123511439,Centre de santé Casop,clinic,"","",-1.6841505,29.2409203
+Nord-Kivu,node,6123279511,Centre de santé Cbca Kibati,clinic,"","",-1.5902712,29.2551601
+Nord-Kivu,node,6150189447,Centre de santé De l'Equateur,clinic,"","",-1.6549577,29.2116453
+Nord-Kivu,node,13846862513,Centre de santé De l'Equateur,clinic,"","",-1.6549577,29.2116453
+Nord-Kivu,node,13846862441,Centre de santé Heal Africa,clinic,"","",-1.6801148,29.2327899
+Nord-Kivu,node,6123220045,Centre de santé Hebron,clinic,"","",-1.6389495,29.1906229
+Nord-Kivu,node,13846862577,Centre de santé Hebron,clinic,"","",-1.6389495,29.1906229
+Nord-Kivu,node,13846862923,Centre de santé Irangya,doctors,nurse,"",0.0904805,29.2869473
+Nord-Kivu,node,7772394380,Centre de santé Kaniyi,clinic,"",Comité Local de développement,-0.1072659,29.3631791
+Nord-Kivu,node,6123511436,Centre de santé Kanyaruchinya,clinic,clinic,"",-1.6139808,29.255305
+Nord-Kivu,node,13846862427,Centre de santé Kasika,clinic,"","",-1.6766308,29.2420126
+Nord-Kivu,node,6095244622,Centre de santé Katindo,doctors,"","",-1.677726,29.2179412
+Nord-Kivu,node,13846862470,Centre de santé Katindo,doctors,"","",-1.677726,29.2179412
+Nord-Kivu,node,13846852569,Centre de santé Keshero,clinic,"","",-1.6579296,29.1752062
+Nord-Kivu,node,6280660925,Centre de santé Kibati,clinic,"","",-1.5892035,29.2661083
+Nord-Kivu,way,1084691170,Centre de santé Kirumba,clinic,"","",-0.5647838,29.1780785
+Nord-Kivu,way,1084691171,Centre de santé Kirumba,clinic,"","",-0.5648079,29.1783141
+Nord-Kivu,way,1084691172,Centre de santé Kirumba,clinic,"","",-0.5647573,29.1784638
+Nord-Kivu,way,1516636678,Centre de santé Kirumba,clinic,"","",-0.5647838,29.1780785
+Nord-Kivu,way,1516636681,Centre de santé Kirumba,clinic,"","",-0.5647573,29.1784638
+Nord-Kivu,node,6374000504,Centre de santé Kitsimba,doctors,centre,"",-0.166506,29.322511
+Nord-Kivu,node,13846862777,Centre de santé Kitsimba,doctors,centre,"",-0.166506,29.322511
+Nord-Kivu,node,13846862780,Centre de santé Kitsuku,doctors,centre,"",-0.066246,29.283295
+Nord-Kivu,node,13846862743,Centre de santé Kiviriri,doctors,centre,"",-0.37862,29.354657
+Nord-Kivu,node,6123511441,Centre de santé Kiziba,clinic,"","",-1.6439625,29.2018969
+Nord-Kivu,node,13846862588,Centre de santé Kiziba,clinic,"","",-1.6439625,29.2018969
+Nord-Kivu,node,13846862882,Centre de santé Kyondo,doctors,centre,"",0.0037417,29.3982633
+Nord-Kivu,node,6151196219,Centre de santé Lubango,clinic,"","",-1.660293,29.212674
+Nord-Kivu,node,13846862500,Centre de santé Lubango,clinic,"","",-1.660293,29.212674
+Nord-Kivu,node,13846862442,Centre de santé Mabinga,clinic,clinic,"",-1.673945,29.227229
+Nord-Kivu,node,6123511442,Centre de santé Majengo,clinic,"","",-1.653728,29.2247516
+Nord-Kivu,node,13846862560,Centre de santé Majengo,clinic,"","",-1.653728,29.2247516
+Nord-Kivu,node,13846862712,Centre de santé Miriki,clinic,"","",-0.7127652,29.0601978
+Nord-Kivu,node,13846862614,Centre de santé Mudja,clinic,"","",-1.607731,29.2029885
+Nord-Kivu,node,13846852558,Centre de santé Mugunga,clinic,"","",-1.6083712,29.1386283
+Nord-Kivu,node,6151400651,Centre de santé Munigi,doctors,"","",-1.6407666,29.2441014
+Nord-Kivu,node,13846862425,Centre de santé Murara,clinic,"","",-1.6790699,29.2317794
+Nord-Kivu,node,6151313745,Centre de santé Muungano Resurrection,clinic,"","",-1.6505754,29.2055527
+Nord-Kivu,node,13846862509,Centre de santé Muungano Resurrection,clinic,"","",-1.6505754,29.2055527
+Nord-Kivu,node,13846862563,Centre de santé Muungano Solidarité,clinic,"","",-1.669534,29.2335074
+Nord-Kivu,node,6280986709,Centre de santé Méthodiste Unis,clinic,"","",-1.6484862,29.2232224
+Nord-Kivu,node,13846862515,Centre de santé Méthodiste Unis,clinic,"","",-1.6484862,29.2232224
+Nord-Kivu,node,6123237470,Centre de santé Ndosho,clinic,"","",-1.6543886,29.1982316
+Nord-Kivu,node,13846862534,Centre de santé Ndosho,clinic,"","",-1.6543886,29.1982316
+Nord-Kivu,node,6280986708,Centre de santé Ngangi III,clinic,"","",-1.6408745,29.21279
+Nord-Kivu,node,13846862597,Centre de santé Ngangi III,clinic,"","",-1.6408745,29.21279
+Nord-Kivu,node,10971291766,Centre de santé Ngenge,doctors,"","",-1.3337582,28.6123091
+Nord-Kivu,node,13846862667,Centre de santé Ngenge,doctors,"","",-1.3337582,28.6123091
+Nord-Kivu,node,13846862493,Centre de santé Rapha,clinic,"","",-1.6661485,29.213771
+Nord-Kivu,node,6280660931,Centre de santé Sake,clinic,"","",-1.5731191,29.0589854
+Nord-Kivu,node,6280986707,Centre de santé Turunga,clinic,"","",-1.6365981,29.2189832
+Nord-Kivu,node,13846862598,Centre de santé Turunga,clinic,"","",-1.6365981,29.2189832
+Nord-Kivu,node,13846862532,Centre de santé Umodja,clinic,"","",-1.6485002,29.1872634
+Nord-Kivu,node,13846862800,Centre de santé Vusitoro,doctors,centre,"",-0.142088,29.402053
+Nord-Kivu,node,6280650690,Centre de santé de Kasizi,clinic,"","",-1.4955868,29.3725839
+Nord-Kivu,node,6280650691,Centre de santé de Kingarame,clinic,"","",-1.4816065,29.3503685
+Nord-Kivu,node,6123220416,Centre de santé de Référence Albert Berthel,clinic,"","",-1.6566642,29.2092072
+Nord-Kivu,node,13846862511,Centre de santé de Référence Albert Berthel,clinic,"","",-1.6566642,29.2092072
+Nord-Kivu,node,6123220344,Centre de santé de Référence Kahembe,clinic,"","",-1.6812951,29.2422869
+Nord-Kivu,node,13846862494,Centre de santé de Référence Notre Dame de Carmel,clinic,"","",-1.6681298,29.2065471
+Nord-Kivu,node,13846862713,Centre de santé de référence Kibirizi,clinic,"",Ministère de la santé,-0.9146447,29.200432
+Nord-Kivu,node,6280650688,Centre de santé et maternité Buhumba,clinic,"","",-1.5158975,29.34244
+Nord-Kivu,node,9798326869,Centre de santé lubena,hospital,"","",0.5101449,29.1373812
+Nord-Kivu,node,13179605634,Centre de santé lume,clinic,"","",0.2601124,29.7237621
+Nord-Kivu,way,792494163,Centre hospitalier La Providence,hospital,hospital,"",-1.6614298,29.1729599
+Nord-Kivu,node,8237926945,Centre hospitalier New Horizon,hospital,"","",-1.6457048,29.1847798
+Nord-Kivu,node,13846862613,Centre hospitalier New Horizon,hospital,"","",-1.6457048,29.1847798
+Nord-Kivu,node,13846862403,Centre hospitalier Shifaa,clinic,clinic,"",-1.6879435,29.2305516
+Nord-Kivu,node,13846863254,Centre hospitalier Virunga,clinic,"","",0.5204508,29.4660406
+Nord-Kivu,node,7770105364,Centre hospitalier de Kitsimba,hospital,"",Protestants,-0.1476722,29.3329873
+Nord-Kivu,node,9602484920,Centre hospitalier grand samaritain,hospital,"","",-1.6582309,29.2342508
+Nord-Kivu,node,13846862547,Centre hospitalier grand samaritain,hospital,"","",-1.6582309,29.2342508
+Nord-Kivu,node,13846863249,Centre hospitalier virunga,clinic,clinic,"",0.5205342,29.4661747
+Nord-Kivu,node,7383140796,Centre medical Rurihose,doctors,"","",-1.6918405,28.8844517
+Nord-Kivu,node,13846852533,Centre medical Rurihose,doctors,"","",-1.6918405,28.8844517
+Nord-Kivu,node,13846852550,Centre mécical Dieu est providence,clinic,"","",-1.6628072,29.1748233
+Nord-Kivu,node,13846862464,Centre médical Belle vue,clinic,"","",-1.6788226,29.2195491
+Nord-Kivu,node,13846862625,Centre médical Biosadec,doctors,"","",-1.5697539,29.0521953
+Nord-Kivu,node,13846862629,Centre médical Biosadec,doctors,"","",-1.5697539,29.0521953
+Nord-Kivu,node,13846862468,Centre médical Camelias,clinic,"","",-1.676665,29.2123307
+Nord-Kivu,node,13846852562,Centre médical Dieu d'abord,clinic,"","",-1.6480994,29.1692785
+Nord-Kivu,node,11010425920,Centre médical Dorothée,hospital,"","",0.5009535,29.4314553
+Nord-Kivu,node,13846862495,Centre médical Gesom,clinic,"","",-1.6693269,29.2109547
+Nord-Kivu,node,6151204640,Centre médical Kentucky,clinic,"","",-1.6609921,29.2143577
+Nord-Kivu,node,13846862496,Centre médical Kentucky,clinic,"","",-1.6609921,29.2143577
+Nord-Kivu,node,7383140798,Centre médical Maranatha,doctors,"","",-1.5375592,28.8729693
+Nord-Kivu,node,13846862617,Centre médical Maranatha,doctors,"","",-1.5375592,28.8729693
+Nord-Kivu,node,13846862624,Centre médical Merci,doctors,"","",-1.5661856,29.0493999
+Nord-Kivu,node,13846862627,Centre médical Merci,doctors,"","",-1.5661856,29.0493999
+Nord-Kivu,node,13846863204,Centre médical Ngoyi,clinic,"","",0.4919502,29.4668924
+Nord-Kivu,node,7383140793,Centre médical Salama,doctors,"","",-1.5434961,28.8723278
+Nord-Kivu,node,13846862622,Centre médical Salama,doctors,"","",-1.5434961,28.8723278
+Nord-Kivu,node,13846863096,Centre médical Tout est Grâce,doctors,"","",0.1598785,29.3220232
+Nord-Kivu,node,6281023401,Centre médical Tropical,clinic,"","",-1.6457622,29.2292105
+Nord-Kivu,node,13846862572,Centre médical Tropical,clinic,"","",-1.6457622,29.2292105
+Nord-Kivu,node,7383140794,Centre médical Umoja,doctors,"","",-1.5384232,28.874528
+Nord-Kivu,node,13846862620,Centre médical Umoja,doctors,"","",-1.5384232,28.874528
+Nord-Kivu,node,13846862459,Centre médical adventiste,hospital,"","",-1.6720635,29.1988928
+Nord-Kivu,node,13846863027,Centre orthopédique de Régénération,clinic,"","",0.1277839,29.2939339
+Nord-Kivu,node,13846863201,Centre pour Handicapes physique Heshima Lutu,clinic,nurse,"",0.4857066,29.4578691
+Nord-Kivu,node,9462412609,Centre psychiatrique Sainte Croix,hospital,"","",0.1081895,29.3031013
+Nord-Kivu,node,13846863291,Clin Exauce,clinic,"","",0.3330872,29.6743833
+Nord-Kivu,node,13846863241,Clin Saint Vincent de Paul,clinic,clinic,"",0.5098917,29.4586217
+Nord-Kivu,node,13846863272,Clin Salama,clinic,"","",0.6884689,29.5064745
+Nord-Kivu,node,13846863253,Clin Siloe,clinic,clinic,"",0.5237528,29.4665611
+Nord-Kivu,node,13846863247,Clin le Rocher,clinic,clinic,"",0.5056886,29.4775555
+Nord-Kivu,node,13846863250,Clin le Rocher,clinic,clinic,"",0.5059783,29.4797817
+Nord-Kivu,node,13846863246,Clinic médical La prospérité,clinic,clinic,"",0.51908,29.4661262
+Nord-Kivu,node,13846863245,Clinic médical la Prospérité,clinic,"","",0.5190189,29.466363
+Nord-Kivu,node,13846863199,Clininque ISTM,clinic,clinic,"",0.49879,29.45909
+Nord-Kivu,node,13846863184,Clinique A Dieu la Gloire,clinic,clinic,"",0.4832444,29.4717861
+Nord-Kivu,node,13846862426,Clinique AGAPE,clinic,clinic,"",-1.6730384,29.2297229
+Nord-Kivu,node,13846863275,Clinique Africano Face B,clinic,"","",0.6907078,29.5039729
+Nord-Kivu,node,13846862437,Clinique Agape,clinic,clinic,"",-1.6747748,29.2307695
+Nord-Kivu,node,8014570617,Clinique Amani,clinic,"","",0.6540579,29.4964456
+Nord-Kivu,node,13846863271,Clinique Amani,clinic,"","",0.6540579,29.4964456
+Nord-Kivu,node,13846863256,Clinique Arbre de Vie,clinic,clinic,"",0.5140817,29.455395
+Nord-Kivu,node,13846863295,Clinique Busamba,clinic,"","",0.327017,29.6825635
+Nord-Kivu,node,13846863196,Clinique COMUSAT,clinic,clinic,"",0.4912194,29.4828523
+Nord-Kivu,node,13846862914,Clinique Dieu Vivant,clinic,clinic,"",0.1078485,29.2798071
+Nord-Kivu,node,13846863185,Clinique Faraja,clinic,clinic,"",0.478296,29.4596644
+Nord-Kivu,node,7862014898,Clinique Gloria,clinic,"","",-1.6578503,29.2045484
+Nord-Kivu,node,13846862512,Clinique Gloria,clinic,"","",-1.6578503,29.2045484
+Nord-Kivu,node,13846863083,Clinique Gloria,clinic,clinic,"",0.150917,29.315567
+Nord-Kivu,node,13846862942,Clinique Kasingi,clinic,"","",0.1145512,29.327198
+Nord-Kivu,node,13846863194,Clinique LIDEFAU,clinic,clinic,"",0.4935801,29.4744547
+Nord-Kivu,node,13846863214,Clinique La Grâce,clinic,clinic,"",0.48469,29.4657217
+Nord-Kivu,node,13846863252,Clinique Lakamission,clinic,clinic,"",0.509231,29.457044
+Nord-Kivu,node,13846863181,Clinique Les Bernardins,clinic,clinic,"",0.48299,29.4688983
+Nord-Kivu,node,13846863260,Clinique Main de Dieu,clinic,clinic,"",0.4851554,29.4428893
+Nord-Kivu,node,13846863031,Clinique Medical Luvika,clinic,centre,"",0.1215817,29.2839848
+Nord-Kivu,node,13846863257,Clinique Médical Dieu est grand,clinic,"","",0.5065172,29.467606
+Nord-Kivu,node,13846863035,Clinique Médicale EL-Shaddal,clinic,"","",0.1533233,29.2922283
+Nord-Kivu,node,10036652739,Clinique Naturelle Afya Bora,clinic,"","",-0.235733,29.2827198
+Nord-Kivu,node,13846863042,Clinique Pax Christi,clinic,doctor,"",0.141567,29.3018
+Nord-Kivu,node,13846862444,Clinique Polygone de Willis,clinic,"","",-1.6751447,29.2344938
+Nord-Kivu,node,13846863073,Clinique Pédiatrique,clinic,clinic,"",0.1404,29.294617
+Nord-Kivu,node,13846863262,Clinique Rita de Cascia,clinic,clinic,"",0.4995157,29.443122
+Nord-Kivu,node,13846863219,Clinique Saint André,clinic,"","",0.5007909,29.4821355
+Nord-Kivu,node,13846863205,Clinique Saint Damien,clinic,clinic,"",0.4927152,29.47376
+Nord-Kivu,node,13846863261,Clinique Saint Jean,clinic,clinic,"",0.50072,29.4337183
+Nord-Kivu,node,6374102952,Clinique Shalom,clinic,clinic,"",0.570436,29.4765162
+Nord-Kivu,node,13846863273,Clinique Shalom,clinic,clinic,"",0.570436,29.4765162
+Nord-Kivu,node,13846863036,Clinique Tout est Grace,clinic,clinic,"",0.1363467,29.28805
+Nord-Kivu,node,13846863244,Clinique Tumaini Letu,clinic,clinic,"",0.5150467,29.471
+Nord-Kivu,node,13846863198,Clinique Universelle,clinic,clinic,"",0.4928917,29.4691983
+Nord-Kivu,node,13846862770,Clinique Universitaire de Lukanga,clinic,"","",-0.0622004,29.2999443
+Nord-Kivu,node,13846863179,Clinique Utulivu,clinic,clinic,"",0.481385,29.4638183
+Nord-Kivu,node,13846863005,Clinique World Symbiose,clinic,"","",0.1208615,29.2900879
+Nord-Kivu,node,13846863017,Clinique d'Assistance Psychosociale,clinic,"","",0.1265739,29.2938855
+Nord-Kivu,node,13846863218,Clinique de Santé,clinic,clinic,"",0.492989,29.4830771
+Nord-Kivu,node,13846862973,Clinique de l'Esperance,clinic,clinic,"",0.1142806,29.3047669
+Nord-Kivu,node,13846863222,Clinique de l'Espérance,clinic,clinic,"",0.5018567,29.4820783
+Nord-Kivu,node,13846862913,Clinique de recherche en médecine ( Kisongya),clinic,"","",0.1068285,29.2975337
+Nord-Kivu,node,13846862492,Clinique du Peuple,clinic,"","",-1.6642539,29.2145285
+Nord-Kivu,node,13846863186,Clinique ilu,clinic,clinic,"",0.4802402,29.4698677
+Nord-Kivu,node,13846863020,Clinique la Lumière,clinic,clinic,"",0.1305539,29.2899757
+Nord-Kivu,node,13846862929,Clinique la vie des Hommes,clinic,"","",0.1072828,29.3185546
+Nord-Kivu,node,13846862431,Clinique médical Emmanuel,clinic,"","",-1.6724081,29.2244878
+Nord-Kivu,node,13846862429,Clinique nyota ya amani cna,clinic,"","",-1.6735923,29.2287597
+Nord-Kivu,node,13846862469,Clinique sainte anne,clinic,"","",-1.6732198,29.215724
+Nord-Kivu,node,13846863111,Complexe Pakimo,clinic,"",lieu sépulcre familial +Projet d'hôpital,0.1703934,29.2876589
+Nord-Kivu,node,9165465620,Couveuse Hôpital Kitatumba,hospital,"","",0.1456292,29.2858407
+Nord-Kivu,node,13846862976,Dentisterie Anglican,clinic,"",anglican,0.1207114,29.3005854
+Nord-Kivu,node,13846863189,Disp.Du CS la Modestie,doctors,Disp,"",0.466696,29.4587464
+Nord-Kivu,node,13846863191,Disp.La Bienheurese Anuarite,doctors,Disp,"",0.4767956,29.466181
+Nord-Kivu,node,13846863225,Dispensaire Faraja,clinic,clinic,"",0.4893733,29.4814833
+Nord-Kivu,node,13846863197,Dispensaire Lwanzo,clinic,"","",0.4987274,29.4837646
+Nord-Kivu,node,13846863236,Dispensaire Maji ya uzima,clinic,clinic,"",0.4857023,29.4888648
+Nord-Kivu,node,13846863265,Dispensaire Mate_Dei H,doctors,Disp,"",0.5008692,29.427816
+Nord-Kivu,node,11065209359,Dispensaire Saint Antoine de Padoue,hospital,"","",0.085396,29.2665116
+Nord-Kivu,node,13846863167,Dispensaire Ulinzi Wa Afia,doctors,nurse,"",0.41646,29.2877271
+Nord-Kivu,node,13846862819,Dispensaire de l'Arescepromen,clinic,"","",0.3476781,28.7772109
+Nord-Kivu,node,11010420952,Dispensaire pédiatrique la guérison,hospital,"","",0.4981161,29.4424395
+Nord-Kivu,node,9465531219,Dispensaire vétérinaire,hospital,"","",0.1000047,29.3044124
+Nord-Kivu,node,12206729312,Faraja,clinic,"",Ministère de la santé,-1.0833387,29.231267
+Nord-Kivu,node,13846862706,Faraja,clinic,"",Ministère de la santé,-1.0833387,29.231267
+Nord-Kivu,node,13846863063,Fistula Program Hospital,clinic,"","",0.1475409,29.2878352
+Nord-Kivu,node,12206729265,HGR de Bambo,hospital,"",Ministère de la santé,-1.0848512,29.2231017
+Nord-Kivu,node,13846862702,HGR de Bambo,hospital,"",Ministère de la santé,-1.0848512,29.2231017
+Nord-Kivu,node,13846863259,Heri Kwetu,clinic,nurse,"",0.4960723,29.4370266
+Nord-Kivu,node,6374000492,Hopital Général de Référence de Lubero,doctors,centre,"",-0.1611217,29.2305983
+Nord-Kivu,node,13846862772,Hopital Général de Référence de Lubero,doctors,centre,"",-0.1611217,29.2305983
+Nord-Kivu,way,1003662230,Hopital Général de référence de Mabalako,hospital,hospital,Ministere de la santé,0.4683405,29.2130968
+Nord-Kivu,node,12186148559,Hopital general de reférence Kibirizi,hospital,hospital,Ministère de la santé,-0.9062031,29.1972541
+Nord-Kivu,node,13846862709,Hopital general de reférence Kibirizi,hospital,hospital,Ministère de la santé,-0.9062031,29.1972541
+Nord-Kivu,node,9186550423,Hosp De Non Parle,hospital,"","",0.5044957,29.4092761
+Nord-Kivu,node,13846863183,Hôpital Baraka,clinic,"","",0.4810789,29.458579
+Nord-Kivu,way,653620549,Hôpital Bethesda,hospital,hospital,"",-1.6516043,29.1894883
+Nord-Kivu,way,796921707,Hôpital Général de Référence de Kalunguta,hospital,hospital,"",0.3322682,29.3547844
+Nord-Kivu,node,7407644963,Hôpital Général de Référence de Manguredjipa,hospital,hospital,"",0.361782,28.7592375
+Nord-Kivu,way,193634276,Hôpital Général de Référence du Nord Kivu,hospital,hospital,"",-1.6790689,29.2244765
+Nord-Kivu,way,1516636654,Hôpital Général de Référence du Nord Kivu,hospital,hospital,"",-1.6790689,29.2244765
+Nord-Kivu,way,193652062,Hôpital Général de RéférenceVirunga,hospital,"","",-1.6667892,29.2325097
+Nord-Kivu,node,11905143145,Hôpital Général de référence de Kamango,hospital,"","",0.6581897,29.8818062
+Nord-Kivu,way,796947938,Hôpital Générale de Référence de Katwa,clinic,hospital,"",0.0929783,29.306423
+Nord-Kivu,way,195742803,Hôpital Heal Africa,hospital,hospital,Heal Africa,-1.689032,29.2356161
+Nord-Kivu,way,195725935,Hôpital MONUSCO,hospital,hospital,"",-1.6890208,29.2389359
+Nord-Kivu,way,193247336,Hôpital Militaire Régional,hospital,hospital,"",-1.6684785,29.2186863
+Nord-Kivu,node,11010443211,Hôpital UNCHIR,hospital,"","",0.4936072,29.4427019
+Nord-Kivu,way,792145017,Hôpital de Kirotshe,hospital,hospital,"",-1.6127095,29.0305891
+Nord-Kivu,node,13846863120,Hôpital de l'Unité,clinic,"","",0.1630909,29.30054
+Nord-Kivu,way,772788349,Hôpital général de référence de Mutwanga,hospital,hospital,"",0.3342683,29.745572
+Nord-Kivu,node,13846852600,Jubilé,clinic,clinic,"",-1.6885423,29.2341427
+Nord-Kivu,node,13846863171,Kavingu,doctors,Post,"",0.4046039,29.4361335
+Nord-Kivu,node,13180721073,Kinesiterapie,hospital,"","",0.5229828,29.4500641
+Nord-Kivu,node,13846863251,La puissance de Dieu,clinic,"","",0.5229828,29.4500641
+Nord-Kivu,node,13846863255,La puissance de Dieu,clinic,"","",0.5229828,29.4500641
+Nord-Kivu,way,840941466,Level III Hospital,hospital,hospital,MONUSCO,-1.6761095,29.2127854
+Nord-Kivu,way,1516636656,Level III Hospital,hospital,hospital,MONUSCO,-1.6761095,29.2127854
+Nord-Kivu,node,11124976992,Lwanzo Hospital Center,hospital,"","",0.4911924,29.4677688
+Nord-Kivu,node,11242988623,Lwanzo Hospital Center,clinic,"","",0.4913919,29.4677172
+Nord-Kivu,node,13846863206,Lwanzo Hospital Center,clinic,"","",0.4913919,29.4677172
+Nord-Kivu,node,8835888592,Maison Médecine Traditionnelle,hospital,"","",-0.1541065,29.5558092
+Nord-Kivu,node,13846862601,Maison médical Mongera,clinic,"","",-1.6415033,29.1806786
+Nord-Kivu,node,13846863200,Mumbere Belle Vue Group,clinic,"","",0.4915597,29.4674321
+Nord-Kivu,way,790392052,Museya,hospital,"","",-0.0796937,29.5321928
+Nord-Kivu,node,8599414458,Notre Maison ABC,hospital,"","",0.4898221,29.4704871
+Nord-Kivu,node,6374099364,POSTE DE SECOURS D'URGENCE MIKOLE,doctors,doctor,"",0.1968091,29.4190744
+Nord-Kivu,node,13846863149,POSTE DE SECOURS D'URGENCE MIKOLE,doctors,doctor,"",0.1968091,29.4190744
+Nord-Kivu,node,6374102924,PS 55E CBCE MANZIA,doctors,doctor,"",0.064905,29.0331367
+Nord-Kivu,node,13846862825,PS 55E CBCE MANZIA,doctors,doctor,"",0.064905,29.0331367
+Nord-Kivu,node,6374102892,PS A.V.O,doctors,doctor,"",-0.151125,29.5526067
+Nord-Kivu,node,13846862723,PS A.V.O,doctors,doctor,"",-0.151125,29.5526067
+Nord-Kivu,node,6374102838,PS ADVENTISTE KILAU,doctors,doctor,"",-0.1217882,29.0316805
+Nord-Kivu,node,13846862814,PS ADVENTISTE KILAU,doctors,doctor,"",-0.1217882,29.0316805
+Nord-Kivu,node,6374102806,PS BARAKA,doctors,doctor,"",0.070495,29.1172683
+Nord-Kivu,node,13846862842,PS BARAKA,doctors,doctor,"",0.070495,29.1172683
+Nord-Kivu,node,6374102805,PS BITUMBI,doctors,doctor,"",0.0657217,29.09464
+Nord-Kivu,node,13846862845,PS BITUMBI,doctors,doctor,"",0.0657217,29.09464
+Nord-Kivu,node,13846862820,PS BUNANDE,doctors,doctor,"",0.003729,28.803571
+Nord-Kivu,node,6374102575,PS BWALYANA,doctors,doctor,"",-0.098546,29.390335
+Nord-Kivu,node,13846862773,PS BWALYANA,doctors,doctor,"",-0.098546,29.390335
+Nord-Kivu,node,6374102848,PS Bunande,doctors,doctor,"",-0.140071,29.316517
+Nord-Kivu,node,13846862796,PS Bunande,doctors,doctor,"",-0.140071,29.316517
+Nord-Kivu,node,6374102891,PS CAPHY,doctors,doctor,"",-0.1536133,29.5557183
+Nord-Kivu,node,13846862726,PS CAPHY,doctors,doctor,"",-0.1536133,29.5557183
+Nord-Kivu,node,6374102890,PS CBCA KYAVINYONGE,doctors,doctor,"",-0.1489835,29.5514669
+Nord-Kivu,node,13846862725,PS CBCA KYAVINYONGE,doctors,doctor,"",-0.1489835,29.5514669
+Nord-Kivu,node,6374102889,PS COOPEVI,doctors,doctor,"",-0.1526949,29.5602239
+Nord-Kivu,node,13846862729,PS COOPEVI,doctors,doctor,"",-0.1526949,29.5602239
+Nord-Kivu,node,6374102840,PS DE RUGHENDA,doctors,doctor,"",-0.1850167,29.1277433
+Nord-Kivu,node,13846862750,PS DE RUGHENDA,doctors,doctor,"",-0.1850167,29.1277433
+Nord-Kivu,node,6374102842,PS KAKONZE,doctors,doctor,"",-0.1798333,29.12389
+Nord-Kivu,node,13846862749,PS KAKONZE,doctors,doctor,"",-0.1798333,29.12389
+Nord-Kivu,node,6374102894,PS KALAMBI,doctors,doctor,"",-0.0833416,29.5166588
+Nord-Kivu,node,13846862808,PS KALAMBI,doctors,doctor,"",-0.0833416,29.5166588
+Nord-Kivu,node,6374102804,PS KALUNDU,doctors,doctor,"",0.0722483,29.081055
+Nord-Kivu,node,13846862823,PS KALUNDU,doctors,doctor,"",0.0722483,29.081055
+Nord-Kivu,node,6374102837,PS KASINGA,doctors,doctor,"",-0.102305,29.067299
+Nord-Kivu,node,13846862816,PS KASINGA,doctors,doctor,"",-0.102305,29.067299
+Nord-Kivu,node,6374102927,PS KASINZWE,doctors,doctor,"",-0.1802892,29.3229902
+Nord-Kivu,node,13846862758,PS KASINZWE,doctors,doctor,"",-0.1802892,29.3229902
+Nord-Kivu,node,13846862783,PS KAVETYA,doctors,doctor,"",-0.1564533,29.2388717
+Nord-Kivu,node,6374102807,PS KAVIRU,doctors,doctor,"",-0.1997443,29.1576278
+Nord-Kivu,node,13846862753,PS KAVIRU,doctors,doctor,"",-0.1997443,29.1576278
+Nord-Kivu,node,6374102922,PS KIDIMA ADVANTISTE,doctors,doctor,"",0.0702317,29.03397
+Nord-Kivu,node,13846862827,PS KIDIMA ADVANTISTE,doctors,doctor,"",0.0702317,29.03397
+Nord-Kivu,node,13846862744,PS KISOLU,doctors,doctor,"",-0.385068,29.332313
+Nord-Kivu,node,6374102816,PS KIVUGHA,doctors,doctor,"",-0.1530867,29.2825033
+Nord-Kivu,node,13846862803,PS KIVUGHA,doctors,doctor,"",-0.1530867,29.2825033
+Nord-Kivu,node,6374102930,PS KUDO,doctors,doctor,"",0.067692,28.946826
+Nord-Kivu,node,13846862824,PS KUDO,doctors,doctor,"",0.067692,28.946826
+Nord-Kivu,node,6374102820,PS KYAHALI,doctors,doctor,"",-0.1280333,29.233725
+Nord-Kivu,node,13846862778,PS KYAHALI,doctors,doctor,"",-0.1280333,29.233725
+Nord-Kivu,node,13846863154,PS Kibwe (Mahohe),doctors,nurse,"",0.3088576,29.3452307
+Nord-Kivu,node,6374100718,PS MABUNGO,doctors,doctor,"",-0.016667,29.083333
+Nord-Kivu,node,13846862817,PS MABUNGO,doctors,doctor,"",-0.016667,29.083333
+Nord-Kivu,node,6374102929,PS MAMBENA,doctors,doctor,"",0.097955,28.921135
+Nord-Kivu,node,13846862833,PS MAMBENA,doctors,doctor,"",0.097955,28.921135
+Nord-Kivu,node,6374102844,PS MATEMBO,doctors,doctor,"",-0.1145023,29.2493564
+Nord-Kivu,node,13846862804,PS MATEMBO,doctors,doctor,"",-0.1145023,29.2493564
+Nord-Kivu,node,6374102566,PS MAVWE,doctors,doctor,"",0.0392533,29.07316
+Nord-Kivu,node,13846862828,PS MAVWE,doctors,doctor,"",0.0392533,29.07316
+Nord-Kivu,node,6374100734,PS MBALALA,doctors,doctor,"",0.111387,28.927754
+Nord-Kivu,node,13846862826,PS MBALALA,doctors,doctor,"",0.111387,28.927754
+Nord-Kivu,node,6374102577,PS MISAVU,doctors,doctor,"",0.0499717,29.1144683
+Nord-Kivu,node,13846862836,PS MISAVU,doctors,doctor,"",0.0499717,29.1144683
+Nord-Kivu,node,6374102887,PS MURAMBA,doctors,doctor,"",-0.195907,29.478348
+Nord-Kivu,node,13846862767,PS MURAMBA,doctors,doctor,"",-0.195907,29.478348
+Nord-Kivu,node,6374102926,PS MURANDA,doctors,doctor,"",0.0548003,28.9608522
+Nord-Kivu,node,13846862822,PS MURANDA,doctors,doctor,"",0.0548003,28.9608522
+Nord-Kivu,node,6374102883,PS MUTIRI,doctors,doctor,"",-0.1111128,29.2720831
+Nord-Kivu,node,13846862788,PS MUTIRI,doctors,doctor,"",-0.1111128,29.2720831
+Nord-Kivu,way,774622207,PS Mbalala,hospital,hospital,"",0.1113028,28.9277691
+Nord-Kivu,node,6374102867,PS NGANE,doctors,doctor,"",0.0222133,29.124275
+Nord-Kivu,node,13846862846,PS NGANE,doctors,doctor,"",0.0222133,29.124275
+Nord-Kivu,node,6374102846,PS NGATA,doctors,doctor,"",-0.1282422,29.2632763
+Nord-Kivu,node,13846862795,PS NGATA,doctors,doctor,"",-0.1282422,29.2632763
+Nord-Kivu,node,6374102815,PS NGUMBATI,doctors,doctor,"",-0.1501339,29.3149633
+Nord-Kivu,node,13846862805,PS NGUMBATI,doctors,doctor,"",-0.1501339,29.3149633
+Nord-Kivu,node,6374100735,PS NOTRE DAME DE GRACE,doctors,doctor,"",0.0870406,28.9509199
+Nord-Kivu,node,13846862829,PS NOTRE DAME DE GRACE,doctors,doctor,"",0.0870406,28.9509199
+Nord-Kivu,node,13846862722,PS Ruvumbura,hospital,nurse,"",-1.1845379,29.5676001
+Nord-Kivu,node,6374102836,PS VULAMBO,doctors,doctor,"",-0.2539033,28.999455
+Nord-Kivu,node,13846862752,PS VULAMBO,doctors,doctor,"",-0.2539033,28.999455
+Nord-Kivu,node,6374102839,PS VULENZE,doctors,doctor,"",-0.1442067,29.06188
+Nord-Kivu,node,13846862815,PS VULENZE,doctors,doctor,"",-0.1442067,29.06188
+Nord-Kivu,node,6374102841,PS VUSANZWE,doctors,doctor,"",-0.240375,29.0736467
+Nord-Kivu,node,13846862751,PS VUSANZWE,doctors,doctor,"",-0.240375,29.0736467
+Nord-Kivu,node,6374102817,PS VUSAYI,doctors,doctor,"",-0.146001,29.331327
+Nord-Kivu,node,13846862806,PS VUSAYI,doctors,doctor,"",-0.146001,29.331327
+Nord-Kivu,node,13846863210,Polyclinic santé plus,clinic,"","",0.4879577,29.468953
+Nord-Kivu,node,13846862466,Polyclinique INPP,clinic,"","",-1.6718701,29.2151364
+Nord-Kivu,node,13846862969,Polyclinique ISTM,clinic,clinic,"",0.1138354,29.2797697
+Nord-Kivu,node,7853742207,Poste de Sante Kaliki,doctors,"","",-1.7133321,28.9652388
+Nord-Kivu,node,13846852538,Poste de Sante Kaliki,doctors,"","",-1.7133321,28.9652388
+Nord-Kivu,node,7383140727,Poste de Sante Kisisi,doctors,"","",-1.6143527,29.0060218
+Nord-Kivu,node,13846852573,Poste de Sante Kisisi,doctors,"","",-1.6143527,29.0060218
+Nord-Kivu,node,13846863156,Poste de Sante Mahohe,doctors,nurse,"",0.3180965,29.3514352
+Nord-Kivu,node,7383140708,Poste de Sante Muremure,doctors,"","",-1.6019301,28.9798419
+Nord-Kivu,node,13846852576,Poste de Sante Muremure,doctors,"","",-1.6019301,28.9798419
+Nord-Kivu,node,6374099366,Poste de Santé ACOPLAI,doctors,nurse,"",0.1998179,29.4158661
+Nord-Kivu,node,13846863145,Poste de Santé ACOPLAI,doctors,nurse,"",0.1998179,29.4158661
+Nord-Kivu,node,6374099363,Poste de Santé ADEPROSA,doctors,nurse,"",0.2000862,29.4111077
+Nord-Kivu,node,13846863139,Poste de Santé ADEPROSA,doctors,nurse,"",0.2000862,29.4111077
+Nord-Kivu,node,11992062051,Poste de Santé Agape,clinic,"","",-0.5619822,29.1833796
+Nord-Kivu,node,13846862738,Poste de Santé Agape,clinic,"","",-0.5619822,29.1833796
+Nord-Kivu,node,13846862970,Poste de Santé Bon Samaritain,doctors,nurse,"",0.1110617,29.274485
+Nord-Kivu,node,13846862436,Poste de Santé CEBCE,clinic,"","",-1.6788789,29.234603
+Nord-Kivu,node,6374102895,Poste de Santé Croix Rouge,doctors,nurse,"",-0.081006,29.5301329
+Nord-Kivu,node,13846862771,Poste de Santé Croix Rouge,doctors,nurse,"",-0.081006,29.5301329
+Nord-Kivu,node,9462470042,Poste de Santé EEERA Mutiri,hospital,"","",0.1306878,29.308117
+Nord-Kivu,node,13846863093,Poste de Santé Gloire à Dieu,clinic,"","",0.1680876,29.318113
+Nord-Kivu,node,13846862892,Poste de Santé Imani Uponya,doctors,nurse,"",0.1242877,29.2178982
+Nord-Kivu,node,6374102862,Poste de Santé Kasinga,doctors,nurse,"",0.031729,29.209892
+Nord-Kivu,node,13846862856,Poste de Santé Kasinga,doctors,nurse,"",0.031729,29.209892
+Nord-Kivu,node,13846862798,Poste de Santé Kasoko,doctors,nurse,"",-0.023137,29.271133
+Nord-Kivu,node,6374102859,Poste de Santé Kirungo,doctors,nurse,"",0.026842,29.3603
+Nord-Kivu,node,13846862880,Poste de Santé Kirungo,doctors,nurse,"",0.026842,29.3603
+Nord-Kivu,node,13846863094,Poste de Santé Kisitu,clinic,nurse,"",0.156017,29.320333
+Nord-Kivu,node,13846862811,Poste de Santé Kivati,doctors,nurse,"",-0.0006783,29.4248233
+Nord-Kivu,node,6374102885,Poste de Santé Kivugha,doctors,nurse,"",-0.01145,29.1875683
+Nord-Kivu,node,13846862812,Poste de Santé Kivugha,doctors,nurse,"",-0.01145,29.1875683
+Nord-Kivu,node,13846862917,Poste de Santé LA GU,doctors,nurse,"",0.09075,29.27539
+Nord-Kivu,node,6374099354,Poste de Santé La Raison,hospital,nurse,"",0.0941722,29.2933005
+Nord-Kivu,node,6374102364,Poste de Santé Leproserie,doctors,nurse,"",0.094767,29.315517
+Nord-Kivu,node,13846862934,Poste de Santé Leproserie,doctors,nurse,"",0.094767,29.315517
+Nord-Kivu,node,6374099367,Poste de Santé Lulinda,doctors,nurse,"",0.179199,29.448039
+Nord-Kivu,node,13846863147,Poste de Santé Lulinda,doctors,nurse,"",0.179199,29.448039
+Nord-Kivu,way,651349405,Poste de Santé Luthuhwe,doctors,nurse,Etatique,0.2118319,29.2435217
+Nord-Kivu,node,6374102863,Poste de Santé Maboya,doctors,nurse,"",0.1026433,29.1796583
+Nord-Kivu,node,13846862837,Poste de Santé Maboya,doctors,nurse,"",0.1026433,29.1796583
+Nord-Kivu,node,13846862924,Poste de Santé Maendeleo,doctors,nurse,"",0.105933,29.299917
+Nord-Kivu,node,6374102888,Poste de Santé Majengo,doctors,doctor,"",-0.1516717,29.5512933
+Nord-Kivu,node,13846862727,Poste de Santé Majengo,doctors,doctor,"",-0.1516717,29.5512933
+Nord-Kivu,node,13846863288,Poste de Santé Malunguma,clinic,"","",0.3605971,28.7668509
+Nord-Kivu,node,13846862919,Poste de Santé Maranatha,doctors,nurse,"",0.093601,29.2958712
+Nord-Kivu,node,13846862928,Poste de Santé Mongali,doctors,nurse,"",0.1093433,29.2752417
+Nord-Kivu,node,13846862784,Poste de Santé Muranda,doctors,nurse,"",-0.055837,29.304869
+Nord-Kivu,node,13846863270,Poste de Santé Muso,doctors,"","",0.4410449,29.2716617
+Nord-Kivu,node,13846862865,Poste de Santé Ndandu,doctors,nurse,"",0.0641233,29.2794633
+Nord-Kivu,node,13846863140,Poste de Santé Nderu,doctors,nurse,"",0.226114,29.413242
+Nord-Kivu,node,6374099369,Poste de Santé Panze,doctors,nurse,"",0.2158882,29.4382831
+Nord-Kivu,node,13846863148,Poste de Santé Panze,doctors,nurse,"",0.2158882,29.4382831
+Nord-Kivu,node,13846863119,Poste de Santé Rapha,clinic,nurse,"",0.1684838,29.2909791
+Nord-Kivu,node,13846863092,Poste de Santé Tumaini Letu,clinic,nurse,"",0.1583665,29.3126743
+Nord-Kivu,node,13846863103,Poste de Santé Tumaini Letu Tuwatikane,clinic,nurse,"",0.1582108,29.3022012
+Nord-Kivu,node,13846862786,Poste de Santé Turbine,doctors,nurse,"",-0.0090167,29.3755383
+Nord-Kivu,node,13846862860,Poste de Santé Vighanda,doctors,nurse,"",0.0604333,29.2984717
+Nord-Kivu,node,13846862858,Poste de Santé Vighulu,doctors,nurse,"",0.0481817,29.2832583
+Nord-Kivu,node,6374102884,Poste de Santé Visaravwe,doctors,nurse,"",0.0022633,29.2128783
+Nord-Kivu,node,13846862848,Poste de Santé Visaravwe,doctors,nurse,"",0.0022633,29.2128783
+Nord-Kivu,node,6374099368,Poste de Santé Visitsi,doctors,nurse,"",0.200494,29.449169
+Nord-Kivu,node,13846863146,Poste de Santé Visitsi,doctors,nurse,"",0.200494,29.449169
+Nord-Kivu,node,13846862872,Poste de Santé Vuhasa,doctors,nurse,"",0.0121167,29.3934483
+Nord-Kivu,node,13846862863,Poste de Santé Vulimira,doctors,nurse,"",0.034265,29.2874533
+Nord-Kivu,node,13846862920,Poste de Santé Vurundisa,doctors,nurse,"",0.10206,29.2733267
+Nord-Kivu,node,13846863101,Poste de Santé Wokovu,clinic,nurse,"",0.1632129,29.3082894
+Nord-Kivu,node,13846863091,Poste de Santé de l' Espoir,clinic,nurse,"",0.1554093,29.3197081
+Nord-Kivu,node,9076996101,Poste de Santé la Lumiere,hospital,"","",0.0820687,29.3009003
+Nord-Kivu,node,13846862766,Poste de santé Baraka,doctors,doctor,"",-0.2197867,29.3100904
+Nord-Kivu,node,6374102923,Poste de santé Kahuru,doctors,doctor,"",0.0633817,29.0476283
+Nord-Kivu,node,13846862830,Poste de santé Kahuru,doctors,doctor,"",0.0633817,29.0476283
+Nord-Kivu,node,6374102808,Poste de santé Kanyatsi,doctors,doctor,"",-0.1807283,29.1840433
+Nord-Kivu,node,13846862763,Poste de santé Kanyatsi,doctors,doctor,"",-0.1807283,29.1840433
+Nord-Kivu,node,13846862761,Poste de santé Muhita,doctors,doctor,"",-0.296706,29.401646
+Nord-Kivu,node,6374102570,Poste de santé Musasa,doctors,doctor,"",-0.078314,29.135171
+Nord-Kivu,node,13846862813,Poste de santé Musasa,doctors,doctor,"",-0.078314,29.135171
+Nord-Kivu,node,10287432806,Poste de santé Saint Raphaël,hospital,yes,"",0.1497366,29.333277
+Nord-Kivu,node,13846862711,Poste de santé Umoja,clinic,"",Ministère de la santé,-0.9144585,29.1927772
+Nord-Kivu,node,6374102567,Poste de santé Vutahi,doctors,doctor,"",0.022461,29.012083
+Nord-Kivu,node,13846862831,Poste de santé Vutahi,doctors,doctor,"",0.022461,29.012083
+Nord-Kivu,node,13846863289,Poste de santé Yesu Mponyaji,clinic,"","",0.3611807,28.7651111
+Nord-Kivu,node,7769275895,Poste de santé de Kazaroho,hospital,"",Privée,-0.1387973,29.3134886
+Nord-Kivu,node,12206729077,Rebero,clinic,"","",-1.0804049,29.2182684
+Nord-Kivu,node,13846862704,Rebero,clinic,"","",-1.0804049,29.2182684
+Nord-Kivu,node,13180473134,SC Bukohwa,clinic,"","",0.5795892,29.9156322
+Nord-Kivu,node,13846862895,Saint Jean Baptiste,clinic,"","",0.0929697,29.3021855
+Nord-Kivu,node,13846863028,Santé Mentale CEPIMA,clinic,"","",0.1269033,29.2887083
+Nord-Kivu,node,6374102819,TRADI LA CHARITE,doctors,doctor,"",-0.1626,29.24224
+Nord-Kivu,node,13846862799,TRADI LA CHARITE,doctors,doctor,"",-0.1626,29.24224
+Nord-Kivu,node,6374102920,TRADI OMUNGO Y'OMULAMYA,doctors,doctor,"",0.063615,29.044455
+Nord-Kivu,node,13846862834,TRADI OMUNGO Y'OMULAMYA,doctors,doctor,"",0.063615,29.044455
+Nord-Kivu,node,6374100726,Tradi Help Kighali,doctors,alternative,"",0.089815,29.3841517
+Nord-Kivu,node,13846862884,Tradi Help Kighali,doctors,alternative,"",0.089815,29.3841517
+Nord-Kivu,node,6374000361,Tradi Menamo,doctors,alternative,"",-1.654803,29.231295
+Nord-Kivu,node,13846862571,Tradi Menamo,doctors,alternative,"",-1.654803,29.231295
+Nord-Kivu,node,13846862870,Tradi la Guerrison,doctors,alternative,"",0.032595,29.4522783
+Nord-Kivu,node,13846862927,Tradipraticien,doctors,"","",0.1056949,29.3009053
+Nord-Kivu,node,13846862861,Tradipraticien Kaghembe,doctors,alternative,"",0.08482,29.30569
+Nord-Kivu,node,6374099362,Tradipraticien Kalibo,doctors,alternative,"",0.196225,29.426685
+Nord-Kivu,node,13846863138,Tradipraticien Kalibo,doctors,alternative,"",0.196225,29.426685
+Nord-Kivu,node,6374099371,Tradipraticien Kamusonga,doctors,alternative,"",0.2110877,29.3721878
+Nord-Kivu,node,13846863143,Tradipraticien Kamusonga,doctors,alternative,"",0.2110877,29.3721878
+Nord-Kivu,node,8936218233,Tradipraticien Muhanga,hospital,"","",0.2671701,29.403554
+Nord-Kivu,node,13846862925,Tradipraticien SDTDKA,doctors,alternative,"",0.10287,29.30241
+Nord-Kivu,node,13846863013,Tradipraticien Shalom,doctors,alternative,"",0.121505,29.2985733
+Nord-Kivu,node,6374100694,Tradipraticien Siloe 1,doctors,alternative,"",0.1189233,29.3741183
+Nord-Kivu,node,13846862886,Tradipraticien Siloe 1,doctors,alternative,"",0.1189233,29.3741183
+Nord-Kivu,node,6374100693,Tradipraticien Siloe Jean,doctors,alternative,"",0.146155,29.4086033
+Nord-Kivu,node,13846862888,Tradipraticien Siloe Jean,doctors,alternative,"",0.146155,29.4086033
+Nord-Kivu,node,6374100736,Tradipraticien Vuhanga,doctors,alternative,"",0.1731117,29.3683417
+Nord-Kivu,node,13846862887,Tradipraticien Vuhanga,doctors,alternative,"",0.1731117,29.3683417
+Nord-Kivu,node,13846863014,Tradipraticien Wakisa,doctors,doctor,"",0.1209182,29.2977993
+Nord-Kivu,node,13846862926,Tradipraticien la Santé d'Abord,doctors,alternative,"",0.0953,29.276215
+Nord-Kivu,node,11871660801,UHAI House,clinic,"","",0.5211832,29.4654271
+Nord-Kivu,node,13846863243,UHAI House,clinic,"","",0.5211832,29.4654271
+Nord-Kivu,way,1181983805,UNICHIR,hospital,hospital,"",0.4935979,29.443053
+Nord-Kivu,node,11010311539,Zone de Santé Clinique Amani-Beni,hospital,"","",0.5021558,29.4713433
+Nord-Kivu,node,8604792848,Zone de Santé Kamango,hospital,"","",0.663544,29.887243
+Sud-Kivu,node,5809109353,Asili Clinic,clinic,"","",-2.5540695,28.8651127
+Sud-Kivu,node,8913271747,BDOM,hospital,hospital,"",-2.5015344,28.8486941
+Sud-Kivu,node,7528067587,Biosadec,clinic,clinic,"",-2.4972515,28.8881405
+Sud-Kivu,node,5373439935,Boîte de secours,doctors,"",public,-4.9562067,29.1103645
+Sud-Kivu,node,1023773709,Bukumbi (Shayo??),clinic,"","",-2.0228737,29.1034294
+Sud-Kivu,node,1023773746,Bulegeyi,clinic,"","",-2.2017885,29.0685986
+Sud-Kivu,node,1023773748,Bunyakiri,clinic,"","",-2.0021279,29.0857182
+Sud-Kivu,node,1023773761,Bushonga,clinic,"","",-2.0144196,29.0803877
+Sud-Kivu,node,1023773664,Bushusha,hospital,hospital,"",-1.9782865,29.0510283
+Sud-Kivu,node,1023773671,Bwando,clinic,"","",-2.165472,29.0825476
+Sud-Kivu,node,1023773713,Bweshu,clinic,"","",-2.0465297,29.0934421
+Sud-Kivu,node,1023773653,Bwina,clinic,"","",-2.2659568,29.0535027
+Sud-Kivu,node,7896262120,CS Lusenda,clinic,"","",-3.8889708,29.1023393
+Sud-Kivu,node,7896257774,CS Nundu,clinic,"","",-3.8077814,29.100325
+Sud-Kivu,node,1023773692,Camahiri,clinic,"","",-2.1549259,29.0220143
+Sud-Kivu,node,12512080056,Centre Hospitalier BIOPHARM,clinic,"","",-2.5037286,28.8667775
+Sud-Kivu,node,12509236165,Centre Hospitalier Medicure,clinic,"","",-2.5004577,28.8816818
+Sud-Kivu,way,804280650,Centre Hospitalier de Lulimba,hospital,hospital,"",-4.6671458,28.6585183
+Sud-Kivu,node,7350394393,Centre Isolement Covid-19,hospital,hospital,"",-2.4701553,28.8371679
+Sud-Kivu,node,12512080054,Centre Medica de Bukavu Bioglodi,clinic,"","",-2.5011326,28.8757558
+Sud-Kivu,node,8483585629,Centre Medical Uzima Bora,clinic,"","",-3.0629746,28.1885053
+Sud-Kivu,node,6476015494,Centre Médical Don Dioli,clinic,"","",-3.0516236,28.2001875
+Sud-Kivu,way,700203459,Centre Médical chez Maman Doricas,clinic,clinic,"",-3.0583322,28.193766
+Sud-Kivu,node,5373403787,Centre communautaire de Hona,doctors,"",public,-4.3954653,29.20785
+Sud-Kivu,node,7383140826,Centre de Sante Bishange,doctors,"","",-1.7220146,28.9944739
+Sud-Kivu,node,13846852534,Centre de Sante Bishange,doctors,"","",-1.7220146,28.9944739
+Sud-Kivu,node,7383140819,Centre de Sante Bweremana,doctors,"","",-1.6910439,29.0167816
+Sud-Kivu,node,13846852539,Centre de Sante Bweremana,doctors,"","",-1.6910439,29.0167816
+Sud-Kivu,node,6594845598,Centre de Santé,clinic,"","",-3.4034894,29.1419359
+Sud-Kivu,node,8483608738,Centre de Santé CECA 40 Camp Mweze,clinic,"","",-2.5104246,28.8453387
+Sud-Kivu,node,8483608739,Centre de Santé Cigurhi,clinic,"","",-2.4971416,28.8140199
+Sud-Kivu,node,6594454585,Centre de Santé Djaboba,clinic,"","",-3.8048515,29.100378
+Sud-Kivu,node,8483608732,Centre de Santé FUNU,clinic,"","",-2.5212181,28.8481417
+Sud-Kivu,node,8483608735,Centre de Santé Kahero Sikash,clinic,"","",-2.4852224,28.8270018
+Sud-Kivu,node,6475953294,Centre de Santé Kimbangu,clinic,"","",-3.0579256,28.1874709
+Sud-Kivu,node,8483630054,Centre de Santé Lusilu,clinic,"","",-3.9944199,28.0364428
+Sud-Kivu,node,8483630055,Centre de Santé MAINDOMBE,clinic,"","",-4.1702166,28.1742561
+Sud-Kivu,node,8483608734,Centre de Santé Maendeleo Cimpunda,clinic,"","",-2.5121403,28.8432513
+Sud-Kivu,node,8483630043,Centre de Santé Makola,clinic,"","",-4.0378092,28.1002969
+Sud-Kivu,node,8483585370,Centre de Santé Mgr Emmanuel KATALIKO,clinic,"","",-2.5250654,28.8456123
+Sud-Kivu,node,8483608736,Centre de Santé Mulezi,clinic,"","",-2.5007143,28.828758
+Sud-Kivu,node,5809109253,Centre de Santé SOS Villages D’Enfants,clinic,"","",-2.493181,28.8409293
+Sud-Kivu,node,8483630044,Centre de Santé Sanga,clinic,"","",-4.0785247,27.9172978
+Sud-Kivu,node,6475859109,Centre de Santé de Asuku,clinic,"","",-3.0648046,28.1904808
+Sud-Kivu,node,6475958867,Centre de Santé de Bigombe,clinic,"","",-3.1239506,28.1922659
+Sud-Kivu,node,6476015495,Centre de Santé de Bigombe - new,clinic,"","",-3.12233,28.1931479
+Sud-Kivu,node,6594445289,Centre de Santé de Bitobolo,clinic,"","",-3.958019,29.1079488
+Sud-Kivu,node,6594445286,Centre de Santé de Kabambare,clinic,"","",-3.7176808,29.1184322
+Sud-Kivu,node,6475983903,Centre de Santé de Kabukungu,clinic,"","",-3.0711369,28.1880802
+Sud-Kivu,node,6475903793,Centre de Santé de Kalingi,clinic,"","",-3.0473808,28.2003138
+Sud-Kivu,node,6475934688,Centre de Santé de Katunga,clinic,clinic,"",-3.0572321,28.1909474
+Sud-Kivu,node,6594454289,Centre de Santé de Kenya,clinic,"","",-3.8315774,29.0969471
+Sud-Kivu,node,3752452622,Centre de Santé de Kilembwe,clinic,"","",-4.0422599,28.0120428
+Sud-Kivu,node,6475934109,Centre de Santé de L'electricité Cepac,clinic,"","",-3.0574442,28.1966882
+Sud-Kivu,node,6599789787,Centre de Santé de Luberizi,clinic,"","",-2.9644428,29.0826384
+Sud-Kivu,node,6475965640,Centre de Santé de Luliba,clinic,clinic,"",-3.0779942,28.1758822
+Sud-Kivu,node,3752450319,Centre de Santé de Lulimba,doctors,"","",-4.6951789,28.6464242
+Sud-Kivu,node,6594754486,Centre de Santé de Lweba,clinic,"","",-3.9995837,29.0977932
+Sud-Kivu,node,6594760886,Centre de Santé de Makobola,clinic,"","",-3.5468646,29.1504333
+Sud-Kivu,node,6594760985,Centre de Santé de Munene,clinic,"","",-3.6283298,29.148503
+Sud-Kivu,node,6475966411,Centre de Santé de Mungombe,clinic,"","",-3.0438961,28.2545892
+Sud-Kivu,node,8483608740,Centre de Santé de Nyamuhinga,clinic,"","",-2.4750255,28.8227271
+Sud-Kivu,node,6475964940,Centre de Santé de Poly Afia,clinic,"","",-3.0534067,28.1948186
+Sud-Kivu,node,6475951543,Centre de Santé de Poudriere,clinic,"","",-3.0628541,28.1931439
+Sud-Kivu,node,6475953296,Centre de Santé de Sidem Kele,clinic,"","",-3.0557926,28.2025232
+Sud-Kivu,node,6475947936,Centre de Santé de référence Sidem Kele,clinic,"","",-3.0532681,28.2066625
+Sud-Kivu,node,6476034337,Centre de Santé de référence de Kibe,clinic,"","",-3.1692083,28.1899591
+Sud-Kivu,node,5370700024,Centre de santé,doctors,"",public,-4.1071564,28.9813461
+Sud-Kivu,node,5373427226,Centre de santé,doctors,"",public,-3.9905027,29.0200357
+Sud-Kivu,node,5375081966,Centre de santé,doctors,"",public,-4.1346917,28.9951167
+Sud-Kivu,node,5375089381,Centre de santé,doctors,"",public,-4.1554673,28.9596954
+Sud-Kivu,node,5375089382,Centre de santé,doctors,"",public,-4.1637134,28.9381237
+Sud-Kivu,node,5375089383,Centre de santé,doctors,"",public,-4.1390992,28.9350834
+Sud-Kivu,node,5375089384,Centre de santé,doctors,"",public,-4.1663404,28.9344491
+Sud-Kivu,node,5375089385,Centre de santé,doctors,"",public,-4.1610463,28.945009
+Sud-Kivu,node,5375089387,Centre de santé,doctors,"",public,-4.1592633,28.9419727
+Sud-Kivu,node,5375095136,Centre de santé,doctors,"",public,-4.0974664,29.0054351
+Sud-Kivu,node,5375097674,Centre de santé,doctors,"",public,-4.1193786,28.9678507
+Sud-Kivu,node,5375098806,Centre de santé,doctors,"",public,-4.0730026,29.0255973
+Sud-Kivu,node,5375099454,Centre de santé,doctors,"",public,-4.0176861,29.0228185
+Sud-Kivu,node,5375099468,Centre de santé,doctors,"",public,-4.019345,29.0047364
+Sud-Kivu,node,5375099469,Centre de santé,doctors,"",public,-4.0135322,29.012378
+Sud-Kivu,node,5375104988,Centre de santé,doctors,"",public,-4.008209,28.9870566
+Sud-Kivu,node,5375104989,Centre de santé,doctors,"",public,-4.0272688,28.9869279
+Sud-Kivu,node,5375104990,Centre de santé,doctors,"",public,-4.0287189,28.9921743
+Sud-Kivu,node,5375106251,Centre de santé,doctors,"",public,-4.0611008,28.9782992
+Sud-Kivu,node,12511849838,Centre de santé Bralima,clinic,"","",-2.5007739,28.8655311
+Sud-Kivu,node,8483608733,Centre de santé Ciriri RAU,clinic,"","",-2.5178827,28.8370547
+Sud-Kivu,node,12511802982,Centre de santé Croix rouge nguba,clinic,"",Etat congolais,-2.5010176,28.8828741
+Sud-Kivu,node,8922525454,Centre de santé Kahungu,hospital,hospital,"",-2.2242686,28.8322806
+Sud-Kivu,node,8483630064,Centre de santé Katupu,clinic,"","",-3.9575863,28.0869225
+Sud-Kivu,node,6475961283,Centre de santé Solu Yulu,clinic,"","",-3.0556873,28.1957212
+Sud-Kivu,node,5373436405,Centre de santé de Aoma,clinic,"",public,-4.9617407,29.1112563
+Sud-Kivu,node,5370738606,Centre de santé de Baraka,clinic,"",public,-4.1034264,29.0956961
+Sud-Kivu,node,5375099455,Centre de santé de Bibogobogo,clinic,"",public,-4.0211844,29.0051776
+Sud-Kivu,node,5329522615,Centre de santé de Bukavu,doctors,"",public,-4.1884272,28.942996
+Sud-Kivu,node,5375067363,Centre de santé de Bwala,clinic,"",public,-4.3065041,28.8189948
+Sud-Kivu,node,5328195949,Centre de santé de Dine,clinic,"",public,-4.0938654,29.258122
+Sud-Kivu,node,5370738612,Centre de santé de Fizi,clinic,"",public,-4.3026729,28.941858
+Sud-Kivu,node,5375097673,Centre de santé de Kafulo,clinic,"",public,-4.1134314,28.9818424
+Sud-Kivu,node,5373318171,Centre de santé de Kalundja,clinic,"",public,-4.0630994,29.0849371
+Sud-Kivu,node,5375046525,Centre de santé de Kananda,clinic,"",public,-4.2410075,28.9226179
+Sud-Kivu,node,5373319122,Centre de santé de Kandali,clinic,"",public,-4.009104,29.0946668
+Sud-Kivu,node,5373331243,Centre de santé de Katanga,clinic,"",public,-4.1874441,29.0551338
+Sud-Kivu,node,4007813907,Centre de santé de Katenga,clinic,"",public,-4.3141745,29.1559866
+Sud-Kivu,node,5373469380,Centre de santé de Kazimia,doctors,"",public,-4.5527573,29.1548583
+Sud-Kivu,node,5375114176,Centre de santé de Kichula,clinic,"",public,-4.0964805,28.8738003
+Sud-Kivu,node,5374968957,Centre de santé de Kikonde,clinic,"",public,-4.4801013,28.9922145
+Sud-Kivu,node,5416459023,Centre de santé de Kilicha,clinic,"","",-4.5082702,28.7354761
+Sud-Kivu,node,3752450318,Centre de santé de Lubunja,doctors,"","",-4.658197,28.7672123
+Sud-Kivu,node,5375124911,Centre de santé de Lumanya,clinic,"",public,-4.0095033,28.8791996
+Sud-Kivu,node,5373345435,Centre de santé de Malinde,clinic,"",public,-4.2020431,29.0394328
+Sud-Kivu,node,3752450320,Centre de santé de Misisi,doctors,"","",-4.7700732,28.7059464
+Sud-Kivu,node,5375092775,Centre de santé de Mukera,clinic,"",public,-4.1539505,28.8819462
+Sud-Kivu,node,5370700025,Centre de santé de Mwangaza,clinic,"",public,-4.106097,29.0867677
+Sud-Kivu,node,5373374060,Centre de santé de Nemba,clinic,"",public,-4.3396194,29.0972015
+Sud-Kivu,node,5373401351,Centre de santé de Rubana,clinic,"",public,-4.2439182,29.1755136
+Sud-Kivu,node,5373371704,Centre de santé de Sebele,clinic,"",public,-4.305592,29.0421519
+Sud-Kivu,node,5375089388,Centre de santé de Simbi,clinic,"",public,-4.1646671,28.9365895
+Sud-Kivu,node,5398167220,Centre de santé de Some,clinic,"",public,-4.1327382,29.211797
+Sud-Kivu,node,5375031144,Centre de santé de Umoja,clinic,"",public,-4.270948,28.872546
+Sud-Kivu,node,5373458359,Centre de santé de Yungu,clinic,"",public,-4.8458846,29.1038239
+Sud-Kivu,way,398005885,Centre de santé de référence de Mshimbakye,clinic,"",public,-4.1284132,29.0865423
+Sud-Kivu,node,5370738615,Centre de traitement de choléra Baraka,clinic,"",public,-4.1006032,29.0977487
+Sud-Kivu,way,398005883,Centre de traitement de choléra Baraka,hospital,"","",-4.1006533,29.097734
+Sud-Kivu,way,561554381,Centre hospitalier de Kazimia,hospital,"",public,-4.5528716,29.1516202
+Sud-Kivu,way,808469450,Centre hospitalier de Mwayenga,hospital,hospital,public,-4.2452775,29.2397941
+Sud-Kivu,way,797538099,Centre médical de Mboko,hospital,hospital,"",-3.7809675,29.0940886
+Sud-Kivu,way,683184361,Centre santé MIDIMA,hospital,hospital,"",-2.6935099,27.3502927
+Sud-Kivu,way,683189833,Centre santé Mbangayo,hospital,yes,"",-2.6888475,27.3400117
+Sud-Kivu,node,5328191100,Centré de santé de Buma,clinic,"",public,-4.4699935,29.2107233
+Sud-Kivu,node,7862014924,Clinique Adonai,clinic,"","",-3.0405264,28.4300873
+Sud-Kivu,node,7862014897,Clinique Al-Imdaad,clinic,clinic,"",-2.5096525,28.8670207
+Sud-Kivu,node,7862014904,Clinique Alpha Vision,clinic,"","",-2.5149025,28.8403209
+Sud-Kivu,node,7862014917,Clinique Ami des Enfants,clinic,"","",-2.5040937,28.8703082
+Sud-Kivu,node,7862014888,Clinique Baraka,clinic,clinic,"",-2.5214023,28.8505848
+Sud-Kivu,node,7862014918,Clinique Bernard,clinic,"","",-2.5169949,28.8451862
+Sud-Kivu,node,12511802983,Clinique Biophrarme,clinic,"","",-2.5009598,28.8756071
+Sud-Kivu,node,7862014901,Clinique Bukavu,clinic,"","",-2.5166404,28.8595965
+Sud-Kivu,node,7862014887,Clinique Béthesaida,clinic,clinic,"",-2.5085701,28.8680159
+Sud-Kivu,node,7862014894,Clinique Don Beni 2,clinic,clinic,"",-2.5079558,28.8627634
+Sud-Kivu,node,7862014910,Clinique Don Benit,clinic,clinic,"",-2.5113771,28.8682441
+Sud-Kivu,node,7862014905,Clinique Ebenezer,clinic,"","",-2.5005461,28.8709059
+Sud-Kivu,node,7862014913,Clinique Exauce,clinic,"","",-2.5308159,28.8574902
+Sud-Kivu,node,7862014889,Clinique Fuller,clinic,clinic,Church of the Holy Spirit,-2.5242066,28.8582828
+Sud-Kivu,node,7862014922,Clinique Jésus Miséricordieux,clinic,clinic,"",-2.5099573,28.854081
+Sud-Kivu,node,7862014908,Clinique Makimbiliyo,clinic,"","",-3.0320165,28.311853
+Sud-Kivu,way,1006156752,Clinique Miracle de Dieu,clinic,"","",-2.5496351,28.8692818
+Sud-Kivu,node,7862014920,Clinique Olame,clinic,"","",-2.4982372,28.8273985
+Sud-Kivu,node,7862014890,Clinique Ophtamologique,clinic,clinic,"",-2.5022525,28.8552082
+Sud-Kivu,node,7862014899,Clinique Resurrection Health,clinic,"","",-2.5293531,28.8566067
+Sud-Kivu,node,7862014907,Clinique Ruhigita,clinic,"","",-2.5022953,28.8701304
+Sud-Kivu,node,7862014921,Clinique Saint Luc,clinic,clinic,"",-2.506813,28.8609339
+Sud-Kivu,node,7862014891,Clinique Saint Raphael,clinic,"","",-2.5061671,28.8472639
+Sud-Kivu,node,7862014893,Clinique Saint Robert,clinic,"","",-2.5243048,28.85093
+Sud-Kivu,node,7862014923,Clinique Skyborn,clinic,clinic,"",-2.506633,28.8591361
+Sud-Kivu,node,7862014915,Clinique Smirna,clinic,"","",-3.040548,28.4315957
+Sud-Kivu,way,317130191,Clinique Universitaire UOB,clinic,"","",-2.4898309,28.8476212
+Sud-Kivu,node,7862014906,Clinique la Guerison,clinic,"","",-2.4949322,28.8399635
+Sud-Kivu,node,7862014914,Clinique la Victoire,clinic,"","",-2.5226841,28.8465156
+Sud-Kivu,node,5370738613,Dispansaire Matanda Bora,doctors,"",public,-4.1051072,29.0920651
+Sud-Kivu,node,5373452172,Dispensaire Baraka,doctors,"",public,-4.8731929,29.1069245
+Sud-Kivu,node,5373463494,Dispensaire David Fils,doctors,"",public,-4.8221673,29.1035128
+Sud-Kivu,node,5373452198,Dispensaire Dieu Merci,doctors,"",public,-4.8794412,29.1065557
+Sud-Kivu,node,5373452170,Dispensaire Mema,doctors,"",public,-4.9122171,29.1046473
+Sud-Kivu,node,5370879003,Dispensaire la Grace,doctors,"",public,-4.9740355,29.1131128
+Sud-Kivu,node,5370700022,Dispensaire moderne,doctors,"",public,-4.0909372,29.0897731
+Sud-Kivu,way,1427327012,HGR Bukavu,hospital,hospital,"",-2.4950457,28.8494041
+Sud-Kivu,node,13066352469,Hopital Mère_enfant/ Kesho Kongo Asbl,clinic,clinic,Action Sociale Kesho Kongo,-2.3981013,28.8221408
+Sud-Kivu,way,1003285549,Hôpital General de Référence Dr RAU CORIRI,hospital,"","",-2.5235702,28.8352674
+Sud-Kivu,way,196925276,Hôpital Général de Référence d'Uvira,hospital,"","",-3.3910571,29.1388138
+Sud-Kivu,node,6848529807,Hôpital Général de Référence de Bagira,hospital,"","",-2.4711011,28.8300803
+Sud-Kivu,way,997127914,Hôpital Général de Référence de Panzi,hospital,hospital,"",-2.5439066,28.8677205
+Sud-Kivu,way,691234548,Hôpital Général de référence de Kamituga,hospital,hospital,"",-3.0677089,28.1849152
+Sud-Kivu,node,6594445287,Hôpital Général de référence de Nundu,hospital,"","",-3.8185837,29.0966809
+Sud-Kivu,way,380729597,Hôpital de Baraka,hospital,"",public,-4.1084704,29.0957372
+Sud-Kivu,way,683145674,Hôpital général,hospital,hospital,"",-2.6932338,27.344747
+Sud-Kivu,way,398008004,Hôpital général de Fizi,hospital,"",public,-4.3058786,28.9449056
+Sud-Kivu,node,12896579620,Kabanga CdS,clinic,"",Ministry of Health,-5.0028533,29.1218872
+Sud-Kivu,node,6594454285,Kabondozi Centre de Santé,clinic,"","",-3.7664475,29.0952478
+Sud-Kivu,node,1023773752,Kasihe,clinic,"","",-2.2169967,29.0075224
+Sud-Kivu,way,410793046,Kihumba,hospital,hospital,"",-1.9430484,29.0865327
+Sud-Kivu,node,8483585379,Kihungwe,clinic,"","",-4.1074227,28.1446606
+Sud-Kivu,node,1023773685,Kintama,clinic,"","",-2.225256,29.0330071
+Sud-Kivu,node,1023773689,Kisiza,clinic,"","",-2.1898476,29.0387879
+Sud-Kivu,node,13183453683,La puissance de Dieu,clinic,"","",-2.5107415,28.8599567
+Sud-Kivu,node,1023773669,Lemera,clinic,"","",-2.2143759,29.0801726
+Sud-Kivu,node,5655814049,Lulimba,clinic,"","",-4.6736158,28.6608658
+Sud-Kivu,node,1023773730,Lumala,clinic,clinic,"",-2.036682,29.0617018
+Sud-Kivu,node,5304692630,MSF,clinic,clinic,Médecins sans frontières,-4.1056681,29.0943336
+Sud-Kivu,node,6475961015,MSF measles emergency site,clinic,"","",-3.0639709,28.1803662
+Sud-Kivu,node,1023773760,Mafula,clinic,"","",-2.0957877,29.0420859
+Sud-Kivu,node,5375124910,Maternité du centre de santé de Lumanya,clinic,"",public,-4.0092257,28.8788536
+Sud-Kivu,node,1023773651,Misimbwe,clinic,"","",-2.0704033,29.0700847
+Sud-Kivu,way,791333108,Monvu,hospital,hospital,"",-2.1890013,28.994534
+Sud-Kivu,node,1023773655,Mpene,clinic,"","",-2.1864736,28.9944527
+Sud-Kivu,node,1023773667,Mugote,clinic,"","",-2.1818494,29.0685674
+Sud-Kivu,node,1023773756,Muhyahya,clinic,"","",-2.1676481,29.0323933
+Sud-Kivu,node,1023773762,Nyakalengwa,clinic,"","",-2.2500311,29.0181544
+Sud-Kivu,node,12509249322,Polyclinique Impact Médical,clinic,"","",-2.5072606,28.8604784
+Sud-Kivu,node,7862014919,Polyclinique Sainte Anaclé,clinic,"","",-2.5148393,28.8645327
+Sud-Kivu,node,12509279516,Polyclinique Salama,hospital,"","",-2.5158247,28.8603046
+Sud-Kivu,node,7862014895,Polyclinique Santé Plus,clinic,"","",-2.519685,28.8502733
+Sud-Kivu,node,6475951374,Polyclinique St George,clinic,"","",-3.0636006,28.1886964
+Sud-Kivu,node,6475961284,Polyclinique Terre d' Espoir,clinic,"","",-3.062451,28.1885162
+Sud-Kivu,node,6475961685,Poste de Santé de Mazozo,doctors,"","",-3.1176116,28.1857279
+Sud-Kivu,node,5375073449,Poste de santé,doctors,"",public,-4.417726,28.7925374
+Sud-Kivu,node,5375118093,Poste de santé,doctors,"",public,-4.0402238,28.8802913
+Sud-Kivu,node,5373396010,Poste de santé 8CEPAC Kihimino,doctors,"",public,-4.2984848,29.2288866
+Sud-Kivu,node,5373400621,Poste de santé Neema,doctors,"",public,-4.1911892,29.2518778
+Sud-Kivu,node,5373463495,Poste de santé Samuel,doctors,"",public,-4.7956361,29.0969641
+Sud-Kivu,node,5374966645,Poste de santé avancé de Karamba,doctors,"",public,-4.5091392,29.1962381
+Sud-Kivu,node,5374966650,Poste de santé communautaire de Mulolo,doctors,"",public,-4.4976734,29.1913873
+Sud-Kivu,node,5375126381,Poste de santé d'Alenga,doctors,"",public,-4.0803379,28.9528577
+Sud-Kivu,node,5373376844,Poste de santé de 5em Celpa,doctors,"",public,-4.3599949,29.1530196
+Sud-Kivu,node,5375070144,Poste de santé de Ibindi,doctors,"",public,-4.3333783,28.81576
+Sud-Kivu,node,5375117567,Poste de santé de Itendelo,doctors,"",public,-4.0669935,28.8519873
+Sud-Kivu,node,5375108807,Poste de santé de Kalungwa,doctors,"",public,-4.0977627,28.940869
+Sud-Kivu,node,5373366196,Poste de santé de Katalukulu,doctors,"",public,-4.2602315,29.041938
+Sud-Kivu,node,5373465835,Poste de santé de Kavumbwe,doctors,"",public,-4.5915577,29.123345
+Sud-Kivu,node,5374961567,Poste de santé de Kibanga,doctors,"",public,-4.4879602,29.167344
+Sud-Kivu,node,4590771199,Poste de santé de Lobilo,doctors,"",public,-4.3449562,29.2192376
+Sud-Kivu,node,5375077244,Poste de santé de Milimba 3/Kasiru,doctors,"",public,-4.1547383,28.7326223
+Sud-Kivu,node,5375077990,Poste de santé de Mukalati,doctors,"",public,-4.1575699,28.7498246
+Sud-Kivu,node,5370653984,Poste de santé de Mwandiga 3,doctors,"",public,-4.1522825,29.0758511
+Sud-Kivu,node,5375074437,Poste de santé de Nakatete/Ikunda,doctors,"",public,-4.2116075,28.7552091
+Sud-Kivu,node,5375017705,Poste de santé de Namisha,doctors,"",public,-4.3828504,28.9213922
+Sud-Kivu,node,5373464732,Poste de santé de Nguma,doctors,"",public,-4.6468737,29.1084521
+Sud-Kivu,node,6594848191,Rutasoka Clinic,clinic,"","",-3.3683498,29.147475
+Sud-Kivu,node,5373362407,Site des soins communautaire,doctors,"",public,-4.2380564,29.0909339
+Sud-Kivu,node,5373402238,Site des soins de Mkendo,doctors,"",public,-4.1524985,29.2586611
+Sud-Kivu,node,5655665145,Sussane,doctors,"","",-3.4584117,29.1320702
+Sud-Kivu,node,7853742217,Tradi Praticien Cidasa 2,clinic,clinic,"",-2.4995578,28.8531716
+Tshopo,node,7044960789,Centre Médical Bethsaida,doctors,doctor,"",0.5065611,25.2235023
+Tshopo,node,7022565210,Centre Médical Genèse 2,doctors,doctor,"",0.5206618,25.1930268
+Tshopo,node,7044949577,Centre Médical Kitumaini,doctors,doctor,"",0.5175279,25.2576005
+Tshopo,node,4330043966,Centre de Sante Ste. Elisabeth,clinic,"","",1.5487777,25.3105488
+Tshopo,node,7029585235,Centre de Santé,doctors,"","",1.6610578,27.004365
+Tshopo,node,3956619730,Centre de Santé Bolama,doctors,"","",1.9512045,22.986209
+Tshopo,node,3956619731,Centre de Santé Bolila,doctors,"","",1.8417686,23.1308187
+Tshopo,node,7029924024,Centre de Santé Imani,doctors,doctor,"",0.5342651,25.1961708
+Tshopo,node,4123406846,Centre de Santé Yakapko,doctors,"","",1.9332971,23.4403252
+Tshopo,node,3956619732,Centre de Santé Yamoomba,doctors,"","",1.853449,23.1130551
+Tshopo,node,3956614613,Centre de Santé Yatutia,doctors,"","",2.0229742,23.1650505
+Tshopo,way,791752837,Centre de Santé de Bafwenduo,hospital,hospital,"",1.2235907,27.5207854
+Tshopo,node,7036885022,Centre de Santé de Référence Baego,clinic,"","",0.7741773,26.261369
+Tshopo,way,196168016,Du Canon,hospital,hospital,"",0.5125114,25.1933293
+Tshopo,way,262073556,Hopital Général de Kisangani,hospital,hospital,"",0.5136843,25.1711342
+Tshopo,way,939095157,Hôpital BMS Yakusu,hospital,hospital,"",0.5706634,25.0263638
+Tshopo,way,435067157,Hôpital General de Reference de Banalia,hospital,"","",1.5563681,25.3238359
+Tshopo,way,791822966,Hôpital Général de Référence Yalimbongo,hospital,hospital,"",2.014513,23.2511634
+Tshopo,way,1541005383,Hôpital Général de Référence d'Isangi,hospital,"","",0.7831793,24.2727281
+Tshopo,way,797574497,Hôpital du Cinquantenaire,hospital,"","",0.5148807,25.2083696
+Tshopo,way,430906776,Hôpital général de référence,hospital,hospital,"",-0.3602763,25.4312079
+Tshopo,way,196168023,Rheoboth,hospital,hospital,"",0.5101335,25.1990223
