@@ -1,7 +1,7 @@
 # Contributing
 
 Issues and pull requests are very welcome at
-[kathsherratt/bvd-capacity](https://github.com/kathsherratt/bvd-capacity).
+[epiforecasts/bvd-capacity](https://github.com/epiforecasts/bvd-capacity).
 
 Feedback, questions, corrections, bug reports, new steps, better prompts: all
 of it is welcome, and none of it needs to be polished.

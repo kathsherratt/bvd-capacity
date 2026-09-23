@@ -30,7 +30,7 @@ PROVINCES <- c("Ituri", "Nord-Kivu", "Sud-Kivu", "Tshopo", "Haut-Uele", "Bas-Uel
 
 #' Overpass refuses a request with no user agent, and asks that one name the
 #' caller. Kept polite and identifiable.
-UA <- "bvd-capacity/0.1 (research; github.com/kathsherratt/bvd-capacity)"
+UA <- "bvd-capacity/0.1 (research; github.com/epiforecasts/bvd-capacity)"
 
 #' Overpass answers a big province with 429 (slow down) or 504 (gateway
 #' timeout) often enough that one attempt each leaves holes: Nord-Kivu and

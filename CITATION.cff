@@ -18,7 +18,7 @@ abstract: >-
 authors:
   - family-names: Sherratt
     given-names: Katharine
-repository-code: "https://github.com/kathsherratt/bvd-capacity"
+repository-code: "https://github.com/epiforecasts/bvd-capacity"
 license: MIT
 keywords:
   - Ebola

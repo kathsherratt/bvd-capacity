@@ -4,11 +4,22 @@
 
 This repository holds a dataset of when each Ebola treatment, transit and isolation facility appeared, opened and came under strain during the 2026 Bundibugyo virus disease outbreak in the Democratic Republic of the Congo, read from the INSP situation reports.
 
+> Under active review. This dataset is being read and corrected by people
+> who know these facilities, and it will change while that happens. The
+> facility counts are an upper bound: names that are probably one centre are
+> held apart until someone says otherwise, so the error runs towards splitting
+> one site into two. Eleven naming questions are open in
+> [`checks/decisions/`](checks/decisions) and recorded in
+> [issue #1](https://github.com/epiforecasts/bvd-capacity/issues/1), and 48 of
+> the 193 capacity figures are marked `ambiguous_key` pending a decision about
+> what counts as a bed. Cite a version, read the quote on any row you rely on,
+> and expect ids to be merged as decisions land.
+
 Very many thanks to INSP and all those providing public access to these reports.
 
 - Authors are in no way affiliated with INSP, and INSP hold complete rights over the source material; see [citation](#citation) and [licence](#licence) details.
 - Every row is extracted by Google Gemini, and you should assume this has **not been reviewed by a human**. Every row carries the French sentence it came from, checked character for character against the report, so please read the quote and the source report before relying on any row.
-- If you spot any errors, give feedback, or wish to contribute, you are very welcome and encouraged to open an [Issue](https://github.com/kathsherratt/bvd-capacity/issues).
+- If you spot any errors, give feedback, or wish to contribute, you are very welcome and encouraged to open an [Issue](https://github.com/epiforecasts/bvd-capacity/issues).
 
 | | |
 |---|---|
@@ -316,7 +327,7 @@ wish to also cite this dataset and the corpus it reads:
 
 - Sherratt, K. (2026). *bvd-capacity: Ebola treatment and isolation facilities
   in the 2026 DRC Bundibugyo virus outbreak.*
-  <https://github.com/kathsherratt/bvd-capacity>.
+  <https://github.com/epiforecasts/bvd-capacity>.
 - Sherratt, K. (2026). *bvd-sitreps: a machine-readable corpus of the INSP
   situation reports for the 2026 DRC Bundibugyo virus outbreak.*
   <https://github.com/epiforecasts/bvd-sitreps>.
