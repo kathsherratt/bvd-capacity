@@ -32,6 +32,7 @@ suppressMessages({
 })
 source(here::here("R", "lib", "paths.R"))
 source(here::here("R", "lib", "corpus.R"))
+source(here::here("R", "lib", "gemini.R"))
 source(here::here("R", "lib", "external.R"))
 
 args <- commandArgs(trailingOnly = TRUE)
@@ -89,6 +90,7 @@ message(nrow(raw), " events read from ", length(files), " ", SOURCE,
 
 # ------------------------------------------------------------- the quote gate
 
+raw[, evidence_quote := unescape_model_string(evidence_quote)]
 raw[, text := vapply(doc_id, function(id) read_external_text(SOURCE, id),
     character(1))]
 raw[, quote_ok := mapply(quote_matches, evidence_quote, text)]

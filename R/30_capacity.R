@@ -126,7 +126,9 @@ tidy_row <- function(e) {
         v <- e[[f]]
         if (is.null(v) || !length(v)) "" else trimws(as.character(v)[1])
     })
-    setNames(out, FIELDS)
+    out <- setNames(out, FIELDS)
+    out$evidence_quote <- unescape_model_string(out$evidence_quote)
+    out
 }
 
 extract_one <- function(source, id) {
@@ -197,6 +199,9 @@ if (!nrow(raw)) {
     quit(status = if (!is.null(quota)) 3L else 0L)
 }
 
+#' Applied on the way out of the cache as well as on the way in, so that a
+#' reading taken before this fix is decoded rather than re-run.
+raw[, evidence_quote := unescape_model_string(evidence_quote)]
 raw[, text := vapply(doc_id, function(id) read_external_text(SOURCE, id),
     character(1))]
 raw[, quote_ok := mapply(quote_matches, evidence_quote, text)]
