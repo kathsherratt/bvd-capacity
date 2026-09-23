@@ -52,6 +52,7 @@ rsconnect/
 # the same reason data/cache/ is not: it is machine output, and
 # data/external_corroboration.csv is the result that matters.
 data/cache-external/
+data/cache-capacity/
 
 # One model reply a report. Not committed: it is machine output, it is bulky,
 # and the datasets derived from it are committed instead. Rebuilding it costs

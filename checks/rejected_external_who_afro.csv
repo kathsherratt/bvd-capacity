@@ -1,0 +1,6 @@
+source,doc_id,facility_raw,event,evidence_quote,reason
+who_afro,afro-03,Centre Médical Évangélique Ebola Treatment Centre (ETC),strained,"capacity for up to 100 beds for the isolation and management of suspected and confirmed cases. However, this remains insufficient to cater",quote does not name the facility
+who_afro,afro-13,Rwampara Ebola treatment centre,strained,"several treatment facilities in Ituri and North Kivu provinces remained saturated, including the Rwampara, Institut Supérieur des Techniques Médicales (ISTM) and Nizi Ebola treatment centres",quote does not name the facility
+who_afro,afro-13,Institut Supérieur des Techniques Médicales (ISTM) Ebola treatment centre,strained,"several treatment facilities in Ituri and North Kivu provinces remained saturated, including the Rwampara, Institut Supérieur des Techniques Médicales (ISTM) and Nizi Ebola treatment centres",quote does not name the facility
+who_afro,afro-16,PK24 treatment centre,mention_only,"conducted field visits to the PK24 treatment centre, Mongoumba border port, laboratory and community health centre.",quote is not a span of the document
+who_afro,afro-16,community health centre,mention_only,"conducted field visits to the PK24 treatment centre, Mongoumba border port, laboratory and community health centre.",quote is not a span of the document

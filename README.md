@@ -30,6 +30,14 @@ derived from its events. First mentioned, first planned, opening announced,
 opening date as stated, first seen in service, latest status, latest bed
 count.
 
+`data/capacity_indicators.csv` is the system layer: how many beds the
+response had and how full they were, week by week, with a fixed indicator
+vocabulary and one row a figure. It exists because the INSP bed tables stop:
+`patients au lit (j-1)` runs to 2 August and `taux d'occupation global` to 11
+July, while the outbreak runs into late September. WHO AFRO's weekly reports
+carry bed capacity and occupancy through 20 September, so the series
+continues where the national tables stop.
+
 `data/facility_opening.csv` is the opening estimate: one row a facility,
 giving the interval its opening falls in, which evidence bounds each end, and
 how it is censored. The reports never state an opening date, so this is
