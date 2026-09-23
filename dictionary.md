@@ -268,6 +268,32 @@ documents' unmatched rows are mostly facilities outside the Democratic
 Republic of the Congo: an isolation unit in Berlin, a university hospital in
 Frankfurt, the Mulago Isolation Treatment Unit in Kampala.
 
+## data/capacity_indicators.csv
+
+One row a capacity figure, 193 of them, written by `R/30_capacity.R` from the
+WHO AFRO weekly reports. The vocabulary is fixed in the script so that a later
+pass over the INSP bed tables writes into this same table with a different
+`source`.
+
+| column | meaning |
+|---|---|
+| `source`, `doc_id`, `publisher`, `licence`, `url` | which document, and under what terms |
+| `report_date` | the document's own date |
+| `as_of_date` | the date the figure describes, which is the report's date unless the document gives another |
+| `indicator` | one of `beds_capacity`, `beds_occupied`, `bed_occupancy_pct`, `patients_in_isolation`, `admissions`, `discharges_recovered`, `deaths_in_facility`, `escapes`, `facilities_operational`, `laboratories_testing` |
+| `level` | `national`, `province`, `health_zone` or `facility` |
+| `country`, `place`, `place_raw` | where it applies; `place` folds `Ituri Province` and `North Kivu` onto the canonical six, `place_raw` keeps what the document wrote |
+| `value`, `unit`, `period` | the figure, what it counts, and whether it is a stock or a flow |
+| `ambiguous_key` | TRUE where the document states more than one figure for the same indicator, place and date |
+| `confidence`, `evidence_quote` | the model's own hedge, and the sentence the figure came from |
+
+`ambiguous_key` marks 48 of the 193, and the cause is usually definitional
+rather than a misreading. SitRep 18 gives 1,390 "active beds" in its
+case-management text and 1,366 "Bed Capacity" in its headline block; both are
+in the document, and choosing between them is a judgement about what a bed is.
+Anything building a series has to decide, which is why the rows are marked
+rather than silently thinned.
+
 ## checks/register_suggestions.csv
 
 What the other registers say about an open naming decision, written by

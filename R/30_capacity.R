@@ -217,11 +217,47 @@ if (nrow(rejected)) {
         checks_dir(paste0("rejected_capacity_", SOURCE, ".csv")))
 }
 
+#' Province names arrive in two languages and three spellings: `Ituri`,
+#' `Ituri Province`, `North Kivu`, `Nord-Kivu`. The register already has a
+#' canonical six, and a series keyed on the raw string would split one
+#' province into three.
+PROVINCES <- c(
+    "ituri" = "Ituri", "ituri province" = "Ituri",
+    "north kivu" = "Nord-Kivu", "nord kivu" = "Nord-Kivu",
+    "nord-kivu" = "Nord-Kivu", "north kivu province" = "Nord-Kivu",
+    "south kivu" = "Sud-Kivu", "sud kivu" = "Sud-Kivu",
+    "sud-kivu" = "Sud-Kivu", "south kivu province" = "Sud-Kivu",
+    "tshopo" = "Tshopo", "tshopo province" = "Tshopo",
+    "haut-uele" = "Haut-Uele", "haut uele" = "Haut-Uele",
+    "haut-uélé" = "Haut-Uele", "haut uélé" = "Haut-Uele",
+    "bas-uele" = "Bas-Uele", "bas uele" = "Bas-Uele",
+    "bas-uélé" = "Bas-Uele", "bas uélé" = "Bas-Uele")
+
+canonical_place <- function(x, level) {
+    key <- tolower(trimws(x))
+    out <- unname(PROVINCES[key])
+    fifelse(level == "province" & !is.na(out), out, x)
+}
+
 out <- raw[!nzchar(reason), .(source, doc_id, report_date,
     as_of_date = fifelse(nzchar(as_of_date), as_of_date, report_date),
     indicator, level, country, place_raw, value = value_num, unit, period,
     confidence, evidence_quote, publisher, licence, url)]
-setorder(out, as_of_date, indicator, level, place_raw)
+out[, place := canonical_place(place_raw, level)]
+
+#' A document sometimes states two figures for one indicator in one sentence:
+#' `Two patients remained hospitalised. As of 05 July 2026, 646 patients were
+#' in isolation nationally`. Both are faithful to their quotes and neither can
+#' be dropped here without choosing between them on no evidence. They are
+#' marked instead, so that anything building a series has to decide, rather
+#' than silently taking whichever row sorted first.
+out[, ambiguous_key := .N > 1L,
+    by = .(source, doc_id, as_of_date, indicator, level, place, period)]
+
+setcolorder(out, c("source", "doc_id", "report_date", "as_of_date",
+    "indicator", "level", "country", "place", "place_raw", "value", "unit",
+    "period", "ambiguous_key", "confidence", "evidence_quote"))
+setorder(out, as_of_date, indicator, level, place)
 fwrite(out, capacity_path())
 
 # ----------------------------------------------------------------- report
@@ -230,11 +266,17 @@ message("\n", nrow(out), " figures kept, ", nrow(rejected), " rejected.")
 print(out[, .(figures = .N, first = min(as_of_date), last = max(as_of_date)),
     keyby = .(indicator, level)])
 
+if (out[(ambiguous_key), .N]) {
+    message("\n", out[(ambiguous_key), .N],
+        " figures share a key with another and need a person to choose:")
+    print(out[(ambiguous_key), .(doc_id, as_of_date, indicator, level, value)])
+}
+
 beds <- out[indicator %in% c("beds_capacity", "bed_occupancy_pct") &
-    level == "national"]
+    level == "national" & !(ambiguous_key)]
 if (nrow(beds)) {
     message("\nNational bed capacity and occupancy, week by week:")
-    print(dcast(beds, as_of_date + country ~ indicator, value.var = "value",
+    print(dcast(beds, as_of_date ~ indicator, value.var = "value",
         fun.aggregate = function(x) x[1]))
 }
 
