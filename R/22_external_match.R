@@ -139,7 +139,9 @@ out <- ev[, .(source, doc_id, report_date, publisher, licence, url,
     event, beds, status_note, evidence_quote, confidence,
     facility_id, match_kind)]
 setorder(out, report_date, facility_raw)
-fwrite(out, corroboration_path())
+#' One file a source. The AFRO reports and the DONs corroborate different
+#' things and are worth reading apart.
+fwrite(out, sub("\\.csv$", paste0("_", SOURCE, ".csv"), corroboration_path()))
 
 # ----------------------------------------------------------------- report
 
@@ -159,4 +161,4 @@ if (out[match_kind == "unmatched", .N]) {
         .(facility_raw, place_raw, site_kind, doc_id)]))
 }
 
-message("\nWritten: ", corroboration_path())
+message("\nWritten: ", sub("\\.csv$", paste0("_", SOURCE, ".csv"), corroboration_path()))

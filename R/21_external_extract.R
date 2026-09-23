@@ -12,6 +12,11 @@
 #' and matched afterwards by `R/22_external_match.R`, so a WHO spelling never
 #' bends towards an INSP one at the point of reading.
 #'
+#' The documents themselves come from bvd-sitreps, which fetches and renders
+#' them, exactly as the INSP corpus does. `--source=who_don` is WHO's Disease
+#' Outbreak News; `--source=who_afro` the AFRO weekly external situation
+#' reports, which are longer and name far more facilities.
+#'
 #' Usage:
 #'     Rscript R/21_external_extract.R [--source=who_don] [--only=ID,ID] [--force]
 
@@ -148,8 +153,9 @@ extract_one <- function(source, id) {
 ids <- external_ids(SOURCE)
 if (!is.null(ONLY)) ids <- intersect(ids, ONLY)
 if (!length(ids)) {
-    stop("No documents for source ", SOURCE,
-        ". Run R/20_external_fetch.R first.", call. = FALSE)
+    stop("No documents for source ", SOURCE, " in ",
+        external_corpus_dir(SOURCE),
+        ".\nRun R/06-fetch-who.R in bvd-sitreps.", call. = FALSE)
 }
 
 message("Reading ", length(ids), " ", SOURCE, " documents.\n")

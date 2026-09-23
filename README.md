@@ -196,15 +196,22 @@ none of them can change a row in the register.
 
 | source | what it is | what it settles |
 |---|---|---|
-| WHO Disease Outbreak News | 12 documents, May to September, fetched from WHO's public API | little about individual facilities, but it names the sites outside the DRC that took patients from this outbreak, which the INSP reports never mention |
+| WHO Disease Outbreak News | 12 documents, May to September | little about individual facilities, but it names the sites outside the DRC that took patients from this outbreak, which the INSP reports never mention |
+| WHO AFRO weekly situation reports | 19 documents | the treatment centres WHO names, and bed capacity and occupancy in its headline figures |
 | GRID3 COD Health Facilities v8.0 | the national health facility register | which hospital is a health zone's reference hospital, which health areas sit inside which zone, and which names are registered facilities in their own right |
 | OpenStreetMap | 1,502 named health facilities in the six provinces, via Overpass | names as written on buildings rather than as registered, so it holds facilities a ministry list does not |
 
-The DONs go through the same machinery as the situation reports: one model
-call a document, a fixed schema, and a quote gate that drops any claim whose
-sentence is not a span of the document. `data/external_corroboration.csv` says
-how each external mention met the register, and the interesting column is the
-one where it did not.
+The WHO documents are fetched and rendered by
+[bvd-sitreps](https://github.com/epiforecasts/bvd-sitreps), not here, and read
+from that corpus by path exactly as the INSP reports are. This repository
+opens no PDF, no API and no website; that boundary is what keeps text
+wrangling in one repository and facilities in this one.
+
+From there they go through the same machinery as the situation reports: one
+model call a document, a fixed schema, and a quote gate that drops any claim
+whose sentence is not a span of the document.
+`data/external_corroboration_<source>.csv` says how each external mention met
+the register, and the interesting column is the one where it did not.
 
 GRID3 and OSM answer a narrower question, asked of each open naming decision
 by `R/23_registers_suggest.R` and printed on the sheet: is one name the

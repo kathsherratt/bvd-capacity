@@ -247,10 +247,12 @@ partner with its own records to ask for. A Congolese hospital or institute,
 CME, ISTM, FOMULAC, is the building itself, and appears because the reports
 name a facility by its host.
 
-## data/external_corroboration.csv
+## data/external_corroboration_<source>.csv
 
 One row for each facility mention in a document INSP did not write, after the
-quote gate. Written by `R/22_external_match.R`.
+quote gate. One file a source: `who_don` for WHO's Disease Outbreak News,
+`who_afro` for the AFRO weekly situation reports. Written by
+`R/22_external_match.R` from the corpus bvd-sitreps publishes.
 
 | column | meaning |
 |---|---|
