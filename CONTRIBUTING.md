@@ -40,6 +40,7 @@ bvd-sitreps.
 | `assets/prompt-facilities.md` | the extraction prompt |
 | `R/08_decisions.R` | a sheet a naming decision, with the quotes that settle it |
 | `R/09_apply_decisions.R` | carries `registry/decisions.csv` into the name vocabulary |
+| `tools/decision-cards.R` | the open questions as JSON, for answering them away from a terminal |
 | `registry/facility_aliases.csv` | the name vocabulary, the only file meant to be edited by hand |
 
 `checks/` is committed, because each file is a decision waiting for a person.
