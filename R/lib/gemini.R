@@ -457,3 +457,24 @@ gemini_pdf_part <- function(path) {
 }
 
 gemini_text_part <- function(text) list(text = text)
+
+#' Undo one escaping artefact in a model's answer.
+#'
+#' A quote copied across a line break sometimes comes back with the break
+#' written as the two characters `\` and `n` rather than as a newline. It is
+#' the JSON escaping surviving one decode too few, not a paraphrase: the
+#' words, spacing and punctuation are otherwise exact. Left alone it fails
+#' every check that compares the quote with the source, which cost 20 of 26
+#' rejected capacity figures, all of them correct readings of text that
+#' happened to span two lines in a PDF.
+#'
+#' This is a decoding step, not an exemption. It runs before any check, it
+#' only ever turns an escape back into the character it stands for, and a
+#' quote that still does not match the source is still dropped.
+unescape_model_string <- function(x) {
+    if (!length(x)) return(x)
+    x <- gsub("\\r\\n", "\n", x, fixed = TRUE)
+    x <- gsub("\\n", "\n", x, fixed = TRUE)
+    x <- gsub("\\t", "\t", x, fixed = TRUE)
+    x
+}

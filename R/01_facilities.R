@@ -144,7 +144,9 @@ tidy_event <- function(e) {
         v <- e[[f]]
         if (is.null(v) || !length(v)) "" else trimws(as.character(v)[1])
     })
-    setNames(out, EVENT_FIELDS)
+    out <- setNames(out, EVENT_FIELDS)
+    out$evidence_quote <- unescape_model_string(out$evidence_quote)
+    out
 }
 
 extract_one <- function(id) {

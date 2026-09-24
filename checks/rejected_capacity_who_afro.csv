@@ -1,21 +1,4 @@
 source,doc_id,indicator,place_raw,value,evidence_quote,reason
-who_afro,afro-02,facilities_operational,"",17,across\n17 treatment and isolation facilities,quote is not a span of the document
-who_afro,afro-02,admissions,Bunia,53,"The largest numbers of admissions are in Bunia (53), Nyankunde (33), Rwampara (25), and Mongbwalu\n(18) health zones.",quote is not a span of the document
-who_afro,afro-02,admissions,Nyankunde,33,"The largest numbers of admissions are in Bunia (53), Nyankunde (33), Rwampara (25), and Mongbwalu\n(18) health zones.",quote is not a span of the document
-who_afro,afro-02,admissions,Rwampara,25,"The largest numbers of admissions are in Bunia (53), Nyankunde (33), Rwampara (25), and Mongbwalu\n(18) health zones.",quote is not a span of the document
-who_afro,afro-02,admissions,Mongbwalu,18,"The largest numbers of admissions are in Bunia (53), Nyankunde (33), Rwampara (25), and Mongbwalu\n(18) health zones.",quote is not a span of the document
-who_afro,afro-02,beds_capacity,Mulago Ebola Treatment Unit (ETU),80,"Mulago Ebola Treatment Unit (ETU) in Kampala, Uganda, an\n80-bed facility",quote is not a span of the document
-who_afro,afro-09,deaths_in_facility,"",66,"During the current reporting period, 205 additional confirmed deaths were reported, including\n139 (67.8%) community deaths and 66 (32.2%) deaths among patients admitted to treatment facilities",quote is not a span of the document
-who_afro,afro-09,laboratories_testing,Ituri and North Kivu provinces,14,"As of 12 July\n2026, 14 diagnostic laboratories and testing units were operational across Ituri and North Kivu provinces",quote is not a span of the document
-who_afro,afro-09,beds_capacity,"",750,approximately 750 isolation and treatment beds available nationally across more 25 Ebola treatment centres\n(ETCs) and care facilities.,quote is not a span of the document
-who_afro,afro-09,facilities_operational,"",25,approximately 750 isolation and treatment beds available nationally across more 25 Ebola treatment centres\n(ETCs) and care facilities.,quote is not a span of the document
-who_afro,afro-09,patients_in_isolation,"",736,"As of 12 July 2026, 736 patients were in isolation nationally, including 549 in Ituri, 170 in North Kivu, and 17\nin South Kivu",quote is not a span of the document
-who_afro,afro-09,patients_in_isolation,Ituri,549,"As of 12 July 2026, 736 patients were in isolation nationally, including 549 in Ituri, 170 in North Kivu, and 17\nin South Kivu",quote is not a span of the document
-who_afro,afro-09,patients_in_isolation,North Kivu,170,"As of 12 July 2026, 736 patients were in isolation nationally, including 549 in Ituri, 170 in North Kivu, and 17\nin South Kivu",quote is not a span of the document
-who_afro,afro-09,patients_in_isolation,South Kivu,17,"As of 12 July 2026, 736 patients were in isolation nationally, including 549 in Ituri, 170 in North Kivu, and 17\nin South Kivu",quote is not a span of the document
-who_afro,afro-09,bed_occupancy_pct,"",88.3,Official\noccupancy remained critically high at 88.3% nationally.,quote is not a span of the document
-who_afro,afro-09,discharges_recovered,"",273,cumulative recoveries increasing from 273 on 05 July to 331\nby 12 July 2026.,quote is not a span of the document
-who_afro,afro-09,discharges_recovered,"",331,cumulative recoveries increasing from 273 on 05 July to 331\nby 12 July 2026.,quote is not a span of the document
 who_afro,afro-12,laboratories_testing,"",19,"As of 29 July 2026, 19 diagnostic laboratories and testing units were operational across Ituri, South Kivu, Tshopo, Haut-Uélé and North Kivu provinces",quote is not a span of the document
 who_afro,afro-13,beds_capacity,"",1050,"704 patients were in isolation and receiving care nationally, against 1 050 available beds",quote is not a span of the document
 who_afro,afro-13,bed_occupancy_pct,"",68.8,"1 050 available beds, corresponding to an overall bed occupancy rate of 68.8%",quote is not a span of the document
@@ -25,7 +8,4 @@ Recovered Occupancy under follow up",quote is not a span of the document
 who_afro,afro-16,bed_occupancy_pct,"",62.2,"1 383 62.2% 24 330
 Cases Bed Contacts
 Recovered Occupancy under follow up",quote is not a span of the document
-who_afro,afro-17,bed_occupancy_pct,"",60.0,6 Provinces 5 Provinces 1 563 60.0% 24 479\n61 Health Zones 52 Health Zones Cases Bed Contacts\nAffected Active Transmission* Recovered Occupancy under follow up,quote is not a span of the document
-who_afro,afro-17,patients_in_isolation,"",819,819 167 47 1 366 25\nActive Health Worker Health Worker Bed Testing\nCases in Isolation Cases Deaths Capacity Laboratories,quote is not a span of the document
 who_afro,afro-17,admissions,"",1319,"all 2 480 validated suspected cases were investigated (100%); however, only 1319 (53.2%) were isolated and transferred to treatment centres.",quote is not a span of the document
-who_afro,afro-19,discharges_recovered,"",176,"up from 1726 on 13 September, representing\n176 additional recoveries over the reporting period.",quote is not a span of the document
